@@ -118,7 +118,7 @@
         : "";
       const practiceLink = store.mode === "live"
         ? `<p class="note">Want to try it first? <a href="${base}?practice#/${live.season}/draft">Open a practice draft</a> (only you see it; nothing is saved for anyone else).</p>` : "";
-      const whoami = `<label class="whoami">I'm <select id="me"><option value="">chooseâ€¦</option>${live.owners.map((o) => `<option ${o === me ? "selected" : ""}>${esc(o)}</option>`).join("")}</select></label>`;
+      const whoami = `<label class="whoami">I'm <select id="me"><option value="">choose…</option>${live.owners.map((o) => `<option ${o === me ? "selected" : ""}>${esc(o)}</option>`).join("")}</select></label>`;
 
       if (!s) {
         const listed = live.cast.filter((c) => c.in_game).map((c) => c.name);
@@ -166,12 +166,12 @@
       const avail = available(s, live);
       const mine = clock && me === clock.owner;
       const url = location.href.split("#")[0] + `#/${live.season}/draft`;
-      const msg = clock ? `ðŸ”¥ ${clock.owner}, you're up in the ${live.title} fantasy draft (round ${clock.round}, pick ${clock.pick}): ${url}` : "";
+      const msg = clock ? `🔥 ${clock.owner}, you're up in the ${live.title} fantasy draft (round ${clock.round}, pick ${clock.pick}): ${url}` : "";
       const status = done
         ? `<div class="clock done">${store.mode === "practice"
             ? `<b>Practice draft complete.</b> Nothing was saved for anyone else. Clear it under Commissioner tools to go again.`
             : `<b>Draft complete.</b> The league page picks up these rosters at its next update.`}</div>`
-        : `<div class="clock">${sw(clock.owner)}<div><div class="lbl">On the clock Â· round ${clock.round}, pick ${clock.pick} of ${totalPicks(s)}</div><div class="who-big">${esc(clock.owner)}</div></div>
+        : `<div class="clock">${sw(clock.owner)}<div><div class="lbl">On the clock · round ${clock.round}, pick ${clock.pick} of ${totalPicks(s)}</div><div class="who-big">${esc(clock.owner)}</div></div>
            <div class="clock-actions">${whoami}<button class="btn ghost" id="copy">Copy "your turn" message</button></div></div>
            ${mine ? `<p class="note good">It's your pick. Choose a contestant below.</p>` : me ? `<p class="note">Waiting on ${esc(clock.owner)}.</p>` : `<p class="note">Choose who you are to make picks.</p>`}`;
 
@@ -200,7 +200,7 @@
           <p class="note">Anyone can use these, so check with the family first.</p>
           <div class="commish-row">
             <label>Voted out but survivoR hasn't caught up?
-              <select id="out-pick"><option value="">chooseâ€¦</option>${avail.map((n) => `<option>${esc(n)}</option>`).join("")}</select></label>
+              <select id="out-pick"><option value="">choose…</option>${avail.map((n) => `<option>${esc(n)}</option>`).join("")}</select></label>
             <button class="btn ghost" id="mark-out" ${avail.length ? "" : "disabled"}>Mark as eliminated</button>
           </div>
           ${(s.out || []).length ? `<div class="commish-row"><span class="muted">Marked eliminated:</span> ${(s.out || []).map((n) =>
@@ -267,7 +267,7 @@
     // pickingFor: show Draft buttons. outToggle (a Set): pre-draft "Already out" toggles.
     function poolList(names, pickingFor, outToggle) {
       const groups = {};
-      names.forEach((n) => { const c = castBy[n] || { name: n }; (groups[c.tribe || "â€”"] ||= []).push(c); });
+      names.forEach((n) => { const c = castBy[n] || { name: n }; (groups[c.tribe || "—"] ||= []).push(c); });
       const action = (c) => pickingFor ? `<button class="btn small pick" data-name="${esc(c.name)}">Draft</button>`
         : outToggle ? `<button class="btn small ghost preout" data-name="${esc(c.name)}">${outToggle.has(c.name) ? "Restore" : "Already out"}</button>` : "";
       return Object.entries(groups).map(([t, cs]) => `<div class="pool-group">
@@ -287,7 +287,7 @@
     }
 
     let lastState;
-    main.innerHTML = `<p class="empty">Loading the draftâ€¦</p>`;
+    main.innerHTML = `<p class="empty">Loading the draft…</p>`;
     unsub = store.subscribe(key, (s) => { lastState = s; draw(s); },
       (e) => { main.innerHTML = `<p class="empty">Couldn't load the draft (${esc(e.message)}).</p>`; });
   }

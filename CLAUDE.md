@@ -17,6 +17,7 @@ Family fantasy league for the TV show Survivor. Goal: replace a hand-built sprea
   - Hash routes: `#/47/results/elim/5`, `#/47/results/ep/13`. Old `#/47/weeks/5` links still work.
   - Plain HTML/JS/CSS, no libraries. Owner colors follow the league-file order (slot 1-5), never rank.
   - Bump `?v=` on `app.js`/`style.css` in `index.html` after editing them, so browsers don't serve stale copies.
+  - Never rewrite source files through Windows PowerShell `Get-Content`/`WriteAllText`. PowerShell 5.1 reads UTF-8 as cp1252 and garbles `…`, `·`, `—`, emoji (this happened to `draft.js` on 2026-11-25). Use the Edit tool.
   - Local preview: `python -m http.server 8047 --directory docs`.
 - DONE: past seasons S28–S50 imported from the owner's workbooks (`python import_sheets.py`; needs `openpyxl`) plus an All time (career) tab.
   - Rosters come from the score sheet's owner column when the sheet has scores, otherwise from the draft table. S48's draft table is shifted in the workbook.
