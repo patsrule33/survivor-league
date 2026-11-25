@@ -97,6 +97,7 @@ Medical evacuation (no vote), split Tribal Council, open-poll elimination, ties/
 - Owner rulings 2026-11-25:
   - **Split-group immunity** pays only the people who actually won (the overall winner plus anyone "Won (immunity only)"). Teammates made immune keep just the team reward.
   - **Idol play success** = without the idol, the person it was played for would have had the most first-round votes (alone or tied). Simply cancelling votes isn't enough.
+  - **Voted out holding several idols:** −20 per idol (and +10 per idol found), e.g. S39 Kellee −40 for two. The engine already does this: one survivoR event per idol.
   - **Handed-out idols** (`HANDED_OUT` in survivor_data.py, e.g. S44 summit idols) don't earn the +10 find. Idols the player earned (bought on Edge of Extinction, won at Ghost Island, made from halves) do count.
   - **S44 Matthew** (advised to leave after a medical exam) is a medevac, not a quit. A real quit can still be forced with `forfeit` in an overrides file.
 - Edge of Extinction / Redemption Island:
