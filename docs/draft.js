@@ -13,12 +13,16 @@
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   // ---------- storage ----------
-  function localStore() {
-    const key = (k) => `sfl-draft-${k}`;
+  // Practice mode (?practice in the URL): same draft room, but saved only in this
+  // browser, never in Firestore, so nobody else sees it and nothing syncs.
+  const PRACTICE = /[?&]practice\b/.test(location.search);
+
+  function localStore(mode = "test") {
+    const key = (k) => `sfl-${mode === "practice" ? "practice" : "draft"}-${k}`;
     const read = (k) => { try { return JSON.parse(localStorage.getItem(key(k)) || "null"); } catch (e) { return null; } };
     const listeners = new Set(); // the "storage" event only fires in *other* tabs
     return {
-      mode: "test",
+      mode,
       subscribe(k, cb) {
         cb(read(k));
         const on = (e) => { if (!e || e.key === key(k)) cb(read(k)); };
@@ -90,7 +94,10 @@
     const live = await h.getJSON("data/live.json");
     const key = `s${live.season}`;
     let store;
-    try { store = window.FIREBASE_CONFIG ? await firebaseStore(window.FIREBASE_CONFIG) : localStore(); }
+    try {
+      store = PRACTICE ? localStore("practice")
+        : window.FIREBASE_CONFIG ? await firebaseStore(window.FIREBASE_CONFIG) : localStore("test");
+    }
     catch (e) { main.innerHTML = `<p class="empty">Couldn't reach the shared draft (${esc(e.message)}).</p>`; return; }
     const slot = (o) => (live.owners.indexOf(o) + 1) || 9;
     const sw = (o) => `<span class="swatch" style="background:var(--s${slot(o)})"></span>`;
@@ -98,8 +105,14 @@
     const tribeDot = (c) => c && c.tribe ? `<span class="tribe" style="--tc:${esc(c.tribe_colour || "#888")}">${esc(c.tribe)}</span>` : "";
 
     const draw = (s) => {
-      const banner = store.mode === "test"
-        ? `<p class="note warn">Test mode: picks are saved only in this browser. Add the Firebase config to share the draft with everyone.</p>` : "";
+      const base = location.pathname;
+      const banner = store.mode === "practice"
+        ? `<p class="note warn"><b>Practice draft.</b> Saved only in this browser; nobody else sees it and it never counts. Switch "I'm" to whoever is on the clock to play every owner. <a href="${base}#/${live.season}/draft">Leave practice</a></p>`
+        : store.mode === "test"
+        ? `<p class="note warn">Test mode: picks are saved only in this browser. Add the Firebase config to share the draft with everyone.</p>`
+        : "";
+      const practiceLink = store.mode === "live"
+        ? `<p class="note">Want to try it first? <a href="${base}?practice#/${live.season}/draft">Open a practice draft</a> (only you see it; nothing is saved for anyone else).</p>` : "";
       const whoami = `<label class="whoami">I'm <select id="me"><option value="">choose…</option>${live.owners.map((o) => `<option ${o === me ? "selected" : ""}>${esc(o)}</option>`).join("")}</select></label>`;
 
       if (!s) {
@@ -110,11 +123,12 @@
             <h2>No draft yet for ${esc(live.title)}</h2>
             <p>${inGame.length} contestants are still in the game after ${live.boots_so_far} eliminations, so each of the ${live.owners.length} owners would get <b>${size}</b> in a snake draft (order chosen at random).
             Scoring starts with the next elimination.${inGame.length % live.owners.length ? ` ${inGame.length % live.owners.length} contestant(s) will be left unowned.` : ""}</p>
-            <button class="btn" id="start" ${size < 1 ? "disabled" : ""}>Start the draft</button>
+            <button class="btn" id="start" ${size < 1 ? "disabled" : ""}>${store.mode === "practice" ? "Start a practice draft" : "Start the draft"}</button>
+            ${practiceLink}
           </section>
           <section class="section"><h2>Still in the game</h2>${poolList(inGame.map((c) => c.name), null)}</section>`;
         main.querySelector("#start")?.addEventListener("click", async () => {
-          if (!confirm(`Start the ${live.title} draft now? The order will be randomized.`)) return;
+          if (store.mode !== "practice" && !confirm(`Start the ${live.title} draft for everyone now? The order will be randomized.`)) return;
           try {
             await store.mutate(key, (cur) => {
               if (cur) throw new Error("A draft already exists.");
@@ -133,7 +147,9 @@
       const url = location.href.split("#")[0] + `#/${live.season}/draft`;
       const msg = clock ? `🔥 ${clock.owner}, you're up in the ${live.title} fantasy draft (round ${clock.round}, pick ${clock.pick}): ${url}` : "";
       const status = done
-        ? `<div class="clock done"><b>Draft complete.</b> The league page picks up these rosters at its next update.</div>`
+        ? `<div class="clock done">${store.mode === "practice"
+            ? `<b>Practice draft complete.</b> Nothing was saved for anyone else. Clear it under Commissioner tools to go again.`
+            : `<b>Draft complete.</b> The league page picks up these rosters at its next update.`}</div>`
         : `<div class="clock">${sw(clock.owner)}<div><div class="lbl">On the clock · round ${clock.round}, pick ${clock.pick} of ${totalPicks(s)}</div><div class="who-big">${esc(clock.owner)}</div></div>
            <div class="clock-actions">${whoami}<button class="btn ghost" id="copy">Copy "your turn" message</button></div></div>
            ${mine ? `<p class="note good">It's your pick. Choose a contestant below.</p>` : me ? `<p class="note">Waiting on ${esc(clock.owner)}.</p>` : `<p class="note">Choose who you are to make picks.</p>`}`;
@@ -187,7 +203,8 @@
         try { await store.mutate(key, (cur) => ({ ...cur, picks: cur.picks.slice(0, -1) })); } catch (e) { alert(e.message); }
       });
       main.querySelector("#reset")?.addEventListener("click", async () => {
-        if (prompt(`This deletes the whole ${live.title} draft for everyone. Type DELETE to confirm.`) !== "DELETE") return;
+        if (store.mode === "practice" ? !confirm("Clear this practice draft and start over?")
+          : prompt(`This deletes the whole ${live.title} draft for everyone. Type DELETE to confirm.`) !== "DELETE") return;
         try { await store.mutate(key, () => null); } catch (e) { alert(e.message); }
       });
       wireMe();
