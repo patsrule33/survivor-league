@@ -41,7 +41,7 @@ Family fantasy league for the TV show Survivor. Goal: replace a hand-built sprea
 - Repo: github.com/patsrule33/survivor-league (public). `.gitignore` keeps `reference/`, `truth*.json`, `private/` and `data/` out. GitHub Pages serves `docs/`.
 - DONE: Firebase project `patsrule33-survivor-league` (config in `docs/firebase-config.js`, rules published).
 - DONE: daily GitHub Action `.github/workflows/update-scores.yml`.
-  - Runs at 15:00 UTC, by hand (workflow_dispatch), or when the workflow file changes: `build_site.py --refresh`, then commits `docs/data`, `leagues` and `fixtures` only if they changed.
+  - Runs at 15:00 UTC, by hand (workflow_dispatch), or when the workflow file changes: `build_site.py --refresh --current` (only the newest survivoR season; past seasons are frozen and rebuilt by hand with no flags only after a rules change), then commits `docs/data`, `leagues` and `fixtures` only if they changed.
   - It then POSTs `/pages/builds`, because Actions pushes don't trigger a Pages rebuild.
   - `build_site.py` keeps timestamps unchanged when the data is unchanged (`keep_stamp`), so no-op runs commit nothing.
   - The commit and republish path hasn't run yet; it first will when survivoR next updates.

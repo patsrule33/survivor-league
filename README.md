@@ -4,10 +4,11 @@ A free, static site for a family Survivor fantasy league: leaderboard, results b
 
 ## Updating scores
 
-This happens automatically. The **Update scores** GitHub Action (`.github/workflows/update-scores.yml`) runs every day at 15:00 UTC. It re-downloads survivoR, pulls any finished draft, rescores every season in `leagues/`, and commits `docs/data/` only if something changed. Then it asks GitHub Pages to republish.
+This happens automatically. The **Update scores** GitHub Action (`.github/workflows/update-scores.yml`) runs every day at 15:00 UTC. It re-downloads survivoR, pulls any finished draft, rescores **only the season now airing** (`--current`), and commits `docs/data/` only if something changed. Then it asks GitHub Pages to republish. Past seasons are finished and aren't touched.
 
 - **Run it now:** Actions tab → **Update scores** → **Run workflow**.
-- **By hand:** `python build_site.py --refresh`, then commit and push.
+- **By hand:** `python build_site.py --refresh --current`, then commit and push.
+- **After changing the scoring rules:** `python build_site.py` (no flags) rebuilds every season.
 
 The site is plain files in `docs/`, served by GitHub Pages (Settings → Pages → `main` branch, `/docs` folder).
 
