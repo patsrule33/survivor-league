@@ -1,7 +1,11 @@
 """Score each league season and write the static site's data files.
 
-    python build_site.py              # every leagues/seasonNN.json
-    python build_site.py 51 --refresh # one season, re-download survivoR first
+    python build_site.py --refresh --current  # just the season now airing (the daily job)
+    python build_site.py 51 --refresh         # one season, re-download survivoR first
+    python build_site.py                      # every leagues/seasonNN.json (after a rules change)
+
+Past seasons are finished, so they only need rebuilding when the scoring rules
+change; the daily job uses --current.
 
 Inputs per season:
   leagues/seasonNN.json    owners + rosters (survivoR short names), first_week_boot
@@ -212,6 +216,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("seasons", nargs="*", type=int)
     ap.add_argument("--refresh", action="store_true")
+    ap.add_argument("--current", action="store_true", help="only score the season now airing")
     a = ap.parse_args()
     try:  # finished drafts from the draft room -> league files
         from sync_draft import sync
@@ -223,6 +228,11 @@ def main():
     if a.seasons:
         leagues = [l for l in leagues if l["season"] in a.seasons]
     tables = load_tables(a.refresh)
+    if a.current:  # only the newest season in survivoR (the one airing)
+        airing = max(c["season"] for c in tables["castaways"] if c.get("version") == "US")
+        leagues = [l for l in leagues if l["season"] == airing]
+        if not leagues:
+            print(f"Survivor {airing}: no league rosters yet; updating the draft room's cast only")
     os.makedirs(P("docs", "data"), exist_ok=True)
     for lg in leagues:
         data = site_season(lg, tables)

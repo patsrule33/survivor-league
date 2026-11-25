@@ -1,5 +1,6 @@
 # Keeps the site current: pulls the latest survivoR data, picks up finished
-# drafts from the draft room, rescores, and publishes if anything changed.
+# drafts from the draft room, rescores the season now airing, and publishes if
+# anything changed. (Rebuild past seasons by hand only after a scoring-rules change.)
 #
 # Runs daily because survivoR's updates land anywhere from 1 day to over a week
 # after an episode airs. A run with nothing new changes nothing and commits nothing.
@@ -32,8 +33,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Rescore everything from the latest survivoR data
-        run: python build_site.py --refresh
+      # Past seasons are finished and don't change; only the airing season is rescored.
+      - name: Rescore the current season from the latest survivoR data
+        run: python build_site.py --refresh --current
 
       - name: Commit and push if anything changed
         id: commit
