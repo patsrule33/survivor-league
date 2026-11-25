@@ -1,0 +1,247 @@
+{
+ "season": 51,
+ "title": "Survivor 51",
+ "boots_so_far": 11,
+ "episodes_aired": 8,
+ "updated": "2026-11-25T13:12",
+ "cast": [
+  {
+   "name": "Carter",
+   "full_name": "Carter Krull",
+   "id": "US0758",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Cristian",
+   "full_name": "Cristian Chavez",
+   "id": "US0759",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Devin",
+   "full_name": "Devin Way",
+   "id": "US0761",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Eric",
+   "full_name": "Eric Macksoud",
+   "id": "US0762",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Jelly",
+   "full_name": "Angelica Loblack",
+   "id": "US0756",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Lewis",
+   "full_name": "Lewis Kelly",
+   "id": "US0765",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Maggie",
+   "full_name": "Maggie Nestor",
+   "id": "US0767",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Mike",
+   "full_name": "Mike Pinsky",
+   "id": "US0768",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Sharonda",
+   "full_name": "Sharonda Cox",
+   "id": "US0772",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Thien An",
+   "full_name": "Thien An Nguyen",
+   "id": "US0754",
+   "in_game": true,
+   "boot": null,
+   "result": null,
+   "tribe": "Tovuto",
+   "tribe_colour": "#0c41a6",
+   "game_status": "In the game"
+  },
+  {
+   "name": "Aaliyah",
+   "full_name": "Aaliyah Puglia",
+   "id": "US0752",
+   "in_game": false,
+   "boot": 1,
+   "result": "1st voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Alexis",
+   "full_name": "Alexis Levine",
+   "id": "US0753",
+   "in_game": false,
+   "boot": 6,
+   "result": "5th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Ana",
+   "full_name": "Ana Sani",
+   "id": "US0755",
+   "in_game": false,
+   "boot": 2,
+   "result": "2nd voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Brady",
+   "full_name": "Brady Booker",
+   "id": "US0757",
+   "in_game": false,
+   "boot": 9,
+   "result": "8th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Jenna",
+   "full_name": "Jenna Doore",
+   "id": "US0763",
+   "in_game": false,
+   "boot": 5,
+   "result": "4th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Kilby",
+   "full_name": "Kilby Kilby",
+   "id": "US0760",
+   "in_game": false,
+   "boot": 11,
+   "result": "10th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Kristin",
+   "full_name": "Kristin Flickinger",
+   "id": "US0764",
+   "in_game": false,
+   "boot": 10,
+   "result": "9th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Linnea",
+   "full_name": "Linnea Capobianco",
+   "id": "US0766",
+   "in_game": false,
+   "boot": 7,
+   "result": "6th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Ori",
+   "full_name": "Ori Jean-Charles",
+   "id": "US0769",
+   "in_game": false,
+   "boot": 8,
+   "result": "7th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Patt",
+   "full_name": "Patt Cannaday",
+   "id": "US0770",
+   "in_game": false,
+   "boot": 4,
+   "result": "3rd voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Rob",
+   "full_name": "Rob Antonson",
+   "id": "US0771",
+   "in_game": false,
+   "boot": 3,
+   "result": "Quit",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  }
+ ],
+ "owners": [
+  "Jamie",
+  "Mom",
+  "Will",
+  "Greg",
+  "Jimmy"
+ ]
+}

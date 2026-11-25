@@ -6,8 +6,8 @@ truth*.json
 # excluded-owner list and anything else personal
 private/
 
-# --- Re-downloaded by build_site.py --refresh ---
-data/
+# --- Re-downloaded by build_site.py --refresh (top-level only; docs/data is the site's data) ---
+/data/
 
 # --- Python / editor noise ---
 __pycache__/
