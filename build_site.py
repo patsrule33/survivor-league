@@ -46,6 +46,20 @@ def _load(path):
     return None
 
 
+def keep_stamp(path, data, stamp, ignore=()):
+    """If nothing but the timestamp (and `ignore` keys) changed since the file on
+    disk, reuse the old timestamp. Keeps scheduled runs from committing no-op
+    changes, and keeps "last built" meaning "last changed"."""
+    old = _load(path)
+    if old is None:
+        return data
+    skip = {stamp, *ignore}
+    new = json.loads(json.dumps(data))  # same types as the file (tuples -> lists)
+    if {k: v for k, v in old.items() if k not in skip} == {k: v for k, v in new.items() if k not in skip}:
+        data[stamp] = old.get(stamp, data[stamp])
+    return data
+
+
 def site_season(league, tables):
     n = league["season"]
     overrides = _load(P("overrides", f"season{n}.json"))
@@ -164,7 +178,8 @@ def write_live(tables, version="US"):
             "episodes_aired": max((e["episode"] for e in eps), default=0),
             "updated": datetime.datetime.now().isoformat(timespec="minutes"), "cast": out,
             "owners": sorted(OWNER_SLOTS, key=OWNER_SLOTS.get)}
-    json.dump(live, open(P("docs", "data", "live.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    path = P("docs", "data", "live.json")
+    json.dump(keep_stamp(path, live, "updated"), open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return live
 
 
@@ -189,7 +204,7 @@ def write_meta(live):
     meta = {"survivor_updated": updated, "through_season": live["season"],
             "through_episode": live["episodes_aired"],
             "built": datetime.datetime.now().isoformat(timespec="minutes")}
-    json.dump(meta, open(meta_path, "w"), indent=1)
+    json.dump(keep_stamp(meta_path, meta, "built"), open(meta_path, "w"), indent=1)
     return meta
 
 
@@ -211,8 +226,13 @@ def main():
     os.makedirs(P("docs", "data"), exist_ok=True)
     for lg in leagues:
         data = site_season(lg, tables)
-        json.dump(data, open(P("docs", "data", f"season{lg['season']}.json"), "w", encoding="utf-8"),
-                  ensure_ascii=False, separators=(",", ":"))
+        path = P("docs", "data", f"season{lg['season']}.json")
+        # "official" is added afterwards by write_career, so ignore it when comparing
+        data = keep_stamp(path, data, "built", ignore=("official",))
+        old = _load(path)
+        if old and "official" in old:
+            data["official"] = old["official"]
+        json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
         leader = min(data["owners"], key=lambda o: o["rank"])
         print(f"season {lg['season']}: {len(data['weeks'])} weeks, leader {leader['name']} ({leader['total']:g})")
     # index of every built season

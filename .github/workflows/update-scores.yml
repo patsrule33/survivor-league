@@ -1,0 +1,59 @@
+# Keeps the site current: pulls the latest survivoR data, picks up finished
+# drafts from the draft room, rescores, and publishes if anything changed.
+#
+# Runs daily because survivoR's updates land anywhere from 1 day to over a week
+# after an episode airs. A run with nothing new changes nothing and commits nothing.
+# Run it by hand any time: Actions tab -> "Update scores" -> Run workflow.
+name: Update scores
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # every day, 15:00 UTC (10am Eastern)
+  workflow_dispatch:
+  push:                    # also run once whenever this workflow file changes
+    branches: [main]
+    paths: [".github/workflows/update-scores.yml"]
+
+permissions:
+  contents: write   # commit the new data
+  pages: write      # ask GitHub Pages to republish
+
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rescore everything from the latest survivoR data
+        run: python build_site.py --refresh
+
+      - name: Commit and push if anything changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data leagues fixtures
+          if git diff --cached --quiet; then
+            echo "Nothing new from survivoR or the draft room."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git diff --cached --stat
+            git commit -m "Update scores from survivoR ($(date -u +%Y-%m-%d))"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Commits pushed by Actions don't trigger a Pages rebuild on their own.
+      - name: Republish the site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
