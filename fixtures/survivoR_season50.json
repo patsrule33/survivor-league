@@ -1,0 +1,1377 @@
+{
+ "season": 50,
+ "title": "Survivor 50",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 1,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Jenna Lewis-Dougherty",
+   "short": "Jenna",
+   "id": "US0009",
+   "place": 24
+  },
+  {
+   "name": "Kyle Fraser",
+   "short": "Kyle",
+   "id": "US0726",
+   "place": 23
+  },
+  {
+   "name": "Savannah Louie",
+   "short": "Savannah",
+   "id": "US0747",
+   "place": 22
+  },
+  {
+   "name": "Q Burdette",
+   "short": "Q",
+   "id": "US0691",
+   "place": 21
+  },
+  {
+   "name": "Mike White",
+   "short": "Mike",
+   "id": "US0555",
+   "place": 20
+  },
+  {
+   "name": "Angelina Keeley",
+   "short": "Angelina",
+   "id": "US0554",
+   "place": 19
+  },
+  {
+   "name": "Charlie Davis",
+   "short": "Charlie",
+   "id": "US0682",
+   "place": 18
+  },
+  {
+   "name": "Kamilla Karthigesu",
+   "short": "Kamilla",
+   "id": "US0724",
+   "place": 17
+  },
+  {
+   "name": "Genevieve Mushaluk",
+   "short": "Genevieve",
+   "id": "US0703",
+   "place": 16
+  },
+  {
+   "name": "Colby Donaldson",
+   "short": "Colby",
+   "id": "US0031",
+   "place": 15
+  },
+  {
+   "name": "Dee Valladares",
+   "short": "Dee",
+   "id": "US0666",
+   "place": 14
+  },
+  {
+   "name": "Chrissy Hofbeck",
+   "short": "Chrissy",
+   "id": "US0515",
+   "place": 13
+  },
+  {
+   "name": "Benjamin Wade",
+   "short": "Coach",
+   "id": "US0277",
+   "place": 12
+  },
+  {
+   "name": "Christian Hubicki",
+   "short": "Christian",
+   "id": "US0550",
+   "place": 11
+  },
+  {
+   "name": "Stephenie LaGrossa Kendrick",
+   "short": "Stephenie",
+   "id": "US0144",
+   "place": 10
+  },
+  {
+   "name": "Emily Flippen",
+   "short": "Emily",
+   "id": "US0668",
+   "place": 9
+  },
+  {
+   "name": "Oscar Lusth",
+   "short": "Ozzy",
+   "id": "US0201",
+   "place": 8
+  },
+  {
+   "name": "Rick Devens",
+   "short": "Rick",
+   "id": "US0560",
+   "place": 7
+  },
+  {
+   "name": "Cirie Fields",
+   "short": "Cirie",
+   "id": "US0179",
+   "place": 6
+  },
+  {
+   "name": "Tiffany Nicole Ervin",
+   "short": "Tiffany",
+   "id": "US0695",
+   "place": 5
+  },
+  {
+   "name": "Rizo Velovic",
+   "short": "Rizo",
+   "id": "US0745",
+   "place": 4
+  },
+  {
+   "name": "Joe Hunter",
+   "short": "Joe",
+   "id": "US0722",
+   "place": 3
+  },
+  {
+   "name": "Jonathan Young",
+   "short": "Jonathan",
+   "id": "US0615",
+   "place": 2
+  },
+  {
+   "name": "Aubry Bracco",
+   "short": "Aubry",
+   "id": "US0477",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Aubry Bracco",
+  "Jonathan Young",
+  "Joe Hunter"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 1,
+   "eliminated": "Jenna Lewis-Dougherty",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Benjamin Wade",
+      "Charlie Davis",
+      "Chrissy Hofbeck",
+      "Dee Valladares",
+      "Jonathan Young",
+      "Kamilla Karthigesu",
+      "Mike White",
+      "Tiffany Nicole Ervin"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Angelina Keeley",
+      "Aubry Bracco",
+      "Colby Donaldson",
+      "Genevieve Mushaluk",
+      "Kyle Fraser",
+      "Q Burdette",
+      "Rizo Velovic",
+      "Stephenie LaGrossa Kendrick"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Benjamin Wade",
+      "Christian Hubicki",
+      "Cirie Fields",
+      "Emily Flippen",
+      "Jenna Lewis-Dougherty",
+      "Joe Hunter",
+      "Oscar Lusth",
+      "Rick Devens",
+      "Savannah Louie"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Genevieve Mushaluk",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Christian Hubicki",
+       "target": "Jenna Lewis-Dougherty"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Jenna Lewis-Dougherty"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Jenna Lewis-Dougherty"
+      },
+      {
+       "voter": "Jenna Lewis-Dougherty",
+       "target": "Cirie Fields"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Jenna Lewis-Dougherty"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Jenna Lewis-Dougherty"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Jenna Lewis-Dougherty"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Jenna Lewis-Dougherty"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 1,
+   "eliminated": "Kyle Fraser",
+   "challenges": [],
+   "specials": [
+    {
+     "type": "medevac_pity",
+     "player": "Kyle Fraser",
+     "source": "survivoR"
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "episode": 2,
+   "eliminated": "Savannah Louie",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Angelina Keeley",
+      "Aubry Bracco",
+      "Colby Donaldson",
+      "Genevieve Mushaluk",
+      "Q Burdette",
+      "Rizo Velovic",
+      "Stephenie LaGrossa Kendrick"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Benjamin Wade",
+      "Charlie Davis",
+      "Chrissy Hofbeck",
+      "Dee Valladares",
+      "Jonathan Young",
+      "Kamilla Karthigesu",
+      "Mike White",
+      "Tiffany Nicole Ervin"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Christian Hubicki",
+      "Cirie Fields",
+      "Emily Flippen",
+      "Joe Hunter",
+      "Oscar Lusth",
+      "Rick Devens",
+      "Savannah Louie"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Benjamin Wade",
+      "Charlie Davis",
+      "Chrissy Hofbeck",
+      "Dee Valladares",
+      "Jonathan Young",
+      "Kamilla Karthigesu",
+      "Mike White",
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Christian Hubicki",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Christian Hubicki",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Savannah Louie"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 3,
+   "eliminated": "Q Burdette",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Charlie Davis",
+      "Cirie Fields",
+      "Dee Valladares",
+      "Jonathan Young",
+      "Kamilla Karthigesu",
+      "Rick Devens",
+      "Rizo Velovic"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Aubry Bracco",
+      "Benjamin Wade",
+      "Chrissy Hofbeck",
+      "Colby Donaldson",
+      "Genevieve Mushaluk",
+      "Joe Hunter",
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Christian Hubicki",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Q Burdette"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 4,
+   "eliminated": "Mike White",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aubry Bracco",
+      "Benjamin Wade",
+      "Chrissy Hofbeck",
+      "Colby Donaldson",
+      "Genevieve Mushaluk",
+      "Joe Hunter",
+      "Tiffany Nicole Ervin"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Charlie Davis",
+      "Cirie Fields",
+      "Dee Valladares",
+      "Jonathan Young",
+      "Kamilla Karthigesu",
+      "Rick Devens",
+      "Rizo Velovic"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Genevieve Mushaluk",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Christian Hubicki",
+       "target": "Mike White"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Mike White"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Mike White"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Emily Flippen"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 5,
+   "eliminated": "Angelina Keeley",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aubry Bracco",
+      "Benjamin Wade",
+      "Chrissy Hofbeck",
+      "Colby Donaldson",
+      "Genevieve Mushaluk",
+      "Joe Hunter",
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Christian Hubicki",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Stephenie LaGrossa Kendrick"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 5,
+   "eliminated": "Charlie Davis",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Charlie Davis"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Rizo Velovic"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Rizo Velovic"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Charlie Davis"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Charlie Davis"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Charlie Davis"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Rizo Velovic"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 6,
+   "eliminated": "Kamilla Karthigesu",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Kamilla Karthigesu"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Kamilla Karthigesu"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Kamilla Karthigesu"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Chrissy Hofbeck"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 6,
+   "eliminated": "Genevieve Mushaluk",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Aubry Bracco",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Genevieve Mushaluk"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 6,
+   "eliminated": "Colby Donaldson",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Christian Hubicki",
+      "Dee Valladares",
+      "Stephenie LaGrossa Kendrick"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Chrissy Hofbeck",
+      "Jonathan Young",
+      "Kamilla Karthigesu",
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Colby Donaldson"
+      },
+      {
+       "voter": "Benjamin Wade",
+       "target": "Colby Donaldson"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Colby Donaldson"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Colby Donaldson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 7,
+   "eliminated": "Dee Valladares",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Oscar Lusth"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Christian Hubicki",
+      "Dee Valladares",
+      "Emily Flippen",
+      "Joe Hunter",
+      "Oscar Lusth",
+      "Rick Devens",
+      "Stephenie LaGrossa Kendrick"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Benjamin Wade",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Tiffany Nicole Ervin"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Aubry Bracco",
+      "for": "Aubry Bracco",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 8,
+   "eliminated": "Chrissy Hofbeck",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Chrissy Hofbeck"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 8,
+   "eliminated": "Benjamin Wade",
+   "challenges": [
+    {
+     "type": "group_immunity",
+     "players": [
+      "Joe Hunter",
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Rizo Velovic"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Benjamin Wade"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Benjamin Wade"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 9,
+   "eliminated": "Christian Hubicki",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Hunter"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Rick Devens"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 15,
+   "episode": 10,
+   "eliminated": "Stephenie LaGrossa Kendrick",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Stephenie LaGrossa Kendrick"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Stephenie LaGrossa Kendrick",
+       "target": "Aubry Bracco"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 16,
+   "episode": 11,
+   "eliminated": "Emily Flippen",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Jonathan Young"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Rick Devens",
+       "negated": true
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Cirie Fields"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Cirie Fields"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Rick Devens",
+       "negated": true
+      }
+     ],
+     [
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Cirie Fields"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Emily Flippen"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Rick Devens",
+      "for": "Rick Devens",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 17,
+   "episode": 11,
+   "eliminated": "Oscar Lusth",
+   "challenges": [],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Oscar Lusth",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rizo Velovic",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Oscar Lusth"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 18,
+   "episode": 12,
+   "eliminated": "Rick Devens",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Hunter"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Rick Devens"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 19,
+   "episode": 12,
+   "eliminated": "Cirie Fields",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Cirie Fields",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Cirie Fields"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Cirie Fields"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Cirie Fields"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Cirie Fields"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 20,
+   "episode": 13,
+   "eliminated": "Tiffany Nicole Ervin",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Jonathan Young"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rizo Velovic",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Aubry Bracco"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Rizo Velovic",
+      "for": "Rizo Velovic",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 21,
+   "episode": 13,
+   "eliminated": "Rizo Velovic",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Aubry Bracco"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Christian Hubicki": "Aubry Bracco",
+    "Cirie Fields": "Aubry Bracco",
+    "Dee Valladares": "Aubry Bracco",
+    "Emily Flippen": "Aubry Bracco",
+    "Oscar Lusth": "Aubry Bracco",
+    "Rick Devens": "Aubry Bracco",
+    "Rizo Velovic": "Aubry Bracco",
+    "Tiffany Nicole Ervin": "Aubry Bracco",
+    "Chrissy Hofbeck": "Jonathan Young",
+    "Benjamin Wade": "Jonathan Young",
+    "Stephenie LaGrossa Kendrick": "Jonathan Young"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 1,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Ozzy",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found in challenge"
+  },
+  {
+   "week": 16,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Cirie",
+   "played_for": "Emily",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found in challenge"
+  },
+  {
+   "week": 1,
+   "advantage": "Block a Vote",
+   "event": "Found",
+   "castaway": "Savannah",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found on Journey"
+  },
+  {
+   "week": 11,
+   "advantage": "Steal a Vote",
+   "event": "Found",
+   "castaway": "Stephenie",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found on Journey"
+  },
+  {
+   "week": 15,
+   "advantage": "Steal a Vote",
+   "event": "Played",
+   "castaway": "Stephenie",
+   "played_for": "Rick",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found on Journey"
+  },
+  {
+   "week": 16,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Found",
+   "castaway": "Rick",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Given to player by Mr Beast"
+  }
+ ]
+}

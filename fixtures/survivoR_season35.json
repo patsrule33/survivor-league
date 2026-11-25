@@ -1,0 +1,1070 @@
+{
+ "season": 35,
+ "title": "Survivor 35",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Patrick Bolton",
+   "short": "Patrick",
+   "id": "US0501",
+   "place": 16
+  },
+  {
+   "name": "Alan Ball",
+   "short": "Alan",
+   "id": "US0502",
+   "place": 15
+  },
+  {
+   "name": "Roark Luskin",
+   "short": "Roark",
+   "id": "US0503",
+   "place": 14
+  },
+  {
+   "name": "Alexandrea Elliott",
+   "short": "Ali",
+   "id": "US0504",
+   "place": 13
+  },
+  {
+   "name": "Jessica Johnston",
+   "short": "Jessica",
+   "id": "US0505",
+   "place": 12
+  },
+  {
+   "name": "Desiree Williams",
+   "short": "Desi",
+   "id": "US0506",
+   "place": 11
+  },
+  {
+   "name": "Cole Medders",
+   "short": "Cole",
+   "id": "US0507",
+   "place": 10
+  },
+  {
+   "name": "John Hilsabeck",
+   "short": "JP",
+   "id": "US0508",
+   "place": 9
+  },
+  {
+   "name": "Joe Mena",
+   "short": "Joe",
+   "id": "US0509",
+   "place": 8
+  },
+  {
+   "name": "Lauren Rimmer",
+   "short": "Lauren",
+   "id": "US0510",
+   "place": 7
+  },
+  {
+   "name": "Ashley Nolan",
+   "short": "Ashley",
+   "id": "US0511",
+   "place": 6
+  },
+  {
+   "name": "Mike Zahalsky",
+   "short": "Mike",
+   "id": "US0512",
+   "place": 5
+  },
+  {
+   "name": "Devon Pinto",
+   "short": "Devon",
+   "id": "US0513",
+   "place": 4
+  },
+  {
+   "name": "Ryan Ulrich",
+   "short": "Ryan",
+   "id": "US0514",
+   "place": 3
+  },
+  {
+   "name": "Chrissy Hofbeck",
+   "short": "Chrissy",
+   "id": "US0515",
+   "place": 2
+  },
+  {
+   "name": "Ben Driebergen",
+   "short": "Ben",
+   "id": "US0516",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Ben Driebergen",
+  "Chrissy Hofbeck",
+  "Ryan Ulrich"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Patrick Bolton",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alan Ball",
+      "Ashley Nolan",
+      "Ben Driebergen",
+      "Chrissy Hofbeck",
+      "John Hilsabeck"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Cole Medders",
+      "Desiree Williams",
+      "Jessica Johnston",
+      "Joe Mena",
+      "Mike Zahalsky",
+      "Roark Luskin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Patrick Bolton",
+       "target": "Lauren Rimmer"
+      },
+      {
+       "voter": "Alexandrea Elliott",
+       "target": "Patrick Bolton"
+      },
+      {
+       "voter": "Lauren Rimmer",
+       "target": "Patrick Bolton"
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Patrick Bolton"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Patrick Bolton"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Alan Ball",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Ben Driebergen",
+      "Cole Medders",
+      "Jessica Johnston",
+      "Lauren Rimmer",
+      "Mike Zahalsky"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Alexandrea Elliott",
+      "Chrissy Hofbeck",
+      "John Hilsabeck",
+      "Roark Luskin",
+      "Ryan Ulrich"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Ben Driebergen",
+      "Cole Medders",
+      "Jessica Johnston",
+      "Lauren Rimmer",
+      "Mike Zahalsky"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alan Ball",
+       "target": "Joe Mena",
+       "negated": true
+      },
+      {
+       "voter": "Desiree Williams",
+       "target": "Alan Ball"
+      },
+      {
+       "voter": "Joe Mena",
+       "target": "Alan Ball"
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "Joe Mena",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Joe Mena",
+      "for": "Joe Mena",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "Roark Luskin",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Ben Driebergen",
+      "Cole Medders",
+      "Jessica Johnston",
+      "Lauren Rimmer",
+      "Mike Zahalsky"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Ashley Nolan",
+      "Desiree Williams",
+      "Devon Pinto",
+      "Joe Mena"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Ashley Nolan",
+      "Desiree Williams",
+      "Devon Pinto",
+      "Joe Mena"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Ben Driebergen",
+      "Cole Medders",
+      "Jessica Johnston",
+      "Lauren Rimmer",
+      "Mike Zahalsky"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Mike Zahalsky",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Roark Luskin",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Alexandrea Elliott",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "John Hilsabeck",
+       "target": "Roark Luskin"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Roark Luskin"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Roark Luskin"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 6,
+   "eliminated": "Alexandrea Elliott",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Ben Driebergen",
+      "Cole Medders",
+      "Jessica Johnston",
+      "Lauren Rimmer",
+      "Mike Zahalsky"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Ashley Nolan",
+      "Desiree Williams",
+      "Devon Pinto",
+      "Joe Mena"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Alexandrea Elliott",
+      "Chrissy Hofbeck",
+      "John Hilsabeck",
+      "Ryan Ulrich"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Ben Driebergen",
+      "Cole Medders",
+      "Jessica Johnston",
+      "Lauren Rimmer",
+      "Mike Zahalsky"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Joe Mena",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alexandrea Elliott",
+       "target": "John Hilsabeck"
+      },
+      {
+       "voter": "John Hilsabeck",
+       "target": "Alexandrea Elliott"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Alexandrea Elliott"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Alexandrea Elliott"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Jessica Johnston",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Desiree Williams"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jessica Johnston",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Desiree Williams",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Cole Medders",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "John Hilsabeck",
+       "target": "Jessica Johnston"
+      },
+      {
+       "voter": "Joe Mena",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Lauren Rimmer",
+       "target": "Jessica Johnston"
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "Jessica Johnston"
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Chrissy Hofbeck"
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Jessica Johnston"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Jessica Johnston"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Jessica Johnston"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Jessica Johnston"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Joe Mena",
+      "for": "Joe Mena",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "Desiree Williams",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Cole Medders"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Chrissy Hofbeck",
+      "Cole Medders",
+      "Devon Pinto",
+      "Joe Mena",
+      "John Hilsabeck",
+      "Ryan Ulrich"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Ryan Ulrich",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Desiree Williams",
+       "target": "Lauren Rimmer"
+      },
+      {
+       "voter": "Cole Medders",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "John Hilsabeck",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Joe Mena",
+       "target": "Ben Driebergen"
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Desiree Williams"
+      }
+     ],
+     [
+      {
+       "voter": "Cole Medders",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "John Hilsabeck",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Desiree Williams"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Desiree Williams"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Cole Medders",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Lauren Rimmer"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Chrissy Hofbeck",
+      "Cole Medders",
+      "Joe Mena",
+      "John Hilsabeck",
+      "Mike Zahalsky"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cole Medders",
+       "target": "Ben Driebergen"
+      },
+      {
+       "voter": "John Hilsabeck",
+       "target": "Mike Zahalsky",
+       "negated": true
+      },
+      {
+       "voter": "Joe Mena",
+       "target": "Cole Medders"
+      },
+      {
+       "voter": "Lauren Rimmer",
+       "target": "Cole Medders"
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "Cole Medders"
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Cole Medders"
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Cole Medders"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Cole Medders"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Mike Zahalsky",
+       "negated": true
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Cole Medders"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Mike Zahalsky",
+      "for": "Mike Zahalsky",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "John Hilsabeck",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ashley Nolan"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Lauren Rimmer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Ben Driebergen",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "John Hilsabeck",
+       "target": "Mike Zahalsky"
+      },
+      {
+       "voter": "Joe Mena",
+       "target": "John Hilsabeck"
+      },
+      {
+       "voter": "Lauren Rimmer",
+       "target": "John Hilsabeck"
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "John Hilsabeck"
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "John Hilsabeck"
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "John Hilsabeck"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Mike Zahalsky"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Mike Zahalsky"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Joe Mena",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Chrissy Hofbeck"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Ashley Nolan",
+      "Ben Driebergen",
+      "Devon Pinto",
+      "Joe Mena"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Joe Mena",
+       "target": "Ryan Ulrich",
+       "negated": true
+      },
+      {
+       "voter": "Lauren Rimmer",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Ryan Ulrich",
+       "negated": true
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Joe Mena"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Ashley Nolan"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Ashley Nolan"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Joe Mena"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Ryan Ulrich",
+      "for": "Ryan Ulrich",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Lauren Rimmer",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ashley Nolan"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Chrissy Hofbeck"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Lauren Rimmer",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Ashley Nolan",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Lauren Rimmer"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Ben Driebergen",
+      "for": "Ben Driebergen",
+      "votes_negated": 6
+     }
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Ashley Nolan",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Chrissy Hofbeck"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Chrissy Hofbeck",
+      "Devon Pinto",
+      "Ryan Ulrich"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Ben Driebergen",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Ashley Nolan",
+       "target": "Mike Zahalsky"
+      },
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Ashley Nolan"
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Ashley Nolan"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Ashley Nolan"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Ashley Nolan"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Ashley Nolan"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Ben Driebergen",
+      "for": "Ben Driebergen",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Mike Zahalsky",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Chrissy Hofbeck"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Ben Driebergen",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mike Zahalsky",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Devon Pinto",
+       "target": "Mike Zahalsky"
+      },
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Devon Pinto"
+      }
+     ],
+     [
+      {
+       "voter": "Ryan Ulrich",
+       "target": "Mike Zahalsky"
+      },
+      {
+       "voter": "Chrissy Hofbeck",
+       "target": "Mike Zahalsky"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Devon Pinto"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Ben Driebergen",
+      "for": "Ben Driebergen",
+      "votes_negated": 3
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Devon Pinto",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Chrissy Hofbeck"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Cole Medders": "Ben Driebergen",
+    "Desiree Williams": "Ben Driebergen",
+    "John Hilsabeck": "Ben Driebergen",
+    "Joe Mena": "Ben Driebergen",
+    "Lauren Rimmer": "Ben Driebergen",
+    "Ashley Nolan": "Chrissy Hofbeck",
+    "Mike Zahalsky": "Chrissy Hofbeck",
+    "Devon Pinto": "Ryan Ulrich"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 2,
+   "advantage": "Vote Blocker",
+   "event": "Found",
+   "castaway": "Jessica",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found at reward"
+  },
+  {
+   "week": 2,
+   "advantage": "Vote Blocker",
+   "event": "Played",
+   "castaway": "Jessica",
+   "played_for": "Devon",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found at reward"
+  },
+  {
+   "week": 6,
+   "advantage": "Bank your Vote",
+   "event": "Found",
+   "castaway": "Lauren",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found at reward"
+  },
+  {
+   "week": 10,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Lauren",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 10,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Lauren",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found in challenge"
+  }
+ ]
+}

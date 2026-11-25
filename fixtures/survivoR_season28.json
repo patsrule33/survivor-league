@@ -1,0 +1,925 @@
+{
+ "season": 28,
+ "title": "Survivor 28",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Brice Johnston",
+   "short": "Brice",
+   "id": "US0409",
+   "place": 16
+  },
+  {
+   "name": "J'Tia Taylor",
+   "short": "J'Tia",
+   "id": "US0410",
+   "place": 15
+  },
+  {
+   "name": "Cliff Robinson",
+   "short": "Cliff",
+   "id": "US0411",
+   "place": 14
+  },
+  {
+   "name": "Lindsey Ogle",
+   "short": "Lindsey",
+   "id": "US0412",
+   "place": 13
+  },
+  {
+   "name": "Alexis Maxwell",
+   "short": "Alexis",
+   "id": "US0413",
+   "place": 12
+  },
+  {
+   "name": "Sarah Lacina",
+   "short": "Sarah",
+   "id": "US0414",
+   "place": 11
+  },
+  {
+   "name": "Morgan McLeod",
+   "short": "Morgan",
+   "id": "US0415",
+   "place": 10
+  },
+  {
+   "name": "LJ McKanas",
+   "short": "LJ",
+   "id": "US0416",
+   "place": 9
+  },
+  {
+   "name": "Jeremiah Wood",
+   "short": "Jeremiah",
+   "id": "US0417",
+   "place": 8
+  },
+  {
+   "name": "Jefra Bland",
+   "short": "Jefra",
+   "id": "US0418",
+   "place": 7
+  },
+  {
+   "name": "Latasha Fox",
+   "short": "Tasha",
+   "id": "US0419",
+   "place": 6
+  },
+  {
+   "name": "Trish Hegarty",
+   "short": "Trish",
+   "id": "US0420",
+   "place": 5
+  },
+  {
+   "name": "Spencer Bledsoe",
+   "short": "Spencer",
+   "id": "US0421",
+   "place": 4
+  },
+  {
+   "name": "Kassandra McQuillen",
+   "short": "Kass",
+   "id": "US0422",
+   "place": 3
+  },
+  {
+   "name": "Yung Hwang",
+   "short": "Woo",
+   "id": "US0423",
+   "place": 2
+  },
+  {
+   "name": "Tony Vlachos",
+   "short": "Tony",
+   "id": "US0424",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Tony Vlachos",
+  "Yung Hwang"
+ ],
+ "forfeit": [
+  "Lindsey Ogle"
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 2,
+   "eliminated": "Brice Johnston",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Cliff Robinson",
+      "Lindsey Ogle",
+      "Sarah Lacina",
+      "Tony Vlachos",
+      "Trish Hegarty",
+      "Yung Hwang"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "J'Tia Taylor",
+      "Kassandra McQuillen",
+      "Latasha Fox",
+      "Spencer Bledsoe"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "LJ McKanas",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Brice Johnston",
+       "target": "Alexis Maxwell"
+      },
+      {
+       "voter": "Alexis Maxwell",
+       "target": "Brice Johnston"
+      },
+      {
+       "voter": "Morgan McLeod",
+       "target": "Alexis Maxwell"
+      },
+      {
+       "voter": "LJ McKanas",
+       "target": "Morgan McLeod"
+      },
+      {
+       "voter": "Jeremiah Wood",
+       "target": "Morgan McLeod"
+      },
+      {
+       "voter": "Jefra Bland",
+       "target": "Brice Johnston"
+      }
+     ],
+     [
+      {
+       "voter": "LJ McKanas",
+       "target": "Brice Johnston"
+      },
+      {
+       "voter": "Jeremiah Wood",
+       "target": "Brice Johnston"
+      },
+      {
+       "voter": "Jefra Bland",
+       "target": "Brice Johnston"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 3,
+   "eliminated": "J'Tia Taylor",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alexis Maxwell",
+      "Jefra Bland",
+      "Jeremiah Wood",
+      "LJ McKanas",
+      "Morgan McLeod"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Cliff Robinson",
+      "Lindsey Ogle",
+      "Sarah Lacina",
+      "Tony Vlachos",
+      "Trish Hegarty",
+      "Yung Hwang"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Alexis Maxwell",
+      "Jefra Bland",
+      "Jeremiah Wood",
+      "LJ McKanas",
+      "Morgan McLeod"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Cliff Robinson",
+      "Lindsey Ogle",
+      "Sarah Lacina",
+      "Tony Vlachos",
+      "Trish Hegarty",
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "J'Tia Taylor",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "J'Tia Taylor"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "J'Tia Taylor"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "J'Tia Taylor"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 4,
+   "eliminated": "Cliff Robinson",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Cliff Robinson",
+      "Jefra Bland",
+      "LJ McKanas",
+      "Lindsey Ogle",
+      "Tony Vlachos",
+      "Trish Hegarty",
+      "Yung Hwang"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Cliff Robinson",
+      "Jefra Bland",
+      "LJ McKanas",
+      "Lindsey Ogle",
+      "Tony Vlachos",
+      "Trish Hegarty",
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cliff Robinson",
+       "target": "LJ McKanas"
+      },
+      {
+       "voter": "Lindsey Ogle",
+       "target": "LJ McKanas"
+      },
+      {
+       "voter": "LJ McKanas",
+       "target": "Cliff Robinson"
+      },
+      {
+       "voter": "Jefra Bland",
+       "target": "Cliff Robinson"
+      },
+      {
+       "voter": "Trish Hegarty",
+       "target": "Cliff Robinson"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "LJ McKanas"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Cliff Robinson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 4,
+   "eliminated": "Lindsey Ogle",
+   "challenges": [],
+   "specials": []
+  },
+  {
+   "week": 5,
+   "episode": 5,
+   "eliminated": "Alexis Maxwell",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Jefra Bland",
+      "LJ McKanas",
+      "Tony Vlachos",
+      "Trish Hegarty",
+      "Yung Hwang"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Jefra Bland",
+      "LJ McKanas",
+      "Tony Vlachos",
+      "Trish Hegarty",
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alexis Maxwell",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Alexis Maxwell"
+      },
+      {
+       "voter": "Morgan McLeod",
+       "target": "Alexis Maxwell"
+      },
+      {
+       "voter": "Jeremiah Wood",
+       "target": "Alexis Maxwell"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Alexis Maxwell"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Alexis Maxwell"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Alexis Maxwell"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 6,
+   "eliminated": "Sarah Lacina",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sarah Lacina",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "Morgan McLeod",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "LJ McKanas",
+       "target": "Sarah Lacina"
+      },
+      {
+       "voter": "Jeremiah Wood",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "Jefra Bland",
+       "target": "Sarah Lacina"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "Trish Hegarty",
+       "target": "Sarah Lacina"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Sarah Lacina"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Sarah Lacina"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Sarah Lacina"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Tony Vlachos",
+      "for": "LJ McKanas",
+      "votes_negated": 0
+     },
+     {
+      "player": "LJ McKanas",
+      "for": "Tony Vlachos",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 7,
+   "eliminated": "Morgan McLeod",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Spencer Bledsoe"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Jefra Bland",
+      "Jeremiah Wood",
+      "LJ McKanas",
+      "Morgan McLeod",
+      "Spencer Bledsoe"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Spencer Bledsoe",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Morgan McLeod",
+       "target": "Tony Vlachos"
+      },
+      {
+       "voter": "LJ McKanas",
+       "target": "Morgan McLeod"
+      },
+      {
+       "voter": "Jeremiah Wood",
+       "target": "Tony Vlachos"
+      },
+      {
+       "voter": "Jefra Bland",
+       "target": "Morgan McLeod"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Tony Vlachos"
+      },
+      {
+       "voter": "Trish Hegarty",
+       "target": "Morgan McLeod"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Tony Vlachos"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Morgan McLeod"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Morgan McLeod"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Morgan McLeod"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 8,
+   "eliminated": "LJ McKanas",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Latasha Fox"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Jeremiah Wood",
+      "Spencer Bledsoe",
+      "Tony Vlachos"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "LJ McKanas",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Jeremiah Wood",
+       "target": "LJ McKanas"
+      },
+      {
+       "voter": "Jefra Bland",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "LJ McKanas"
+      },
+      {
+       "voter": "Trish Hegarty",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "LJ McKanas"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "LJ McKanas"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "LJ McKanas"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 9,
+   "eliminated": "Jeremiah Wood",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Latasha Fox"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Jefra Bland",
+      "Jeremiah Wood",
+      "Latasha Fox",
+      "Spencer Bledsoe"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeremiah Wood",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Jefra Bland",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Trish Hegarty",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Jeremiah Wood"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Jeremiah Wood"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Spencer Bledsoe",
+      "for": "Spencer Bledsoe",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 10,
+   "eliminated": "Jefra Bland",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Latasha Fox"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Tony Vlachos",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jefra Bland",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "Trish Hegarty",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Jefra Bland"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Jefra Bland"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 11,
+   "eliminated": "Latasha Fox",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Spencer Bledsoe"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Kassandra McQuillen",
+      "Spencer Bledsoe",
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Latasha Fox",
+       "target": "Trish Hegarty"
+      },
+      {
+       "voter": "Trish Hegarty",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Tony Vlachos"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Latasha Fox"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 12,
+   "eliminated": "Trish Hegarty",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Spencer Bledsoe"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Tony Vlachos"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Trish Hegarty",
+       "target": "Kassandra McQuillen"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Trish Hegarty"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Trish Hegarty"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Trish Hegarty"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Trish Hegarty"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Tony Vlachos",
+      "for": "Tony Vlachos",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Spencer Bledsoe",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kassandra McQuillen"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Spencer Bledsoe"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 13,
+   "eliminated": "Kassandra McQuillen",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Yung Hwang",
+       "target": "Kassandra McQuillen"
+      }
+     ]
+    ]
+   },
+   "jury": {
+    "Jefra Bland": "Tony Vlachos",
+    "Jeremiah Wood": "Tony Vlachos",
+    "Kassandra McQuillen": "Tony Vlachos",
+    "LJ McKanas": "Tony Vlachos",
+    "Morgan McLeod": "Tony Vlachos",
+    "Sarah Lacina": "Tony Vlachos",
+    "Spencer Bledsoe": "Tony Vlachos",
+    "Trish Hegarty": "Tony Vlachos",
+    "Latasha Fox": "Yung Hwang"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 9,
+   "advantage": "Super Idol",
+   "event": "Found",
+   "castaway": "Tony",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

@@ -1,0 +1,1067 @@
+{
+ "season": 36,
+ "title": "Survivor 36",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 1,
+ "contestants": [
+  {
+   "name": "Brendan Shapiro",
+   "short": "Brendan",
+   "id": "US0520",
+   "place": 17
+  },
+  {
+   "name": "Stephanie Johnson",
+   "short": "Stephanie",
+   "id": "US0521",
+   "place": 16
+  },
+  {
+   "name": "James Lim",
+   "short": "James",
+   "id": "US0522",
+   "place": 15
+  },
+  {
+   "name": "Bradley Kleihege",
+   "short": "Bradley",
+   "id": "US0523",
+   "place": 14
+  },
+  {
+   "name": "Chris Noble",
+   "short": "Chris",
+   "id": "US0524",
+   "place": 13
+  },
+  {
+   "name": "Libby Vincek",
+   "short": "Libby",
+   "id": "US0525",
+   "place": 12
+  },
+  {
+   "name": "Desiree Afuye",
+   "short": "Desiree",
+   "id": "US0526",
+   "place": 11
+  },
+  {
+   "name": "Jenna Bowman",
+   "short": "Jenna",
+   "id": "US0527",
+   "place": 10
+  },
+  {
+   "name": "Michael Yerger",
+   "short": "Michael",
+   "id": "US0528",
+   "place": 9
+  },
+  {
+   "name": "Chelsea Townsend",
+   "short": "Chelsea",
+   "id": "US0529",
+   "place": 8
+  },
+  {
+   "name": "Kellyn Bechtold",
+   "short": "Kellyn",
+   "id": "US0530",
+   "place": 7
+  },
+  {
+   "name": "Sebastian Noel",
+   "short": "Sebastian",
+   "id": "US0531",
+   "place": 6
+  },
+  {
+   "name": "Donathan Hurley",
+   "short": "Donathan",
+   "id": "US0532",
+   "place": 5
+  },
+  {
+   "name": "Angela Perkins",
+   "short": "Angela",
+   "id": "US0533",
+   "place": 4
+  },
+  {
+   "name": "Laurel Johnson",
+   "short": "Laurel",
+   "id": "US0534",
+   "place": 3
+  },
+  {
+   "name": "Domenick Abbate",
+   "short": "Domenick",
+   "id": "US0535",
+   "place": 2
+  },
+  {
+   "name": "Wendell Holland",
+   "short": "Wendell",
+   "id": "US0536",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Wendell Holland",
+  "Domenick Abbate",
+  "Laurel Johnson"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Brendan Shapiro",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Angela Perkins",
+      "Chris Noble",
+      "Domenick Abbate",
+      "Donathan Hurley",
+      "James Lim",
+      "Laurel Johnson",
+      "Libby Vincek",
+      "Wendell Holland"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Angela Perkins",
+      "Chris Noble",
+      "Domenick Abbate",
+      "Donathan Hurley",
+      "James Lim",
+      "Laurel Johnson",
+      "Libby Vincek",
+      "Wendell Holland"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Brendan Shapiro",
+       "target": "Bradley Kleihege"
+      },
+      {
+       "voter": "Stephanie Johnson",
+       "target": "Bradley Kleihege"
+      },
+      {
+       "voter": "Bradley Kleihege",
+       "target": "Brendan Shapiro"
+      },
+      {
+       "voter": "Desiree Afuye",
+       "target": "Brendan Shapiro"
+      },
+      {
+       "voter": "Jenna Bowman",
+       "target": "Bradley Kleihege"
+      },
+      {
+       "voter": "Michael Yerger",
+       "target": "Bradley Kleihege"
+      },
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Brendan Shapiro"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Brendan Shapiro"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Brendan Shapiro"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Michael Yerger",
+      "for": "Stephanie Johnson",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Stephanie Johnson",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Angela Perkins",
+      "Chris Noble",
+      "Domenick Abbate",
+      "Donathan Hurley",
+      "James Lim",
+      "Laurel Johnson",
+      "Libby Vincek",
+      "Wendell Holland"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Angela Perkins",
+      "Chris Noble",
+      "Domenick Abbate",
+      "Donathan Hurley",
+      "James Lim",
+      "Laurel Johnson",
+      "Libby Vincek",
+      "Wendell Holland"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Stephanie Johnson",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Bradley Kleihege",
+       "target": "Stephanie Johnson"
+      },
+      {
+       "voter": "Desiree Afuye",
+       "target": "Stephanie Johnson"
+      },
+      {
+       "voter": "Jenna Bowman",
+       "target": "Stephanie Johnson"
+      },
+      {
+       "voter": "Michael Yerger",
+       "target": "Stephanie Johnson"
+      },
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Stephanie Johnson"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Stephanie Johnson"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Stephanie Johnson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "James Lim",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Chris Noble",
+      "Jenna Bowman",
+      "Laurel Johnson",
+      "Sebastian Noel",
+      "Wendell Holland"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Bradley Kleihege",
+      "Chelsea Townsend",
+      "Domenick Abbate",
+      "Donathan Hurley",
+      "Libby Vincek"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "James Lim",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Desiree Afuye",
+       "target": "James Lim"
+      },
+      {
+       "voter": "Michael Yerger",
+       "target": "James Lim"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "James Lim"
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "James Lim"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 6,
+   "eliminated": "Bradley Kleihege",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Chris Noble",
+      "Jenna Bowman",
+      "Laurel Johnson",
+      "Sebastian Noel",
+      "Wendell Holland"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Angela Perkins",
+      "Desiree Afuye",
+      "Kellyn Bechtold",
+      "Michael Yerger"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Bradley Kleihege",
+      "Chelsea Townsend",
+      "Domenick Abbate",
+      "Donathan Hurley",
+      "Libby Vincek"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Chris Noble",
+      "Jenna Bowman",
+      "Laurel Johnson",
+      "Sebastian Noel",
+      "Wendell Holland"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Michael Yerger",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Wendell Holland",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Bradley Kleihege",
+       "target": "Libby Vincek"
+      },
+      {
+       "voter": "Libby Vincek",
+       "target": "Bradley Kleihege"
+      },
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Bradley Kleihege"
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Bradley Kleihege"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Bradley Kleihege"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Chris Noble",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kellyn Bechtold"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Chris Noble",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "Chris Noble",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Libby Vincek",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Desiree Afuye",
+       "target": "Libby Vincek"
+      },
+      {
+       "voter": "Jenna Bowman",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Michael Yerger",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Libby Vincek"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Chris Noble"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Chris Noble"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Domenick Abbate",
+      "for": "Domenick Abbate",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "Libby Vincek",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Angela Perkins"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Angela Perkins",
+      "Chelsea Townsend",
+      "Donathan Hurley",
+      "Laurel Johnson",
+      "Libby Vincek",
+      "Wendell Holland"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Libby Vincek",
+       "target": "Michael Yerger",
+       "negated": true
+      },
+      {
+       "voter": "Desiree Afuye",
+       "target": "Libby Vincek"
+      },
+      {
+       "voter": "Jenna Bowman",
+       "target": "Michael Yerger",
+       "negated": true
+      },
+      {
+       "voter": "Michael Yerger",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Libby Vincek"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Libby Vincek"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Michael Yerger",
+       "negated": true
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Michael Yerger",
+       "negated": true
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Michael Yerger",
+       "negated": true
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Libby Vincek"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Michael Yerger",
+       "negated": true
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Michael Yerger",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Michael Yerger",
+      "for": "Michael Yerger",
+      "votes_negated": 7
+     }
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Desiree Afuye",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Chelsea Townsend"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Chelsea Townsend",
+      "Jenna Bowman",
+      "Kellyn Bechtold",
+      "Michael Yerger",
+      "Sebastian Noel"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Donathan Hurley",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Donathan Hurley",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Desiree Afuye",
+       "target": "Michael Yerger"
+      },
+      {
+       "voter": "Jenna Bowman",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Michael Yerger",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Michael Yerger"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Desiree Afuye"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Desiree Afuye"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Jenna Bowman",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Chelsea Townsend",
+      "Domenick Abbate"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jenna Bowman",
+       "target": "Donathan Hurley",
+       "negated": true
+      },
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Jenna Bowman"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Jenna Bowman"
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Sebastian Noel"
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Jenna Bowman"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Donathan Hurley",
+      "for": "Donathan Hurley",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Michael Yerger",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Michael Yerger",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Laurel Johnson"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Laurel Johnson"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Kellyn Bechtold"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Michael Yerger"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Michael Yerger"
+      }
+     ],
+     [
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Michael Yerger"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Michael Yerger"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Michael Yerger"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Chelsea Townsend",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Domenick Abbate"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Sebastian Noel"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chelsea Townsend",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Chelsea Townsend"
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Chelsea Townsend"
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Chelsea Townsend"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Chelsea Townsend"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Chelsea Townsend"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Kellyn Bechtold",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Laurel Johnson"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Domenick Abbate",
+      "Laurel Johnson",
+      "Wendell Holland"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kellyn Bechtold",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Sebastian Noel",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Domenick Abbate"
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Kellyn Bechtold"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Kellyn Bechtold"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Kellyn Bechtold"
+      }
+     ],
+     [
+      {
+       "voter": "Sebastian Noel",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Kellyn Bechtold"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Kellyn Bechtold"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Kellyn Bechtold"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Kellyn Bechtold"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Sebastian Noel",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Wendell Holland"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sebastian Noel",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Donathan Hurley",
+       "target": "Domenick Abbate",
+       "negated": true
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Sebastian Noel"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Sebastian Noel"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Sebastian Noel"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Sebastian Noel"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Domenick Abbate",
+      "for": "Domenick Abbate",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Donathan Hurley",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Wendell Holland"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Donathan Hurley",
+       "target": "Laurel Johnson",
+       "negated": true
+      },
+      {
+       "voter": "Angela Perkins",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Laurel Johnson",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Domenick Abbate",
+       "target": "Donathan Hurley"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Donathan Hurley"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Wendell Holland",
+      "for": "Laurel Johnson",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 13,
+   "eliminated": "Angela Perkins",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Domenick Abbate"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Chris Noble": "Domenick Abbate",
+    "Desiree Afuye": "Domenick Abbate",
+    "Jenna Bowman": "Domenick Abbate",
+    "Libby Vincek": "Domenick Abbate",
+    "Michael Yerger": "Domenick Abbate",
+    "Angela Perkins": "Wendell Holland",
+    "Chelsea Townsend": "Wendell Holland",
+    "Donathan Hurley": "Wendell Holland",
+    "Kellyn Bechtold": "Wendell Holland",
+    "Laurel Johnson": "Wendell Holland",
+    "Sebastian Noel": "Wendell Holland"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 4,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Kellyn",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Ghost Island"
+  },
+  {
+   "week": 8,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Kellyn",
+   "played_for": "Laurel",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Won on Ghost Island"
+  },
+  {
+   "week": 11,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Sebastian",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Ghost Island"
+  }
+ ]
+}

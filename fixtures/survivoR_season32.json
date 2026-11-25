@@ -1,0 +1,822 @@
+{
+ "season": 32,
+ "title": "Survivor 32",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Elisabeth Markham",
+   "short": "Liz",
+   "id": "US0463",
+   "place": 16
+  },
+  {
+   "name": "Caleb Reynolds",
+   "short": "Caleb",
+   "id": "US0464",
+   "place": 15
+  },
+  {
+   "name": "Alecia Holden",
+   "short": "Alecia",
+   "id": "US0465",
+   "place": 14
+  },
+  {
+   "name": "Anna Khait",
+   "short": "Anna",
+   "id": "US0466",
+   "place": 13
+  },
+  {
+   "name": "Peter Baggenstos",
+   "short": "Peter",
+   "id": "US0467",
+   "place": 12
+  },
+  {
+   "name": "Neal Gottlieb",
+   "short": "Neal",
+   "id": "US0468",
+   "place": 11
+  },
+  {
+   "name": "Nick Maiorano",
+   "short": "Nick",
+   "id": "US0469",
+   "place": 10
+  },
+  {
+   "name": "Debbie Wanner",
+   "short": "Debbie",
+   "id": "US0470",
+   "place": 9
+  },
+  {
+   "name": "Scot Pollard",
+   "short": "Scot",
+   "id": "US0471",
+   "place": 8
+  },
+  {
+   "name": "Julia Sokolowski",
+   "short": "Julia",
+   "id": "US0472",
+   "place": 7
+  },
+  {
+   "name": "Kyle Jason",
+   "short": "Jason",
+   "id": "US0473",
+   "place": 6
+  },
+  {
+   "name": "Joseph Del Campo",
+   "short": "Joe",
+   "id": "US0474",
+   "place": 5
+  },
+  {
+   "name": "Cydney Gillon",
+   "short": "Cydney",
+   "id": "US0475",
+   "place": 4
+  },
+  {
+   "name": "Tai Trang",
+   "short": "Tai",
+   "id": "US0476",
+   "place": 3
+  },
+  {
+   "name": "Aubry Bracco",
+   "short": "Aubry",
+   "id": "US0477",
+   "place": 2
+  },
+  {
+   "name": "Michele Fitzgerald",
+   "short": "Michele",
+   "id": "US0478",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Michele Fitzgerald",
+  "Aubry Bracco",
+  "Tai Trang"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Elisabeth Markham",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Anna Khait",
+      "Caleb Reynolds",
+      "Julia Sokolowski",
+      "Michele Fitzgerald",
+      "Nick Maiorano",
+      "Tai Trang"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Alecia Holden",
+      "Cydney Gillon",
+      "Kyle Jason",
+      "Scot Pollard"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Tai Trang",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Kyle Jason",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Elisabeth Markham",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Peter Baggenstos",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Neal Gottlieb",
+       "target": "Peter Baggenstos"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Elisabeth Markham"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Elisabeth Markham"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Peter Baggenstos"
+      }
+     ],
+     [
+      {
+       "voter": "Neal Gottlieb",
+       "target": "Elisabeth Markham"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Elisabeth Markham"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Elisabeth Markham"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Caleb Reynolds",
+   "challenges": [
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aubry Bracco",
+      "Debbie Wanner",
+      "Joseph Del Campo",
+      "Neal Gottlieb",
+      "Peter Baggenstos"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Anna Khait",
+      "Caleb Reynolds",
+      "Julia Sokolowski",
+      "Michele Fitzgerald",
+      "Nick Maiorano",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "medevac_pity",
+     "player": "Caleb Reynolds",
+     "source": "survivoR"
+    }
+   ]
+  },
+  {
+   "week": 3,
+   "episode": 4,
+   "eliminated": "Alecia Holden",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aubry Bracco",
+      "Debbie Wanner",
+      "Joseph Del Campo",
+      "Neal Gottlieb",
+      "Peter Baggenstos"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Anna Khait",
+      "Julia Sokolowski",
+      "Michele Fitzgerald",
+      "Nick Maiorano",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alecia Holden",
+       "target": "Scot Pollard"
+      },
+      {
+       "voter": "Scot Pollard",
+       "target": "Alecia Holden"
+      },
+      {
+       "voter": "Kyle Jason",
+       "target": "Alecia Holden"
+      },
+      {
+       "voter": "Cydney Gillon",
+       "target": "Alecia Holden"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Anna Khait",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Cydney Gillon",
+      "Debbie Wanner",
+      "Kyle Jason",
+      "Michele Fitzgerald",
+      "Neal Gottlieb",
+      "Nick Maiorano"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Neal Gottlieb",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Anna Khait",
+       "target": "Peter Baggenstos"
+      },
+      {
+       "voter": "Peter Baggenstos",
+       "target": "Anna Khait"
+      },
+      {
+       "voter": "Scot Pollard",
+       "target": "Anna Khait"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Anna Khait"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Anna Khait"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Anna Khait"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 6,
+   "eliminated": "Peter Baggenstos",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Cydney Gillon",
+      "Debbie Wanner",
+      "Kyle Jason",
+      "Michele Fitzgerald",
+      "Neal Gottlieb",
+      "Nick Maiorano"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aubry Bracco",
+      "Joseph Del Campo",
+      "Julia Sokolowski",
+      "Peter Baggenstos",
+      "Scot Pollard",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Peter Baggenstos",
+       "target": "Julia Sokolowski"
+      },
+      {
+       "voter": "Scot Pollard",
+       "target": "Peter Baggenstos"
+      },
+      {
+       "voter": "Julia Sokolowski",
+       "target": "Peter Baggenstos"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Julia Sokolowski"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Peter Baggenstos"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Peter Baggenstos"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Neal Gottlieb",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Nick Maiorano"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "medevac_pity",
+     "player": "Neal Gottlieb",
+     "source": "survivoR"
+    }
+   ]
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Nick Maiorano",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tai Trang"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Debbie Wanner",
+      "Julia Sokolowski",
+      "Nick Maiorano",
+      "Scot Pollard",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Nick Maiorano",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Nick Maiorano"
+      },
+      {
+       "voter": "Scot Pollard",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Julia Sokolowski",
+       "target": "Nick Maiorano"
+      },
+      {
+       "voter": "Kyle Jason",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Nick Maiorano"
+      },
+      {
+       "voter": "Cydney Gillon",
+       "target": "Nick Maiorano"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Kyle Jason"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Nick Maiorano"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Nick Maiorano"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Debbie Wanner",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Julia Sokolowski"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Julia Sokolowski",
+      "Kyle Jason",
+      "Scot Pollard",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Debbie Wanner",
+       "target": "Scot Pollard"
+      },
+      {
+       "voter": "Scot Pollard",
+       "target": "Cydney Gillon"
+      },
+      {
+       "voter": "Julia Sokolowski",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Kyle Jason",
+       "target": "Cydney Gillon"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Scot Pollard"
+      },
+      {
+       "voter": "Cydney Gillon",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Cydney Gillon"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Debbie Wanner"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Scot Pollard",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kyle Jason"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Julia Sokolowski",
+      "Michele Fitzgerald",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Scot Pollard",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Scot Pollard",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Julia Sokolowski",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Kyle Jason",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Scot Pollard"
+      },
+      {
+       "voter": "Cydney Gillon",
+       "target": "Scot Pollard"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Scot Pollard"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Scot Pollard"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Tai Trang"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Julia Sokolowski",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Michele Fitzgerald"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Cydney Gillon",
+      "Michele Fitzgerald"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Julia Sokolowski",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Kyle Jason",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Julia Sokolowski"
+      },
+      {
+       "voter": "Cydney Gillon",
+       "target": "Julia Sokolowski"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Julia Sokolowski"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Julia Sokolowski"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Julia Sokolowski"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Kyle Jason",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Cydney Gillon"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Kyle Jason",
+      "Michele Fitzgerald",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kyle Jason",
+       "target": "Joseph Del Campo"
+      },
+      {
+       "voter": "Joseph Del Campo",
+       "target": "Kyle Jason"
+      },
+      {
+       "voter": "Cydney Gillon",
+       "target": "Kyle Jason"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Michele Fitzgerald"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Michele Fitzgerald"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Kyle Jason"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Kyle Jason"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Joseph Del Campo",
+   "challenges": [
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Joseph Del Campo"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "medevac_pity",
+     "player": "Joseph Del Campo",
+     "source": "survivoR"
+    }
+   ]
+  },
+  {
+   "week": 13,
+   "episode": 14,
+   "eliminated": "Cydney Gillon",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Michele Fitzgerald"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Aubry Bracco",
+      "Michele Fitzgerald"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cydney Gillon",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Cydney Gillon"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Cydney Gillon"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Aubry Bracco"
+      }
+     ]
+    ]
+   },
+   "jury": {
+    "Joseph Del Campo": "Aubry Bracco",
+    "Nick Maiorano": "Aubry Bracco",
+    "Cydney Gillon": "Michele Fitzgerald",
+    "Debbie Wanner": "Michele Fitzgerald",
+    "Kyle Jason": "Michele Fitzgerald",
+    "Julia Sokolowski": "Michele Fitzgerald",
+    "Scot Pollard": "Michele Fitzgerald"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 9,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Tai",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won at challenge"
+  },
+  {
+   "week": 11,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Tai",
+   "played_for": "Michele",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Won at challenge"
+  }
+ ]
+}

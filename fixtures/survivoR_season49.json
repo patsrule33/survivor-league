@@ -1,0 +1,878 @@
+{
+ "season": 49,
+ "title": "Survivor 49",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Jeremiah Ing",
+   "short": "Jeremiah",
+   "id": "US0739",
+   "place": 15
+  },
+  {
+   "name": "Matt Williams",
+   "short": "Matt",
+   "id": "US0741",
+   "place": 14
+  },
+  {
+   "name": "Jason Treul",
+   "short": "Jason",
+   "id": "US0737",
+   "place": 13
+  },
+  {
+   "name": "Shannon Fairweather",
+   "short": "Shannon",
+   "id": "US0748",
+   "place": 12
+  },
+  {
+   "name": "Nate Moore",
+   "short": "Nate",
+   "id": "US0743",
+   "place": 11
+  },
+  {
+   "name": "MC Chukwujekwu",
+   "short": "MC",
+   "id": "US0742",
+   "place": 10
+  },
+  {
+   "name": "Alex Moore",
+   "short": "Alex",
+   "id": "US0734",
+   "place": 9
+  },
+  {
+   "name": "Jawan Pitts",
+   "short": "Jawan",
+   "id": "US0738",
+   "place": 8
+  },
+  {
+   "name": "Sophie Segreti",
+   "short": "Sophie",
+   "id": "US0750",
+   "place": 7
+  },
+  {
+   "name": "Steven Ramm",
+   "short": "Steven",
+   "id": "US0751",
+   "place": 6
+  },
+  {
+   "name": "Kristina Mills",
+   "short": "Kristina",
+   "id": "US0740",
+   "place": 5
+  },
+  {
+   "name": "Rizo Velovic",
+   "short": "Rizo",
+   "id": "US0745",
+   "place": 4
+  },
+  {
+   "name": "Sage Ahrens-Nichols",
+   "short": "Sage",
+   "id": "US0746",
+   "place": 3
+  },
+  {
+   "name": "Sophi Balerdi",
+   "short": "Sophi",
+   "id": "US0749",
+   "place": 2
+  },
+  {
+   "name": "Savannah Louie",
+   "short": "Savannah",
+   "id": "US0747",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Savannah Louie",
+  "Sophi Balerdi",
+  "Sage Ahrens-Nichols"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Jeremiah Ing",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Jason Treul",
+      "Kristina Mills",
+      "MC Chukwujekwu",
+      "Matt Williams",
+      "Sophie Segreti",
+      "Steven Ramm"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Jawan Pitts",
+      "Nate Moore",
+      "Rizo Velovic",
+      "Sage Ahrens-Nichols",
+      "Savannah Louie",
+      "Shannon Fairweather"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alex Moore",
+       "target": "Jeremiah Ing"
+      },
+      {
+       "voter": "Jeremiah Ing",
+       "target": "Alex Moore",
+       "negated": true
+      },
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Jeremiah Ing"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Alex Moore",
+      "for": "Alex Moore",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Matt Williams",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alex Moore",
+      "Kristina Mills",
+      "MC Chukwujekwu",
+      "Sage Ahrens-Nichols",
+      "Shannon Fairweather",
+      "Sophie Segreti",
+      "Steven Ramm"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Rizo Velovic",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jason Treul",
+       "target": "Matt Williams"
+      },
+      {
+       "voter": "Matt Williams",
+       "target": "Nate Moore"
+      },
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Jason Treul"
+      },
+      {
+       "voter": "Jawan Pitts",
+       "target": "Matt Williams"
+      },
+      {
+       "voter": "Nate Moore",
+       "target": "Matt Williams"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Matt Williams"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Jason Treul"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "Jason Treul",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alex Moore",
+      "Kristina Mills",
+      "MC Chukwujekwu",
+      "Sage Ahrens-Nichols",
+      "Shannon Fairweather",
+      "Sophie Segreti",
+      "Steven Ramm"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jason Treul",
+       "target": "Rizo Velovic"
+      },
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Jason Treul"
+      },
+      {
+       "voter": "Jawan Pitts",
+       "target": "Jason Treul"
+      },
+      {
+       "voter": "Nate Moore",
+       "target": "Jason Treul"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Jason Treul"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Jason Treul"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 6,
+   "eliminated": "Shannon Fairweather",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "MC Chukwujekwu",
+      "Rizo Velovic",
+      "Savannah Louie",
+      "Sophi Balerdi"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Alex Moore",
+      "Kristina Mills",
+      "Nate Moore",
+      "Sophie Segreti"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Alex Moore",
+      "Kristina Mills",
+      "Nate Moore",
+      "Sophie Segreti"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jawan Pitts",
+       "target": "Shannon Fairweather"
+      },
+      {
+       "voter": "Steven Ramm",
+       "target": "Shannon Fairweather"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "Shannon Fairweather"
+      },
+      {
+       "voter": "Shannon Fairweather",
+       "target": "Jawan Pitts"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Nate Moore",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Sophie Segreti"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Nate Moore",
+      "Rizo Velovic",
+      "Sophi Balerdi",
+      "Sophie Segreti",
+      "Steven Ramm"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "MC Chukwujekwu",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Steven Ramm"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Steven Ramm"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Steven Ramm"
+      },
+      {
+       "voter": "MC Chukwujekwu",
+       "target": "Nate Moore"
+      },
+      {
+       "voter": "Jawan Pitts",
+       "target": "Nate Moore"
+      },
+      {
+       "voter": "Steven Ramm",
+       "target": "Nate Moore"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "Nate Moore"
+      },
+      {
+       "voter": "Nate Moore",
+       "target": "Steven Ramm"
+      },
+      {
+       "voter": "Kristina Mills",
+       "target": "Nate Moore"
+      },
+      {
+       "voter": "Sophie Segreti",
+       "target": "Nate Moore"
+      },
+      {
+       "voter": "Alex Moore",
+       "target": "Nate Moore"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "MC Chukwujekwu",
+      "for": "MC Chukwujekwu",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "MC Chukwujekwu",
+   "challenges": [
+    {
+     "type": "group_immunity",
+     "players": [
+      "Alex Moore",
+      "Kristina Mills",
+      "Savannah Louie",
+      "Sophi Balerdi",
+      "Steven Ramm"
+     ]
+    },
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Savannah Louie"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Kristina Mills",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rizo Velovic",
+       "target": "MC Chukwujekwu"
+      },
+      {
+       "voter": "MC Chukwujekwu",
+       "target": "Sophie Segreti"
+      },
+      {
+       "voter": "Jawan Pitts",
+       "target": "MC Chukwujekwu"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "MC Chukwujekwu"
+      },
+      {
+       "voter": "Sophie Segreti",
+       "target": "MC Chukwujekwu"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Alex Moore",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Savannah Louie",
+      "Steven Ramm"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Alex Moore",
+      "Kristina Mills",
+      "Savannah Louie",
+      "Sophie Segreti"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Alex Moore"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Alex Moore"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Alex Moore"
+      },
+      {
+       "voter": "Jawan Pitts",
+       "target": "Alex Moore"
+      },
+      {
+       "voter": "Steven Ramm",
+       "target": "Sophi Balerdi"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "Alex Moore"
+      },
+      {
+       "voter": "Kristina Mills",
+       "target": "Sophi Balerdi"
+      },
+      {
+       "voter": "Sophie Segreti",
+       "target": "Alex Moore"
+      },
+      {
+       "voter": "Alex Moore",
+       "target": "Rizo Velovic"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Jawan Pitts",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Sophie Segreti"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Sage Ahrens-Nichols",
+      "Sophi Balerdi",
+      "Sophie Segreti",
+      "Steven Ramm"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Jawan Pitts"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Jawan Pitts"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Jawan Pitts"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Jawan Pitts"
+      },
+      {
+       "voter": "Jawan Pitts",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Steven Ramm",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "Savannah Louie"
+      },
+      {
+       "voter": "Kristina Mills",
+       "target": "Rizo Velovic"
+      },
+      {
+       "voter": "Sophie Segreti",
+       "target": "Jawan Pitts"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Kristina Mills",
+      "for": "Kristina Mills",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 11,
+   "eliminated": "Sophie Segreti",
+   "challenges": [
+    {
+     "type": "group_immunity",
+     "players": [
+      "Steven Ramm"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Sophie Segreti"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Sophie Segreti"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Sophie Segreti"
+      },
+      {
+       "voter": "Steven Ramm",
+       "target": "Sophie Segreti"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "Sophie Segreti"
+      },
+      {
+       "voter": "Kristina Mills",
+       "target": "Sophie Segreti"
+      },
+      {
+       "voter": "Sophie Segreti",
+       "target": "Savannah Louie"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 12,
+   "eliminated": "Steven Ramm",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Savannah Louie"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Savannah Louie"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Steven Ramm"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Steven Ramm"
+      },
+      {
+       "voter": "Steven Ramm",
+       "target": "Sophi Balerdi"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "Steven Ramm"
+      },
+      {
+       "voter": "Kristina Mills",
+       "target": "Steven Ramm"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 13,
+   "eliminated": "Kristina Mills",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Savannah Louie"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sophi Balerdi",
+       "target": "Kristina Mills"
+      },
+      {
+       "voter": "Rizo Velovic",
+       "target": "Kristina Mills"
+      },
+      {
+       "voter": "Savannah Louie",
+       "target": "Kristina Mills"
+      },
+      {
+       "voter": "Sage Ahrens-Nichols",
+       "target": "Kristina Mills"
+      },
+      {
+       "voter": "Kristina Mills",
+       "target": "Sage Ahrens-Nichols"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Rizo Velovic",
+      "for": "Rizo Velovic",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Rizo Velovic",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Sophi Balerdi"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Jawan Pitts": "Sage Ahrens-Nichols",
+    "Alex Moore": "Savannah Louie",
+    "Nate Moore": "Savannah Louie",
+    "Rizo Velovic": "Savannah Louie",
+    "Sophie Segreti": "Savannah Louie",
+    "Steven Ramm": "Savannah Louie",
+    "Kristina Mills": "Sophi Balerdi",
+    "MC Chukwujekwu": "Sophi Balerdi"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 4,
+   "advantage": "Knowledge is Power",
+   "event": "Found",
+   "castaway": "Sophi",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 10,
+   "advantage": "Knowledge is Power",
+   "event": "Played",
+   "castaway": "Sophi",
+   "played_for": "Steven",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 5,
+   "advantage": "Challenge Advantage",
+   "event": "Found",
+   "castaway": "Sage",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 5,
+   "advantage": "Challenge Advantage",
+   "event": "Played",
+   "castaway": "Sage",
+   "played_for": "Sage",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 6,
+   "advantage": "Bank your Vote",
+   "event": "Found",
+   "castaway": "Savannah",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won in challenge"
+  },
+  {
+   "week": 8,
+   "advantage": "Bank your Vote",
+   "event": "Played",
+   "castaway": "Savannah",
+   "played_for": "Jawan",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Won in challenge"
+  },
+  {
+   "week": 9,
+   "advantage": "Block a Vote",
+   "event": "Found",
+   "castaway": "Steven",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 10,
+   "advantage": "Block a Vote",
+   "event": "Played",
+   "castaway": "Steven",
+   "played_for": "Savannah",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Found",
+   "castaway": "Sophi",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Played",
+   "castaway": "Sophi",
+   "played_for": "Sophi",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

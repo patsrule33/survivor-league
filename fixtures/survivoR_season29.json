@@ -1,0 +1,1044 @@
+{
+ "season": 29,
+ "title": "Survivor 29",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 2,
+ "survival_offset": 1,
+ "contestants": [
+  {
+   "name": "Val Collins",
+   "short": "Val",
+   "id": "US0426",
+   "place": 17
+  },
+  {
+   "name": "John Rocker",
+   "short": "John",
+   "id": "US0427",
+   "place": 16
+  },
+  {
+   "name": "Drew Christy",
+   "short": "Drew",
+   "id": "US0428",
+   "place": 15
+  },
+  {
+   "name": "Kelley Wentworth",
+   "short": "Kelley",
+   "id": "US0429",
+   "place": 14
+  },
+  {
+   "name": "Dale Wentworth",
+   "short": "Dale",
+   "id": "US0430",
+   "place": 13
+  },
+  {
+   "name": "Julie McGee",
+   "short": "Julie",
+   "id": "US0431",
+   "place": 12
+  },
+  {
+   "name": "Josh Canfield",
+   "short": "Josh",
+   "id": "US0432",
+   "place": 11
+  },
+  {
+   "name": "Jeremy Collins",
+   "short": "Jeremy",
+   "id": "US0433",
+   "place": 10
+  },
+  {
+   "name": "Wes Nale",
+   "short": "Wes",
+   "id": "US0434",
+   "place": 9
+  },
+  {
+   "name": "Reed Kelly",
+   "short": "Reed",
+   "id": "US0435",
+   "place": 8
+  },
+  {
+   "name": "Alec Christy",
+   "short": "Alec",
+   "id": "US0436",
+   "place": 7
+  },
+  {
+   "name": "Jon Misch",
+   "short": "Jon",
+   "id": "US0437",
+   "place": 6
+  },
+  {
+   "name": "Baylor Wilson",
+   "short": "Baylor",
+   "id": "US0438",
+   "place": 5
+  },
+  {
+   "name": "Keith Nale",
+   "short": "Keith",
+   "id": "US0439",
+   "place": 4
+  },
+  {
+   "name": "Missy Payne",
+   "short": "Missy",
+   "id": "US0440",
+   "place": 3
+  },
+  {
+   "name": "Jaclyn Schultz",
+   "short": "Jaclyn",
+   "id": "US0441",
+   "place": 2
+  },
+  {
+   "name": "Natalie Anderson",
+   "short": "Natalie",
+   "id": "US0442",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Natalie Anderson",
+  "Jaclyn Schultz",
+  "Missy Payne"
+ ],
+ "forfeit": [
+  "Julie McGee"
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 2,
+   "eliminated": "Val Collins",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Drew Christy",
+      "Jeremy Collins",
+      "Jon Misch",
+      "Julie McGee",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Missy Payne",
+      "Natalie Anderson",
+      "Reed Kelly"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Drew Christy",
+      "Jeremy Collins",
+      "Jon Misch",
+      "Julie McGee",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Missy Payne",
+      "Natalie Anderson",
+      "Reed Kelly"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "John Rocker",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Val Collins",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "John Rocker",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Dale Wentworth",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Josh Canfield",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Wes Nale",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Alec Christy",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Baylor Wilson"
+      }
+     ],
+     [
+      {
+       "voter": "John Rocker",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Dale Wentworth",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Josh Canfield",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Wes Nale",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Alec Christy",
+       "target": "Val Collins"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Baylor Wilson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 3,
+   "eliminated": "John Rocker",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Drew Christy",
+      "Jeremy Collins",
+      "Jon Misch",
+      "Julie McGee",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Missy Payne",
+      "Natalie Anderson",
+      "Reed Kelly"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Alec Christy",
+      "Baylor Wilson",
+      "Dale Wentworth",
+      "Jaclyn Schultz",
+      "Josh Canfield",
+      "Wes Nale"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "John Rocker",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "John Rocker",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Dale Wentworth",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Josh Canfield",
+       "target": "John Rocker"
+      },
+      {
+       "voter": "Wes Nale",
+       "target": "John Rocker"
+      },
+      {
+       "voter": "Alec Christy",
+       "target": "John Rocker"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "John Rocker"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "John Rocker"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 4,
+   "eliminated": "Drew Christy",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alec Christy",
+      "Baylor Wilson",
+      "Dale Wentworth",
+      "Jaclyn Schultz",
+      "Josh Canfield",
+      "Wes Nale"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Drew Christy",
+      "Jeremy Collins",
+      "Jon Misch",
+      "Julie McGee",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Missy Payne",
+      "Natalie Anderson",
+      "Reed Kelly"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Keith Nale",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Drew Christy",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Drew Christy"
+      },
+      {
+       "voter": "Julie McGee",
+       "target": "Drew Christy"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Drew Christy"
+      },
+      {
+       "voter": "Reed Kelly",
+       "target": "Julie McGee"
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Julie McGee"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Drew Christy"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Drew Christy"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Kelley Wentworth",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alec Christy",
+      "Jeremy Collins",
+      "Josh Canfield",
+      "Julie McGee",
+      "Natalie Anderson",
+      "Reed Kelly",
+      "Wes Nale"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Dale Wentworth",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Dale Wentworth"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Dale Wentworth"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Kelley Wentworth"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 6,
+   "eliminated": "Dale Wentworth",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alec Christy",
+      "Jeremy Collins",
+      "Josh Canfield",
+      "Julie McGee",
+      "Natalie Anderson",
+      "Reed Kelly",
+      "Wes Nale"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Alec Christy",
+      "Jeremy Collins",
+      "Josh Canfield",
+      "Julie McGee",
+      "Natalie Anderson",
+      "Reed Kelly",
+      "Wes Nale"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Dale Wentworth",
+       "target": "Missy Payne"
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Dale Wentworth"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Dale Wentworth"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Dale Wentworth"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Julie McGee",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Keith Nale"
+     ]
+    }
+   ],
+   "specials": []
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Josh Canfield",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Jeremy Collins"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Jeremy Collins",
+      "Keith Nale",
+      "Natalie Anderson",
+      "Reed Kelly",
+      "Wes Nale"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jon Misch",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Josh Canfield",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Josh Canfield"
+      },
+      {
+       "voter": "Wes Nale",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Reed Kelly",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Alec Christy",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Josh Canfield"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Josh Canfield"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Josh Canfield"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Josh Canfield"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Josh Canfield"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Jeremy Collins",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Baylor Wilson"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Alec Christy",
+      "Baylor Wilson",
+      "Jeremy Collins",
+      "Natalie Anderson",
+      "Reed Kelly"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeremy Collins",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Wes Nale",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Reed Kelly",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Alec Christy",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Keith Nale"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Wes Nale",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Reed Kelly"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Alec Christy",
+      "Jaclyn Schultz",
+      "Jon Misch",
+      "Reed Kelly"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Natalie Anderson",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Wes Nale",
+       "target": "Jon Misch",
+       "negated": true
+      },
+      {
+       "voter": "Reed Kelly",
+       "target": "Jon Misch",
+       "negated": true
+      },
+      {
+       "voter": "Alec Christy",
+       "target": "Jon Misch",
+       "negated": true
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Wes Nale"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Keith Nale",
+       "negated": true
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Jon Misch",
+       "negated": true
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Keith Nale",
+       "negated": true
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Wes Nale"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Keith Nale",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Keith Nale",
+      "for": "Keith Nale",
+      "votes_negated": 3
+     },
+     {
+      "player": "Jon Misch",
+      "for": "Jon Misch",
+      "votes_negated": 4
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Reed Kelly",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Keith Nale"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Missy Payne"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jon Misch",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Reed Kelly",
+       "target": "Missy Payne"
+      },
+      {
+       "voter": "Alec Christy",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Reed Kelly"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Reed Kelly"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Alec Christy",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Jon Misch"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Natalie Anderson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alec Christy",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Jon Misch",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Alec Christy"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Alec Christy"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Alec Christy"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Alec Christy"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Jon Misch",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Natalie Anderson"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Jon Misch",
+      "Keith Nale",
+      "Missy Payne"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Jon Misch",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jon Misch",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Baylor Wilson",
+       "target": "Jaclyn Schultz"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Jon Misch"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Jaclyn Schultz"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Jon Misch"
+      }
+     ],
+     [
+      {
+       "voter": "Baylor Wilson",
+       "target": "Jon Misch"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Jaclyn Schultz"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Jon Misch"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 14,
+   "eliminated": "Baylor Wilson",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Keith Nale"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Keith Nale"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Baylor Wilson",
+       "target": "Jaclyn Schultz",
+       "negated": true
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Jaclyn Schultz",
+       "negated": true
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Jaclyn Schultz",
+       "negated": true
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Baylor Wilson"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Baylor Wilson"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Natalie Anderson",
+      "for": "Jaclyn Schultz",
+      "votes_negated": 3
+     }
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 14,
+   "eliminated": "Keith Nale",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Jaclyn Schultz"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Keith Nale",
+       "target": "Missy Payne"
+      },
+      {
+       "voter": "Missy Payne",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Jaclyn Schultz",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Keith Nale"
+      }
+     ]
+    ]
+   },
+   "jury": {
+    "Jon Misch": "Jaclyn Schultz",
+    "Reed Kelly": "Jaclyn Schultz",
+    "Baylor Wilson": "Missy Payne",
+    "Alec Christy": "Natalie Anderson",
+    "Jeremy Collins": "Natalie Anderson",
+    "Josh Canfield": "Natalie Anderson",
+    "Keith Nale": "Natalie Anderson",
+    "Wes Nale": "Natalie Anderson"
+   }
+  }
+ ],
+ "review": []
+}

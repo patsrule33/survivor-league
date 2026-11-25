@@ -1,0 +1,975 @@
+{
+ "season": 47,
+ "title": "Survivor 47",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Kishan Patel",
+   "short": "Kishan",
+   "id": "US0705",
+   "place": 15
+  },
+  {
+   "name": "Anika Dhar",
+   "short": "Anika",
+   "id": "US0699",
+   "place": 14
+  },
+  {
+   "name": "Rome Cooney",
+   "short": "Rome",
+   "id": "US0708",
+   "place": 13
+  },
+  {
+   "name": "Tiyana Hallums",
+   "short": "Tiyana",
+   "id": "US0714",
+   "place": 12
+  },
+  {
+   "name": "Sierra Wright",
+   "short": "Sierra",
+   "id": "US0710",
+   "place": 11
+  },
+  {
+   "name": "Sol Yi",
+   "short": "Sol",
+   "id": "US0711",
+   "place": 10
+  },
+  {
+   "name": "Gabe Ortis",
+   "short": "Gabe",
+   "id": "US0702",
+   "place": 9
+  },
+  {
+   "name": "Kyle Ostwald",
+   "short": "Kyle",
+   "id": "US0706",
+   "place": 8
+  },
+  {
+   "name": "Caroline Vidmar",
+   "short": "Caroline",
+   "id": "US0701",
+   "place": 7
+  },
+  {
+   "name": "Andy Rueda",
+   "short": "Andy",
+   "id": "US0698",
+   "place": 6
+  },
+  {
+   "name": "Genevieve Mushaluk",
+   "short": "Genevieve",
+   "id": "US0703",
+   "place": 5
+  },
+  {
+   "name": "Teeny Chirichillo",
+   "short": "Teeny",
+   "id": "US0713",
+   "place": 4
+  },
+  {
+   "name": "Sue Smey",
+   "short": "Sue",
+   "id": "US0712",
+   "place": 3
+  },
+  {
+   "name": "Sam Phalen",
+   "short": "Sam",
+   "id": "US0709",
+   "place": 2
+  },
+  {
+   "name": "Rachel LaMont",
+   "short": "Rachel",
+   "id": "US0707",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Rachel LaMont",
+  "Sam Phalen",
+  "Sue Smey"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 4,
+   "eliminated": "Kishan Patel",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Andy Rueda",
+      "Anika Dhar",
+      "Rachel LaMont",
+      "Sam Phalen",
+      "Sierra Wright"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Caroline Vidmar",
+      "Gabe Ortis",
+      "Kyle Ostwald",
+      "Sue Smey",
+      "Tiyana Hallums"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Sue Smey",
+     "source": "survivoR"
+    },
+    {
+     "type": "advantage_used",
+     "player": "Rome Cooney",
+     "source": "override"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Kishan Patel"
+      },
+      {
+       "voter": "Rome Cooney",
+       "target": "Kishan Patel"
+      },
+      {
+       "voter": "Rome Cooney",
+       "target": "Kishan Patel"
+      },
+      {
+       "voter": "Sol Yi",
+       "target": "Kishan Patel"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 5,
+   "eliminated": "Anika Dhar",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Caroline Vidmar",
+      "Gabe Ortis",
+      "Kyle Ostwald",
+      "Sue Smey",
+      "Tiyana Hallums"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Genevieve Mushaluk",
+      "Rome Cooney",
+      "Sol Yi",
+      "Teeny Chirichillo"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Caroline Vidmar",
+      "Kyle Ostwald",
+      "Rachel LaMont",
+      "Sam Phalen",
+      "Sue Smey",
+      "Teeny Chirichillo",
+      "Tiyana Hallums"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Anika Dhar"
+      },
+      {
+       "voter": "Rachel LaMont",
+       "target": "Andy Rueda"
+      },
+      {
+       "voter": "Sam Phalen",
+       "target": "Anika Dhar"
+      },
+      {
+       "voter": "Sierra Wright",
+       "target": "Anika Dhar"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 6,
+   "eliminated": "Rome Cooney",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kyle Ostwald"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Genevieve Mushaluk",
+      "Kyle Ostwald",
+      "Rachel LaMont",
+      "Sam Phalen",
+      "Sierra Wright",
+      "Sue Smey",
+      "Teeny Chirichillo"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Rachel LaMont",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Sam Phalen",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Sierra Wright",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Rome Cooney",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Sol Yi",
+       "target": "Andy Rueda"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Caroline Vidmar",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Gabe Ortis",
+       "target": "Rome Cooney"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Andy Rueda"
+      },
+      {
+       "voter": "Tiyana Hallums",
+       "target": "Rome Cooney"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 7,
+   "eliminated": "Tiyana Hallums",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kyle Ostwald"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Andy Rueda",
+      "Genevieve Mushaluk",
+      "Sam Phalen",
+      "Sierra Wright",
+      "Sol Yi",
+      "Teeny Chirichillo"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "advantage_used",
+     "player": "Sol Yi",
+     "source": "override"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Gabe Ortis",
+       "target": "Tiyana Hallums"
+      },
+      {
+       "voter": "Kyle Ostwald",
+       "target": "Tiyana Hallums"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Tiyana Hallums"
+      },
+      {
+       "voter": "Tiyana Hallums",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Caroline Vidmar",
+       "target": "Tiyana Hallums"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 8,
+   "eliminated": "Sierra Wright",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kyle Ostwald",
+      "Sue Smey"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Rachel LaMont",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Sierra Wright",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Sol Yi",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Caroline Vidmar",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Gabe Ortis",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Kyle Ostwald",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Sierra Wright"
+      }
+     ],
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Sierra Wright",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Sol Yi",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Caroline Vidmar",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Gabe Ortis",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Kyle Ostwald",
+       "target": "Sierra Wright"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Sierra Wright"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 9,
+   "eliminated": "Sol Yi",
+   "challenges": [
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Gabe Ortis",
+      "Kyle Ostwald",
+      "Sol Yi",
+      "Teeny Chirichillo"
+     ]
+    },
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Gabe Ortis"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Sol Yi"
+      },
+      {
+       "voter": "Rachel LaMont",
+       "target": "Sol Yi"
+      },
+      {
+       "voter": "Sam Phalen",
+       "target": "Sol Yi"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Sol Yi"
+      },
+      {
+       "voter": "Sol Yi",
+       "target": "Sue Smey"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Sol Yi"
+      },
+      {
+       "voter": "Gabe Ortis",
+       "target": "Sol Yi"
+      },
+      {
+       "voter": "Kyle Ostwald",
+       "target": "Sol Yi"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Sol Yi"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 10,
+   "eliminated": "Gabe Ortis",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kyle Ostwald"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Kyle Ostwald",
+      "Rachel LaMont",
+      "Sam Phalen"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Rachel LaMont",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Sam Phalen",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Caroline Vidmar",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Gabe Ortis",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Kyle Ostwald",
+       "target": "Gabe Ortis"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Genevieve Mushaluk"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 11,
+   "eliminated": "Kyle Ostwald",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rachel LaMont"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Rachel LaMont",
+       "target": "Kyle Ostwald"
+      },
+      {
+       "voter": "Sam Phalen",
+       "target": "Kyle Ostwald"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Kyle Ostwald"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Kyle Ostwald"
+      },
+      {
+       "voter": "Caroline Vidmar",
+       "target": "Kyle Ostwald"
+      },
+      {
+       "voter": "Kyle Ostwald",
+       "target": "Teeny Chirichillo"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Kyle Ostwald"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 12,
+   "eliminated": "Caroline Vidmar",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rachel LaMont"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Sam Phalen"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Caroline Vidmar"
+      },
+      {
+       "voter": "Rachel LaMont",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Sam Phalen",
+       "target": "Caroline Vidmar"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Caroline Vidmar"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Caroline Vidmar",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Sam Phalen"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 13,
+   "eliminated": "Andy Rueda",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Genevieve Mushaluk"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Andy Rueda",
+       "target": "Rachel LaMont",
+       "negated": true
+      },
+      {
+       "voter": "Rachel LaMont",
+       "target": "Andy Rueda"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Rachel LaMont",
+       "negated": true
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Rachel LaMont",
+       "negated": true
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Andy Rueda"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Rachel LaMont",
+      "for": "Rachel LaMont",
+      "votes_negated": 3
+     }
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 13,
+   "eliminated": "Genevieve Mushaluk",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rachel LaMont"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rachel LaMont",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Sam Phalen",
+       "target": "Genevieve Mushaluk"
+      },
+      {
+       "voter": "Genevieve Mushaluk",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Teeny Chirichillo",
+       "target": "Sam Phalen"
+      },
+      {
+       "voter": "Sue Smey",
+       "target": "Genevieve Mushaluk"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Sue Smey",
+      "for": "Sue Smey",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 14,
+   "eliminated": "Teeny Chirichillo",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rachel LaMont"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Andy Rueda": "Rachel LaMont",
+    "Caroline Vidmar": "Rachel LaMont",
+    "Gabe Ortis": "Rachel LaMont",
+    "Genevieve Mushaluk": "Rachel LaMont",
+    "Sierra Wright": "Rachel LaMont",
+    "Sol Yi": "Rachel LaMont",
+    "Teeny Chirichillo": "Rachel LaMont",
+    "Kyle Ostwald": "Sam Phalen"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 1,
+   "advantage": "Steal a Vote",
+   "event": "Played",
+   "castaway": "Rome",
+   "played_for": "Kishan",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 1,
+   "advantage": "Amulet",
+   "event": "Found",
+   "castaway": "Teeny",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 3,
+   "advantage": "Amulet",
+   "event": "Played",
+   "castaway": "Teeny",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 1,
+   "advantage": "Amulet",
+   "event": "Found",
+   "castaway": "Caroline",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 3,
+   "advantage": "Amulet",
+   "event": "Played",
+   "castaway": "Caroline",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 1,
+   "advantage": "Amulet",
+   "event": "Found",
+   "castaway": "Andy",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 3,
+   "advantage": "Amulet",
+   "event": "Played",
+   "castaway": "Andy",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 3,
+   "advantage": "Challenge Advantage",
+   "event": "Found",
+   "castaway": "Genevieve",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 3,
+   "advantage": "Challenge Advantage",
+   "event": "Played",
+   "castaway": "Genevieve",
+   "played_for": "Genevieve",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Found",
+   "castaway": "Teeny, Caroline, Andy",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Created when the three amulets were used together"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Played",
+   "castaway": "Teeny, Caroline, Andy",
+   "played_for": "Teeny",
+   "success": "Not needed",
+   "votes_nullified": 0,
+   "location": "Created when the three amulets were used together"
+  },
+  {
+   "week": 4,
+   "advantage": "Safety without Power",
+   "event": "Found",
+   "castaway": "Sol",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "At reward"
+  },
+  {
+   "week": 4,
+   "advantage": "Safety without Power",
+   "event": "Played",
+   "castaway": "Sol",
+   "played_for": "Rachel",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "At reward"
+  },
+  {
+   "week": 8,
+   "advantage": "Block a Vote",
+   "event": "Found",
+   "castaway": "Rachel",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  },
+  {
+   "week": 10,
+   "advantage": "Block a Vote",
+   "event": "Played",
+   "castaway": "Rachel",
+   "played_for": "Sam",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Won on Journey"
+  }
+ ]
+}

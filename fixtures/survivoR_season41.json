@@ -1,0 +1,969 @@
+{
+ "season": 41,
+ "title": "Survivor 41",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "David Voce",
+   "short": "Voce",
+   "id": "US0607",
+   "place": 16
+  },
+  {
+   "name": "Brad Reese",
+   "short": "Brad",
+   "id": "US0602",
+   "place": 15
+  },
+  {
+   "name": "Jairus Robinson",
+   "short": "JD",
+   "id": "US0603",
+   "place": 14
+  },
+  {
+   "name": "Genie Chen",
+   "short": "Genie",
+   "id": "US0595",
+   "place": 13
+  },
+  {
+   "name": "Sydney Segal",
+   "short": "Sydney",
+   "id": "US0605",
+   "place": 12
+  },
+  {
+   "name": "Tiffany Seely",
+   "short": "Tiffany",
+   "id": "US0604",
+   "place": 11
+  },
+  {
+   "name": "Naseer Muttalif",
+   "short": "Naseer",
+   "id": "US0600",
+   "place": 10
+  },
+  {
+   "name": "Evvie Jagoda",
+   "short": "Evvie",
+   "id": "US0598",
+   "place": 9
+  },
+  {
+   "name": "Shantel Smith",
+   "short": "Shan",
+   "id": "US0606",
+   "place": 8
+  },
+  {
+   "name": "Liana Wallace",
+   "short": "Liana",
+   "id": "US0608",
+   "place": 7
+  },
+  {
+   "name": "Danny McCray",
+   "short": "Danny",
+   "id": "US0599",
+   "place": 6
+  },
+  {
+   "name": "Ricard Foye",
+   "short": "Ricard",
+   "id": "US0596",
+   "place": 5
+  },
+  {
+   "name": "Heather Aldret",
+   "short": "Heather",
+   "id": "US0593",
+   "place": 4
+  },
+  {
+   "name": "Xander Hastings",
+   "short": "Xander",
+   "id": "US0597",
+   "place": 3
+  },
+  {
+   "name": "Deshawn Radden",
+   "short": "Deshawn",
+   "id": "US0601",
+   "place": 2
+  },
+  {
+   "name": "Erika Casupanan",
+   "short": "Erika",
+   "id": "US0594",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Erika Casupanan",
+  "Deshawn Radden",
+  "Xander Hastings"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 2,
+   "eliminated": "David Voce",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Danny McCray",
+      "Deshawn Radden",
+      "Erika Casupanan",
+      "Heather Aldret",
+      "Naseer Muttalif",
+      "Sydney Segal"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Brad Reese",
+      "Genie Chen",
+      "Jairus Robinson",
+      "Ricard Foye",
+      "Shantel Smith"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Evvie Jagoda",
+       "target": "David Voce"
+      },
+      {
+       "voter": "Tiffany Seely",
+       "target": "David Voce"
+      },
+      {
+       "voter": "David Voce",
+       "target": "Tiffany Seely"
+      },
+      {
+       "voter": "Liana Wallace",
+       "target": "David Voce"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 3,
+   "eliminated": "Brad Reese",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Danny McCray",
+      "Deshawn Radden",
+      "Erika Casupanan",
+      "Heather Aldret",
+      "Naseer Muttalif",
+      "Sydney Segal"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Evvie Jagoda",
+      "Liana Wallace",
+      "Tiffany Seely",
+      "Xander Hastings"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Brad Reese",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Genie Chen",
+       "target": "Jairus Robinson"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Brad Reese"
+      },
+      {
+       "voter": "Jairus Robinson",
+       "target": "Brad Reese"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Brad Reese"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 4,
+   "eliminated": "Jairus Robinson",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Evvie Jagoda",
+      "Liana Wallace",
+      "Tiffany Seely",
+      "Xander Hastings"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Danny McCray",
+      "Deshawn Radden",
+      "Erika Casupanan",
+      "Heather Aldret",
+      "Naseer Muttalif",
+      "Sydney Segal"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Genie Chen",
+      "Jairus Robinson",
+      "Ricard Foye",
+      "Shantel Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Evvie Jagoda",
+      "Liana Wallace",
+      "Tiffany Seely",
+      "Xander Hastings"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Genie Chen",
+       "target": "Jairus Robinson"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Jairus Robinson"
+      },
+      {
+       "voter": "Jairus Robinson",
+       "target": "Genie Chen"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Jairus Robinson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Genie Chen",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Evvie Jagoda",
+      "Liana Wallace",
+      "Tiffany Seely",
+      "Xander Hastings"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Danny McCray",
+      "Deshawn Radden",
+      "Erika Casupanan",
+      "Heather Aldret",
+      "Naseer Muttalif",
+      "Sydney Segal"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Xander Hastings",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Shantel Smith",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Naseer Muttalif",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Genie Chen",
+       "target": "Ricard Foye"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Genie Chen"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Genie Chen"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Sydney Segal",
+   "challenges": [
+    {
+     "type": "group_immunity",
+     "players": [
+      "Danny McCray",
+      "Deshawn Radden",
+      "Evvie Jagoda",
+      "Naseer Muttalif",
+      "Ricard Foye",
+      "Sydney Segal"
+     ]
+    },
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ricard Foye"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Sydney Segal"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Sydney Segal"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Evvie Jagoda"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Deshawn Radden"
+      },
+      {
+       "voter": "Evvie Jagoda",
+       "target": "Deshawn Radden"
+      },
+      {
+       "voter": "Danny McCray",
+       "target": "Evvie Jagoda"
+      },
+      {
+       "voter": "Naseer Muttalif",
+       "target": "Sydney Segal"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Evvie Jagoda"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Evvie Jagoda"
+      },
+      {
+       "voter": "Tiffany Seely",
+       "target": "Deshawn Radden"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Sydney Segal"
+      },
+      {
+       "voter": "Liana Wallace",
+       "target": "Sydney Segal"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "Tiffany Seely",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Evvie Jagoda"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Danny McCray",
+      "Deshawn Radden",
+      "Erika Casupanan",
+      "Evvie Jagoda",
+      "Ricard Foye"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Tiffany Seely"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Tiffany Seely"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Tiffany Seely"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Heather Aldret"
+      },
+      {
+       "voter": "Evvie Jagoda",
+       "target": "Heather Aldret"
+      },
+      {
+       "voter": "Danny McCray",
+       "target": "Xander Hastings"
+      },
+      {
+       "voter": "Naseer Muttalif",
+       "target": "Xander Hastings"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Tiffany Seely"
+      },
+      {
+       "voter": "Tiffany Seely",
+       "target": "Naseer Muttalif"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Tiffany Seely"
+      },
+      {
+       "voter": "Liana Wallace",
+       "target": "Tiffany Seely"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Naseer Muttalif",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Erika Casupanan",
+      "Xander Hastings"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Danny McCray",
+      "Deshawn Radden",
+      "Evvie Jagoda",
+      "Liana Wallace"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Naseer Muttalif",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Naseer Muttalif"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Naseer Muttalif"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Heather Aldret"
+      },
+      {
+       "voter": "Naseer Muttalif",
+       "target": "Heather Aldret"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Heather Aldret"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Naseer Muttalif"
+      }
+     ],
+     [
+      {
+       "voter": "Erika Casupanan",
+       "target": "Naseer Muttalif"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Naseer Muttalif"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Naseer Muttalif"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Naseer Muttalif"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Evvie Jagoda",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Xander Hastings",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Evvie Jagoda",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Danny McCray",
+       "target": "Evvie Jagoda"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Evvie Jagoda"
+      },
+      {
+       "voter": "Liana Wallace",
+       "target": "Evvie Jagoda"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Shantel Smith",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ricard Foye"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Ricard Foye"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Shantel Smith",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Danny McCray",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Shantel Smith",
+       "target": "Erika Casupanan"
+      },
+      {
+       "voter": "Liana Wallace",
+       "target": "Erika Casupanan"
+      }
+     ],
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Danny McCray",
+       "target": "Shantel Smith"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Shantel Smith"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Liana Wallace",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Danny McCray"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Liana Wallace"
+      },
+      {
+       "voter": "Danny McCray",
+       "target": "Ricard Foye"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Ricard Foye"
+      },
+      {
+       "voter": "Liana Wallace",
+       "target": "Ricard Foye"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Danny McCray",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ricard Foye"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Deshawn Radden",
+      "Erika Casupanan",
+      "Xander Hastings"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Danny McCray"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Danny McCray"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Deshawn Radden"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Deshawn Radden"
+      },
+      {
+       "voter": "Danny McCray",
+       "target": "Deshawn Radden"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Danny McCray"
+      }
+     ],
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Danny McCray"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Danny McCray"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Danny McCray"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Danny McCray"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Ricard Foye",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Erika Casupanan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Heather Aldret",
+       "target": "Ricard Foye"
+      },
+      {
+       "voter": "Erika Casupanan",
+       "target": "Ricard Foye"
+      },
+      {
+       "voter": "Ricard Foye",
+       "target": "Deshawn Radden"
+      },
+      {
+       "voter": "Xander Hastings",
+       "target": "Ricard Foye"
+      },
+      {
+       "voter": "Deshawn Radden",
+       "target": "Ricard Foye"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Xander Hastings",
+      "for": "Xander Hastings",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Heather Aldret",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Xander Hastings"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Danny McCray": "Deshawn Radden",
+    "Evvie Jagoda": "Erika Casupanan",
+    "Heather Aldret": "Erika Casupanan",
+    "Liana Wallace": "Erika Casupanan",
+    "Naseer Muttalif": "Erika Casupanan",
+    "Ricard Foye": "Erika Casupanan",
+    "Shantel Smith": "Erika Casupanan",
+    "Tiffany Seely": "Erika Casupanan"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 10,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Xander",
+   "played_for": "Liana",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 7,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Shan",
+   "played_for": "Naseer",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 1,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Deshawn",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 5,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Deshawn",
+   "played_for": "Evvie",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 2,
+   "advantage": "Steal a Vote",
+   "event": "Found",
+   "castaway": "Brad",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 4,
+   "advantage": "Knowledge is Power",
+   "event": "Found",
+   "castaway": "Liana",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 5,
+   "advantage": "Knowledge is Power",
+   "event": "Played",
+   "castaway": "Liana",
+   "played_for": "Xander",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

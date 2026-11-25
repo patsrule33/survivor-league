@@ -1,0 +1,1130 @@
+{
+ "season": 38,
+ "title": "Survivor 38",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Aubry Bracco",
+   "short": "Aubry",
+   "id": "US0477",
+   "place": 16
+  },
+  {
+   "name": "Wendy Diaz",
+   "short": "Wendy",
+   "id": "US0561",
+   "place": 15
+  },
+  {
+   "name": "Joe Anglim",
+   "short": "Joe",
+   "id": "US0451",
+   "place": 14
+  },
+  {
+   "name": "Eric Hafemann",
+   "short": "Eric",
+   "id": "US0562",
+   "place": 13
+  },
+  {
+   "name": "Julia Carter",
+   "short": "Julia",
+   "id": "US0563",
+   "place": 12
+  },
+  {
+   "name": "David Wright",
+   "short": "David",
+   "id": "US0495",
+   "place": 11
+  },
+  {
+   "name": "Kelley Wentworth",
+   "short": "Kelley",
+   "id": "US0429",
+   "place": 10
+  },
+  {
+   "name": "Dan DaSilva",
+   "short": "Wardog",
+   "id": "US0564",
+   "place": 9
+  },
+  {
+   "name": "Ron Clark",
+   "short": "Ron",
+   "id": "US0565",
+   "place": 8
+  },
+  {
+   "name": "Aurora McCreary",
+   "short": "Aurora",
+   "id": "US0566",
+   "place": 7
+  },
+  {
+   "name": "Victoria Baamonde",
+   "short": "Victoria",
+   "id": "US0567",
+   "place": 6
+  },
+  {
+   "name": "Lauren O'Connell",
+   "short": "Lauren",
+   "id": "US0568",
+   "place": 5
+  },
+  {
+   "name": "Rick Devens",
+   "short": "Rick",
+   "id": "US0560",
+   "place": 4
+  },
+  {
+   "name": "Julie Rosenberg",
+   "short": "Julie",
+   "id": "US0569",
+   "place": 3
+  },
+  {
+   "name": "Gavin Whitson",
+   "short": "Gavin",
+   "id": "US0570",
+   "place": 2
+  },
+  {
+   "name": "Chris Underwood",
+   "short": "Chris",
+   "id": "US0559",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Chris Underwood",
+  "Gavin Whitson",
+  "Julie Rosenberg"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Chris Underwood",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Julie Rosenberg"
+     ]
+    },
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aubry Bracco",
+      "Aurora McCreary",
+      "Eric Hafemann",
+      "Gavin Whitson",
+      "Joe Anglim",
+      "Julia Carter",
+      "Julie Rosenberg",
+      "Ron Clark",
+      "Victoria Baamonde"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Chris Underwood",
+      "Dan DaSilva",
+      "David Wright",
+      "Kelley Wentworth",
+      "Lauren O'Connell",
+      "Rick Devens",
+      "Wendy Diaz"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Aubry Bracco",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Chris Underwood"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Chris Underwood"
+      },
+      {
+       "voter": "Chris Underwood",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Chris Underwood"
+      },
+      {
+       "voter": "Wendy Diaz",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Chris Underwood"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Chris Underwood"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Rick Devens",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aurora McCreary",
+      "Joe Anglim",
+      "Julia Carter",
+      "Julie Rosenberg",
+      "Ron Clark"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Aubry Bracco",
+      "Eric Hafemann",
+      "Gavin Whitson",
+      "Victoria Baamonde",
+      "Wendy Diaz"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Rick Devens"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "Aubry Bracco",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aurora McCreary",
+      "Joe Anglim",
+      "Julia Carter",
+      "Julie Rosenberg",
+      "Ron Clark"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Dan DaSilva",
+      "David Wright",
+      "Kelley Wentworth",
+      "Lauren O'Connell"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aurora McCreary",
+      "Joe Anglim",
+      "Julia Carter",
+      "Julie Rosenberg",
+      "Ron Clark"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Aubry Bracco",
+      "Eric Hafemann",
+      "Gavin Whitson",
+      "Victoria Baamonde",
+      "Wendy Diaz"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Aubry Bracco",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Wendy Diaz",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Eric Hafemann",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Aubry Bracco"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Wendy Diaz",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aurora McCreary",
+      "Joe Anglim",
+      "Julia Carter",
+      "Julie Rosenberg",
+      "Ron Clark"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aurora McCreary",
+      "Joe Anglim",
+      "Julia Carter",
+      "Julie Rosenberg",
+      "Ron Clark"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Eric Hafemann",
+      "Gavin Whitson",
+      "Victoria Baamonde",
+      "Wendy Diaz"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Rick Devens",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Wendy Diaz",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Eric Hafemann",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Lauren O'Connell"
+      }
+     ],
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Eric Hafemann",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Wendy Diaz"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Wendy Diaz"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 6,
+   "eliminated": "Joe Anglim",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Aurora McCreary"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Aurora McCreary",
+      "Dan DaSilva",
+      "Eric Hafemann",
+      "Julia Carter",
+      "Rick Devens",
+      "Victoria Baamonde"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Eric Hafemann",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Julia Carter",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Ron Clark",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "Rick Devens"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Joe Anglim"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Eric Hafemann",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Gavin Whitson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Eric Hafemann"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Eric Hafemann"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Eric Hafemann",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Julia Carter",
+       "target": "Eric Hafemann"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Eric Hafemann"
+      },
+      {
+       "voter": "Ron Clark",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "Eric Hafemann"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Eric Hafemann"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Eric Hafemann"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Eric Hafemann"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Rick Devens",
+      "for": "David Wright",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Julia Carter",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Aurora McCreary"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "Julia Carter",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "Ron Clark",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "David Wright",
+       "negated": true
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Julia Carter"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Julia Carter"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "David Wright",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rick Devens"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Gavin Whitson",
+      "Julie Rosenberg",
+      "Kelley Wentworth",
+      "Lauren O'Connell"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Kelley Wentworth",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "David Wright"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Dan DaSilva"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Dan DaSilva"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Ron Clark",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "David Wright"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 9,
+   "eliminated": "Kelley Wentworth",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rick Devens"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Dan DaSilva",
+      "Julie Rosenberg",
+      "Lauren O'Connell",
+      "Rick Devens"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Ron Clark",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Aurora McCreary"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 10,
+   "eliminated": "Dan DaSilva",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Gavin Whitson"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Ron Clark"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Rick Devens",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rick Devens",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Dan DaSilva",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Ron Clark",
+       "target": "Dan DaSilva"
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "Dan DaSilva"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Dan DaSilva"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Dan DaSilva"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Dan DaSilva"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Dan DaSilva"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Rick Devens",
+      "for": "Rick Devens",
+      "votes_negated": 4
+     }
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 11,
+   "eliminated": "Ron Clark",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rick Devens"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Gavin Whitson"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Chris Underwood",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Rick Devens",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rick Devens",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Ron Clark",
+       "target": "Rick Devens",
+       "negated": true
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "Rick Devens",
+       "negated": true
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Rick Devens",
+       "negated": true
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Ron Clark"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Rick Devens",
+       "negated": true
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Ron Clark"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Ron Clark"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Lauren O'Connell",
+      "for": "Chris Underwood",
+      "votes_negated": 1
+     },
+     {
+      "player": "Rick Devens",
+      "for": "Rick Devens",
+      "votes_negated": 3
+     },
+     {
+      "player": "Gavin Whitson",
+      "for": "Gavin Whitson",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 12,
+   "eliminated": "Aurora McCreary",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Rick Devens"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rick Devens",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Aurora McCreary",
+       "target": "Julie Rosenberg"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Aurora McCreary"
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Aurora McCreary"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Chris Underwood",
+      "for": "Chris Underwood",
+      "votes_negated": 3
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Victoria Baamonde",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Chris Underwood"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chris Underwood",
+       "target": "Victoria Baamonde"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Victoria Baamonde"
+      },
+      {
+       "voter": "Victoria Baamonde",
+       "target": "Chris Underwood",
+       "negated": true
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Rick Devens",
+       "negated": true
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Rick Devens",
+       "negated": true
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Rick Devens",
+       "negated": true
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 13,
+   "eliminated": "Lauren O'Connell",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chris Underwood",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Rick Devens",
+       "target": "Lauren O'Connell"
+      },
+      {
+       "voter": "Lauren O'Connell",
+       "target": "Chris Underwood",
+       "negated": true
+      },
+      {
+       "voter": "Julie Rosenberg",
+       "target": "Chris Underwood",
+       "negated": true
+      },
+      {
+       "voter": "Gavin Whitson",
+       "target": "Chris Underwood",
+       "negated": true
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 15,
+   "episode": 13,
+   "eliminated": "Rick Devens",
+   "challenges": [],
+   "specials": [],
+   "jury": {
+    "Aubry Bracco": "Chris Underwood",
+    "David Wright": "Chris Underwood",
+    "Eric Hafemann": "Chris Underwood",
+    "Joe Anglim": "Chris Underwood",
+    "Julia Carter": "Chris Underwood",
+    "Reem Daly": "Chris Underwood",
+    "Ron Clark": "Chris Underwood",
+    "Victoria Baamonde": "Chris Underwood",
+    "Dan DaSilva": "Chris Underwood",
+    "Aurora McCreary": "Gavin Whitson",
+    "Kelley Wentworth": "Gavin Whitson",
+    "Lauren O'Connell": "Gavin Whitson",
+    "Rick Devens": "Gavin Whitson"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 5,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Aurora",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found on Edge of Extinction"
+  },
+  {
+   "week": 10,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Gavin",
+   "played_for": "Ron",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Found on Edge of Extinction"
+  }
+ ]
+}

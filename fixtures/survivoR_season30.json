@@ -1,0 +1,1043 @@
+{
+ "season": 30,
+ "title": "Survivor 30",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 2,
+ "survival_offset": 1,
+ "contestants": [
+  {
+   "name": "Vince Sly",
+   "short": "Vince",
+   "id": "US0444",
+   "place": 17
+  },
+  {
+   "name": "Nina Poersch",
+   "short": "Nina",
+   "id": "US0445",
+   "place": 16
+  },
+  {
+   "name": "Lindsey Cascaddan",
+   "short": "Lindsey",
+   "id": "US0446",
+   "place": 15
+  },
+  {
+   "name": "Max Dawson",
+   "short": "Max",
+   "id": "US0447",
+   "place": 14
+  },
+  {
+   "name": "Joaquin Souberbielle",
+   "short": "Joaquin",
+   "id": "US0448",
+   "place": 13
+  },
+  {
+   "name": "Kelly Remington",
+   "short": "Kelly",
+   "id": "US0449",
+   "place": 12
+  },
+  {
+   "name": "Hali Ford",
+   "short": "Hali",
+   "id": "US0450",
+   "place": 11
+  },
+  {
+   "name": "Joe Anglim",
+   "short": "Joe",
+   "id": "US0451",
+   "place": 10
+  },
+  {
+   "name": "Jenn Brown",
+   "short": "Jenn",
+   "id": "US0452",
+   "place": 9
+  },
+  {
+   "name": "Shirin Oskooi",
+   "short": "Shirin",
+   "id": "US0453",
+   "place": 8
+  },
+  {
+   "name": "Tyler Fredrickson",
+   "short": "Tyler",
+   "id": "US0454",
+   "place": 7
+  },
+  {
+   "name": "Dan Foley",
+   "short": "Dan",
+   "id": "US0455",
+   "place": 6
+  },
+  {
+   "name": "Sierra Dawn Thomas",
+   "short": "Sierra",
+   "id": "US0456",
+   "place": 5
+  },
+  {
+   "name": "Rodney Lavoie Jr.",
+   "short": "Rodney",
+   "id": "US0457",
+   "place": 4
+  },
+  {
+   "name": "Will Sims II",
+   "short": "Will",
+   "id": "US0458",
+   "place": 3
+  },
+  {
+   "name": "Carolyn Rivera",
+   "short": "Carolyn",
+   "id": "US0459",
+   "place": 2
+  },
+  {
+   "name": "Mike Holloway",
+   "short": "Mike",
+   "id": "US0460",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Mike Holloway",
+  "Carolyn Rivera",
+  "Will Sims II"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 2,
+   "eliminated": "Vince Sly",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Carolyn Rivera",
+      "Joaquin Souberbielle",
+      "Max Dawson",
+      "Shirin Oskooi",
+      "Tyler Fredrickson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Vince Sly",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Nina Poersch",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Hali Ford",
+       "target": "Vince Sly"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Nina Poersch"
+      },
+      {
+       "voter": "Jenn Brown",
+       "target": "Vince Sly"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Vince Sly"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 3,
+   "eliminated": "Nina Poersch",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Dan Foley",
+      "Kelly Remington",
+      "Lindsey Cascaddan",
+      "Mike Holloway",
+      "Rodney Lavoie Jr.",
+      "Sierra Dawn Thomas"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Carolyn Rivera",
+      "Joaquin Souberbielle",
+      "Max Dawson",
+      "Shirin Oskooi",
+      "Tyler Fredrickson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Nina Poersch",
+       "target": "Will Sims II"
+      },
+      {
+       "voter": "Hali Ford",
+       "target": "Will Sims II"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Nina Poersch"
+      },
+      {
+       "voter": "Jenn Brown",
+       "target": "Nina Poersch"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Nina Poersch"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 4,
+   "eliminated": "Lindsey Cascaddan",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Hali Ford",
+      "Jenn Brown",
+      "Joe Anglim",
+      "Will Sims II"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Carolyn Rivera",
+      "Joaquin Souberbielle",
+      "Max Dawson",
+      "Shirin Oskooi",
+      "Tyler Fredrickson"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Hali Ford",
+      "Jenn Brown",
+      "Joe Anglim",
+      "Will Sims II"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Carolyn Rivera",
+      "Joaquin Souberbielle",
+      "Max Dawson",
+      "Shirin Oskooi",
+      "Tyler Fredrickson"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jenn Brown",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Lindsey Cascaddan",
+       "target": "Rodney Lavoie Jr."
+      },
+      {
+       "voter": "Kelly Remington",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Lindsey Cascaddan"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Rodney Lavoie Jr."
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Lindsey Cascaddan"
+      }
+     ],
+     [
+      {
+       "voter": "Kelly Remington",
+       "target": "Lindsey Cascaddan"
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Lindsey Cascaddan"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Lindsey Cascaddan"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Max Dawson",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Dan Foley",
+      "Joaquin Souberbielle",
+      "Joe Anglim",
+      "Mike Holloway",
+      "Rodney Lavoie Jr.",
+      "Sierra Dawn Thomas",
+      "Tyler Fredrickson"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Dan Foley",
+      "Joaquin Souberbielle",
+      "Joe Anglim",
+      "Mike Holloway",
+      "Rodney Lavoie Jr.",
+      "Sierra Dawn Thomas",
+      "Tyler Fredrickson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Max Dawson",
+       "target": "Will Sims II"
+      },
+      {
+       "voter": "Kelly Remington",
+       "target": "Max Dawson"
+      },
+      {
+       "voter": "Hali Ford",
+       "target": "Max Dawson"
+      },
+      {
+       "voter": "Jenn Brown",
+       "target": "Max Dawson"
+      },
+      {
+       "voter": "Shirin Oskooi",
+       "target": "Will Sims II"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Max Dawson"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Max Dawson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 6,
+   "eliminated": "Joaquin Souberbielle",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Carolyn Rivera",
+      "Hali Ford",
+      "Jenn Brown",
+      "Kelly Remington",
+      "Shirin Oskooi",
+      "Will Sims II"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Carolyn Rivera",
+      "Hali Ford",
+      "Jenn Brown",
+      "Kelly Remington",
+      "Shirin Oskooi",
+      "Will Sims II"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Joaquin Souberbielle",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Joaquin Souberbielle"
+      },
+      {
+       "voter": "Tyler Fredrickson",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Joaquin Souberbielle"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Joaquin Souberbielle"
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Joaquin Souberbielle"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Kelly Remington",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Anglim"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelly Remington",
+       "target": "Jenn Brown",
+       "negated": true
+      },
+      {
+       "voter": "Hali Ford",
+       "target": "Kelly Remington"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Kelly Remington"
+      },
+      {
+       "voter": "Jenn Brown",
+       "target": "Kelly Remington"
+      },
+      {
+       "voter": "Shirin Oskooi",
+       "target": "Kelly Remington"
+      },
+      {
+       "voter": "Tyler Fredrickson",
+       "target": "Jenn Brown",
+       "negated": true
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Jenn Brown",
+       "negated": true
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Jenn Brown",
+       "negated": true
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Jenn Brown",
+       "negated": true
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Jenn Brown",
+       "negated": true
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Jenn Brown",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Jenn Brown",
+      "for": "Jenn Brown",
+      "votes_negated": 7
+     }
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Hali Ford",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Anglim"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Joe Anglim"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Mike Holloway",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Hali Ford",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Jenn Brown",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Shirin Oskooi",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Tyler Fredrickson",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Hali Ford"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Joe Anglim",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tyler Fredrickson"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Dan Foley",
+      "Mike Holloway",
+      "Shirin Oskooi",
+      "Sierra Dawn Thomas",
+      "Tyler Fredrickson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Joe Anglim",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Jenn Brown",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Shirin Oskooi",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Tyler Fredrickson",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Joe Anglim"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Jenn Brown",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Holloway"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jenn Brown",
+       "target": "Carolyn Rivera"
+      },
+      {
+       "voter": "Shirin Oskooi",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Tyler Fredrickson",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Shirin Oskooi"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Shirin Oskooi"
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Shirin Oskooi"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Jenn Brown"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Jenn Brown"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Shirin Oskooi",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Carolyn Rivera",
+      "Mike Holloway"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Carolyn Rivera",
+      "Dan Foley",
+      "Tyler Fredrickson",
+      "Will Sims II"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Shirin Oskooi",
+       "target": "Tyler Fredrickson"
+      },
+      {
+       "voter": "Tyler Fredrickson",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Shirin Oskooi"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Shirin Oskooi"
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Shirin Oskooi"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Shirin Oskooi"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Tyler Fredrickson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Tyler Fredrickson",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Carolyn Rivera"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Carolyn Rivera",
+      "Mike Holloway",
+      "Sierra Dawn Thomas"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tyler Fredrickson",
+       "target": "Mike Holloway",
+       "negated": true
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Mike Holloway",
+       "negated": true
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Tyler Fredrickson"
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Mike Holloway",
+       "negated": true
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Mike Holloway",
+       "negated": true
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Tyler Fredrickson"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Tyler Fredrickson"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Mike Holloway",
+      "for": "Mike Holloway",
+      "votes_negated": 4
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Dan Foley",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Holloway"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Carolyn Rivera",
+      "Mike Holloway",
+      "Will Sims II"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Dan Foley",
+       "target": "Carolyn Rivera",
+       "negated": true
+      },
+      {
+       "voter": "Dan Foley",
+       "target": "Carolyn Rivera",
+       "negated": true
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Carolyn Rivera",
+       "negated": true
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Carolyn Rivera",
+       "negated": true
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Carolyn Rivera",
+       "negated": true
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Dan Foley"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Dan Foley"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Carolyn Rivera",
+      "for": "Carolyn Rivera",
+      "votes_negated": 5
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 14,
+   "eliminated": "Sierra Dawn Thomas",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Holloway"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Mike Holloway"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Rodney Lavoie Jr."
+      },
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Sierra Dawn Thomas"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 14,
+   "eliminated": "Rodney Lavoie Jr.",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Holloway"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rodney Lavoie Jr.",
+       "target": "Carolyn Rivera"
+      },
+      {
+       "voter": "Will Sims II",
+       "target": "Carolyn Rivera"
+      },
+      {
+       "voter": "Carolyn Rivera",
+       "target": "Rodney Lavoie Jr."
+      },
+      {
+       "voter": "Mike Holloway",
+       "target": "Rodney Lavoie Jr."
+      }
+     ]
+    ]
+   },
+   "jury": {
+    "Sierra Dawn Thomas": "Carolyn Rivera",
+    "Dan Foley": "Mike Holloway",
+    "Hali Ford": "Mike Holloway",
+    "Jenn Brown": "Mike Holloway",
+    "Joe Anglim": "Mike Holloway",
+    "Shirin Oskooi": "Mike Holloway",
+    "Tyler Fredrickson": "Mike Holloway",
+    "Rodney Lavoie Jr.": "Will Sims II"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 9,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Dan",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Bought at Survivor Auction"
+  },
+  {
+   "week": 12,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Dan",
+   "played_for": "Carolyn",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Bought at Survivor Auction"
+  }
+ ]
+}

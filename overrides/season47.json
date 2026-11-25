@@ -1,0 +1,18 @@
+{
+ "notes": [
+  "Owner decisions layered on top of survivoR data, i.e. what the review screen would have produced for Season 47.",
+  "wk1/wk4 specials: from the review list, the owner counted Rome's vote steal and Sol's Safety without Power as 'advantage used'. Amulets, Genevieve's challenge advantage, the shared Teeny/Caroline/Andy idol and Rachel's Block a Vote were not awarded.",
+  "wk4 split-group challenge (ep 7): survivoR's data stands (6-person team reward, Kyle immunity). The owner confirmed the sheet was wrong.",
+  "wk6 challenges: survivoR is missing the ep 9 reward winners (Gabe, Kyle, Sol, Teeny) from Wikipedia."
+ ],
+ "specials": [
+  {"week": 1, "type": "advantage_used", "player": "Rome"},
+  {"week": 4, "type": "advantage_used", "player": "Sol"}
+ ],
+ "challenges": {
+  "6": [
+   {"type": "indiv_reward", "players": ["Gabe", "Kyle", "Sol", "Teeny"]},
+   {"type": "indiv_immunity", "players": ["Gabe"]}
+  ]
+ }
+}

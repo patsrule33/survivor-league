@@ -1,0 +1,1030 @@
+{
+ "season": 37,
+ "title": "Survivor 37",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 1,
+ "contestants": [
+  {
+   "name": "Bi Nguyen",
+   "short": "Bi",
+   "id": "US0540",
+   "place": 17
+  },
+  {
+   "name": "Natalia Azoqa",
+   "short": "Natalia",
+   "id": "US0541",
+   "place": 16
+  },
+  {
+   "name": "Natalie Cole",
+   "short": "Natalie",
+   "id": "US0542",
+   "place": 15
+  },
+  {
+   "name": "Lyrsa Torres",
+   "short": "Lyrsa",
+   "id": "US0543",
+   "place": 14
+  },
+  {
+   "name": "Elizabeth Olson",
+   "short": "Elizabeth",
+   "id": "US0544",
+   "place": 13
+  },
+  {
+   "name": "John Hennigan",
+   "short": "John",
+   "id": "US0545",
+   "place": 12
+  },
+  {
+   "name": "Dan Rengering",
+   "short": "Dan",
+   "id": "US0546",
+   "place": 11
+  },
+  {
+   "name": "Alec Merlino",
+   "short": "Alec",
+   "id": "US0547",
+   "place": 10
+  },
+  {
+   "name": "Carl Boudreaux",
+   "short": "Carl",
+   "id": "US0548",
+   "place": 9
+  },
+  {
+   "name": "Gabby Pascuzzi",
+   "short": "Gabby",
+   "id": "US0549",
+   "place": 8
+  },
+  {
+   "name": "Christian Hubicki",
+   "short": "Christian",
+   "id": "US0550",
+   "place": 7
+  },
+  {
+   "name": "Davie Rickenbacker",
+   "short": "Davie",
+   "id": "US0551",
+   "place": 6
+  },
+  {
+   "name": "Alison Raybould",
+   "short": "Alison",
+   "id": "US0552",
+   "place": 5
+  },
+  {
+   "name": "Kara Kay",
+   "short": "Kara",
+   "id": "US0553",
+   "place": 4
+  },
+  {
+   "name": "Angelina Keeley",
+   "short": "Angelina",
+   "id": "US0554",
+   "place": 3
+  },
+  {
+   "name": "Mike White",
+   "short": "Mike",
+   "id": "US0555",
+   "place": 2
+  },
+  {
+   "name": "Nick Wilson",
+   "short": "Nick",
+   "id": "US0556",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Nick Wilson",
+  "Mike White",
+  "Angelina Keeley"
+ ],
+ "forfeit": [
+  "Bi Nguyen"
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 4,
+   "eliminated": "Bi Nguyen",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alison Raybould",
+      "Dan Rengering",
+      "Gabby Pascuzzi",
+      "John Hennigan"
+     ]
+    }
+   ],
+   "specials": []
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Natalia Azoqa",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Natalia Azoqa",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Elizabeth Olson",
+       "target": "Natalia Azoqa"
+      },
+      {
+       "voter": "Alec Merlino",
+       "target": "Natalia Azoqa"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Natalia Azoqa"
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Davie Rickenbacker"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "Natalie Cole",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alec Merlino",
+      "Carl Boudreaux",
+      "Davie Rickenbacker",
+      "Elizabeth Olson",
+      "Kara Kay"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Alison Raybould",
+      "Christian Hubicki",
+      "Dan Rengering",
+      "Gabby Pascuzzi",
+      "John Hennigan"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Alec Merlino",
+      "Carl Boudreaux",
+      "Davie Rickenbacker",
+      "Elizabeth Olson",
+      "Kara Kay"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Angelina Keeley",
+      "Lyrsa Torres",
+      "Mike White",
+      "Natalie Cole",
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Dan Rengering",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Natalie Cole",
+       "target": "Lyrsa Torres"
+      },
+      {
+       "voter": "Lyrsa Torres",
+       "target": "Natalie Cole"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Lyrsa Torres"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Natalie Cole"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Natalie Cole"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 6,
+   "eliminated": "Lyrsa Torres",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Alison Raybould",
+      "Christian Hubicki",
+      "Dan Rengering",
+      "Gabby Pascuzzi",
+      "John Hennigan"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Alec Merlino",
+      "Carl Boudreaux",
+      "Davie Rickenbacker",
+      "Elizabeth Olson",
+      "Kara Kay"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Alison Raybould",
+      "Christian Hubicki",
+      "Dan Rengering",
+      "Gabby Pascuzzi",
+      "John Hennigan"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Angelina Keeley",
+      "Lyrsa Torres",
+      "Mike White",
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Lyrsa Torres",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Lyrsa Torres"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Lyrsa Torres"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Lyrsa Torres"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Elizabeth Olson",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Alison Raybould"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Elizabeth Olson",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "John Hennigan",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Dan Rengering",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Alec Merlino",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Carl Boudreaux",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Gabby Pascuzzi",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Alison Raybould",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Elizabeth Olson"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Elizabeth Olson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "John Hennigan",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Dan Rengering"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Alec Merlino",
+      "Alison Raybould",
+      "Christian Hubicki",
+      "Gabby Pascuzzi",
+      "John Hennigan",
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "John Hennigan",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Dan Rengering",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Alec Merlino",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Carl Boudreaux",
+       "target": "Angelina Keeley",
+       "negated": true
+      },
+      {
+       "voter": "Gabby Pascuzzi",
+       "target": "Angelina Keeley",
+       "negated": true
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "John Hennigan"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "John Hennigan"
+      },
+      {
+       "voter": "Alison Raybould",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Mike White",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "John Hennigan"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Dan Rengering",
+      "for": "Angelina Keeley",
+      "votes_negated": 2
+     },
+     {
+      "player": "Davie Rickenbacker",
+      "for": "Christian Hubicki",
+      "votes_negated": 7
+     }
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Dan Rengering",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Alec Merlino"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Alec Merlino",
+      "Dan Rengering",
+      "Davie Rickenbacker",
+      "Kara Kay",
+      "Mike White"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Christian Hubicki",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Dan Rengering",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Alec Merlino",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Carl Boudreaux",
+       "target": "Dan Rengering"
+      },
+      {
+       "voter": "Gabby Pascuzzi",
+       "target": "Dan Rengering"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Dan Rengering"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Dan Rengering"
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Angelina Keeley"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Dan Rengering"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Dan Rengering"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Dan Rengering",
+      "for": "Dan Rengering",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Alec Merlino",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Christian Hubicki"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Alec Merlino",
+      "Alison Raybould",
+      "Christian Hubicki",
+      "Gabby Pascuzzi",
+      "Mike White"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Nick Wilson",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alec Merlino",
+       "target": "Carl Boudreaux"
+      },
+      {
+       "voter": "Carl Boudreaux",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Gabby Pascuzzi",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Alison Raybould",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Alec Merlino"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Alec Merlino"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Carl Boudreaux",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Davie Rickenbacker"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Carl Boudreaux",
+      "Davie Rickenbacker",
+      "Kara Kay",
+      "Mike White"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Carl Boudreaux",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Gabby Pascuzzi",
+       "target": "Carl Boudreaux"
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Carl Boudreaux"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Alison Raybould",
+       "target": "Carl Boudreaux"
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Carl Boudreaux"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Carl Boudreaux"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Alison Raybould"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Gabby Pascuzzi",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kara Kay"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Angelina Keeley",
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Gabby Pascuzzi",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Christian Hubicki",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Alison Raybould",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Christian Hubicki",
+       "negated": true
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Gabby Pascuzzi"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Gabby Pascuzzi"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Christian Hubicki",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Christian Hubicki",
+      "for": "Christian Hubicki",
+      "votes_negated": 5
+     }
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Christian Hubicki",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike White"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Davie Rickenbacker"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Davie Rickenbacker",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Christian Hubicki",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Alison Raybould",
+       "target": "Davie Rickenbacker",
+       "negated": true
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Christian Hubicki"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Davie Rickenbacker",
+       "negated": true
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Christian Hubicki"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Nick Wilson",
+      "for": "Nick Wilson",
+      "votes_negated": 0
+     },
+     {
+      "player": "Davie Rickenbacker",
+      "for": "Davie Rickenbacker",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Davie Rickenbacker",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Angelina Keeley",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Davie Rickenbacker",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Alison Raybould",
+       "target": "Davie Rickenbacker"
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Davie Rickenbacker"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Davie Rickenbacker"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Davie Rickenbacker"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Alison Raybould"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Angelina Keeley",
+      "for": "Angelina Keeley",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Alison Raybould",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Alison Raybould",
+       "target": "Mike White"
+      },
+      {
+       "voter": "Kara Kay",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Angelina Keeley",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Mike White",
+       "target": "Alison Raybould"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Alison Raybould"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 13,
+   "eliminated": "Kara Kay",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Alison Raybould": "Mike White",
+    "Christian Hubicki": "Mike White",
+    "Kara Kay": "Mike White",
+    "Alec Merlino": "Nick Wilson",
+    "Carl Boudreaux": "Nick Wilson",
+    "Dan Rengering": "Nick Wilson",
+    "Davie Rickenbacker": "Nick Wilson",
+    "Elizabeth Olson": "Nick Wilson",
+    "Gabby Pascuzzi": "Nick Wilson",
+    "John Hennigan": "Nick Wilson"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 1,
+   "advantage": "Idol Nullifier",
+   "event": "Found",
+   "castaway": "Carl",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found on Exile"
+  },
+  {
+   "week": 7,
+   "advantage": "Idol Nullifier",
+   "event": "Played",
+   "castaway": "Carl",
+   "played_for": "Dan",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found on Exile"
+  },
+  {
+   "week": 5,
+   "advantage": "Steal a Vote",
+   "event": "Found",
+   "castaway": "Nick",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 7,
+   "advantage": "Steal a Vote",
+   "event": "Played",
+   "castaway": "Nick",
+   "played_for": "Alison",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

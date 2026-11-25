@@ -1,0 +1,1416 @@
+{
+ "season": 40,
+ "title": "Survivor 40",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 1,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Amber Mariano",
+   "short": "Amber",
+   "id": "US0027",
+   "place": 20
+  },
+  {
+   "name": "Danni Boatwright",
+   "short": "Danni",
+   "id": "US0166",
+   "place": 19
+  },
+  {
+   "name": "Ethan Zohn",
+   "short": "Ethan",
+   "id": "US0048",
+   "place": 18
+  },
+  {
+   "name": "Rob Mariano",
+   "short": "Boston Rob",
+   "id": "US0055",
+   "place": 17
+  },
+  {
+   "name": "Parvati Shallow",
+   "short": "Parvati",
+   "id": "US0197",
+   "place": 16
+  },
+  {
+   "name": "Sandra Diaz-Twine",
+   "short": "Sandra",
+   "id": "US0112",
+   "place": 15
+  },
+  {
+   "name": "Yul Kwon",
+   "short": "Yul",
+   "id": "US0202",
+   "place": 14
+  },
+  {
+   "name": "Wendell Holland",
+   "short": "Wendell",
+   "id": "US0536",
+   "place": 13
+  },
+  {
+   "name": "Adam Klein",
+   "short": "Adam",
+   "id": "US0498",
+   "place": 12
+  },
+  {
+   "name": "Tyson Apostol",
+   "short": "Tyson",
+   "id": "US0274",
+   "place": 11
+  },
+  {
+   "name": "Sophie Clarke",
+   "short": "Sophie",
+   "id": "US0353",
+   "place": 10
+  },
+  {
+   "name": "Kim Spradlin-Wolfe",
+   "short": "Kim",
+   "id": "US0371",
+   "place": 9
+  },
+  {
+   "name": "Jeremy Collins",
+   "short": "Jeremy",
+   "id": "US0433",
+   "place": 8
+  },
+  {
+   "name": "Nick Wilson",
+   "short": "Nick",
+   "id": "US0556",
+   "place": 7
+  },
+  {
+   "name": "Denise Stapley",
+   "short": "Denise",
+   "id": "US0386",
+   "place": 6
+  },
+  {
+   "name": "Ben Driebergen",
+   "short": "Ben",
+   "id": "US0516",
+   "place": 5
+  },
+  {
+   "name": "Sarah Lacina",
+   "short": "Sarah",
+   "id": "US0414",
+   "place": 4
+  },
+  {
+   "name": "Michele Fitzgerald",
+   "short": "Michele",
+   "id": "US0478",
+   "place": 3
+  },
+  {
+   "name": "Natalie Anderson",
+   "short": "Natalie",
+   "id": "US0442",
+   "place": 2
+  },
+  {
+   "name": "Tony Vlachos",
+   "short": "Tony",
+   "id": "US0424",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Tony Vlachos",
+  "Natalie Anderson",
+  "Michele Fitzgerald"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 1,
+   "eliminated": "Natalie Anderson",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Amber Mariano",
+      "Kim Spradlin-Wolfe",
+      "Nick Wilson",
+      "Sandra Diaz-Twine",
+      "Sarah Lacina",
+      "Sophie Clarke",
+      "Tony Vlachos",
+      "Tyson Apostol",
+      "Wendell Holland",
+      "Yul Kwon"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Ethan Zohn",
+       "target": "Natalie Anderson"
+      },
+      {
+       "voter": "Rob Mariano",
+       "target": "Natalie Anderson"
+      },
+      {
+       "voter": "Danni Boatwright",
+       "target": "Natalie Anderson"
+      },
+      {
+       "voter": "Parvati Shallow",
+       "target": "Natalie Anderson"
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Natalie Anderson"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Denise Stapley"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Denise Stapley"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Natalie Anderson"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Natalie Anderson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 1,
+   "eliminated": "Amber Mariano",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Denise Stapley",
+      "Jeremy Collins",
+      "Michele Fitzgerald"
+     ]
+    },
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Adam Klein",
+      "Ben Driebergen",
+      "Danni Boatwright",
+      "Denise Stapley",
+      "Ethan Zohn",
+      "Jeremy Collins",
+      "Michele Fitzgerald",
+      "Parvati Shallow",
+      "Rob Mariano"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Amber Mariano",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Sandra Diaz-Twine",
+       "target": "Amber Mariano"
+      },
+      {
+       "voter": "Yul Kwon",
+       "target": "Amber Mariano"
+      },
+      {
+       "voter": "Tyson Apostol",
+       "target": "Amber Mariano"
+      },
+      {
+       "voter": "Sophie Clarke",
+       "target": "Kim Spradlin-Wolfe"
+      },
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Amber Mariano"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Kim Spradlin-Wolfe"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Kim Spradlin-Wolfe"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Amber Mariano"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Amber Mariano"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 2,
+   "eliminated": "Danni Boatwright",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Kim Spradlin-Wolfe",
+      "Nick Wilson",
+      "Sandra Diaz-Twine",
+      "Sarah Lacina",
+      "Sophie Clarke",
+      "Tony Vlachos",
+      "Tyson Apostol",
+      "Wendell Holland",
+      "Yul Kwon"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Ethan Zohn",
+       "target": "Danni Boatwright"
+      },
+      {
+       "voter": "Rob Mariano",
+       "target": "Danni Boatwright"
+      },
+      {
+       "voter": "Danni Boatwright",
+       "target": "Parvati Shallow"
+      },
+      {
+       "voter": "Parvati Shallow",
+       "target": "Danni Boatwright"
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Danni Boatwright"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Danni Boatwright"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Danni Boatwright"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Danni Boatwright"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Danni Boatwright"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 3,
+   "eliminated": "Ethan Zohn",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Kim Spradlin-Wolfe",
+      "Nick Wilson",
+      "Sandra Diaz-Twine",
+      "Sarah Lacina",
+      "Sophie Clarke",
+      "Tony Vlachos",
+      "Tyson Apostol",
+      "Wendell Holland",
+      "Yul Kwon"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Ethan Zohn",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Rob Mariano",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Parvati Shallow",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Ethan Zohn"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Ethan Zohn"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Ethan Zohn"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Parvati Shallow"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Ethan Zohn"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 4,
+   "eliminated": "Tyson Apostol",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Adam Klein",
+      "Ben Driebergen",
+      "Denise Stapley",
+      "Jeremy Collins",
+      "Michele Fitzgerald",
+      "Parvati Shallow",
+      "Rob Mariano"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sandra Diaz-Twine",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Yul Kwon",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Tyson Apostol",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Sophie Clarke",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Kim Spradlin-Wolfe"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 5,
+   "eliminated": "Rob Mariano",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Michele Fitzgerald",
+      "Nick Wilson",
+      "Parvati Shallow",
+      "Wendell Holland",
+      "Yul Kwon"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Denise Stapley",
+      "Jeremy Collins",
+      "Kim Spradlin-Wolfe",
+      "Sandra Diaz-Twine",
+      "Tony Vlachos"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Sophie Clarke",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Rob Mariano",
+       "target": "Sarah Lacina"
+      },
+      {
+       "voter": "Sophie Clarke",
+       "target": "Rob Mariano"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Rob Mariano"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Rob Mariano"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Rob Mariano"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 6,
+   "eliminated": "Parvati Shallow",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Adam Klein",
+      "Ben Driebergen",
+      "Sarah Lacina",
+      "Sophie Clarke"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Parvati Shallow",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Yul Kwon",
+       "target": "Parvati Shallow"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Parvati Shallow"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Parvati Shallow"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 6,
+   "eliminated": "Sandra Diaz-Twine",
+   "challenges": [],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Denise Stapley",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sandra Diaz-Twine",
+       "target": "Denise Stapley",
+       "negated": true
+      },
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Denise Stapley",
+       "negated": true
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Sandra Diaz-Twine"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Denise Stapley",
+       "negated": true
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Denise Stapley",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Denise Stapley",
+      "for": "Denise Stapley",
+      "votes_negated": 4
+     },
+     {
+      "player": "Denise Stapley",
+      "for": "Jeremy Collins",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 7,
+   "eliminated": "Yul Kwon",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Adam Klein",
+      "Ben Driebergen",
+      "Sarah Lacina",
+      "Sophie Clarke"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Denise Stapley",
+      "Jeremy Collins",
+      "Kim Spradlin-Wolfe",
+      "Tony Vlachos"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Adam Klein",
+      "Ben Driebergen",
+      "Sarah Lacina",
+      "Sophie Clarke"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Michele Fitzgerald",
+      "Nick Wilson",
+      "Wendell Holland",
+      "Yul Kwon"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Yul Kwon",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Yul Kwon"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Yul Kwon"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Yul Kwon"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 8,
+   "eliminated": "Wendell Holland",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kim Spradlin-Wolfe"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Ben Driebergen",
+      "Kim Spradlin-Wolfe",
+      "Michele Fitzgerald",
+      "Nick Wilson",
+      "Sarah Lacina",
+      "Sophie Clarke"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tyson Apostol",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Sophie Clarke",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Wendell Holland"
+      },
+      {
+       "voter": "Wendell Holland",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Adam Klein"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 9,
+   "eliminated": "Adam Klein",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tony Vlachos"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Kim Spradlin-Wolfe",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tyson Apostol",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Sophie Clarke",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Sarah Lacina"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Adam Klein"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Kim Spradlin-Wolfe",
+      "for": "Denise Stapley",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 10,
+   "eliminated": "Tyson Apostol",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tony Vlachos"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Ben Driebergen",
+      "Kim Spradlin-Wolfe",
+      "Nick Wilson",
+      "Sophie Clarke"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Tony Vlachos",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "Sophie Clarke",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tyson Apostol",
+       "target": "Sophie Clarke"
+      },
+      {
+       "voter": "Sophie Clarke",
+       "target": "Denise Stapley",
+       "negated": true
+      },
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Sophie Clarke"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Denise Stapley",
+       "negated": true
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Tyson Apostol"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Tyson Apostol"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 11,
+   "eliminated": "Sophie Clarke",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Denise Stapley",
+      "Tony Vlachos"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Ben Driebergen",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sophie Clarke",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Michele Fitzgerald"
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Michele Fitzgerald"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Sophie Clarke"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Sophie Clarke"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Sophie Clarke"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Sophie Clarke"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 12,
+   "eliminated": "Kim Spradlin-Wolfe",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Nick Wilson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kim Spradlin-Wolfe",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Denise Stapley",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Kim Spradlin-Wolfe"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Kim Spradlin-Wolfe"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Kim Spradlin-Wolfe"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Kim Spradlin-Wolfe"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Kim Spradlin-Wolfe"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Michele Fitzgerald",
+      "for": "Michele Fitzgerald",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 15,
+   "episode": 13,
+   "eliminated": "Jeremy Collins",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Michele Fitzgerald"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Natalie Anderson",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Denise Stapley",
+       "target": "Michele Fitzgerald",
+       "negated": true
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Michele Fitzgerald",
+       "negated": true
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Ben Driebergen"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Ben Driebergen"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Jeremy Collins"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Jeremy Collins"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Tony Vlachos",
+      "for": "Tony Vlachos",
+      "votes_negated": 0
+     },
+     {
+      "player": "Ben Driebergen",
+      "for": "Ben Driebergen",
+      "votes_negated": 2
+     },
+     {
+      "player": "Natalie Anderson",
+      "for": "Natalie Anderson",
+      "votes_negated": 4
+     }
+    ]
+   }
+  },
+  {
+   "week": 16,
+   "episode": 13,
+   "eliminated": "Nick Wilson",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tony Vlachos"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Natalie Anderson",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Denise Stapley",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Denise Stapley"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Nick Wilson"
+      },
+      {
+       "voter": "Nick Wilson",
+       "target": "Denise Stapley"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Natalie Anderson",
+      "for": "Natalie Anderson",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 17,
+   "episode": 14,
+   "eliminated": "Denise Stapley",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Natalie Anderson"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Denise Stapley",
+       "target": "Natalie Anderson",
+       "negated": true
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Natalie Anderson",
+       "negated": true
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Natalie Anderson",
+       "negated": true
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Ben Driebergen",
+       "negated": true
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Natalie Anderson",
+       "negated": true
+      }
+     ],
+     [
+      {
+       "voter": "Tony Vlachos",
+       "target": "Denise Stapley"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Denise Stapley"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Denise Stapley"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Denise Stapley"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 18,
+   "episode": 14,
+   "eliminated": "Ben Driebergen",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sarah Lacina",
+       "target": "Ben Driebergen"
+      },
+      {
+       "voter": "Tony Vlachos",
+       "target": "Michele Fitzgerald"
+      },
+      {
+       "voter": "Natalie Anderson",
+       "target": "Ben Driebergen"
+      },
+      {
+       "voter": "Michele Fitzgerald",
+       "target": "Ben Driebergen"
+      },
+      {
+       "voter": "Ben Driebergen",
+       "target": "Michele Fitzgerald"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 19,
+   "episode": 14,
+   "eliminated": "Sarah Lacina",
+   "challenges": [],
+   "specials": [],
+   "jury": {
+    "Ethan Zohn": "Natalie Anderson",
+    "Jeremy Collins": "Natalie Anderson",
+    "Parvati Shallow": "Natalie Anderson",
+    "Tyson Apostol": "Natalie Anderson",
+    "Adam Klein": "Tony Vlachos",
+    "Amber Mariano": "Tony Vlachos",
+    "Ben Driebergen": "Tony Vlachos",
+    "Rob Mariano": "Tony Vlachos",
+    "Danni Boatwright": "Tony Vlachos",
+    "Denise Stapley": "Tony Vlachos",
+    "Kim Spradlin-Wolfe": "Tony Vlachos",
+    "Nick Wilson": "Tony Vlachos",
+    "Sarah Lacina": "Tony Vlachos",
+    "Sophie Clarke": "Tony Vlachos",
+    "Wendell Holland": "Tony Vlachos",
+    "Yul Kwon": "Tony Vlachos"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 1,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Found",
+   "castaway": "Natalie",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Sent from Edge of Extinction"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Denise",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Denise",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Kim",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Kim",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 4,
+   "advantage": "Steal a Vote",
+   "event": "Found",
+   "castaway": "Natalie",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found on Edge of Extinction"
+  },
+  {
+   "week": 11,
+   "advantage": "Steal a Vote",
+   "event": "Played",
+   "castaway": "Sarah",
+   "played_for": "Denise",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found on Edge of Extinction"
+  },
+  {
+   "week": 6,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Sophie",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 6,
+   "advantage": "Hidden Immunity Idol Half",
+   "event": "Found",
+   "castaway": "Sophie",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 7,
+   "advantage": "Idol Nullifier",
+   "event": "Found",
+   "castaway": "Tyson",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found on Edge of Extinction"
+  },
+  {
+   "week": 10,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Found",
+   "castaway": "Michele",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Sent from Edge of Extinction"
+  }
+ ]
+}

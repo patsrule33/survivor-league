@@ -1,0 +1,840 @@
+{
+ "season": 48,
+ "title": "Survivor 48",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Thomas Krottinger",
+   "short": "Thomas",
+   "id": "US0733",
+   "place": 15
+  },
+  {
+   "name": "Bianca Roses",
+   "short": "Bianca",
+   "id": "US0716",
+   "place": 14
+  },
+  {
+   "name": "Charity Nelms",
+   "short": "Charity",
+   "id": "US0718",
+   "place": 13
+  },
+  {
+   "name": "Sai Hughley",
+   "short": "Sai",
+   "id": "US0729",
+   "place": 12
+  },
+  {
+   "name": "Cedrek McFadden",
+   "short": "Cedrek",
+   "id": "US0717",
+   "place": 11
+  },
+  {
+   "name": "Chrissy Sarnowsky",
+   "short": "Chrissy",
+   "id": "US0719",
+   "place": 10
+  },
+  {
+   "name": "David Kinne",
+   "short": "David",
+   "id": "US0720",
+   "place": 9
+  },
+  {
+   "name": "Star Toomey",
+   "short": "Star",
+   "id": "US0731",
+   "place": 8
+  },
+  {
+   "name": "Mary Zheng",
+   "short": "Mary",
+   "id": "US0727",
+   "place": 7
+  },
+  {
+   "name": "Shauhin Davari",
+   "short": "Shauhin",
+   "id": "US0730",
+   "place": 6
+  },
+  {
+   "name": "Mitch Guerra",
+   "short": "Mitch",
+   "id": "US0728",
+   "place": 5
+  },
+  {
+   "name": "Kamilla Karthigesu",
+   "short": "Kamilla",
+   "id": "US0724",
+   "place": 4
+  },
+  {
+   "name": "Joe Hunter",
+   "short": "Joe",
+   "id": "US0722",
+   "place": 3
+  },
+  {
+   "name": "Eva Erickson",
+   "short": "Eva",
+   "id": "US0721",
+   "place": 2
+  },
+  {
+   "name": "Kyle Fraser",
+   "short": "Kyle",
+   "id": "US0726",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Kyle Fraser",
+  "Eva Erickson",
+  "Joe Hunter"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 4,
+   "eliminated": "Thomas Krottinger",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Charity Nelms",
+      "David Kinne",
+      "Eva Erickson",
+      "Mary Zheng",
+      "Star Toomey"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Bianca Roses",
+      "Cedrek McFadden",
+      "Chrissy Sarnowsky",
+      "Mitch Guerra",
+      "Sai Hughley"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Joe Hunter",
+       "target": "Kyle Fraser",
+       "negated": true
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Thomas Krottinger"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Thomas Krottinger"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Thomas Krottinger"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "Kyle Fraser",
+       "negated": true
+      },
+      {
+       "voter": "Thomas Krottinger",
+       "target": "Kyle Fraser",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Kyle Fraser",
+      "for": "Kyle Fraser",
+      "votes_negated": 3
+     }
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 5,
+   "eliminated": "Bianca Roses",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Joe Hunter",
+      "Kamilla Karthigesu",
+      "Kyle Fraser",
+      "Shauhin Davari"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Charity Nelms",
+      "David Kinne",
+      "Eva Erickson",
+      "Mary Zheng",
+      "Star Toomey"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Charity Nelms",
+      "David Kinne",
+      "Eva Erickson",
+      "Mary Zheng",
+      "Star Toomey"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Joe Hunter",
+      "Kamilla Karthigesu",
+      "Kyle Fraser",
+      "Shauhin Davari"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Star Toomey",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sai Hughley",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "Cedrek McFadden",
+       "target": "Bianca Roses"
+      },
+      {
+       "voter": "Mitch Guerra",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Chrissy Sarnowsky",
+       "target": "Bianca Roses"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 6,
+   "eliminated": "Charity Nelms",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kyle Fraser"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Chrissy Sarnowsky",
+      "David Kinne",
+      "Kamilla Karthigesu",
+      "Kyle Fraser",
+      "Mary Zheng",
+      "Sai Hughley",
+      "Star Toomey"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cedrek McFadden",
+       "target": "Charity Nelms"
+      },
+      {
+       "voter": "Chrissy Sarnowsky",
+       "target": "Charity Nelms"
+      },
+      {
+       "voter": "Mitch Guerra",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Sai Hughley",
+       "target": "Cedrek McFadden"
+      },
+      {
+       "voter": "Charity Nelms",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "David Kinne",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Mary Zheng",
+       "target": "Charity Nelms"
+      },
+      {
+       "voter": "Star Toomey",
+       "target": "Charity Nelms"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Charity Nelms"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Charity Nelms"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Charity Nelms"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "Sai Hughley"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 7,
+   "eliminated": "Sai Hughley",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "David Kinne",
+      "Joe Hunter"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Cedrek McFadden",
+      "Kamilla Karthigesu",
+      "Kyle Fraser",
+      "Mary Zheng",
+      "Shauhin Davari"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chrissy Sarnowsky",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Mitch Guerra",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Star Toomey",
+       "target": "Sai Hughley"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Sai Hughley"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Cedrek McFadden",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cedrek McFadden",
+       "target": "Shauhin Davari"
+      },
+      {
+       "voter": "David Kinne",
+       "target": "Cedrek McFadden"
+      },
+      {
+       "voter": "Mary Zheng",
+       "target": "Cedrek McFadden"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Cedrek McFadden"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Cedrek McFadden"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "Cedrek McFadden"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "Chrissy Sarnowsky",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Eva Erickson"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "David Kinne",
+      "Joe Hunter",
+      "Mary Zheng"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chrissy Sarnowsky",
+       "target": "Shauhin Davari"
+      },
+      {
+       "voter": "Mitch Guerra",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "David Kinne",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "Mary Zheng",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Chrissy Sarnowsky"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "Chrissy Sarnowsky"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "David Kinne",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Hunter"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mitch Guerra",
+       "target": "David Kinne"
+      },
+      {
+       "voter": "David Kinne",
+       "target": "Mitch Guerra"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "David Kinne"
+      },
+      {
+       "voter": "Mary Zheng",
+       "target": "Mitch Guerra"
+      },
+      {
+       "voter": "Star Toomey",
+       "target": "Mitch Guerra"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "David Kinne"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "David Kinne"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "David Kinne"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "David Kinne"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Star Toomey",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Hunter"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Kyle Fraser"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mitch Guerra",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "Star Toomey"
+      },
+      {
+       "voter": "Mary Zheng",
+       "target": "Star Toomey"
+      },
+      {
+       "voter": "Star Toomey",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Star Toomey"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Star Toomey"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "Star Toomey"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 11,
+   "eliminated": "Mary Zheng",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kamilla Karthigesu"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mitch Guerra",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Mary Zheng",
+       "target": "Joe Hunter"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Mary Zheng"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "Mary Zheng"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 12,
+   "eliminated": "Shauhin Davari",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Hunter"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Shauhin Davari"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mitch Guerra",
+       "target": "Shauhin Davari"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "Shauhin Davari"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Shauhin Davari"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Mitch Guerra"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Shauhin Davari"
+      },
+      {
+       "voter": "Shauhin Davari",
+       "target": "Mitch Guerra"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 13,
+   "eliminated": "Mitch Guerra",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kamilla Karthigesu"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mitch Guerra",
+       "target": "Kyle Fraser"
+      },
+      {
+       "voter": "Eva Erickson",
+       "target": "Mitch Guerra"
+      },
+      {
+       "voter": "Joe Hunter",
+       "target": "Mitch Guerra"
+      },
+      {
+       "voter": "Kamilla Karthigesu",
+       "target": "Mitch Guerra"
+      },
+      {
+       "voter": "Kyle Fraser",
+       "target": "Mitch Guerra"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Eva Erickson",
+      "for": "Eva Erickson",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Kamilla Karthigesu",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kyle Fraser"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Mary Zheng": "Eva Erickson",
+    "Star Toomey": "Eva Erickson",
+    "Cedrek McFadden": "Joe Hunter",
+    "Chrissy Sarnowsky": "Kyle Fraser",
+    "David Kinne": "Kyle Fraser",
+    "Kamilla Karthigesu": "Kyle Fraser",
+    "Mitch Guerra": "Kyle Fraser",
+    "Shauhin Davari": "Kyle Fraser"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 5,
+   "advantage": "Block a Vote",
+   "event": "Played",
+   "castaway": "Mitch",
+   "played_for": "Sai",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Found on Journey"
+  },
+  {
+   "week": 1,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Kyle",
+   "played_for": "Thomas",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Found on Journey"
+  },
+  {
+   "week": 3,
+   "advantage": "Challenge Advantage",
+   "event": "Found",
+   "castaway": "Sai",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 3,
+   "advantage": "Challenge Advantage",
+   "event": "Played",
+   "castaway": "Sai",
+   "played_for": "Sai",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 7,
+   "advantage": "Safety without Power",
+   "event": "Found",
+   "castaway": "Eva",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found on other side of island"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Found",
+   "castaway": "Eva",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Played",
+   "castaway": "Eva",
+   "played_for": "Eva",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

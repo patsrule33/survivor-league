@@ -1,0 +1,198 @@
+{
+ "source": "Survivor Career Stats.xlsx (owner's sheet; official historical totals)",
+ "seasons": [
+  {
+   "season": 28,
+   "totals": {
+    "Jimmy": 204,
+    "Jamie": 76,
+    "Mom": 51,
+    "Greg": 178
+   }
+  },
+  {
+   "season": 29,
+   "totals": {
+    "Jimmy": 144,
+    "Jamie": 151,
+    "Mom": 124,
+    "Greg": 210
+   }
+  },
+  {
+   "season": 30,
+   "totals": {
+    "Jimmy": 237,
+    "Jamie": 118,
+    "Mom": 223,
+    "Greg": 126
+   }
+  },
+  {
+   "season": 31,
+   "totals": {
+    "Jimmy": 297,
+    "Jamie": 82,
+    "Mom": 287,
+    "Greg": 252
+   }
+  },
+  {
+   "season": 32,
+   "totals": {
+    "Jimmy": 233,
+    "Jamie": 207,
+    "Mom": 295,
+    "Greg": 239
+   }
+  },
+  {
+   "season": 33,
+   "totals": {
+    "Jimmy": 412,
+    "Jamie": 191,
+    "Mom": 83,
+    "Greg": 367
+   }
+  },
+  {
+   "season": 34,
+   "totals": {
+    "Jimmy": 492,
+    "Jamie": 130,
+    "Mom": 170,
+    "Greg": 305
+   }
+  },
+  {
+   "season": 35,
+   "totals": {
+    "Jimmy": 54,
+    "Jamie": 349,
+    "Mom": 213,
+    "Greg": 445
+   }
+  },
+  {
+   "season": 36,
+   "totals": {
+    "Jimmy": 198,
+    "Jamie": 253,
+    "Mom": 255,
+    "Greg": 211
+   }
+  },
+  {
+   "season": 37,
+   "totals": {
+    "Jimmy": 180,
+    "Jamie": 155,
+    "Mom": 252,
+    "Greg": 461
+   }
+  },
+  {
+   "season": 38,
+   "totals": {
+    "Jimmy": 273,
+    "Jamie": 470,
+    "Mom": 143,
+    "Greg": 312
+   }
+  },
+  {
+   "season": 39,
+   "totals": {
+    "Jimmy": 281,
+    "Jamie": 140,
+    "Mom": 481,
+    "Greg": 162
+   }
+  },
+  {
+   "season": 40,
+   "totals": {
+    "Jimmy": 315,
+    "Jamie": 577,
+    "Mom": 686,
+    "Greg": 678
+   }
+  },
+  {
+   "season": 41,
+   "totals": {
+    "Jimmy": 323,
+    "Jamie": 171,
+    "Mom": 246,
+    "Greg": 218
+   }
+  },
+  {
+   "season": 42,
+   "totals": {
+    "Jimmy": 136,
+    "Jamie": 274,
+    "Mom": 151,
+    "Greg": 427
+   }
+  },
+  {
+   "season": 43,
+   "totals": {
+    "Jimmy": 179,
+    "Jamie": 91,
+    "Mom": 268,
+    "Greg": 246
+   }
+  },
+  {
+   "season": 44,
+   "totals": {
+    "Jimmy": 176,
+    "Jamie": 261,
+    "Mom": 256,
+    "Greg": 267
+   }
+  },
+  {
+   "season": 45,
+   "totals": {
+    "Jimmy": 170,
+    "Jamie": 218,
+    "Mom": 201,
+    "Greg": 73,
+    "Will": 108
+   }
+  },
+  {
+   "season": 46,
+   "totals": {
+    "Jimmy": 55,
+    "Jamie": 333,
+    "Mom": 102,
+    "Greg": 170,
+    "Will": 162
+   }
+  },
+  {
+   "season": 47,
+   "totals": {
+    "Jimmy": 39,
+    "Jamie": 363,
+    "Mom": 212,
+    "Greg": 105,
+    "Will": 124
+   }
+  },
+  {
+   "season": 48,
+   "totals": {
+    "Jimmy": 189,
+    "Jamie": 74,
+    "Mom": 79,
+    "Greg": 186,
+    "Will": 121
+   }
+  }
+ ]
+}

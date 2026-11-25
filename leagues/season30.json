@@ -1,0 +1,41 @@
+{
+ "season": 30,
+ "league": "Family League",
+ "first_week_boot": 2,
+ "notes": "Rosters from the workbook's draft table (import_sheets.py).",
+ "owners": [
+  {
+   "name": "Mom",
+   "roster": [
+    "Sierra",
+    "Lindsey",
+    "Will"
+   ]
+  },
+  {
+   "name": "Jamie",
+   "roster": [
+    "Rodney",
+    "Nina",
+    "Joaquin"
+   ]
+  },
+  {
+   "name": "Jimmy",
+   "roster": [
+    "Max",
+    "Mike",
+    "Kelly"
+   ]
+  },
+  {
+   "name": "Greg",
+   "roster": [
+    "Jenn",
+    "Tyler",
+    "Vince"
+   ]
+  }
+ ],
+ "survival_offset": 1
+}

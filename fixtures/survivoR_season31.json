@@ -1,0 +1,1153 @@
+{
+ "season": 31,
+ "title": "Survivor 31",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 2,
+ "contestants": [
+  {
+   "name": "Peih-Gee Law",
+   "short": "Peih-Gee",
+   "id": "US0233",
+   "place": 18
+  },
+  {
+   "name": "Jeff Varner",
+   "short": "Jeff",
+   "id": "US0023",
+   "place": 17
+  },
+  {
+   "name": "Monica Padilla",
+   "short": "Monica",
+   "id": "US0295",
+   "place": 16
+  },
+  {
+   "name": "Terry Deitz",
+   "short": "Terry",
+   "id": "US0180",
+   "place": 15
+  },
+  {
+   "name": "Yung Hwang",
+   "short": "Woo",
+   "id": "US0423",
+   "place": 14
+  },
+  {
+   "name": "Kassandra McQuillen",
+   "short": "Kass",
+   "id": "US0422",
+   "place": 13
+  },
+  {
+   "name": "Andrew Savage",
+   "short": "Andrew",
+   "id": "US0105",
+   "place": 12
+  },
+  {
+   "name": "Kelly Wiglesworth",
+   "short": "Kelly",
+   "id": "US0015",
+   "place": 11
+  },
+  {
+   "name": "Ciera Eastin",
+   "short": "Ciera",
+   "id": "US0406",
+   "place": 10
+  },
+  {
+   "name": "Stephen Fishbach",
+   "short": "Stephen",
+   "id": "US0280",
+   "place": 9
+  },
+  {
+   "name": "Joe Anglim",
+   "short": "Joe",
+   "id": "US0451",
+   "place": 8
+  },
+  {
+   "name": "Abi-Maria Gomes",
+   "short": "Abi-Maria",
+   "id": "US0383",
+   "place": 7
+  },
+  {
+   "name": "Kimmi Kappenberg",
+   "short": "Kimmi",
+   "id": "US0021",
+   "place": 6
+  },
+  {
+   "name": "Keith Nale",
+   "short": "Keith",
+   "id": "US0439",
+   "place": 5
+  },
+  {
+   "name": "Kelley Wentworth",
+   "short": "Kelley",
+   "id": "US0429",
+   "place": 4
+  },
+  {
+   "name": "Spencer Bledsoe",
+   "short": "Spencer",
+   "id": "US0421",
+   "place": 3
+  },
+  {
+   "name": "Latasha Fox",
+   "short": "Tasha",
+   "id": "US0419",
+   "place": 2
+  },
+  {
+   "name": "Jeremy Collins",
+   "short": "Jeremy",
+   "id": "US0433",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Jeremy Collins",
+  "Latasha Fox",
+  "Spencer Bledsoe"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Peih-Gee Law",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Kassandra McQuillen",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Terry Deitz"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Jeremy Collins",
+      "Kelly Wiglesworth",
+      "Kimmi Kappenberg",
+      "Monica Padilla",
+      "Spencer Bledsoe",
+      "Stephen Fishbach"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jeremy Collins",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeff Varner",
+       "target": "Peih-Gee Law"
+      },
+      {
+       "voter": "Andrew Savage",
+       "target": "Peih-Gee Law"
+      },
+      {
+       "voter": "Peih-Gee Law",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Peih-Gee Law"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Peih-Gee Law"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Abi-Maria Gomes"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Jeff Varner",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Jeremy Collins",
+      "Kelly Wiglesworth",
+      "Kimmi Kappenberg",
+      "Monica Padilla",
+      "Spencer Bledsoe",
+      "Stephen Fishbach"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Kassandra McQuillen",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Terry Deitz"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Abi-Maria Gomes",
+      "Andrew Savage",
+      "Jeff Varner",
+      "Latasha Fox",
+      "Yung Hwang"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Kassandra McQuillen",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Terry Deitz"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeff Varner",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Andrew Savage",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Jeff Varner"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "Monica Padilla",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Abi-Maria Gomes",
+      "Andrew Savage",
+      "Latasha Fox",
+      "Yung Hwang"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Kassandra McQuillen",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Terry Deitz"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Kassandra McQuillen",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Terry Deitz"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Abi-Maria Gomes",
+      "Andrew Savage",
+      "Latasha Fox",
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelly Wiglesworth",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Monica Padilla"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Monica Padilla"
+      },
+      {
+       "voter": "Monica Padilla",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Monica Padilla"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Terry Deitz",
+   "challenges": [],
+   "specials": []
+  },
+  {
+   "week": 5,
+   "episode": 6,
+   "eliminated": "Yung Hwang",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Jeremy Collins",
+      "Joe Anglim",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Kimmi Kappenberg",
+      "Latasha Fox",
+      "Stephen Fishbach"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Abi-Maria Gomes",
+      "Andrew Savage",
+      "Ciera Eastin",
+      "Kassandra McQuillen",
+      "Kelly Wiglesworth",
+      "Spencer Bledsoe",
+      "Yung Hwang"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelly Wiglesworth",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Andrew Savage",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Ciera Eastin",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Yung Hwang"
+      },
+      {
+       "voter": "Yung Hwang",
+       "target": "Spencer Bledsoe"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Kassandra McQuillen",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Anglim"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelly Wiglesworth",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Kassandra McQuillen"
+      },
+      {
+       "voter": "Andrew Savage",
+       "target": "Kassandra McQuillen"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Kassandra McQuillen"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Ciera Eastin",
+       "target": "Andrew Savage"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Kassandra McQuillen"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Kassandra McQuillen",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Kassandra McQuillen"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Kassandra McQuillen"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Ciera Eastin"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Andrew Savage",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Anglim"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Keith Nale",
+      "Kelley Wentworth",
+      "Kelly Wiglesworth",
+      "Kimmi Kappenberg"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelly Wiglesworth",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Andrew Savage",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Andrew Savage"
+      },
+      {
+       "voter": "Ciera Eastin",
+       "target": "Andrew Savage"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Andrew Savage"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Kelley Wentworth",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Kelley Wentworth",
+      "for": "Kelley Wentworth",
+      "votes_negated": 9
+     }
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Kelly Wiglesworth",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Anglim"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Latasha Fox",
+      "Spencer Bledsoe",
+      "Stephen Fishbach"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jeremy Collins",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kelly Wiglesworth",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Ciera Eastin",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Kelly Wiglesworth"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Kelley Wentworth"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Ciera Eastin",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Joe Anglim"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Abi-Maria Gomes",
+      "Ciera Eastin",
+      "Joe Anglim",
+      "Latasha Fox",
+      "Spencer Bledsoe"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Stephen Fishbach",
+       "negated": true
+      },
+      {
+       "voter": "Ciera Eastin",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Stephen Fishbach",
+       "negated": true
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Stephen Fishbach",
+       "negated": true
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Ciera Eastin"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Stephen Fishbach",
+       "negated": true
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Stephen Fishbach",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Jeremy Collins",
+      "for": "Stephen Fishbach",
+      "votes_negated": 5
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Stephen Fishbach",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Spencer Bledsoe"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Stephen Fishbach"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Kelley Wentworth",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Stephen Fishbach",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Stephen Fishbach"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Stephen Fishbach"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Stephen Fishbach"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Stephen Fishbach"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Joe Anglim",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Keith Nale",
+      "Kelley Wentworth"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Kelley Wentworth"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Joe Anglim"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Joe Anglim",
+       "target": "Abi-Maria Gomes"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Abi-Maria Gomes",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Spencer Bledsoe"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Keith Nale"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Abi-Maria Gomes",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Abi-Maria Gomes"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Latasha Fox"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 14,
+   "eliminated": "Kimmi Kappenberg",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Spencer Bledsoe"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Jeremy Collins",
+       "negated": true
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Jeremy Collins",
+       "negated": true
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Kelley Wentworth",
+       "negated": true
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Jeremy Collins",
+       "negated": true
+      }
+     ],
+     [
+      {
+       "voter": "Kimmi Kappenberg",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Latasha Fox",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Latasha Fox"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Latasha Fox"
+      }
+     ],
+     [
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Kimmi Kappenberg"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Kimmi Kappenberg"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Jeremy Collins",
+      "for": "Jeremy Collins",
+      "votes_negated": 3
+     },
+     {
+      "player": "Kelley Wentworth",
+      "for": "Kelley Wentworth",
+      "votes_negated": 3
+     }
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 14,
+   "eliminated": "Keith Nale",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kelley Wentworth"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Latasha Fox",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Keith Nale"
+      },
+      {
+       "voter": "Keith Nale",
+       "target": "Spencer Bledsoe"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 15,
+   "episode": 14,
+   "eliminated": "Kelley Wentworth",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Jeremy Collins"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Latasha Fox",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Spencer Bledsoe",
+       "target": "Kelley Wentworth"
+      },
+      {
+       "voter": "Kelley Wentworth",
+       "target": "Spencer Bledsoe"
+      },
+      {
+       "voter": "Jeremy Collins",
+       "target": "Kelley Wentworth"
+      }
+     ]
+    ]
+   },
+   "jury": {
+    "Abi-Maria Gomes": "Jeremy Collins",
+    "Andrew Savage": "Jeremy Collins",
+    "Ciera Eastin": "Jeremy Collins",
+    "Joe Anglim": "Jeremy Collins",
+    "Kassandra McQuillen": "Jeremy Collins",
+    "Keith Nale": "Jeremy Collins",
+    "Kelley Wentworth": "Jeremy Collins",
+    "Kelly Wiglesworth": "Jeremy Collins",
+    "Kimmi Kappenberg": "Jeremy Collins",
+    "Stephen Fishbach": "Jeremy Collins"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 8,
+   "advantage": "Steal a Vote",
+   "event": "Found",
+   "castaway": "Stephen",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won at challenge"
+  },
+  {
+   "week": 10,
+   "advantage": "Steal a Vote",
+   "event": "Played",
+   "castaway": "Stephen",
+   "played_for": "Joe",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Won at challenge"
+  }
+ ]
+}

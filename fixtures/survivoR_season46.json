@@ -1,0 +1,862 @@
+{
+ "season": 46,
+ "title": "Survivor 46",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Randen Montalvo",
+   "short": "Randen",
+   "id": "US0692",
+   "place": 16
+  },
+  {
+   "name": "Bhanu Gopal",
+   "short": "Bhanu",
+   "id": "US0681",
+   "place": 15
+  },
+  {
+   "name": "Jem Hussain-Adams",
+   "short": "Jem",
+   "id": "US0685",
+   "place": 14
+  },
+  {
+   "name": "Moriah Gaynor",
+   "short": "Moriah",
+   "id": "US0690",
+   "place": 13
+  },
+  {
+   "name": "Tim Spicer",
+   "short": "Tim",
+   "id": "US0696",
+   "place": 12
+  },
+  {
+   "name": "Soda Thompson",
+   "short": "Soda",
+   "id": "US0693",
+   "place": 11
+  },
+  {
+   "name": "Tevin Davis",
+   "short": "Tevin",
+   "id": "US0694",
+   "place": 10
+  },
+  {
+   "name": "Hunter McKnight",
+   "short": "Hunter",
+   "id": "US0684",
+   "place": 9
+  },
+  {
+   "name": "Tiffany Nicole Ervin",
+   "short": "Tiffany",
+   "id": "US0695",
+   "place": 8
+  },
+  {
+   "name": "Venus Vafa",
+   "short": "Venus",
+   "id": "US0697",
+   "place": 7
+  },
+  {
+   "name": "Q Burdette",
+   "short": "Q",
+   "id": "US0691",
+   "place": 6
+  },
+  {
+   "name": "Maria Shrime Gonzalez",
+   "short": "Maria",
+   "id": "US0689",
+   "place": 5
+  },
+  {
+   "name": "Liz Wilcox",
+   "short": "Liz",
+   "id": "US0688",
+   "place": 4
+  },
+  {
+   "name": "Ben Katzman",
+   "short": "Ben",
+   "id": "US0680",
+   "place": 3
+  },
+  {
+   "name": "Charlie Davis",
+   "short": "Charlie",
+   "id": "US0682",
+   "place": 2
+  },
+  {
+   "name": "Kenzie Petty",
+   "short": "Kenzie",
+   "id": "US0687",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Kenzie Petty",
+  "Charlie Davis",
+  "Ben Katzman"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Randen Montalvo",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Hunter McKnight",
+      "Liz Wilcox",
+      "Randen Montalvo",
+      "Soda Thompson",
+      "Tevin Davis",
+      "Venus Vafa"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Ben Katzman",
+      "Charlie Davis",
+      "Jem Hussain-Adams",
+      "Maria Shrime Gonzalez",
+      "Moriah Gaynor",
+      "Tim Spicer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "medevac_pity",
+     "player": "Randen Montalvo",
+     "source": "survivoR"
+    }
+   ]
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "Bhanu Gopal",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Hunter McKnight",
+      "Liz Wilcox",
+      "Soda Thompson",
+      "Tevin Davis",
+      "Venus Vafa"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Ben Katzman",
+      "Charlie Davis",
+      "Jem Hussain-Adams",
+      "Maria Shrime Gonzalez",
+      "Moriah Gaynor",
+      "Tim Spicer"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Bhanu Gopal",
+      "Kenzie Petty",
+      "Q Burdette",
+      "Tiffany Nicole Ervin"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Hunter McKnight",
+      "Liz Wilcox",
+      "Soda Thompson",
+      "Tevin Davis",
+      "Venus Vafa"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kenzie Petty",
+       "target": "Bhanu Gopal"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Bhanu Gopal"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Bhanu Gopal"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "Jem Hussain-Adams",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Hunter McKnight",
+      "Liz Wilcox",
+      "Soda Thompson",
+      "Tevin Davis",
+      "Venus Vafa"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Kenzie Petty",
+      "Q Burdette",
+      "Tiffany Nicole Ervin"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jem Hussain-Adams",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "Jem Hussain-Adams",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Charlie Davis",
+       "target": "Jem Hussain-Adams"
+      },
+      {
+       "voter": "Jem Hussain-Adams",
+       "target": "Ben Katzman"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Jem Hussain-Adams"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Jem Hussain-Adams"
+      },
+      {
+       "voter": "Moriah Gaynor",
+       "target": "Ben Katzman"
+      },
+      {
+       "voter": "Tim Spicer",
+       "target": "Jem Hussain-Adams"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 6,
+   "eliminated": "Moriah Gaynor",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Ben Katzman",
+      "Hunter McKnight",
+      "Kenzie Petty",
+      "Q Burdette",
+      "Tevin Davis",
+      "Tiffany Nicole Ervin",
+      "Tim Spicer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Hunter McKnight",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Liz Wilcox",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Soda Thompson",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Tevin Davis",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Venus Vafa",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Tim Spicer",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Moriah Gaynor"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Moriah Gaynor"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Tim Spicer",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kenzie Petty",
+      "Maria Shrime Gonzalez"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Charlie Davis",
+      "Liz Wilcox",
+      "Soda Thompson",
+      "Tevin Davis",
+      "Venus Vafa"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Hunter McKnight",
+       "target": "Tim Spicer"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Tim Spicer",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Tim Spicer"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Tim Spicer"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Tim Spicer"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Soda Thompson",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Liz Wilcox",
+       "target": "Soda Thompson"
+      },
+      {
+       "voter": "Soda Thompson",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Tevin Davis",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Venus Vafa",
+       "target": "Soda Thompson"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Soda Thompson"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Soda Thompson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Tevin Davis",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Hunter McKnight"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Hunter McKnight",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Liz Wilcox",
+       "target": "Tevin Davis"
+      },
+      {
+       "voter": "Tevin Davis",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Venus Vafa",
+       "target": "Tevin Davis"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Tevin Davis"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Tevin Davis"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Tevin Davis"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Tevin Davis"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Tevin Davis"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Tevin Davis"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Hunter McKnight",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Charlie Davis"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Hunter McKnight",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Hunter McKnight",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Liz Wilcox",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Venus Vafa",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Ben Katzman"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Hunter McKnight"
+      }
+     ],
+     [
+      {
+       "voter": "Liz Wilcox",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Venus Vafa",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Hunter McKnight"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Hunter McKnight"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Tiffany Nicole Ervin",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Charlie Davis"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Q Burdette"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Tiffany Nicole Ervin",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Liz Wilcox",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Venus Vafa",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Tiffany Nicole Ervin"
+      },
+      {
+       "voter": "Tiffany Nicole Ervin",
+       "target": "Q Burdette"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Venus Vafa",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Maria Shrime Gonzalez"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Venus Vafa",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "Venus Vafa",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Liz Wilcox",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Venus Vafa",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Kenzie Petty"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Venus Vafa"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Venus Vafa"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Q Burdette",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Maria Shrime Gonzalez"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Charlie Davis"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Q Burdette",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "Q Burdette",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Liz Wilcox",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Charlie Davis"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Q Burdette"
+      },
+      {
+       "voter": "Q Burdette",
+       "target": "Charlie Davis"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Maria Shrime Gonzalez",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Kenzie Petty"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Liz Wilcox",
+       "target": "Maria Shrime Gonzalez"
+      },
+      {
+       "voter": "Ben Katzman",
+       "target": "Maria Shrime Gonzalez"
+      },
+      {
+       "voter": "Charlie Davis",
+       "target": "Maria Shrime Gonzalez"
+      },
+      {
+       "voter": "Maria Shrime Gonzalez",
+       "target": "Ben Katzman"
+      },
+      {
+       "voter": "Kenzie Petty",
+       "target": "Maria Shrime Gonzalez"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Liz Wilcox",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ben Katzman"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Hunter McKnight": "Charlie Davis",
+    "Liz Wilcox": "Charlie Davis",
+    "Soda Thompson": "Charlie Davis",
+    "Maria Shrime Gonzalez": "Kenzie Petty",
+    "Q Burdette": "Kenzie Petty",
+    "Tevin Davis": "Kenzie Petty",
+    "Tiffany Nicole Ervin": "Kenzie Petty",
+    "Venus Vafa": "Kenzie Petty"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 3,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Maria",
+   "played_for": "Jem",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "On Summit journey"
+  }
+ ]
+}

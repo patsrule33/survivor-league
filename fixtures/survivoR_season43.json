@@ -1,0 +1,830 @@
+{
+ "season": 43,
+ "title": "Survivor 43",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Lindsay Carmine",
+   "short": "Lindsay",
+   "id": "US0637",
+   "place": 15
+  },
+  {
+   "name": "Geo Bustamante",
+   "short": "Geo",
+   "id": "US0631",
+   "place": 14
+  },
+  {
+   "name": "Elie Scott",
+   "short": "Elie",
+   "id": "US0630",
+   "place": 13
+  },
+  {
+   "name": "Dwight Moore",
+   "short": "Dwight",
+   "id": "US0629",
+   "place": 12
+  },
+  {
+   "name": "Jeanine Zheng",
+   "short": "Jeanine",
+   "id": "US0633",
+   "place": 11
+  },
+  {
+   "name": "James Jones",
+   "short": "James",
+   "id": "US0632",
+   "place": 10
+  },
+  {
+   "name": "Ryan Medrano",
+   "short": "Ryan",
+   "id": "US0643",
+   "place": 9
+  },
+  {
+   "name": "Noelle Lambert",
+   "short": "Noelle",
+   "id": "US0641",
+   "place": 8
+  },
+  {
+   "name": "Sami Layadi",
+   "short": "Sami",
+   "id": "US0644",
+   "place": 7
+  },
+  {
+   "name": "Cody Assenmacher",
+   "short": "Cody",
+   "id": "US0628",
+   "place": 6
+  },
+  {
+   "name": "Karla Cruz Godoy",
+   "short": "Karla",
+   "id": "US0636",
+   "place": 5
+  },
+  {
+   "name": "Jesse Lopez",
+   "short": "Jesse",
+   "id": "US0634",
+   "place": 4
+  },
+  {
+   "name": "Owen Knight",
+   "short": "Owen",
+   "id": "US0642",
+   "place": 3
+  },
+  {
+   "name": "Cassidy Clark",
+   "short": "Cassidy",
+   "id": "US0627",
+   "place": 2
+  },
+  {
+   "name": "Mike Gabler",
+   "short": "Gabler",
+   "id": "US0638",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Mike Gabler",
+  "Cassidy Clark",
+  "Owen Knight"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 4,
+   "eliminated": "Lindsay Carmine",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Cody Assenmacher",
+      "Dwight Moore",
+      "Jesse Lopez",
+      "Noelle Lambert"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Elie Scott",
+      "Jeanine Zheng",
+      "Mike Gabler",
+      "Owen Knight",
+      "Sami Layadi"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Cody Assenmacher",
+      "Dwight Moore",
+      "Jesse Lopez",
+      "Noelle Lambert"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cassidy Clark",
+       "target": "Lindsay Carmine"
+      },
+      {
+       "voter": "Geo Bustamante",
+       "target": "Cassidy Clark"
+      },
+      {
+       "voter": "James Jones",
+       "target": "Lindsay Carmine"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Lindsay Carmine"
+      },
+      {
+       "voter": "Ryan Medrano",
+       "target": "Lindsay Carmine"
+      },
+      {
+       "voter": "Lindsay Carmine",
+       "target": "Geo Bustamante"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 5,
+   "eliminated": "Geo Bustamante",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Cody Assenmacher",
+      "Dwight Moore",
+      "Jesse Lopez",
+      "Noelle Lambert"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Elie Scott",
+      "Jeanine Zheng",
+      "Mike Gabler",
+      "Owen Knight",
+      "Sami Layadi"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jeanine Zheng",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cassidy Clark",
+       "target": "Geo Bustamante"
+      },
+      {
+       "voter": "Geo Bustamante",
+       "target": "Cassidy Clark"
+      },
+      {
+       "voter": "James Jones",
+       "target": "Geo Bustamante"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Geo Bustamante"
+      },
+      {
+       "voter": "Ryan Medrano",
+       "target": "Cassidy Clark"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 6,
+   "eliminated": "Elie Scott",
+   "challenges": [
+    {
+     "type": "group_immunity",
+     "players": [
+      "Dwight Moore",
+      "Jeanine Zheng",
+      "Jesse Lopez",
+      "Karla Cruz Godoy",
+      "Mike Gabler",
+      "Noelle Lambert",
+      "Ryan Medrano"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Elie Scott",
+       "target": "James Jones"
+      },
+      {
+       "voter": "Mike Gabler",
+       "target": "Elie Scott"
+      },
+      {
+       "voter": "Owen Knight",
+       "target": "James Jones"
+      },
+      {
+       "voter": "Sami Layadi",
+       "target": "Elie Scott"
+      },
+      {
+       "voter": "Cassidy Clark",
+       "target": "Elie Scott"
+      },
+      {
+       "voter": "James Jones",
+       "target": "Elie Scott"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Owen Knight"
+      },
+      {
+       "voter": "Ryan Medrano",
+       "target": "Elie Scott"
+      },
+      {
+       "voter": "Cody Assenmacher",
+       "target": "Elie Scott"
+      },
+      {
+       "voter": "Dwight Moore",
+       "target": "Elie Scott"
+      },
+      {
+       "voter": "Noelle Lambert",
+       "target": "Cassidy Clark"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 7,
+   "eliminated": "Dwight Moore",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Gabler"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeanine Zheng",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Mike Gabler",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Owen Knight",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Sami Layadi",
+       "target": "Dwight Moore"
+      },
+      {
+       "voter": "Cassidy Clark",
+       "target": "Dwight Moore"
+      },
+      {
+       "voter": "James Jones",
+       "target": "Dwight Moore"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Dwight Moore"
+      },
+      {
+       "voter": "Ryan Medrano",
+       "target": "Dwight Moore"
+      },
+      {
+       "voter": "Cody Assenmacher",
+       "target": "Dwight Moore"
+      },
+      {
+       "voter": "Dwight Moore",
+       "target": "James Jones"
+      },
+      {
+       "voter": "Jesse Lopez",
+       "target": "Dwight Moore"
+      },
+      {
+       "voter": "Noelle Lambert",
+       "target": "James Jones"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 8,
+   "eliminated": "Jeanine Zheng",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Owen Knight"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeanine Zheng",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Mike Gabler",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Owen Knight",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Sami Layadi",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Cassidy Clark",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "James Jones",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Ryan Medrano",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Cody Assenmacher",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Jesse Lopez",
+       "target": "Jeanine Zheng"
+      },
+      {
+       "voter": "Noelle Lambert",
+       "target": "Jeanine Zheng"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 9,
+   "eliminated": "James Jones",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Cody Assenmacher",
+      "Karla Cruz Godoy"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Cassidy Clark",
+      "Jesse Lopez",
+      "Mike Gabler",
+      "Ryan Medrano"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "James Jones",
+       "target": "Owen Knight"
+      },
+      {
+       "voter": "Sami Layadi",
+       "target": "James Jones"
+      },
+      {
+       "voter": "Noelle Lambert",
+       "target": "James Jones"
+      },
+      {
+       "voter": "Noelle Lambert",
+       "target": "James Jones"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "James Jones"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Ryan Medrano",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cassidy Clark",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Mike Gabler",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Cody Assenmacher",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Jesse Lopez",
+       "target": "Ryan Medrano"
+      },
+      {
+       "voter": "Ryan Medrano",
+       "target": "Cassidy Clark"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Noelle Lambert",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Cassidy Clark"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Noelle Lambert"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mike Gabler",
+       "target": "Noelle Lambert"
+      },
+      {
+       "voter": "Owen Knight",
+       "target": "Karla Cruz Godoy"
+      },
+      {
+       "voter": "Sami Layadi",
+       "target": "Karla Cruz Godoy"
+      },
+      {
+       "voter": "Cassidy Clark",
+       "target": "Noelle Lambert"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Noelle Lambert"
+      },
+      {
+       "voter": "Cody Assenmacher",
+       "target": "Noelle Lambert"
+      },
+      {
+       "voter": "Jesse Lopez",
+       "target": "Noelle Lambert"
+      },
+      {
+       "voter": "Noelle Lambert",
+       "target": "Sami Layadi"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 11,
+   "eliminated": "Sami Layadi",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Karla Cruz Godoy",
+      "Owen Knight"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mike Gabler",
+       "target": "Sami Layadi"
+      },
+      {
+       "voter": "Owen Knight",
+       "target": "Sami Layadi"
+      },
+      {
+       "voter": "Cassidy Clark",
+       "target": "Sami Layadi"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Sami Layadi"
+      },
+      {
+       "voter": "Cody Assenmacher",
+       "target": "Sami Layadi"
+      },
+      {
+       "voter": "Jesse Lopez",
+       "target": "Sami Layadi"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Owen Knight",
+      "for": "Owen Knight",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 12,
+   "eliminated": "Cody Assenmacher",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Cassidy Clark"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Cody Assenmacher",
+      "Jesse Lopez",
+      "Karla Cruz Godoy"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mike Gabler",
+       "target": "Cody Assenmacher"
+      },
+      {
+       "voter": "Owen Knight",
+       "target": "Cody Assenmacher"
+      },
+      {
+       "voter": "Cassidy Clark",
+       "target": "Cody Assenmacher"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Owen Knight",
+       "negated": true
+      },
+      {
+       "voter": "Cody Assenmacher",
+       "target": "Karla Cruz Godoy",
+       "negated": true
+      },
+      {
+       "voter": "Jesse Lopez",
+       "target": "Cody Assenmacher"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Karla Cruz Godoy",
+      "for": "Karla Cruz Godoy",
+      "votes_negated": 1
+     },
+     {
+      "player": "Jesse Lopez",
+      "for": "Jesse Lopez",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 13,
+   "eliminated": "Karla Cruz Godoy",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Owen Knight"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Mike Gabler",
+       "target": "Karla Cruz Godoy"
+      },
+      {
+       "voter": "Owen Knight",
+       "target": "Karla Cruz Godoy"
+      },
+      {
+       "voter": "Cassidy Clark",
+       "target": "Karla Cruz Godoy"
+      },
+      {
+       "voter": "Karla Cruz Godoy",
+       "target": "Jesse Lopez",
+       "negated": true
+      },
+      {
+       "voter": "Jesse Lopez",
+       "target": "Karla Cruz Godoy"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Jesse Lopez",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Cassidy Clark"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "James Jones": "Cassidy Clark",
+    "Cody Assenmacher": "Mike Gabler",
+    "Jeanine Zheng": "Mike Gabler",
+    "Jesse Lopez": "Mike Gabler",
+    "Karla Cruz Godoy": "Mike Gabler",
+    "Noelle Lambert": "Mike Gabler",
+    "Ryan Medrano": "Mike Gabler",
+    "Sami Layadi": "Mike Gabler"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 6,
+   "advantage": "Steal a Vote",
+   "event": "Played",
+   "castaway": "Noelle",
+   "played_for": "Owen",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "At challenge or reward"
+  },
+  {
+   "week": 2,
+   "advantage": "Knowledge is Power",
+   "event": "Found",
+   "castaway": "Geo",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "At challenge or reward"
+  },
+  {
+   "week": 4,
+   "advantage": "Knowledge is Power",
+   "event": "Found",
+   "castaway": "James",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 9,
+   "advantage": "Choose your Champion",
+   "event": "Found",
+   "castaway": "Cody",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 9,
+   "advantage": "Choose your Champion",
+   "event": "Played",
+   "castaway": "Cody",
+   "played_for": "Owen",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Found",
+   "castaway": "Karla",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Played",
+   "castaway": "Karla",
+   "played_for": "Karla",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

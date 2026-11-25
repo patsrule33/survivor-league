@@ -1,0 +1,871 @@
+{
+ "season": 45,
+ "title": "Survivor 45",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Sean Edwards",
+   "short": "Sean",
+   "id": "US0678",
+   "place": 15
+  },
+  {
+   "name": "Brando Meyer",
+   "short": "Brando",
+   "id": "US0664",
+   "place": 14
+  },
+  {
+   "name": "J. Maya",
+   "short": "J. Maya",
+   "id": "US0670",
+   "place": 13
+  },
+  {
+   "name": "Sifu Alsup",
+   "short": "Sifu",
+   "id": "US0679",
+   "place": 12
+  },
+  {
+   "name": "Kaleb Gebrewold",
+   "short": "Kaleb",
+   "id": "US0673",
+   "place": 11
+  },
+  {
+   "name": "Kellie Nalbandian",
+   "short": "Kellie",
+   "id": "US0675",
+   "place": 10
+  },
+  {
+   "name": "Kendra McQuarrie",
+   "short": "Kendra",
+   "id": "US0676",
+   "place": 9
+  },
+  {
+   "name": "Bruce Perreault",
+   "short": "Bruce",
+   "id": "US0657",
+   "place": 8
+  },
+  {
+   "name": "Emily Flippen",
+   "short": "Emily",
+   "id": "US0668",
+   "place": 7
+  },
+  {
+   "name": "Drew Basile",
+   "short": "Drew",
+   "id": "US0667",
+   "place": 6
+  },
+  {
+   "name": "Julie Alley",
+   "short": "Julie",
+   "id": "US0672",
+   "place": 5
+  },
+  {
+   "name": "Katurah Topps",
+   "short": "Katurah",
+   "id": "US0674",
+   "place": 4
+  },
+  {
+   "name": "Jake O'Kane",
+   "short": "Jake",
+   "id": "US0671",
+   "place": 3
+  },
+  {
+   "name": "Austin Li Coon",
+   "short": "Austin",
+   "id": "US0663",
+   "place": 2
+  },
+  {
+   "name": "Dee Valladares",
+   "short": "Dee",
+   "id": "US0666",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Dee Valladares",
+  "Austin Li Coon",
+  "Jake O'Kane"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 4,
+   "eliminated": "Sean Edwards",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Bruce Perreault",
+      "Jake O'Kane",
+      "Kaleb Gebrewold",
+      "Katurah Topps",
+      "Kellie Nalbandian"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Austin Li Coon",
+      "Brando Meyer",
+      "Drew Basile",
+      "Emily Flippen",
+      "Kendra McQuarrie"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sean Edwards",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Sifu Alsup"
+      },
+      {
+       "voter": "J. Maya",
+       "target": "Sean Edwards"
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Sean Edwards"
+      },
+      {
+       "voter": "Sifu Alsup",
+       "target": "Sean Edwards"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 5,
+   "eliminated": "Brando Meyer",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Dee Valladares",
+      "J. Maya",
+      "Julie Alley",
+      "Sifu Alsup"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Bruce Perreault",
+      "Jake O'Kane",
+      "Kaleb Gebrewold",
+      "Katurah Topps",
+      "Kellie Nalbandian"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Brando Meyer",
+       "target": "Drew Basile"
+      },
+      {
+       "voter": "Kendra McQuarrie",
+       "target": "Drew Basile"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Brando Meyer"
+      },
+      {
+       "voter": "Austin Li Coon",
+       "target": "Brando Meyer"
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Brando Meyer"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 6,
+   "eliminated": "J. Maya",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Austin Li Coon",
+      "Bruce Perreault",
+      "Drew Basile",
+      "Julie Alley",
+      "Katurah Topps",
+      "Kendra McQuarrie",
+      "Sifu Alsup"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Bruce Perreault",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kendra McQuarrie",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Bruce Perreault",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Jake O'Kane",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Katurah Topps",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Kellie Nalbandian",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "J. Maya",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      },
+      {
+       "voter": "Sifu Alsup",
+       "target": "Kaleb Gebrewold",
+       "negated": true
+      }
+     ],
+     [
+      {
+       "voter": "Kendra McQuarrie",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Bruce Perreault",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Jake O'Kane",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Katurah Topps",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Kellie Nalbandian",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "J. Maya",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "J. Maya"
+      },
+      {
+       "voter": "Sifu Alsup",
+       "target": "J. Maya"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 7,
+   "eliminated": "Sifu Alsup",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Dee Valladares",
+      "Kellie Nalbandian"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Austin Li Coon",
+      "Jake O'Kane",
+      "Julie Alley",
+      "Kaleb Gebrewold",
+      "Katurah Topps"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kendra McQuarrie",
+       "target": "Sifu Alsup"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Sifu Alsup"
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Sifu Alsup"
+      },
+      {
+       "voter": "Bruce Perreault",
+       "target": "Sifu Alsup"
+      },
+      {
+       "voter": "Kellie Nalbandian",
+       "target": "Sifu Alsup"
+      },
+      {
+       "voter": "Sifu Alsup",
+       "target": "Bruce Perreault"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Kaleb Gebrewold",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Austin Li Coon",
+       "target": "Kaleb Gebrewold"
+      },
+      {
+       "voter": "Jake O'Kane",
+       "target": "Julie Alley"
+      },
+      {
+       "voter": "Katurah Topps",
+       "target": "Kaleb Gebrewold"
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Kaleb Gebrewold"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Kaleb Gebrewold"
+      },
+      {
+       "voter": "Kaleb Gebrewold",
+       "target": "Julie Alley"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "Kellie Nalbandian",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Bruce Perreault"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Katurah Topps",
+       "target": "Jake O'Kane"
+      },
+      {
+       "voter": "Kellie Nalbandian",
+       "target": "Jake O'Kane"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Kellie Nalbandian"
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Kellie Nalbandian"
+      },
+      {
+       "voter": "Kendra McQuarrie",
+       "target": "Jake O'Kane"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Kellie Nalbandian"
+      },
+      {
+       "voter": "Austin Li Coon",
+       "target": "Kellie Nalbandian"
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Kellie Nalbandian"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Kendra McQuarrie",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Bruce Perreault"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Julie Alley",
+      "Kendra McQuarrie"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Bruce Perreault",
+       "target": "Kendra McQuarrie"
+      },
+      {
+       "voter": "Jake O'Kane",
+       "target": "Kendra McQuarrie"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Kendra McQuarrie"
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Kendra McQuarrie"
+      },
+      {
+       "voter": "Kendra McQuarrie",
+       "target": "Jake O'Kane"
+      },
+      {
+       "voter": "Austin Li Coon",
+       "target": "Kendra McQuarrie"
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Kendra McQuarrie"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Bruce Perreault",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Austin Li Coon"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Emily Flippen"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Bruce Perreault",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Bruce Perreault",
+       "target": "Julie Alley"
+      },
+      {
+       "voter": "Jake O'Kane",
+       "target": "Bruce Perreault"
+      },
+      {
+       "voter": "Katurah Topps",
+       "target": "Bruce Perreault"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Jake O'Kane"
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Bruce Perreault"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Bruce Perreault"
+      },
+      {
+       "voter": "Austin Li Coon",
+       "target": "Jake O'Kane"
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Jake O'Kane"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 11,
+   "eliminated": "Emily Flippen",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Drew Basile"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jake O'Kane",
+       "target": "Julie Alley",
+       "negated": true
+      },
+      {
+       "voter": "Katurah Topps",
+       "target": "Julie Alley",
+       "negated": true
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Julie Alley",
+       "negated": true
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Emily Flippen"
+      },
+      {
+       "voter": "Emily Flippen",
+       "target": "Julie Alley",
+       "negated": true
+      },
+      {
+       "voter": "Austin Li Coon",
+       "target": "Julie Alley",
+       "negated": true
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Julie Alley",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Julie Alley",
+      "for": "Julie Alley",
+      "votes_negated": 6
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 12,
+   "eliminated": "Drew Basile",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Dee Valladares"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Austin Li Coon"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Jake O'Kane",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jake O'Kane",
+       "target": "Drew Basile"
+      },
+      {
+       "voter": "Katurah Topps",
+       "target": "Drew Basile"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Drew Basile"
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Drew Basile"
+      },
+      {
+       "voter": "Austin Li Coon",
+       "target": "Julie Alley"
+      },
+      {
+       "voter": "Drew Basile",
+       "target": "Julie Alley"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 13,
+   "eliminated": "Julie Alley",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Austin Li Coon"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jake O'Kane",
+       "target": "Dee Valladares"
+      },
+      {
+       "voter": "Katurah Topps",
+       "target": "Julie Alley"
+      },
+      {
+       "voter": "Dee Valladares",
+       "target": "Katurah Topps",
+       "negated": true
+      },
+      {
+       "voter": "Julie Alley",
+       "target": "Jake O'Kane"
+      },
+      {
+       "voter": "Austin Li Coon",
+       "target": "Julie Alley"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Jake O'Kane",
+      "for": "Katurah Topps",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Katurah Topps",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Dee Valladares"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Bruce Perreault": "Austin Li Coon",
+    "Drew Basile": "Austin Li Coon",
+    "Kendra McQuarrie": "Austin Li Coon",
+    "Emily Flippen": "Dee Valladares",
+    "Julie Alley": "Dee Valladares",
+    "Kaleb Gebrewold": "Dee Valladares",
+    "Katurah Topps": "Dee Valladares",
+    "Kellie Nalbandian": "Dee Valladares"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 2,
+   "advantage": "Goodwill Advantage",
+   "event": "Played",
+   "castaway": "Austin",
+   "played_for": "Austin",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Given to by another player"
+  },
+  {
+   "week": 2,
+   "advantage": "Amulet",
+   "event": "Found",
+   "castaway": "Austin",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Journey"
+  },
+  {
+   "week": 10,
+   "advantage": "Amulet",
+   "event": "Played",
+   "castaway": "Austin",
+   "played_for": "Austin",
+   "success": "Not needed",
+   "votes_nullified": 0,
+   "location": "Journey"
+  },
+  {
+   "week": 2,
+   "advantage": "Amulet",
+   "event": "Found",
+   "castaway": "Kellie",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Journey"
+  },
+  {
+   "week": 2,
+   "advantage": "Amulet",
+   "event": "Found",
+   "castaway": "J. Maya",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Journey"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Found",
+   "castaway": "Jake",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won in challenge"
+  },
+  {
+   "week": 11,
+   "advantage": "Challenge Advantage",
+   "event": "Played",
+   "castaway": "Jake",
+   "played_for": "Jake",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Won in challenge"
+  }
+ ]
+}

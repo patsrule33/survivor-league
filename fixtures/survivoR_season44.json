@@ -1,0 +1,901 @@
+{
+ "season": 44,
+ "title": "Survivor 44",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Helen Li",
+   "short": "Helen",
+   "id": "US0660",
+   "place": 16
+  },
+  {
+   "name": "Claire Rafson",
+   "short": "Claire",
+   "id": "US0651",
+   "place": 15
+  },
+  {
+   "name": "Sarah Wade",
+   "short": "Sarah",
+   "id": "US0661",
+   "place": 14
+  },
+  {
+   "name": "Matthew Grinstead-Mayle",
+   "short": "Matthew",
+   "id": "US0650",
+   "place": 13
+  },
+  {
+   "name": "Josh Wilder",
+   "short": "Josh",
+   "id": "US0655",
+   "place": 12
+  },
+  {
+   "name": "Matt Blankinship",
+   "short": "Matt",
+   "id": "US0656",
+   "place": 11
+  },
+  {
+   "name": "Brandon Cottom",
+   "short": "Brandon",
+   "id": "US0645",
+   "place": 10
+  },
+  {
+   "name": "Kane Fritzler",
+   "short": "Kane",
+   "id": "US0647",
+   "place": 9
+  },
+  {
+   "name": "Frannie Marin",
+   "short": "Frannie",
+   "id": "US0653",
+   "place": 8
+  },
+  {
+   "name": "Danny Massa",
+   "short": "Danny",
+   "id": "US0652",
+   "place": 7
+  },
+  {
+   "name": "Jaime Lynn Ruiz",
+   "short": "Jaime",
+   "id": "US0646",
+   "place": 6
+  },
+  {
+   "name": "Lauren Harpe",
+   "short": "Lauren",
+   "id": "US0648",
+   "place": 5
+  },
+  {
+   "name": "Carson Garrett",
+   "short": "Carson",
+   "id": "US0659",
+   "place": 4
+  },
+  {
+   "name": "Carolyn Wiger",
+   "short": "Carolyn",
+   "id": "US0658",
+   "place": 3
+  },
+  {
+   "name": "Heidi Lagares-Greenblatt",
+   "short": "Heidi",
+   "id": "US0654",
+   "place": 2
+  },
+  {
+   "name": "Yam Yam Arocho",
+   "short": "Yam Yam",
+   "id": "US0662",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Yam Yam Arocho",
+  "Heidi Lagares-Greenblatt",
+  "Carolyn Wiger"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 2,
+   "eliminated": "Helen Li",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brandon Cottom",
+      "Jaime Lynn Ruiz",
+      "Kane Fritzler",
+      "Lauren Harpe",
+      "Matthew Grinstead-Mayle"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Claire Rafson",
+      "Danny Massa",
+      "Frannie Marin",
+      "Heidi Lagares-Greenblatt",
+      "Josh Wilder",
+      "Matt Blankinship"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Danny Massa",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Carolyn Wiger",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Matthew Grinstead-Mayle",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Helen Li"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Helen Li"
+      },
+      {
+       "voter": "Helen Li",
+       "target": "Carolyn Wiger"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Helen Li"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 3,
+   "eliminated": "Claire Rafson",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brandon Cottom",
+      "Jaime Lynn Ruiz",
+      "Kane Fritzler",
+      "Lauren Harpe",
+      "Matthew Grinstead-Mayle"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Carolyn Wiger",
+      "Carson Garrett",
+      "Sarah Wade",
+      "Yam Yam Arocho"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Danny Massa",
+       "target": "Claire Rafson"
+      },
+      {
+       "voter": "Frannie Marin",
+       "target": "Claire Rafson"
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Claire Rafson"
+      },
+      {
+       "voter": "Josh Wilder",
+       "target": "Claire Rafson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 4,
+   "eliminated": "Sarah Wade",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Danny Massa",
+      "Frannie Marin",
+      "Heidi Lagares-Greenblatt",
+      "Jaime Lynn Ruiz",
+      "Matt Blankinship"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Brandon Cottom",
+      "Carson Garrett",
+      "Kane Fritzler",
+      "Lauren Harpe",
+      "Matthew Grinstead-Mayle"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Danny Massa",
+      "Frannie Marin",
+      "Heidi Lagares-Greenblatt",
+      "Josh Wilder",
+      "Matt Blankinship"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Brandon Cottom",
+      "Jaime Lynn Ruiz",
+      "Kane Fritzler",
+      "Lauren Harpe",
+      "Matthew Grinstead-Mayle"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Sarah Wade"
+      },
+      {
+       "voter": "Sarah Wade",
+       "target": "Josh Wilder",
+       "negated": true
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Josh Wilder",
+       "negated": true
+      },
+      {
+       "voter": "Josh Wilder",
+       "target": "Sarah Wade"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Josh Wilder",
+      "for": "Josh Wilder",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Matthew Grinstead-Mayle",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brandon Cottom",
+      "Carson Garrett",
+      "Kane Fritzler",
+      "Lauren Harpe",
+      "Matthew Grinstead-Mayle"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Danny Massa",
+      "Frannie Marin",
+      "Heidi Lagares-Greenblatt",
+      "Jaime Lynn Ruiz",
+      "Matt Blankinship"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "medevac_pity",
+     "player": "Matthew Grinstead-Mayle",
+     "source": "survivoR"
+    }
+   ]
+  },
+  {
+   "week": 5,
+   "episode": 6,
+   "eliminated": "Josh Wilder",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brandon Cottom",
+      "Carolyn Wiger",
+      "Carson Garrett",
+      "Frannie Marin",
+      "Jaime Lynn Ruiz",
+      "Matt Blankinship"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Brandon Cottom",
+       "target": "Yam Yam Arocho"
+      },
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Josh Wilder"
+      },
+      {
+       "voter": "Kane Fritzler",
+       "target": "Yam Yam Arocho"
+      },
+      {
+       "voter": "Lauren Harpe",
+       "target": "Josh Wilder"
+      },
+      {
+       "voter": "Danny Massa",
+       "target": "Josh Wilder"
+      },
+      {
+       "voter": "Frannie Marin",
+       "target": "Josh Wilder"
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Josh Wilder"
+      },
+      {
+       "voter": "Josh Wilder",
+       "target": "Yam Yam Arocho"
+      },
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Kane Fritzler"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Josh Wilder"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Josh Wilder"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Matt Blankinship",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Brandon Cottom",
+      "Frannie Marin"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Carolyn Wiger",
+      "Carson Garrett",
+      "Danny Massa",
+      "Heidi Lagares-Greenblatt",
+      "Kane Fritzler"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Brandon Cottom",
+       "target": "Matt Blankinship"
+      },
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Matt Blankinship"
+      },
+      {
+       "voter": "Lauren Harpe",
+       "target": "Yam Yam Arocho"
+      },
+      {
+       "voter": "Matt Blankinship",
+       "target": "Yam Yam Arocho"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Matt Blankinship"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Brandon Cottom",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Lauren Harpe"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Brandon Cottom",
+       "target": "Frannie Marin",
+       "negated": true
+      },
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Frannie Marin",
+       "negated": true
+      },
+      {
+       "voter": "Kane Fritzler",
+       "target": "Frannie Marin",
+       "negated": true
+      },
+      {
+       "voter": "Lauren Harpe",
+       "target": "Frannie Marin",
+       "negated": true
+      },
+      {
+       "voter": "Danny Massa",
+       "target": "Brandon Cottom"
+      },
+      {
+       "voter": "Frannie Marin",
+       "target": "Brandon Cottom"
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Brandon Cottom"
+      },
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Brandon Cottom"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Frannie Marin",
+       "negated": true
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Frannie Marin",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Danny Massa",
+      "for": "Frannie Marin",
+      "votes_negated": 6
+     }
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Kane Fritzler",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Frannie Marin"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Heidi Lagares-Greenblatt",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Heidi Lagares-Greenblatt"
+      },
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Heidi Lagares-Greenblatt"
+      },
+      {
+       "voter": "Kane Fritzler",
+       "target": "Danny Massa"
+      },
+      {
+       "voter": "Lauren Harpe",
+       "target": "Heidi Lagares-Greenblatt"
+      },
+      {
+       "voter": "Danny Massa",
+       "target": "Kane Fritzler"
+      },
+      {
+       "voter": "Frannie Marin",
+       "target": "Jaime Lynn Ruiz"
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Kane Fritzler"
+      },
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Kane Fritzler"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Kane Fritzler"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Kane Fritzler"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Frannie Marin",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Carson Garrett"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Frannie Marin"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Frannie Marin"
+      },
+      {
+       "voter": "Lauren Harpe",
+       "target": "Frannie Marin"
+      },
+      {
+       "voter": "Danny Massa",
+       "target": "Frannie Marin"
+      },
+      {
+       "voter": "Frannie Marin",
+       "target": "Heidi Lagares-Greenblatt"
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Danny Massa"
+      },
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Heidi Lagares-Greenblatt"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Frannie Marin"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Frannie Marin"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Danny Massa",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Yam Yam Arocho"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Heidi Lagares-Greenblatt"
+      },
+      {
+       "voter": "Lauren Harpe",
+       "target": "Heidi Lagares-Greenblatt"
+      },
+      {
+       "voter": "Danny Massa",
+       "target": "Carson Garrett",
+       "negated": true
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Carson Garrett",
+       "negated": true
+      },
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Danny Massa"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Danny Massa"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Danny Massa"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Carolyn Wiger",
+      "for": "Carson Garrett",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Jaime Lynn Ruiz",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Lauren Harpe"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Carson Garrett",
+      "Lauren Harpe",
+      "Yam Yam Arocho"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jaime Lynn Ruiz",
+       "target": "Carolyn Wiger"
+      },
+      {
+       "voter": "Lauren Harpe",
+       "target": "Carolyn Wiger"
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Jaime Lynn Ruiz"
+      },
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Jaime Lynn Ruiz"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Jaime Lynn Ruiz"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Jaime Lynn Ruiz"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Heidi Lagares-Greenblatt",
+      "for": "Heidi Lagares-Greenblatt",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Lauren Harpe",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Carson Garrett"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Lauren Harpe",
+       "target": "Yam Yam Arocho"
+      },
+      {
+       "voter": "Heidi Lagares-Greenblatt",
+       "target": "Lauren Harpe"
+      },
+      {
+       "voter": "Carolyn Wiger",
+       "target": "Lauren Harpe"
+      },
+      {
+       "voter": "Carson Garrett",
+       "target": "Lauren Harpe"
+      },
+      {
+       "voter": "Yam Yam Arocho",
+       "target": "Heidi Lagares-Greenblatt"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Carson Garrett",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Heidi Lagares-Greenblatt"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Danny Massa": "Heidi Lagares-Greenblatt",
+    "Brandon Cottom": "Yam Yam Arocho",
+    "Carson Garrett": "Yam Yam Arocho",
+    "Frannie Marin": "Yam Yam Arocho",
+    "Jaime Lynn Ruiz": "Yam Yam Arocho",
+    "Kane Fritzler": "Yam Yam Arocho",
+    "Lauren Harpe": "Yam Yam Arocho",
+    "Matt Blankinship": "Yam Yam Arocho"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 8,
+   "advantage": "Bank your Vote",
+   "event": "Played",
+   "castaway": "Jaime",
+   "played_for": "Heidi",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "At challenge or reward"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Found",
+   "castaway": "Josh",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found at Summit"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Found",
+   "castaway": "Carson",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found at Summit"
+  },
+  {
+   "week": 3,
+   "advantage": "Hidden Immunity Idol",
+   "event": "Found",
+   "castaway": "Jaime",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found at Summit"
+  },
+  {
+   "week": 6,
+   "advantage": "Control the Vote",
+   "event": "Found",
+   "castaway": "Heidi",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "At challenge or reward"
+  },
+  {
+   "week": 6,
+   "advantage": "Control the Vote",
+   "event": "Played",
+   "castaway": "Heidi",
+   "played_for": "Lauren",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "At challenge or reward"
+  }
+ ]
+}

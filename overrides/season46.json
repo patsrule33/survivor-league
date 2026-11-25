@@ -1,0 +1,8 @@
+{
+ "notes": [
+  "Owner decisions layered on top of survivoR data for Season 46 (first week = boot 3, Randen's medevac).",
+  "The sheet keeps ep 7's two Tribals (engine weeks 5 and 6) in one column, so backtest with --merge 5,6.",
+  "Review list: Maria's Extra Vote (ep 5, 'Not needed') was not awarded 'advantage used'.",
+  "Split-group challenge (ep 7): survivoR's data stands. The winning team gets reward points. The owner confirmed the sheet was wrong not to pay them."
+ ]
+}

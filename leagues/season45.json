@@ -1,0 +1,48 @@
+{
+ "season": 45,
+ "league": "Family League",
+ "first_week_boot": 4,
+ "notes": "Rosters from the score sheet's owner column, i.e. end of season incl. waivers (import_sheets.py).",
+ "owners": [
+  {
+   "name": "Jimmy",
+   "roster": [
+    "Jake",
+    "Julie",
+    "Sifu"
+   ]
+  },
+  {
+   "name": "Will",
+   "roster": [
+    "Brando",
+    "Katurah",
+    "Kellie"
+   ]
+  },
+  {
+   "name": "Jamie",
+   "roster": [
+    "Dee",
+    "Emily",
+    "Kendra"
+   ]
+  },
+  {
+   "name": "Mom",
+   "roster": [
+    "Austin",
+    "Bruce",
+    "J. Maya"
+   ]
+  },
+  {
+   "name": "Greg",
+   "roster": [
+    "Drew",
+    "Kaleb",
+    "Sean"
+   ]
+  }
+ ]
+}

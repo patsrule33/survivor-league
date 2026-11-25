@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Survivor Fantasy League</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M16 3c3 5 7 7 7 13a7 7 0 0 1-14 0c0-3 1-5 3-7 0 3 1 4 2 5 0-5 1-8 2-11z' fill='%23eb6834'/><rect x='14' y='22' width='4' height='8' rx='1' fill='%2352514e'/></svg>">
+<link rel="stylesheet" href="style.css?v=7">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <div class="brand">
+      <svg class="torch" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3c3 5 7 7 7 13a7 7 0 0 1-14 0c0-3 1-5 3-7 0 3 1 4 2 5 0-5 1-8 2-11z"/><rect x="14" y="22" width="4" height="8" rx="1"/></svg>
+      <div>
+        <h1>Survivor Fantasy League</h1>
+        <p class="sub" id="subtitle"></p>
+      </div>
+    </div>
+    <label class="season-pick">
+      <span class="visually-hidden">Season</span>
+      <select id="season"></select>
+    </label>
+  </div>
+  <div class="wrap nav-row">
+    <nav class="tabs" aria-label="Views">
+      <a href="#" data-view="leaderboard">Leaderboard</a>
+      <a href="#" data-view="results">Results</a>
+      <a href="#" data-view="contestants">Contestants</a>
+      <a href="#" data-view="career">All time</a>
+      <a href="#" data-view="draft">Draft</a>
+    </nav>
+    <div class="seg" role="group" aria-label="Group points by">
+      <button type="button" data-unit="elim">Elimination</button>
+      <button type="button" data-unit="ep">Episode</button>
+    </div>
+  </div>
+</header>
+<main class="wrap" id="main" aria-live="polite"></main>
+<footer class="wrap foot">
+  <p>Data from <a href="https://github.com/doehm/survivoR">survivoR</a>. Points are scored per elimination; Episode view adds up an episode's eliminations. <span id="built"></span></p>
+</footer>
+<div id="tip" class="tip" role="tooltip" hidden></div>
+<script src="firebase-config.js?v=1"></script>
+<script src="draft.js?v=2"></script>
+<script src="app.js?v=7"></script>
+</body>
+</html>

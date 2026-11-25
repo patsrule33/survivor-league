@@ -1,0 +1,1054 @@
+{
+ "season": 39,
+ "title": "Survivor 39",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Chelsea Walker",
+   "short": "Chelsea",
+   "id": "US0574",
+   "place": 17
+  },
+  {
+   "name": "Tom Laidlaw",
+   "short": "Tom",
+   "id": "US0575",
+   "place": 16
+  },
+  {
+   "name": "Jason Linden",
+   "short": "Jason",
+   "id": "US0576",
+   "place": 15
+  },
+  {
+   "name": "Jack Nichting",
+   "short": "Jack",
+   "id": "US0577",
+   "place": 14
+  },
+  {
+   "name": "Kellee Kim",
+   "short": "Kellee",
+   "id": "US0578",
+   "place": 13
+  },
+  {
+   "name": "Jamal Shipman",
+   "short": "Jamal",
+   "id": "US0579",
+   "place": 12
+  },
+  {
+   "name": "Aaron Meredith",
+   "short": "Aaron",
+   "id": "US0580",
+   "place": 11
+  },
+  {
+   "name": "Missy Byrd",
+   "short": "Missy",
+   "id": "US0581",
+   "place": 10
+  },
+  {
+   "name": "Elizabeth Beisel",
+   "short": "Elizabeth",
+   "id": "US0582",
+   "place": 9
+  },
+  {
+   "name": "Karishma Patel",
+   "short": "Karishma",
+   "id": "US0583",
+   "place": 8
+  },
+  {
+   "name": "Elaine Stott",
+   "short": "Elaine",
+   "id": "US0584",
+   "place": 7
+  },
+  {
+   "name": "Dan Spilo",
+   "short": "Dan",
+   "id": "US0585",
+   "place": 6
+  },
+  {
+   "name": "Janet Carbin",
+   "short": "Janet",
+   "id": "US0586",
+   "place": 5
+  },
+  {
+   "name": "Lauren Beck",
+   "short": "Lauren",
+   "id": "US0587",
+   "place": 4
+  },
+  {
+   "name": "Noura Salman",
+   "short": "Noura",
+   "id": "US0588",
+   "place": 3
+  },
+  {
+   "name": "Dean Kowalski",
+   "short": "Dean",
+   "id": "US0589",
+   "place": 2
+  },
+  {
+   "name": "Tommy Sheehan",
+   "short": "Tommy",
+   "id": "US0590",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Tommy Sheehan",
+  "Dean Kowalski",
+  "Noura Salman"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 4,
+   "eliminated": "Chelsea Walker",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Dan Spilo",
+      "Jack Nichting",
+      "Jamal Shipman",
+      "Janet Carbin",
+      "Jason Linden",
+      "Kellee Kim",
+      "Lauren Beck",
+      "Noura Salman",
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Chelsea Walker",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Jamal Shipman",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chelsea Walker",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Tom Laidlaw",
+       "target": "Chelsea Walker"
+      },
+      {
+       "voter": "Aaron Meredith",
+       "target": "Chelsea Walker"
+      },
+      {
+       "voter": "Missy Byrd",
+       "target": "Chelsea Walker"
+      },
+      {
+       "voter": "Elizabeth Beisel",
+       "target": "Chelsea Walker"
+      },
+      {
+       "voter": "Karishma Patel",
+       "target": "Chelsea Walker"
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Chelsea Walker"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Karishma Patel"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 5,
+   "eliminated": "Tom Laidlaw",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aaron Meredith",
+      "Dan Spilo",
+      "Elaine Stott",
+      "Elizabeth Beisel",
+      "Jason Linden",
+      "Lauren Beck",
+      "Missy Byrd",
+      "Tommy Sheehan"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aaron Meredith",
+      "Dan Spilo",
+      "Elaine Stott",
+      "Elizabeth Beisel",
+      "Jason Linden",
+      "Lauren Beck",
+      "Missy Byrd",
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Tom Laidlaw",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Jack Nichting",
+       "target": "Tom Laidlaw"
+      },
+      {
+       "voter": "Kellee Kim",
+       "target": "Tom Laidlaw"
+      },
+      {
+       "voter": "Jamal Shipman",
+       "target": "Tom Laidlaw"
+      },
+      {
+       "voter": "Karishma Patel",
+       "target": "Tom Laidlaw"
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Tom Laidlaw"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Karishma Patel"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 6,
+   "eliminated": "Jason Linden",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Dean Kowalski",
+      "Jack Nichting",
+      "Jamal Shipman",
+      "Janet Carbin",
+      "Karishma Patel",
+      "Kellee Kim",
+      "Noura Salman"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aaron Meredith",
+      "Dan Spilo",
+      "Elaine Stott",
+      "Elizabeth Beisel",
+      "Jason Linden",
+      "Lauren Beck",
+      "Missy Byrd",
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Aaron Meredith",
+       "target": "Jason Linden"
+      },
+      {
+       "voter": "Missy Byrd",
+       "target": "Jason Linden"
+      },
+      {
+       "voter": "Elizabeth Beisel",
+       "target": "Jason Linden"
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Jason Linden"
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Elaine Stott"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Elaine Stott"
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Elaine Stott"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 7,
+   "eliminated": "Jack Nichting",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Aaron Meredith",
+      "Dan Spilo",
+      "Elaine Stott",
+      "Elizabeth Beisel",
+      "Lauren Beck",
+      "Missy Byrd",
+      "Tommy Sheehan"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aaron Meredith",
+      "Dan Spilo",
+      "Elaine Stott",
+      "Elizabeth Beisel",
+      "Lauren Beck",
+      "Missy Byrd",
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jack Nichting",
+       "target": "Dean Kowalski",
+       "negated": true
+      },
+      {
+       "voter": "Kellee Kim",
+       "target": "Dean Kowalski",
+       "negated": true
+      },
+      {
+       "voter": "Jamal Shipman",
+       "target": "Dean Kowalski",
+       "negated": true
+      },
+      {
+       "voter": "Karishma Patel",
+       "target": "Dean Kowalski",
+       "negated": true
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Dean Kowalski",
+       "negated": true
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Jack Nichting"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Jack Nichting"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Dean Kowalski",
+      "for": "Dean Kowalski",
+      "votes_negated": 5
+     },
+     {
+      "player": "Jamal Shipman",
+      "for": "Noura Salman",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 8,
+   "eliminated": "Kellee Kim",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Aaron Meredith",
+      "Aaron Meredith",
+      "Missy Byrd"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Dan Spilo",
+      "Dean Kowalski",
+      "Elaine Stott",
+      "Elizabeth Beisel",
+      "Noura Salman",
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Kellee Kim",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "Kellee Kim",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Kellee Kim",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "Kellee Kim",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Kellee Kim",
+       "target": "Dan Spilo"
+      },
+      {
+       "voter": "Jamal Shipman",
+       "target": "Dan Spilo"
+      },
+      {
+       "voter": "Aaron Meredith",
+       "target": "Kellee Kim"
+      },
+      {
+       "voter": "Missy Byrd",
+       "target": "Kellee Kim"
+      },
+      {
+       "voter": "Elizabeth Beisel",
+       "target": "Kellee Kim"
+      },
+      {
+       "voter": "Karishma Patel",
+       "target": "Dan Spilo"
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Kellee Kim"
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Kellee Kim"
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Dan Spilo"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Kellee Kim"
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Dan Spilo"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Kellee Kim"
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Kellee Kim"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "Jamal Shipman",
+   "challenges": [],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Janet Carbin",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Aaron Meredith",
+       "target": "Jamal Shipman"
+      },
+      {
+       "voter": "Missy Byrd",
+       "target": "Janet Carbin",
+       "negated": true
+      },
+      {
+       "voter": "Elizabeth Beisel",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Karishma Patel",
+       "target": "Janet Carbin",
+       "negated": true
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Jamal Shipman"
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Jamal Shipman"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Jamal Shipman"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Jamal Shipman"
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Jamal Shipman"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Janet Carbin",
+      "for": "Janet Carbin",
+      "votes_negated": 2
+     }
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Aaron Meredith",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Elaine Stott",
+      "Noura Salman"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Elizabeth Beisel",
+      "Karishma Patel",
+      "Missy Byrd",
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Karishma Patel",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Aaron Meredith",
+       "target": "Janet Carbin"
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Aaron Meredith"
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Aaron Meredith"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Aaron Meredith"
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Aaron Meredith"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Aaron Meredith"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Missy Byrd",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Missy Byrd",
+       "target": "Tommy Sheehan"
+      },
+      {
+       "voter": "Elizabeth Beisel",
+       "target": "Tommy Sheehan"
+      },
+      {
+       "voter": "Karishma Patel",
+       "target": "Missy Byrd"
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Missy Byrd"
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Missy Byrd"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Elizabeth Beisel",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Noura Salman"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Lauren Beck",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Elizabeth Beisel",
+       "target": "Karishma Patel",
+       "negated": true
+      },
+      {
+       "voter": "Karishma Patel",
+       "target": "Janet Carbin"
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Karishma Patel",
+       "negated": true
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Elizabeth Beisel"
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Karishma Patel",
+       "negated": true
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Karishma Patel",
+       "negated": true
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Karishma Patel",
+       "negated": true
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Karishma Patel",
+       "negated": true
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Karishma Patel",
+       "negated": true
+      }
+     ],
+     [
+      {
+       "voter": "Karishma Patel",
+       "target": "Elizabeth Beisel"
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Elizabeth Beisel"
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Elizabeth Beisel"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Elizabeth Beisel"
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Elizabeth Beisel"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Elizabeth Beisel"
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Elizabeth Beisel"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Karishma Patel",
+      "for": "Karishma Patel",
+      "votes_negated": 7
+     },
+     {
+      "player": "Lauren Beck",
+      "for": "Lauren Beck",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Karishma Patel",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Lauren Beck"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Janet Carbin",
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Elaine Stott",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Karishma Patel",
+       "target": "Noura Salman"
+      },
+      {
+       "voter": "Elaine Stott",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Noura Salman"
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Noura Salman"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Karishma Patel"
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Karishma Patel"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Elaine Stott",
+      "for": "Elaine Stott",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Elaine Stott",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Dean Kowalski"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Tommy Sheehan"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Janet Carbin",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Elaine Stott",
+       "target": "Noura Salman"
+      },
+      {
+       "voter": "Dan Spilo",
+       "target": "Noura Salman"
+      },
+      {
+       "voter": "Janet Carbin",
+       "target": "Elaine Stott"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Elaine Stott"
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Elaine Stott"
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Elaine Stott"
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Elaine Stott"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Dan Spilo",
+   "challenges": [],
+   "specials": []
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Janet Carbin",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Dean Kowalski"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Dean Kowalski",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Janet Carbin",
+       "target": "Lauren Beck"
+      },
+      {
+       "voter": "Lauren Beck",
+       "target": "Janet Carbin",
+       "negated": true
+      },
+      {
+       "voter": "Noura Salman",
+       "target": "Janet Carbin",
+       "negated": true
+      },
+      {
+       "voter": "Dean Kowalski",
+       "target": "Janet Carbin",
+       "negated": true
+      },
+      {
+       "voter": "Tommy Sheehan",
+       "target": "Janet Carbin",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Janet Carbin",
+      "for": "Janet Carbin",
+      "votes_negated": 4
+     }
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 13,
+   "eliminated": "Lauren Beck",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Noura Salman"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Aaron Meredith": "Dean Kowalski",
+    "Elizabeth Beisel": "Dean Kowalski",
+    "Elaine Stott": "Tommy Sheehan",
+    "Jack Nichting": "Tommy Sheehan",
+    "Jamal Shipman": "Tommy Sheehan",
+    "Janet Carbin": "Tommy Sheehan",
+    "Karishma Patel": "Tommy Sheehan",
+    "Kellee Kim": "Tommy Sheehan",
+    "Lauren Beck": "Tommy Sheehan",
+    "Missy Byrd": "Tommy Sheehan"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 3,
+   "advantage": "Vote Blocker",
+   "event": "Found",
+   "castaway": "Elaine",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won at challenge"
+  },
+  {
+   "week": 3,
+   "advantage": "Vote Blocker",
+   "event": "Played",
+   "castaway": "Elaine",
+   "played_for": "Jason",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Won at challenge"
+  },
+  {
+   "week": 11,
+   "advantage": "Idol Nullifier",
+   "event": "Found",
+   "castaway": "Dean",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Won on Islands of the Idols"
+  },
+  {
+   "week": 13,
+   "advantage": "Idol Nullifier",
+   "event": "Played",
+   "castaway": "Dean",
+   "played_for": "Janet",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Won on Islands of the Idols"
+  }
+ ]
+}

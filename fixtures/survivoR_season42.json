@@ -1,0 +1,915 @@
+{
+ "season": 42,
+ "title": "Survivor 42",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 3,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Marya Sherron",
+   "short": "Marya",
+   "id": "US0618",
+   "place": 16
+  },
+  {
+   "name": "Jenny Kim",
+   "short": "Jenny",
+   "id": "US0614",
+   "place": 15
+  },
+  {
+   "name": "Swati Goel",
+   "short": "Swati",
+   "id": "US0624",
+   "place": 14
+  },
+  {
+   "name": "Daniel Strunk",
+   "short": "Daniel",
+   "id": "US0610",
+   "place": 13
+  },
+  {
+   "name": "Lydia Meredith",
+   "short": "Lydia",
+   "id": "US0617",
+   "place": 12
+  },
+  {
+   "name": "Chanelle Howell",
+   "short": "Chanelle",
+   "id": "US0609",
+   "place": 11
+  },
+  {
+   "name": "Rocksroy Bailey",
+   "short": "Rocksroy",
+   "id": "US0622",
+   "place": 10
+  },
+  {
+   "name": "Tori Meehan",
+   "short": "Tori",
+   "id": "US0625",
+   "place": 9
+  },
+  {
+   "name": "Hai Giang",
+   "short": "Hai",
+   "id": "US0612",
+   "place": 8
+  },
+  {
+   "name": "Drea Wheeler",
+   "short": "Drea",
+   "id": "US0611",
+   "place": 7
+  },
+  {
+   "name": "Omar Zaheer",
+   "short": "Omar",
+   "id": "US0621",
+   "place": 6
+  },
+  {
+   "name": "Lindsay Dolashewich",
+   "short": "Lindsay",
+   "id": "US0616",
+   "place": 5
+  },
+  {
+   "name": "Jonathan Young",
+   "short": "Jonathan",
+   "id": "US0615",
+   "place": 4
+  },
+  {
+   "name": "Romeo Escobar",
+   "short": "Romeo",
+   "id": "US0623",
+   "place": 3
+  },
+  {
+   "name": "Mike Turner",
+   "short": "Mike",
+   "id": "US0620",
+   "place": 2
+  },
+  {
+   "name": "Maryanne Oketch",
+   "short": "Maryanne",
+   "id": "US0619",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Maryanne Oketch",
+  "Mike Turner",
+  "Romeo Escobar"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 2,
+   "eliminated": "Marya Sherron",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Chanelle Howell",
+      "Daniel Strunk",
+      "Hai Giang",
+      "Jenny Kim",
+      "Lydia Meredith",
+      "Mike Turner"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Drea Wheeler",
+      "Rocksroy Bailey",
+      "Romeo Escobar",
+      "Swati Goel",
+      "Tori Meehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jonathan Young",
+       "target": "Marya Sherron"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Marya Sherron"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Marya Sherron"
+      },
+      {
+       "voter": "Omar Zaheer",
+       "target": "Marya Sherron"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 3,
+   "eliminated": "Jenny Kim",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Jonathan Young",
+      "Lindsay Dolashewich",
+      "Maryanne Oketch",
+      "Omar Zaheer"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Drea Wheeler",
+      "Rocksroy Bailey",
+      "Romeo Escobar",
+      "Swati Goel",
+      "Tori Meehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Daniel Strunk",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Hai Giang",
+       "target": "Jenny Kim"
+      },
+      {
+       "voter": "Jenny Kim",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Lydia Meredith",
+       "target": "Jenny Kim"
+      }
+     ],
+     [
+      {
+       "voter": "Daniel Strunk",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Hai Giang",
+       "target": "Jenny Kim"
+      }
+     ],
+     [
+      {
+       "voter": "Daniel Strunk",
+       "target": "Jenny Kim"
+      },
+      {
+       "voter": "Hai Giang",
+       "target": "Jenny Kim"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 4,
+   "eliminated": "Swati Goel",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Jonathan Young",
+      "Lindsay Dolashewich",
+      "Maryanne Oketch",
+      "Omar Zaheer"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Chanelle Howell",
+      "Daniel Strunk",
+      "Hai Giang",
+      "Lydia Meredith",
+      "Mike Turner"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Jonathan Young",
+      "Lindsay Dolashewich",
+      "Maryanne Oketch",
+      "Omar Zaheer"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Drea Wheeler",
+       "target": "Swati Goel"
+      },
+      {
+       "voter": "Rocksroy Bailey",
+       "target": "Tori Meehan"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Swati Goel"
+      },
+      {
+       "voter": "Tori Meehan",
+       "target": "Swati Goel"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 5,
+   "eliminated": "Daniel Strunk",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Drea Wheeler",
+      "Rocksroy Bailey",
+      "Romeo Escobar",
+      "Tori Meehan"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Jonathan Young",
+      "Lindsay Dolashewich",
+      "Maryanne Oketch",
+      "Omar Zaheer"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Mike Turner",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Maryanne Oketch",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Drea Wheeler",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chanelle Howell",
+       "target": "Mike Turner"
+      },
+      {
+       "voter": "Daniel Strunk",
+       "target": "Chanelle Howell"
+      },
+      {
+       "voter": "Hai Giang",
+       "target": "Daniel Strunk"
+      },
+      {
+       "voter": "Lydia Meredith",
+       "target": "Daniel Strunk"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Chanelle Howell"
+      }
+     ],
+     [
+      {
+       "voter": "Hai Giang",
+       "target": "Daniel Strunk"
+      },
+      {
+       "voter": "Lydia Meredith",
+       "target": "Daniel Strunk"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Daniel Strunk"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Lydia Meredith",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tori Meehan"
+     ]
+    },
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Hai Giang",
+      "Jonathan Young",
+      "Lydia Meredith",
+      "Maryanne Oketch",
+      "Tori Meehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chanelle Howell",
+       "target": "Jonathan Young"
+      },
+      {
+       "voter": "Drea Wheeler",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Hai Giang",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Lydia Meredith",
+       "target": "Maryanne Oketch"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Lydia Meredith"
+      },
+      {
+       "voter": "Rocksroy Bailey",
+       "target": "Lindsay Dolashewich"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Maryanne Oketch"
+      },
+      {
+       "voter": "Tori Meehan",
+       "target": "Jonathan Young"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 8,
+   "eliminated": "Chanelle Howell",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tori Meehan"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Chanelle Howell",
+      "Jonathan Young",
+      "Mike Turner",
+      "Rocksroy Bailey",
+      "Tori Meehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chanelle Howell",
+       "target": "Romeo Escobar"
+      },
+      {
+       "voter": "Drea Wheeler",
+       "target": "Chanelle Howell"
+      },
+      {
+       "voter": "Hai Giang",
+       "target": "Chanelle Howell"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Chanelle Howell"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Chanelle Howell"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Romeo Escobar"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Chanelle Howell"
+      },
+      {
+       "voter": "Omar Zaheer",
+       "target": "Romeo Escobar"
+      },
+      {
+       "voter": "Rocksroy Bailey",
+       "target": "Chanelle Howell"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Hai Giang"
+      },
+      {
+       "voter": "Tori Meehan",
+       "target": "Chanelle Howell"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 9,
+   "eliminated": "Rocksroy Bailey",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Hai Giang",
+      "Jonathan Young"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Drea Wheeler",
+      "Lindsay Dolashewich",
+      "Maryanne Oketch",
+      "Tori Meehan"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Hai Giang",
+       "target": "Rocksroy Bailey"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Rocksroy Bailey"
+      },
+      {
+       "voter": "Omar Zaheer",
+       "target": "Rocksroy Bailey"
+      },
+      {
+       "voter": "Rocksroy Bailey",
+       "target": "Romeo Escobar"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Rocksroy Bailey"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Tori Meehan",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Drea Wheeler",
+       "target": "Tori Meehan"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Tori Meehan"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Tori Meehan"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Tori Meehan"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Maryanne Oketch",
+      "for": "Maryanne Oketch",
+      "votes_negated": 0
+     },
+     {
+      "player": "Drea Wheeler",
+      "for": "Drea Wheeler",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Hai Giang",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Lindsay Dolashewich"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Lindsay Dolashewich"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Maryanne Oketch",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Drea Wheeler",
+       "target": "Hai Giang"
+      },
+      {
+       "voter": "Hai Giang",
+       "target": "Jonathan Young"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Hai Giang"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Hai Giang"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Hai Giang"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Hai Giang"
+      },
+      {
+       "voter": "Omar Zaheer",
+       "target": "Hai Giang"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Jonathan Young"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Drea Wheeler",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Jonathan Young"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Drea Wheeler",
+       "target": "Mike Turner"
+      },
+      {
+       "voter": "Drea Wheeler",
+       "target": "Mike Turner"
+      },
+      {
+       "voter": "Jonathan Young",
+       "target": "Drea Wheeler"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Drea Wheeler"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Drea Wheeler"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Drea Wheeler"
+      },
+      {
+       "voter": "Omar Zaheer",
+       "target": "Drea Wheeler"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Mike Turner"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Omar Zaheer",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Lindsay Dolashewich"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Omar Zaheer"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jonathan Young",
+       "target": "Romeo Escobar"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Jonathan Young"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Omar Zaheer"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Omar Zaheer"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Romeo Escobar"
+      },
+      {
+       "voter": "Omar Zaheer",
+       "target": "Jonathan Young"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Omar Zaheer"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Lindsay Dolashewich",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Turner"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jonathan Young",
+       "target": "Lindsay Dolashewich"
+      },
+      {
+       "voter": "Lindsay Dolashewich",
+       "target": "Jonathan Young"
+      },
+      {
+       "voter": "Maryanne Oketch",
+       "target": "Lindsay Dolashewich"
+      },
+      {
+       "voter": "Mike Turner",
+       "target": "Lindsay Dolashewich"
+      },
+      {
+       "voter": "Romeo Escobar",
+       "target": "Lindsay Dolashewich"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Mike Turner",
+      "for": "Maryanne Oketch",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Jonathan Young",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Romeo Escobar"
+     ]
+    }
+   ],
+   "specials": [],
+   "jury": {
+    "Chanelle Howell": "Maryanne Oketch",
+    "Drea Wheeler": "Maryanne Oketch",
+    "Hai Giang": "Maryanne Oketch",
+    "Lindsay Dolashewich": "Maryanne Oketch",
+    "Omar Zaheer": "Maryanne Oketch",
+    "Rocksroy Bailey": "Maryanne Oketch",
+    "Tori Meehan": "Maryanne Oketch",
+    "Jonathan Young": "Mike Turner"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 10,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Drea",
+   "played_for": "Mike",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 1,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Maryanne",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 11,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Maryanne",
+   "played_for": "Omar",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Shipwheel Island"
+  },
+  {
+   "week": 3,
+   "advantage": "Idol Nullifier",
+   "event": "Found",
+   "castaway": "Omar",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 6,
+   "advantage": "Knowledge is Power",
+   "event": "Found",
+   "castaway": "Drea",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 10,
+   "advantage": "Knowledge is Power",
+   "event": "Played",
+   "castaway": "Drea",
+   "played_for": "Mike",
+   "success": "No",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

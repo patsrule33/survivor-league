@@ -1,0 +1,1116 @@
+{
+ "season": 33,
+ "title": "Survivor 33",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 1,
+ "contestants": [
+  {
+   "name": "Lucy Huang",
+   "short": "Lucy",
+   "id": "US0482",
+   "place": 17
+  },
+  {
+   "name": "Ciandre Taylor",
+   "short": "CeCe",
+   "id": "US0483",
+   "place": 16
+  },
+  {
+   "name": "Jessica Figueroa",
+   "short": "Figgy",
+   "id": "US0484",
+   "place": 15
+  },
+  {
+   "name": "Michaela Bradshaw",
+   "short": "Michaela",
+   "id": "US0485",
+   "place": 14
+  },
+  {
+   "name": "Michelle Schubert",
+   "short": "Michelle",
+   "id": "US0486",
+   "place": 13
+  },
+  {
+   "name": "Taylor Lee Stocker",
+   "short": "Taylor",
+   "id": "US0487",
+   "place": 12
+  },
+  {
+   "name": "Chris Hammons",
+   "short": "Chris",
+   "id": "US0488",
+   "place": 11
+  },
+  {
+   "name": "Jessica Lewis",
+   "short": "Jessica",
+   "id": "US0489",
+   "place": 10
+  },
+  {
+   "name": "Zeke Smith",
+   "short": "Zeke",
+   "id": "US0490",
+   "place": 9
+  },
+  {
+   "name": "Will Wahl",
+   "short": "Will",
+   "id": "US0491",
+   "place": 8
+  },
+  {
+   "name": "Sunday Burquest",
+   "short": "Sunday",
+   "id": "US0492",
+   "place": 7
+  },
+  {
+   "name": "Justin Starrett",
+   "short": "Jay",
+   "id": "US0493",
+   "place": 6
+  },
+  {
+   "name": "Bret LaBelle",
+   "short": "Bret",
+   "id": "US0494",
+   "place": 5
+  },
+  {
+   "name": "David Wright",
+   "short": "David",
+   "id": "US0495",
+   "place": 4
+  },
+  {
+   "name": "Hannah Shapiro",
+   "short": "Hannah",
+   "id": "US0496",
+   "place": 3
+  },
+  {
+   "name": "Ken McNickle",
+   "short": "Ken",
+   "id": "US0497",
+   "place": 2
+  },
+  {
+   "name": "Adam Klein",
+   "short": "Adam",
+   "id": "US0498",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Adam Klein",
+  "Ken McNickle",
+  "Hannah Shapiro"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 4,
+   "eliminated": "Lucy Huang",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Adam Klein",
+      "Hannah Shapiro",
+      "Jessica Figueroa",
+      "Justin Starrett",
+      "Michaela Bradshaw",
+      "Michelle Schubert",
+      "Taylor Lee Stocker",
+      "Will Wahl",
+      "Zeke Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Bret LaBelle",
+      "Chris Hammons",
+      "Ciandre Taylor",
+      "David Wright",
+      "Jessica Lewis",
+      "Ken McNickle",
+      "Lucy Huang",
+      "Sunday Burquest"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Adam Klein",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Lucy Huang",
+       "target": "Jessica Lewis",
+       "negated": true
+      },
+      {
+       "voter": "Ciandre Taylor",
+       "target": "Lucy Huang"
+      },
+      {
+       "voter": "Chris Hammons",
+       "target": "Jessica Lewis",
+       "negated": true
+      },
+      {
+       "voter": "Jessica Lewis",
+       "target": "Ciandre Taylor"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Jessica Lewis",
+       "negated": true
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Jessica Lewis",
+       "negated": true
+      },
+      {
+       "voter": "David Wright",
+       "target": "Lucy Huang"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Jessica Lewis",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "David Wright",
+      "for": "Jessica Lewis",
+      "votes_negated": 5
+     }
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 5,
+   "eliminated": "Ciandre Taylor",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Bret LaBelle",
+      "Hannah Shapiro",
+      "Justin Starrett",
+      "Michaela Bradshaw",
+      "Sunday Burquest",
+      "Will Wahl"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Adam Klein",
+      "Jessica Figueroa",
+      "Jessica Lewis",
+      "Ken McNickle",
+      "Taylor Lee Stocker"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "David Wright",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Ciandre Taylor",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Michelle Schubert",
+       "target": "Ciandre Taylor"
+      },
+      {
+       "voter": "Chris Hammons",
+       "target": "Ciandre Taylor"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Ciandre Taylor"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Ciandre Taylor"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 6,
+   "eliminated": "Jessica Figueroa",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Bret LaBelle",
+      "Hannah Shapiro",
+      "Justin Starrett",
+      "Michaela Bradshaw",
+      "Sunday Burquest",
+      "Will Wahl"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Chris Hammons",
+      "David Wright",
+      "Michelle Schubert",
+      "Zeke Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Chris Hammons",
+      "David Wright",
+      "Michelle Schubert",
+      "Zeke Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Bret LaBelle",
+      "Hannah Shapiro",
+      "Justin Starrett",
+      "Michaela Bradshaw",
+      "Sunday Burquest",
+      "Will Wahl"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Justin Starrett",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jessica Figueroa",
+       "target": "Ken McNickle"
+      },
+      {
+       "voter": "Taylor Lee Stocker",
+       "target": "Ken McNickle"
+      },
+      {
+       "voter": "Jessica Lewis",
+       "target": "Jessica Figueroa"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Jessica Figueroa"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Jessica Figueroa"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 7,
+   "eliminated": "Michaela Bradshaw",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Adam Klein",
+      "Jessica Lewis",
+      "Ken McNickle",
+      "Taylor Lee Stocker"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Chris Hammons",
+      "David Wright",
+      "Michelle Schubert",
+      "Zeke Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Chris Hammons",
+      "David Wright",
+      "Michelle Schubert",
+      "Zeke Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Bret LaBelle",
+      "Hannah Shapiro",
+      "Justin Starrett",
+      "Michaela Bradshaw",
+      "Sunday Burquest",
+      "Will Wahl"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Bret LaBelle"
+      },
+      {
+       "voter": "Will Wahl",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Bret LaBelle"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 8,
+   "eliminated": "Michelle Schubert",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Will Wahl"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Michelle Schubert",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Taylor Lee Stocker",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Chris Hammons",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Jessica Lewis",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Will Wahl",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Michelle Schubert"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Michelle Schubert"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 9,
+   "eliminated": "Taylor Lee Stocker",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ken McNickle"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Bret LaBelle",
+      "Chris Hammons",
+      "David Wright",
+      "Ken McNickle",
+      "Sunday Burquest",
+      "Taylor Lee Stocker"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Taylor Lee Stocker",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Chris Hammons",
+       "target": "Taylor Lee Stocker"
+      },
+      {
+       "voter": "Jessica Lewis",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Taylor Lee Stocker"
+      },
+      {
+       "voter": "Will Wahl",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Taylor Lee Stocker"
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "Taylor Lee Stocker"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Taylor Lee Stocker"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Taylor Lee Stocker"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Taylor Lee Stocker"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 10,
+   "eliminated": "Chris Hammons",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "David Wright"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Adam Klein",
+      "Bret LaBelle",
+      "Hannah Shapiro",
+      "Sunday Burquest",
+      "Zeke Smith"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Chris Hammons",
+       "target": "Jessica Lewis"
+      },
+      {
+       "voter": "Jessica Lewis",
+       "target": "Chris Hammons"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Chris Hammons"
+      },
+      {
+       "voter": "Will Wahl",
+       "target": "Chris Hammons"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Jessica Lewis"
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "Jessica Lewis"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Jessica Lewis"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Chris Hammons"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Chris Hammons"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Chris Hammons"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Chris Hammons"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Jessica Lewis",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Justin Starrett"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Bret LaBelle",
+      "David Wright",
+      "Sunday Burquest",
+      "Zeke Smith"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jessica Lewis",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "Will Wahl",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Zeke Smith"
+      }
+     ],
+     [
+      {
+       "voter": "Jessica Lewis",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Will Wahl",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Hannah Shapiro"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Zeke Smith"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "David Wright",
+      "for": "Ken McNickle",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 11,
+   "eliminated": "Zeke Smith",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Adam Klein"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Justin Starrett"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Zeke Smith",
+       "target": "Hannah Shapiro",
+       "negated": true
+      },
+      {
+       "voter": "Will Wahl",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Hannah Shapiro",
+       "negated": true
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "Hannah Shapiro",
+       "negated": true
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Hannah Shapiro",
+       "negated": true
+      },
+      {
+       "voter": "David Wright",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Zeke Smith"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Adam Klein",
+      "for": "Hannah Shapiro",
+      "votes_negated": 4
+     }
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 12,
+   "eliminated": "Will Wahl",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Justin Starrett"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Will Wahl",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Sunday Burquest",
+       "target": "Will Wahl"
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Will Wahl"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Will Wahl"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Will Wahl"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Will Wahl"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Will Wahl"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 12,
+   "eliminated": "Sunday Burquest",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ken McNickle"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Sunday Burquest",
+       "target": "Justin Starrett",
+       "negated": true
+      },
+      {
+       "voter": "Justin Starrett",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "David Wright"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Sunday Burquest"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Sunday Burquest"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Sunday Burquest"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Sunday Burquest"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Justin Starrett",
+      "for": "Justin Starrett",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 13,
+   "eliminated": "Justin Starrett",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "David Wright"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Adam Klein",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Justin Starrett",
+       "target": "Ken McNickle",
+       "negated": true
+      },
+      {
+       "voter": "Bret LaBelle",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Justin Starrett"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "Justin Starrett"
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Ken McNickle",
+      "for": "Ken McNickle",
+      "votes_negated": 1
+     },
+     {
+      "player": "Adam Klein",
+      "for": "Adam Klein",
+      "votes_negated": 0
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 13,
+   "eliminated": "Bret LaBelle",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ken McNickle"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Bret LaBelle",
+       "target": "David Wright"
+      },
+      {
+       "voter": "David Wright",
+       "target": "Bret LaBelle"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "Bret LaBelle"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "Bret LaBelle"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "David Wright"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 13,
+   "eliminated": "David Wright",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Ken McNickle"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "David Wright",
+       "target": "Adam Klein"
+      },
+      {
+       "voter": "Hannah Shapiro",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Ken McNickle",
+       "target": "David Wright"
+      },
+      {
+       "voter": "Adam Klein",
+       "target": "David Wright"
+      }
+     ]
+    ]
+   },
+   "jury": {
+    "Bret LaBelle": "Adam Klein",
+    "Chris Hammons": "Adam Klein",
+    "David Wright": "Adam Klein",
+    "Justin Starrett": "Adam Klein",
+    "Jessica Lewis": "Adam Klein",
+    "Michelle Schubert": "Adam Klein",
+    "Sunday Burquest": "Adam Klein",
+    "Taylor Lee Stocker": "Adam Klein",
+    "Will Wahl": "Adam Klein",
+    "Zeke Smith": "Adam Klein"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 5,
+   "advantage": "Reward Stealer",
+   "event": "Found",
+   "castaway": "Adam",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp"
+  },
+  {
+   "week": 12,
+   "advantage": "Reward Stealer",
+   "event": "Played",
+   "castaway": "Jay",
+   "played_for": null,
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found around camp"
+  }
+ ]
+}

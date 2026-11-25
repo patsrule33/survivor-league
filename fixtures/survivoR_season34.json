@@ -1,0 +1,1082 @@
+{
+ "season": 34,
+ "title": "Survivor 34",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 4,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Malcolm Freberg",
+   "short": "Malcolm",
+   "id": "US0384",
+   "place": 17
+  },
+  {
+   "name": "James Thomas Jr.",
+   "short": "J.T.",
+   "id": "US0281",
+   "place": 16
+  },
+  {
+   "name": "Sandra Diaz-Twine",
+   "short": "Sandra",
+   "id": "US0112",
+   "place": 15
+  },
+  {
+   "name": "Jeff Varner",
+   "short": "Jeff",
+   "id": "US0023",
+   "place": 14
+  },
+  {
+   "name": "Hali Ford",
+   "short": "Hali",
+   "id": "US0450",
+   "place": 13
+  },
+  {
+   "name": "Oscar Lusth",
+   "short": "Ozzy",
+   "id": "US0201",
+   "place": 12
+  },
+  {
+   "name": "Debbie Wanner",
+   "short": "Debbie",
+   "id": "US0470",
+   "place": 11
+  },
+  {
+   "name": "Zeke Smith",
+   "short": "Zeke",
+   "id": "US0490",
+   "place": 10
+  },
+  {
+   "name": "Sierra Dawn Thomas",
+   "short": "Sierra",
+   "id": "US0456",
+   "place": 9
+  },
+  {
+   "name": "Andrea Boehlke",
+   "short": "Andrea",
+   "id": "US0333",
+   "place": 8
+  },
+  {
+   "name": "Michaela Bradshaw",
+   "short": "Michaela",
+   "id": "US0485",
+   "place": 7
+  },
+  {
+   "name": "Cirie Fields",
+   "short": "Cirie",
+   "id": "US0179",
+   "place": 6
+  },
+  {
+   "name": "Aubry Bracco",
+   "short": "Aubry",
+   "id": "US0477",
+   "place": 5
+  },
+  {
+   "name": "Tai Trang",
+   "short": "Tai",
+   "id": "US0476",
+   "place": 4
+  },
+  {
+   "name": "Troy Robertson",
+   "short": "Troyzan",
+   "id": "US0364",
+   "place": 3
+  },
+  {
+   "name": "Brad Culpepper",
+   "short": "Brad",
+   "id": "US0401",
+   "place": 2
+  },
+  {
+   "name": "Sarah Lacina",
+   "short": "Sarah",
+   "id": "US0414",
+   "place": 1
+  }
+ ],
+ "final_placement": [
+  "Sarah Lacina",
+  "Brad Culpepper",
+  "Troy Robertson"
+ ],
+ "forfeit": [],
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 3,
+   "eliminated": "Malcolm Freberg",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Andrea Boehlke",
+      "Cirie Fields",
+      "Oscar Lusth",
+      "Sarah Lacina",
+      "Troy Robertson",
+      "Zeke Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Aubry Bracco",
+      "James Thomas Jr.",
+      "Jeff Varner",
+      "Malcolm Freberg",
+      "Michaela Bradshaw",
+      "Sandra Diaz-Twine"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Brad Culpepper",
+      "Debbie Wanner",
+      "Hali Ford",
+      "Sierra Dawn Thomas",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Tai Trang",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeff Varner",
+       "target": "Sierra Dawn Thomas",
+       "negated": true
+      },
+      {
+       "voter": "Sandra Diaz-Twine",
+       "target": "Sierra Dawn Thomas",
+       "negated": true
+      },
+      {
+       "voter": "James Thomas Jr.",
+       "target": "Sierra Dawn Thomas",
+       "negated": true
+      },
+      {
+       "voter": "Malcolm Freberg",
+       "target": "Sierra Dawn Thomas",
+       "negated": true
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Malcolm Freberg"
+      },
+      {
+       "voter": "Hali Ford",
+       "target": "Malcolm Freberg"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Malcolm Freberg"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Malcolm Freberg"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Malcolm Freberg"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Sierra Dawn Thomas",
+       "negated": true
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Sierra Dawn Thomas",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Tai Trang",
+      "for": "Sierra Dawn Thomas",
+      "votes_negated": 6
+     }
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 4,
+   "eliminated": "James Thomas Jr.",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brad Culpepper",
+      "Debbie Wanner",
+      "Hali Ford",
+      "Sierra Dawn Thomas",
+      "Tai Trang"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Andrea Boehlke",
+      "Cirie Fields",
+      "Oscar Lusth",
+      "Sarah Lacina",
+      "Troy Robertson",
+      "Zeke Smith"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Andrea Boehlke",
+      "Cirie Fields",
+      "Oscar Lusth",
+      "Sarah Lacina",
+      "Troy Robertson"
+     ]
+    },
+    {
+     "type": "tribal_reward_2",
+     "players": [
+      "Aubry Bracco",
+      "James Thomas Jr.",
+      "Jeff Varner",
+      "Michaela Bradshaw",
+      "Sandra Diaz-Twine"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "James Thomas Jr.",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_in_pocket",
+     "player": "James Thomas Jr.",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeff Varner",
+       "target": "James Thomas Jr."
+      },
+      {
+       "voter": "Sandra Diaz-Twine",
+       "target": "James Thomas Jr."
+      },
+      {
+       "voter": "James Thomas Jr.",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "James Thomas Jr."
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 5,
+   "eliminated": "Sandra Diaz-Twine",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brad Culpepper",
+      "Debbie Wanner",
+      "Hali Ford",
+      "Sierra Dawn Thomas",
+      "Tai Trang"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Tai Trang",
+     "source": "survivoR"
+    },
+    {
+     "type": "idol_found",
+     "player": "Tai Trang",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Jeff Varner",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Sandra Diaz-Twine",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Sandra Diaz-Twine"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Sandra Diaz-Twine"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Sandra Diaz-Twine"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Sandra Diaz-Twine"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Sandra Diaz-Twine"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 6,
+   "eliminated": "Jeff Varner",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brad Culpepper",
+      "Debbie Wanner",
+      "Hali Ford",
+      "Sierra Dawn Thomas",
+      "Tai Trang"
+     ]
+    },
+    {
+     "type": "tribal_reward_1",
+     "players": [
+      "Andrea Boehlke",
+      "Debbie Wanner",
+      "Jeff Varner",
+      "Oscar Lusth",
+      "Sarah Lacina",
+      "Tai Trang",
+      "Zeke Smith"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Oscar Lusth",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Jeff Varner"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Jeff Varner"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 7,
+   "eliminated": "Hali Ford",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Andrea Boehlke"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Hali Ford",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Hali Ford"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Michaela Bradshaw"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 7,
+   "eliminated": "Oscar Lusth",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Tai Trang"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Andrea Boehlke",
+      "Debbie Wanner",
+      "Oscar Lusth",
+      "Tai Trang",
+      "Troy Robertson",
+      "Zeke Smith"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Oscar Lusth",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Oscar Lusth"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Aubry Bracco"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 7,
+   "episode": 8,
+   "eliminated": "Debbie Wanner",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Troy Robertson"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Andrea Boehlke",
+      "Aubry Bracco",
+      "Brad Culpepper",
+      "Debbie Wanner",
+      "Sierra Dawn Thomas"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Debbie Wanner",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Debbie Wanner"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Debbie Wanner"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 9,
+   "eliminated": "Zeke Smith",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Andrea Boehlke"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Andrea Boehlke",
+      "Aubry Bracco",
+      "Brad Culpepper",
+      "Sarah Lacina",
+      "Zeke Smith"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Zeke Smith"
+      },
+      {
+       "voter": "Zeke Smith",
+       "target": "Sierra Dawn Thomas"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 9,
+   "episode": 10,
+   "eliminated": "Sierra Dawn Thomas",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Brad Culpepper"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Andrea Boehlke",
+      "Aubry Bracco",
+      "Brad Culpepper"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Sierra Dawn Thomas",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Sierra Dawn Thomas"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Sierra Dawn Thomas"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 10,
+   "episode": 11,
+   "eliminated": "Andrea Boehlke",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Aubry Bracco"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Andrea Boehlke",
+       "target": "Brad Culpepper"
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Andrea Boehlke"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Brad Culpepper"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Andrea Boehlke"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 11,
+   "episode": 11,
+   "eliminated": "Michaela Bradshaw",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Brad Culpepper"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Michaela Bradshaw"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Michaela Bradshaw",
+       "target": "Tai Trang"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 12,
+   "episode": 12,
+   "eliminated": "Cirie Fields",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Brad Culpepper"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cirie Fields",
+       "target": "Sarah Lacina",
+       "negated": true
+      },
+      {
+       "voter": "Troy Robertson",
+       "target": "Tai Trang",
+       "negated": true
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Aubry Bracco",
+       "negated": true
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Tai Trang",
+       "negated": true
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Sarah Lacina",
+       "negated": true
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Sarah Lacina",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Sarah Lacina",
+      "for": "Sarah Lacina",
+      "votes_negated": 3
+     },
+     {
+      "player": "Troy Robertson",
+      "for": "Troy Robertson",
+      "votes_negated": 0
+     },
+     {
+      "player": "Tai Trang",
+      "for": "Tai Trang",
+      "votes_negated": 2
+     },
+     {
+      "player": "Tai Trang",
+      "for": "Aubry Bracco",
+      "votes_negated": 1
+     }
+    ]
+   }
+  },
+  {
+   "week": 13,
+   "episode": 12,
+   "eliminated": "Aubry Bracco",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Brad Culpepper"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Troy Robertson",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Aubry Bracco"
+      },
+      {
+       "voter": "Aubry Bracco",
+       "target": "Troy Robertson"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 14,
+   "episode": 12,
+   "eliminated": "Tai Trang",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Brad Culpepper"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Troy Robertson",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Brad Culpepper",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Sarah Lacina",
+       "target": "Tai Trang"
+      },
+      {
+       "voter": "Tai Trang",
+       "target": "Troy Robertson"
+      }
+     ]
+    ]
+   },
+   "jury": {
+    "Debbie Wanner": "Brad Culpepper",
+    "Oscar Lusth": "Brad Culpepper",
+    "Sierra Dawn Thomas": "Brad Culpepper",
+    "Andrea Boehlke": "Sarah Lacina",
+    "Aubry Bracco": "Sarah Lacina",
+    "Cirie Fields": "Sarah Lacina",
+    "Hali Ford": "Sarah Lacina",
+    "Michaela Bradshaw": "Sarah Lacina",
+    "Tai Trang": "Sarah Lacina",
+    "Zeke Smith": "Sarah Lacina"
+   }
+  }
+ ],
+ "review": [
+  {
+   "week": 3,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Debbie",
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Received on Exile"
+  },
+  {
+   "week": 6,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Debbie",
+   "played_for": "Ozzy",
+   "success": "Not needed",
+   "votes_nullified": null,
+   "location": "Received on Exile"
+  }
+ ]
+}
