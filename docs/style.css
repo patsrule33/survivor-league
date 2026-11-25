@@ -212,7 +212,9 @@ tr.season-link:hover td { background: var(--surface-2); }
 .clock-actions { margin-left: auto; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
 .clock.done { font-size: 15px; }
 .whoami { font-size: 14px; color: var(--ink-2); display: inline-flex; gap: 6px; align-items: center; }
-.board td { text-align: left; }
+.board { table-layout: fixed; min-width: 520px; }
+.board th, .board td { text-align: left; overflow: hidden; text-overflow: ellipsis; }
+.board th:first-child, .board td:first-child { width: 70px; }
 .board td.now { box-shadow: inset 0 0 0 2px var(--torch); color: var(--ink-2); font-style: italic; }
 .pool-group { margin-bottom: 14px; }
 .pool-tribe { margin-bottom: 6px; }
