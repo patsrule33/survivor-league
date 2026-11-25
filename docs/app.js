@@ -73,7 +73,7 @@
   async function route() {
     hideTip();
     let { season, view, unit: hashUnit, arg } = parseHash();
-    if (!season || !index.some((s) => s.season === season)) season = index[0].season;
+    if (!season || !index.some((s) => s.season === season)) season = (index.find((s) => !s.test) || index[0]).season;
     if (hashUnit && hashUnit !== unit) setUnit(hashUnit);
     if (lastPage && lastPage !== `${season}/${view}`) scrollTo(0, 0); // new view: start at top; new elimination: stay put
     lastPage = `${season}/${view}`;
@@ -111,9 +111,10 @@
     });
     document.querySelectorAll(".seg button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.unit === unit)));
     const us = units(d), last = us[us.length - 1];
-    $("#subtitle").textContent = `${d.title} · ${d.complete ? "Final standings" : `Through ${U().lower} ${last.label}`}`;
+    $("#subtitle").textContent = `${d.title}${d.test ? " (test)" : ""} · ${d.complete ? "Final standings" : last ? `Through ${U().lower} ${last.label}` : "Rosters set"}`;
     $("#built").textContent = `Scores last built ${new Date(d.built).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}.`;
     document.title = `${d.title} · Survivor Fantasy League`;
+    if (!last) { renderPreseason(d); return; }   // drafted, nothing scored yet
     if (view === "results") renderResults(d, arg || last.key);
     else if (view === "contestants") renderContestants(d);
     else renderLeaderboard(d);
@@ -162,6 +163,24 @@
     return Object.fromEntries(cum.map((x, i) => [x.o.name, i + 1]));
   }
 
+  const testBanner = (d) => d.test
+    ? `<p class="note warn"><b>Test season.</b> Made-up rosters for trying things out; this never counts toward All time.</p>` : "";
+
+  // ---------- rosters set, no eliminations scored yet ----------
+  function renderPreseason(d) {
+    const cb = contBy(d);
+    const rows = [...d.owners].sort((a, b) => a.slot - b.slot).map((o) => `<div class="owner-row">
+        <div class="rank">–</div>
+        <div class="owner-name">${swatch(o.slot)}${esc(o.name)}</div>
+        <div class="owner-total"><div class="big">0</div></div>
+        <div class="roster">${o.roster.map((n) => `<span class="chip"><span class="nm">${esc(n)}</span></span>`).join("")}</div>
+      </div>`).join("");
+    main.innerHTML = `${testBanner(d)}
+      <section class="section card"><h2>Rosters are set</h2>
+        <p>No eliminations have been scored yet. Scoring starts with elimination ${d.first_week_boot ?? "?"} of the season; results show up here after it airs and survivoR adds it.</p></section>
+      <section class="section"><h2>Rosters</h2><div class="standings">${rows}</div></section>`;
+  }
+
   // ---------- leaderboard ----------
   function renderLeaderboard(d) {
     const cb = contBy(d), us = units(d), n = us.length, last = us[n - 1];
@@ -189,7 +208,7 @@
         <div class="official-row">${d.official.map(([name, pts], i) => `<span class="who">${i === 0 ? "🏆 " : ""}${ob[name] ? swatch(ob[name].slot) : ""}<b>${esc(name)}</b> <span class="num">${fmt(pts)}</span></span>`).join("")}</div>
         <p class="note">From the league sheet, as it was played. The standings and detail below are recalculated from survivoR with today's rules, so they can differ.</p>
       </section>` : "";
-    main.innerHTML = `${official}
+    main.innerHTML = `${testBanner(d)}${official}
       <section class="section"><h2>${d.official ? "Recalculated standings" : "Standings"}</h2><div class="standings">${rows}</div></section>
       <section class="section card">
         <h2>The race</h2>
@@ -501,7 +520,7 @@
         const d = new Date(m.survivor_updated).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
         $("#source-date").textContent = `, last updated ${d} (through Survivor ${m.through_season}, episode ${m.through_episode})`;
       }).catch(() => { /* footer just omits the date */ });
-      seasonSel.innerHTML = index.map((s) => `<option value="${s.season}">${esc(s.title)}${s.complete ? "" : " (live)"}</option>`).join("");
+      seasonSel.innerHTML = index.map((s) => `<option value="${s.season}">${esc(s.title)}${s.test ? " (test)" : s.complete ? "" : " (live)"}</option>`).join("");
       seasonSel.addEventListener("change", () => { location.hash = link(seasonSel.value, parseHash().view, unit); });
       document.querySelectorAll(".seg button").forEach((b) => b.addEventListener("click", () => onUnitClick(b.dataset.unit)));
       addEventListener("hashchange", route);

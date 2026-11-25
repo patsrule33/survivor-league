@@ -2,10 +2,10 @@
 
     python build_site.py --refresh --current  # just the season now airing (the daily job)
     python build_site.py 51 --refresh         # one season, re-download survivoR first
-    python build_site.py                      # every leagues/seasonNN.json (after a rules change)
 
-Past seasons are finished, so they only need rebuilding when the scoring rules
-change; the daily job uses --current.
+FINISHED SEASONS ARE FROZEN: once a season's site data says it's complete, it is
+never rescored again, even if the scoring rules change later (rule changes apply
+to future seasons only). Owner ruling 2026-11-25.
 
 Inputs per season:
   leagues/seasonNN.json    owners + rosters (survivoR short names), first_week_boot
@@ -144,6 +144,8 @@ def site_season(league, tables):
 
     return {
         "season": n, "title": season["title"], "league": league.get("league", ""),
+        "test": bool(league.get("test")),  # test draft: shown, labelled, never counted all-time
+        "first_week_boot": league["first_week_boot"],
         "built": datetime.datetime.now().isoformat(timespec="minutes"),
         "complete": bool(season["final_placement"]),
         "owners": owners, "contestants": contestants, "weeks": week_detail,
@@ -233,6 +235,12 @@ def main():
         leagues = [l for l in leagues if l["season"] == airing]
         if not leagues:
             print(f"Survivor {airing}: no league rosters yet; updating the draft room's cast only")
+    # finished seasons are frozen: never rescore them
+    frozen = [l["season"] for l in leagues
+              if (_load(P("docs", "data", f"season{l['season']}.json")) or {}).get("complete")]
+    if frozen:
+        print(f"frozen (finished, never rescored): {', '.join(f'S{n}' for n in frozen)}")
+    leagues = [l for l in leagues if l["season"] not in frozen]
     os.makedirs(P("docs", "data"), exist_ok=True)
     for lg in leagues:
         data = site_season(lg, tables)
@@ -250,7 +258,7 @@ def main():
     index = []
     for n in reversed(built):
         d = json.load(open(P("docs", "data", f"season{n}.json"), encoding="utf-8"))
-        index.append({"season": n, "title": d["title"], "complete": d["complete"]})
+        index.append({"season": n, "title": d["title"], "complete": d["complete"], "test": bool(d.get("test"))})
     json.dump(index, open(P("docs", "data", "index.json"), "w"), indent=1)
 
     write_career(built)
@@ -271,6 +279,8 @@ def write_career(built):
     career = []
     for n in sorted(set(built) | {s for s in official if s <= OFFICIAL_THROUGH}):
         d = _load(P("docs", "data", f"season{n}.json"))
+        if d and d.get("test"):
+            continue  # test drafts never count toward all-time stats
         computed = {o["name"]: o["total"] for o in d["owners"]} if d else None
         use_official = n <= OFFICIAL_THROUGH and official.get(n)
         totals = official[n] if use_official else computed

@@ -22,6 +22,11 @@ Family fantasy league for the TV show Survivor. Goal: replace a hand-built sprea
   - Rosters come from the score sheet's owner column when the sheet has scores, otherwise from the draft table. S48's draft table is shifted in the workbook.
   - `first_week_boot` was auto-detected, then calibrated against each score sheet.
   - S49 has double picks (one contestant on two rosters; both owners score them).
+- **Finished seasons are frozen. Never rescore them** (owner, 2026-11-25). Scoring-rule changes apply to future seasons only. `build_site.py` skips any season whose `docs/data/seasonNN.json` says `complete`, even with no flags. Don't work around this.
+- **Test drafts:** a "Test draft" checkbox in the draft room sets `test` on the draft, which carries into the league file and season data.
+  - Test seasons show on the site labelled "(test)", never count in career stats, and aren't the default landing season.
+  - Deleting the draft in Firestore makes `sync_draft.py` remove the league file, site data and fixture, even after the season ends.
+  - The owner plans an S51 test draft for the rest of this season.
 - Past seasons' results stay **official exactly as the owner calculated them**; never "correct" them. Recalculated past seasons exist only as test cases to check the engine is right going forward (owner, 2026-11-25).
 - Career stats count the career sheet's **official** totals and winners through S47 (`OFFICIAL_THROUGH` in `build_site.py`) and recalculated totals from S48 on (owner decision 2026-11-25).
   - Recalculated flips vs the official winners (as of 2026-11-25):

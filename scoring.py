@@ -38,6 +38,8 @@ def score_season(season, rules=RULES):
     pts = defaultdict(lambda: defaultdict(_blank))
     pool = [c["name"] for c in season["contestants"]]
     weeks = season["weeks"]
+    if not weeks:  # rosters set, nothing scored yet (e.g. drafted mid-season)
+        return {c: {} for c in pool}
     n_weeks = len(weeks)
     eliminated_at = {}  # name -> week
 

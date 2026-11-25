@@ -8,7 +8,9 @@ This happens automatically. The **Update scores** GitHub Action (`.github/workfl
 
 - **Run it now:** Actions tab → **Update scores** → **Run workflow**.
 - **By hand:** `python build_site.py --refresh --current`, then commit and push.
-- **After changing the scoring rules:** `python build_site.py` (no flags) rebuilds every season.
+- **Finished seasons are frozen.** They are never rescored, so changing the scoring rules only affects seasons from then on.
+
+**Test drafts:** check "Test draft" when starting a draft to try things out with made-up rosters. The season shows on the site labelled "(test)", never counts toward All time, and deleting the draft (Commissioner tools) removes it everywhere at the next update, even after the season is over.
 
 The site is plain files in `docs/`, served by GitHub Pages (Settings → Pages → `main` branch, `/docs` folder).
 

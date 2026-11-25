@@ -131,6 +131,7 @@
             <h2>No draft yet for ${esc(live.title)}</h2>
             <p>${inGame.length} contestants are still in the game after ${boots} eliminations, so each of the ${live.owners.length} owners would get <b>${size}</b> in a snake draft (order chosen at random).
             Scoring starts with the next elimination.${inGame.length % live.owners.length ? ` ${inGame.length % live.owners.length} contestant(s) will be left unowned.` : ""}</p>
+            ${store.mode === "practice" ? "" : `<label class="testbox"><input type="checkbox" id="is-test"> <span><b>Test draft</b>: made-up rosters for trying things out. Shows on the site labelled "test", never counts toward All time, and deleting it later removes it everywhere.</span></label>`}
             <button class="btn" id="start" ${size < 1 ? "disabled" : ""}>${store.mode === "practice" ? "Start a practice draft" : "Start the draft"}</button>
             ${practiceLink}
           </section>
@@ -139,13 +140,15 @@
             ${poolList(listed, null, preOut)}</section>`;
         main.querySelector("#start")?.addEventListener("click", async () => {
           const outList = [...preOut];
-          if (store.mode !== "practice" && !confirm(`Start the ${live.title} draft for everyone now? The order will be randomized.${outList.length ? `\n\nMarked already out: ${outList.join(", ")}` : ""}`)) return;
+          const isTest = !!main.querySelector("#is-test")?.checked;
+          if (store.mode !== "practice" && !confirm(`Start the ${live.title} ${isTest ? "TEST " : ""}draft for everyone now? The order will be randomized.${isTest ? "\n\nTest draft: won't count toward All time." : ""}${outList.length ? `\n\nMarked already out: ${outList.join(", ")}` : ""}`)) return;
           try {
             await store.mutate(key, (cur) => {
               if (cur) throw new Error("A draft already exists.");
               // eliminations survivoR doesn't know about yet still move the scoring start
               return { season: live.season, createdAt: new Date().toISOString(), startBoot: boots + 1,
-                       owners: shuffle(live.owners), rosterSize: size, pool: inGame, out: outList, picks: [] };
+                       owners: shuffle(live.owners), rosterSize: size, pool: inGame, out: outList, picks: [],
+                       test: isTest };
             });
             preOut.clear();
           } catch (e) { alert(e.message); }
@@ -187,7 +190,8 @@
         <tbody>${Array.from({ length: s.rosterSize }, (_, r) => `<tr><td>${r + 1}</td>${s.owners.map((_, oi) => cell(r, oi)).join("")}</tr>`).join("")}</tbody>
       </table></div>`;
 
-      main.innerHTML = `${banner}
+      const testNote = s.test ? `<p class="note warn"><b>Test draft.</b> Made-up rosters for trying things out; never counts toward All time. Delete it under Commissioner tools whenever you're done (even after the season).</p>` : "";
+      main.innerHTML = `${banner}${testNote}
         <section class="section">${status}</section>
         <section class="section"><h2>Draft board</h2>${board}
           <p class="note">Snake order: round 1 left to right, round 2 right to left, and so on. Scoring starts with elimination ${s.startBoot} of the season.</p></section>

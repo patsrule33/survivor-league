@@ -41,7 +41,7 @@ def to_league(state):
     for p in state["picks"]:
         rosters[p["owner"]].append(p["name"])
     return {"season": state["season"], "league": "Family League", "first_week_boot": state["startBoot"],
-            "source": "draft room", "drafted_at": state.get("createdAt"),
+            "source": "draft room", "test": bool(state.get("test")), "drafted_at": state.get("createdAt"),
             "draft_order": state["owners"],
             "notes": "Written by sync_draft.py from the draft room. Scoring starts with the first elimination after the draft began.",
             "owners": [{"name": o, "roster": r} for o, r in rosters.items()]}
@@ -64,13 +64,26 @@ def sync(seasons=None, verbose=True):
     live = None
     if os.path.exists(P("docs", "data", "live.json")):
         live = json.load(open(P("docs", "data", "live.json"), encoding="utf-8"))
+    # test drafts from earlier seasons too, so deleting one later still cleans up
+    test_seasons = []
+    for f in os.listdir(P("leagues")):
+        lg = json.load(open(P("leagues", f)))
+        if lg.get("source") == "draft room" and lg.get("test"):
+            test_seasons.append(lg["season"])
     if not seasons:
-        seasons = [live["season"]] if live else []
+        seasons = sorted({*( [live["season"]] if live else []), *test_seasons})
     written = []
     for n in seasons:
         state = fetch_state(pid, n)
         if not state:
-            if verbose: print(f"sync_draft: no draft for S{n}")
+            if n in test_seasons:  # test draft was deleted: remove everything it produced
+                for path in (P("leagues", f"season{n}.json"), P("docs", "data", f"season{n}.json"),
+                             P("fixtures", f"survivoR_season{n}.json")):
+                    if os.path.exists(path):
+                        os.remove(path)
+                if verbose: print(f"sync_draft: S{n} test draft was deleted; removed its rosters and site data")
+            elif verbose:
+                print(f"sync_draft: no draft for S{n}")
             continue
         if not complete(state, live):
             if verbose: print(f"sync_draft: S{n} draft in progress ({len(state['picks'])} picks)")
