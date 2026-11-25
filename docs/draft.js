@@ -78,15 +78,20 @@
     const n = s.owners.length, round = Math.floor(i / n), pos = i % n;
     return { owner: s.owners[round % 2 === 0 ? pos : n - 1 - pos], round: round + 1, pick: i + 1 };
   }
+  // s.out = contestants the commissioner marked eliminated because survivoR
+  // hasn't caught up yet; they leave the pool for everyone right away.
   function available(s, live) {
     const inGame = new Set(live.cast.filter((c) => c.in_game).map((c) => c.name));
     const taken = new Set(s.picks.map((p) => p.name));
-    return s.pool.filter((n) => !taken.has(n) && inGame.has(n));
+    const out = new Set(s.out || []);
+    return s.pool.filter((n) => !taken.has(n) && inGame.has(n) && !out.has(n));
   }
   const isDone = (s, live) => s.picks.length >= totalPicks(s) || available(s, live).length === 0;
 
   // ---------- view ----------
   let unsub = null, me = null;
+  const preOut = new Set(); // marked "already out" before the draft starts
+  let openCommish = false;  // keep Commissioner tools open across live redraws
   try { me = localStorage.getItem("sfl-me"); } catch (e) { /* storage blocked */ }
 
   async function renderDraft(main, h) {
@@ -113,30 +118,43 @@
         : "";
       const practiceLink = store.mode === "live"
         ? `<p class="note">Want to try it first? <a href="${base}?practice#/${live.season}/draft">Open a practice draft</a> (only you see it; nothing is saved for anyone else).</p>` : "";
-      const whoami = `<label class="whoami">I'm <select id="me"><option value="">choose…</option>${live.owners.map((o) => `<option ${o === me ? "selected" : ""}>${esc(o)}</option>`).join("")}</select></label>`;
+      const whoami = `<label class="whoami">I'm <select id="me"><option value="">chooseâ€¦</option>${live.owners.map((o) => `<option ${o === me ? "selected" : ""}>${esc(o)}</option>`).join("")}</select></label>`;
 
       if (!s) {
-        const inGame = live.cast.filter((c) => c.in_game);
+        const listed = live.cast.filter((c) => c.in_game).map((c) => c.name);
+        [...preOut].forEach((n) => { if (!listed.includes(n)) preOut.delete(n); });
+        const inGame = listed.filter((n) => !preOut.has(n));
         const size = Math.floor(inGame.length / live.owners.length);
+        const boots = live.boots_so_far + preOut.size;
         main.innerHTML = `${banner}
           <section class="section card">
             <h2>No draft yet for ${esc(live.title)}</h2>
-            <p>${inGame.length} contestants are still in the game after ${live.boots_so_far} eliminations, so each of the ${live.owners.length} owners would get <b>${size}</b> in a snake draft (order chosen at random).
+            <p>${inGame.length} contestants are still in the game after ${boots} eliminations, so each of the ${live.owners.length} owners would get <b>${size}</b> in a snake draft (order chosen at random).
             Scoring starts with the next elimination.${inGame.length % live.owners.length ? ` ${inGame.length % live.owners.length} contestant(s) will be left unowned.` : ""}</p>
             <button class="btn" id="start" ${size < 1 ? "disabled" : ""}>${store.mode === "practice" ? "Start a practice draft" : "Start the draft"}</button>
             ${practiceLink}
           </section>
-          <section class="section"><h2>Still in the game</h2>${poolList(inGame.map((c) => c.name), null)}</section>`;
+          <section class="section"><h2>Still in the game</h2>
+            <p class="note" style="margin-top:-4px">survivoR is up to date through episode ${live.episodes_aired}. If someone has been voted out since, mark them <b>Already out</b> before starting.</p>
+            ${poolList(listed, null, preOut)}</section>`;
         main.querySelector("#start")?.addEventListener("click", async () => {
-          if (store.mode !== "practice" && !confirm(`Start the ${live.title} draft for everyone now? The order will be randomized.`)) return;
+          const outList = [...preOut];
+          if (store.mode !== "practice" && !confirm(`Start the ${live.title} draft for everyone now? The order will be randomized.${outList.length ? `\n\nMarked already out: ${outList.join(", ")}` : ""}`)) return;
           try {
             await store.mutate(key, (cur) => {
               if (cur) throw new Error("A draft already exists.");
-              return { season: live.season, createdAt: new Date().toISOString(), startBoot: live.boots_so_far + 1,
-                       owners: shuffle(live.owners), rosterSize: size, pool: inGame.map((c) => c.name), picks: [] };
+              // eliminations survivoR doesn't know about yet still move the scoring start
+              return { season: live.season, createdAt: new Date().toISOString(), startBoot: boots + 1,
+                       owners: shuffle(live.owners), rosterSize: size, pool: inGame, out: outList, picks: [] };
             });
+            preOut.clear();
           } catch (e) { alert(e.message); }
         });
+        main.querySelectorAll("button.preout").forEach((b) => b.addEventListener("click", () => {
+          const n = b.dataset.name;
+          if (preOut.has(n)) preOut.delete(n); else preOut.add(n);
+          draw(null);
+        }));
         return;
       }
 
@@ -145,12 +163,12 @@
       const avail = available(s, live);
       const mine = clock && me === clock.owner;
       const url = location.href.split("#")[0] + `#/${live.season}/draft`;
-      const msg = clock ? `🔥 ${clock.owner}, you're up in the ${live.title} fantasy draft (round ${clock.round}, pick ${clock.pick}): ${url}` : "";
+      const msg = clock ? `ðŸ”¥ ${clock.owner}, you're up in the ${live.title} fantasy draft (round ${clock.round}, pick ${clock.pick}): ${url}` : "";
       const status = done
         ? `<div class="clock done">${store.mode === "practice"
             ? `<b>Practice draft complete.</b> Nothing was saved for anyone else. Clear it under Commissioner tools to go again.`
             : `<b>Draft complete.</b> The league page picks up these rosters at its next update.`}</div>`
-        : `<div class="clock">${sw(clock.owner)}<div><div class="lbl">On the clock · round ${clock.round}, pick ${clock.pick} of ${totalPicks(s)}</div><div class="who-big">${esc(clock.owner)}</div></div>
+        : `<div class="clock">${sw(clock.owner)}<div><div class="lbl">On the clock Â· round ${clock.round}, pick ${clock.pick} of ${totalPicks(s)}</div><div class="who-big">${esc(clock.owner)}</div></div>
            <div class="clock-actions">${whoami}<button class="btn ghost" id="copy">Copy "your turn" message</button></div></div>
            ${mine ? `<p class="note good">It's your pick. Choose a contestant below.</p>` : me ? `<p class="note">Waiting on ${esc(clock.owner)}.</p>` : `<p class="note">Choose who you are to make picks.</p>`}`;
 
@@ -161,7 +179,8 @@
         const p = s.picks[r * n + pos];
         const isNow = !done && r * n + pos === s.picks.length;
         const c = p && castBy[p.name];
-        return `<td class="${isNow ? "now" : ""}">${p ? `<b>${esc(p.name)}</b>${c && !c.in_game ? ` <span class="muted">(out)</span>` : ""}` : isNow ? "on the clock" : ""}</td>`;
+        const gone = p && ((c && !c.in_game) || (s.out || []).includes(p.name));
+        return `<td class="${isNow ? "now" : ""}">${p ? `<b>${esc(p.name)}</b>${gone ? ` <span class="muted">(out)</span>` : ""}` : isNow ? "on the clock" : ""}</td>`;
       };
       const board = `<div class="table-wrap"><table class="board">
         <thead><tr><th>Round</th>${s.owners.map((o) => `<th><span class="who">${sw(o)}${esc(o)}</span></th>`).join("")}</tr></thead>
@@ -175,9 +194,20 @@
         ${done ? "" : `<section class="section"><h2>Available (${avail.length})</h2>${poolList(avail, mine ? clock.owner : null)}</section>`}
         <details class="section commish"><summary>Commissioner tools</summary>
           <p class="note">Anyone can use these, so check with the family first.</p>
-          <button class="btn ghost" id="undo" ${s.picks.length ? "" : "disabled"}>Undo last pick${s.picks.length ? ` (${esc(s.picks[s.picks.length - 1].name)})` : ""}</button>
-          <button class="btn danger" id="reset">Delete this draft</button>
+          <div class="commish-row">
+            <label>Voted out but survivoR hasn't caught up?
+              <select id="out-pick"><option value="">chooseâ€¦</option>${avail.map((n) => `<option>${esc(n)}</option>`).join("")}</select></label>
+            <button class="btn ghost" id="mark-out" ${avail.length ? "" : "disabled"}>Mark as eliminated</button>
+          </div>
+          ${(s.out || []).length ? `<div class="commish-row"><span class="muted">Marked eliminated:</span> ${(s.out || []).map((n) =>
+            `<span class="chip">${esc(n)} <button class="linkish restore" data-name="${esc(n)}" aria-label="Restore ${esc(n)}">restore</button></span>`).join(" ")}</div>` : ""}
+          <div class="commish-row">
+            <button class="btn ghost" id="undo" ${s.picks.length ? "" : "disabled"}>Undo last pick${s.picks.length ? ` (${esc(s.picks[s.picks.length - 1].name)})` : ""}</button>
+            <button class="btn danger" id="reset">Delete this draft</button>
+          </div>
         </details>`;
+      if (openCommish) main.querySelector("details.commish").open = true;
+      main.querySelector("details.commish").addEventListener("toggle", (e) => { openCommish = e.target.open; });
 
       main.querySelector("#copy")?.addEventListener("click", async () => {
         try { await navigator.clipboard.writeText(msg); h.toast("Copied. Paste it in the family chat."); }
@@ -197,7 +227,27 @@
           });
         } catch (e) { alert(e.message); }
       }));
+      main.querySelector("#mark-out")?.addEventListener("click", async () => {
+        openCommish = true;
+        const name = main.querySelector("#out-pick").value;
+        if (!name) return;
+        if (!confirm(`Mark ${name} as eliminated? They leave the pool for everyone.`)) return;
+        try {
+          await store.mutate(key, (cur) => {
+            if (!cur) throw new Error("The draft was deleted.");
+            if (cur.picks.some((p) => p.name === name)) throw new Error(`${name} was already drafted.`);
+            return { ...cur, out: [...new Set([...(cur.out || []), name])] };
+          });
+        } catch (e) { alert(e.message); }
+      });
+      main.querySelectorAll("button.restore").forEach((b) => b.addEventListener("click", async () => {
+        openCommish = true;
+        const name = b.dataset.name;
+        if (!confirm(`Put ${name} back in the pool?`)) return;
+        try { await store.mutate(key, (cur) => ({ ...cur, out: (cur.out || []).filter((n) => n !== name) })); } catch (e) { alert(e.message); }
+      }));
       main.querySelector("#undo")?.addEventListener("click", async () => {
+        openCommish = true;
         const last = s.picks[s.picks.length - 1];
         if (!confirm(`Undo ${last.owner}'s pick of ${last.name}?`)) return;
         try { await store.mutate(key, (cur) => ({ ...cur, picks: cur.picks.slice(0, -1) })); } catch (e) { alert(e.message); }
@@ -210,13 +260,18 @@
       wireMe();
     };
 
-    function poolList(names, pickingFor) {
+    // pickingFor: show Draft buttons. outToggle (a Set): pre-draft "Already out" toggles.
+    function poolList(names, pickingFor, outToggle) {
       const groups = {};
-      names.forEach((n) => { const c = castBy[n] || { name: n }; (groups[c.tribe || "—"] ||= []).push(c); });
+      names.forEach((n) => { const c = castBy[n] || { name: n }; (groups[c.tribe || "â€”"] ||= []).push(c); });
+      const action = (c) => pickingFor ? `<button class="btn small pick" data-name="${esc(c.name)}">Draft</button>`
+        : outToggle ? `<button class="btn small ghost preout" data-name="${esc(c.name)}">${outToggle.has(c.name) ? "Restore" : "Already out"}</button>` : "";
       return Object.entries(groups).map(([t, cs]) => `<div class="pool-group">
           <div class="pool-tribe">${cs[0].tribe ? tribeDot(cs[0]) : esc(t)}</div>
-          <div class="pool">${cs.map((c) => `<div class="pool-item"><span>${esc(c.name)}${c.game_status && c.game_status !== "In the game" ? ` <span class="muted">(${esc(c.game_status)})</span>` : ""}</span>${
-            pickingFor ? `<button class="btn small pick" data-name="${esc(c.name)}">Draft</button>` : ""}</div>`).join("")}</div>
+          <div class="pool">${cs.map((c) => {
+            const isOut = outToggle && outToggle.has(c.name);
+            return `<div class="pool-item${isOut ? " marked-out" : ""}"><span>${esc(c.name)}${isOut ? ` <span class="muted">(out)</span>` : c.game_status && c.game_status !== "In the game" ? ` <span class="muted">(${esc(c.game_status)})</span>` : ""}</span>${action(c)}</div>`;
+          }).join("")}</div>
         </div>`).join("") || `<p class="muted">Nobody left.</p>`;
     }
     function wireMe() {
@@ -228,7 +283,7 @@
     }
 
     let lastState;
-    main.innerHTML = `<p class="empty">Loading the draft…</p>`;
+    main.innerHTML = `<p class="empty">Loading the draftâ€¦</p>`;
     unsub = store.subscribe(key, (s) => { lastState = s; draw(s); },
       (e) => { main.innerHTML = `<p class="empty">Couldn't load the draft (${esc(e.message)}).</p>`; });
   }

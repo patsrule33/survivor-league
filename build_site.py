@@ -12,7 +12,7 @@ Outputs:
   docs/data/index.json             list of seasons, newest first
 GitHub Pages serves docs/.
 """
-import argparse, datetime, glob, json, os, re
+import argparse, datetime, glob, json, os, re, urllib.request
 from collections import Counter
 from scoring import score_season
 from survivor_data import build_season, load_tables
@@ -168,6 +168,31 @@ def write_live(tables, version="US"):
     return live
 
 
+def write_meta(live):
+    """docs/data/meta.json: when survivoR itself was last updated (its last commit to
+    dev/json, from the GitHub API) and how far its data goes, for the site footer."""
+    meta_path = P("docs", "data", "meta.json")
+    old = _load(meta_path) or {}
+    updated = old.get("survivor_updated")
+    try:
+        url = "https://api.github.com/repos/doehm/survivoR/commits?path=dev/json&per_page=1"
+        req = urllib.request.Request(url, headers={"User-Agent": "survivor-fantasy-league-site"})
+        try:  # certifi's CA list, if installed (some Windows stores lack GitHub's intermediate)
+            import certifi, ssl
+            ctx = ssl.create_default_context(cafile=certifi.where())
+        except ImportError:
+            ctx = None
+        with urllib.request.urlopen(req, timeout=30, context=ctx) as r:
+            updated = json.load(r)[0]["commit"]["committer"]["date"]
+    except Exception as e:  # keep the last known date if GitHub can't be reached
+        print(f"meta: couldn't read survivoR's last update ({e}); keeping {updated}")
+    meta = {"survivor_updated": updated, "through_season": live["season"],
+            "through_episode": live["episodes_aired"],
+            "built": datetime.datetime.now().isoformat(timespec="minutes")}
+    json.dump(meta, open(meta_path, "w"), indent=1)
+    return meta
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("seasons", nargs="*", type=int)
@@ -201,6 +226,8 @@ def main():
     write_career(built)
     live = write_live(tables)
     print(f"live: Survivor {live['season']}, {sum(c['in_game'] for c in live['cast'])} still in the game")
+    meta = write_meta(live)
+    print(f"meta: survivoR last updated {meta['survivor_updated']} (through S{meta['through_season']} ep {meta['through_episode']})")
 
 
 # Career stats count the owner's official sheet totals through this season (they

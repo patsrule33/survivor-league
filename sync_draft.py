@@ -52,7 +52,8 @@ def complete(state, live):
         return True
     in_game = {c["name"] for c in (live or {}).get("cast", []) if c["in_game"]}
     taken = {p["name"] for p in state["picks"]}
-    return live is not None and not [n for n in state["pool"] if n not in taken and n in in_game]
+    out = set(state.get("out", []))  # marked eliminated in the draft room
+    return live is not None and not [n for n in state["pool"] if n not in taken and n in in_game and n not in out]
 
 
 def sync(seasons=None, verbose=True):

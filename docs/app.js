@@ -112,7 +112,7 @@
     document.querySelectorAll(".seg button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.unit === unit)));
     const us = units(d), last = us[us.length - 1];
     $("#subtitle").textContent = `${d.title} · ${d.complete ? "Final standings" : `Through ${U().lower} ${last.label}`}`;
-    $("#built").textContent = `Updated ${new Date(d.built).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}.`;
+    $("#built").textContent = `Scores last built ${new Date(d.built).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}.`;
     document.title = `${d.title} · Survivor Fantasy League`;
     if (view === "results") renderResults(d, arg || last.key);
     else if (view === "contestants") renderContestants(d);
@@ -496,6 +496,11 @@
   async function boot() {
     try {
       index = await getJSON("data/index.json");
+      getJSON("data/meta.json").then((m) => {   // footer: how fresh survivoR is
+        if (!m || !m.survivor_updated) return;
+        const d = new Date(m.survivor_updated).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+        $("#source-date").textContent = `, last updated ${d} (through Survivor ${m.through_season}, episode ${m.through_episode})`;
+      }).catch(() => { /* footer just omits the date */ });
       seasonSel.innerHTML = index.map((s) => `<option value="${s.season}">${esc(s.title)}${s.complete ? "" : " (live)"}</option>`).join("");
       seasonSel.addEventListener("change", () => { location.hash = link(seasonSel.value, parseHash().view, unit); });
       document.querySelectorAll(".seg button").forEach((b) => b.addEventListener("click", () => onUnitClick(b.dataset.unit)));

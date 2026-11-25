@@ -224,4 +224,9 @@ tr.season-link:hover td { background: var(--surface-2); }
 .pool-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 8px 10px; }
 details.commish summary { cursor: pointer; color: var(--ink-2); font-size: 14px; margin-bottom: 8px; }
 details.commish .btn { margin-right: 8px; }
+.commish-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 10px 0; font-size: 14px; }
+.commish-row label { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; color: var(--ink-2); }
+.linkish { all: unset; cursor: pointer; color: var(--ink-2); text-decoration: underline; font-size: 12px; }
+.pool-item.marked-out { opacity: .55; }
+.pool-item.marked-out > span:first-child { text-decoration: line-through; }
 .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--surface); padding: 8px 14px; border-radius: 8px; font-size: 14px; z-index: 30; }
