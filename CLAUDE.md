@@ -36,6 +36,8 @@ Family fantasy league for the TV show Survivor. Goal: replace a hand-built sprea
   - Shared state: one Firestore doc `drafts/sNN` (field `state` = JSON), with transactions; rules are in `firestore.rules`. Without `docs/firebase-config.js` it runs in test mode (localStorage).
   - `sync_draft.py` (run by `build_site.py`) turns a complete draft into `leagues/seasonNN.json` with `first_week_boot` = the elimination after the draft started.
   - Picked players voted out mid-draft stay on the roster; unpicked ones leave the pool. Waivers are not built yet.
+  - survivoR can lag an episode or more, so the draft room lets you mark contestants eliminated: "Already out" before starting (shrinks the pool and roster size, and moves `startBoot` past them) or Commissioner tools during the draft (state `out`). Practice mode (`?practice`) never touches Firestore.
+- Footer shows survivoR's last update (`docs/data/meta.json`, from the GitHub API's last commit to `dev/json`). Python on this PC needs `certifi` (installed) to verify api.github.com.
 - Repo: github.com/patsrule33/survivor-league (public). `.gitignore` keeps `reference/`, `truth*.json`, `private/` and `data/` out. GitHub Pages serves `docs/`.
 - NOT DONE: Firebase project (owner creates it; see README), scheduled job, review screen, waivers. Wiki scraper is now a fallback only. No rosters yet for the current season (51).
 
