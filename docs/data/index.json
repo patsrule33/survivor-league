@@ -1,5 +1,11 @@
 [
  {
+  "season": 51,
+  "title": "Survivor 51",
+  "complete": false,
+  "test": true
+ },
+ {
   "season": 50,
   "title": "Survivor 50",
   "complete": true,

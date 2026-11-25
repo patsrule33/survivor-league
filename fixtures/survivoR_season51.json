@@ -1,0 +1,73 @@
+{
+ "season": 51,
+ "title": "Survivor 51",
+ "source": "survivoR (github.com/doehm/survivoR)",
+ "first_week_boot": 13,
+ "survival_offset": 0,
+ "contestants": [
+  {
+   "name": "Carter Krull",
+   "short": "Carter",
+   "id": "US0758",
+   "place": null
+  },
+  {
+   "name": "Cristian Chavez",
+   "short": "Cristian",
+   "id": "US0759",
+   "place": null
+  },
+  {
+   "name": "Devin Way",
+   "short": "Devin",
+   "id": "US0761",
+   "place": null
+  },
+  {
+   "name": "Eric Macksoud",
+   "short": "Eric",
+   "id": "US0762",
+   "place": null
+  },
+  {
+   "name": "Angelica Loblack",
+   "short": "Jelly",
+   "id": "US0756",
+   "place": null
+  },
+  {
+   "name": "Lewis Kelly",
+   "short": "Lewis",
+   "id": "US0765",
+   "place": null
+  },
+  {
+   "name": "Maggie Nestor",
+   "short": "Maggie",
+   "id": "US0767",
+   "place": null
+  },
+  {
+   "name": "Mike Pinsky",
+   "short": "Mike",
+   "id": "US0768",
+   "place": null
+  },
+  {
+   "name": "Sharonda Cox",
+   "short": "Sharonda",
+   "id": "US0772",
+   "place": null
+  },
+  {
+   "name": "Thien An Nguyen",
+   "short": "Thien An",
+   "id": "US0754",
+   "place": null
+  }
+ ],
+ "final_placement": [],
+ "forfeit": [],
+ "weeks": [],
+ "review": []
+}

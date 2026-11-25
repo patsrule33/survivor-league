@@ -1,0 +1,48 @@
+{
+ "season": 51,
+ "league": "Family League",
+ "first_week_boot": 13,
+ "source": "draft room",
+ "test": true,
+ "drafted_at": "2026-11-25T19:59:46.007Z",
+ "draft_order": [
+  "Jamie",
+  "Will",
+  "Greg",
+  "Jimmy",
+  "Mom"
+ ],
+ "notes": "Written by sync_draft.py from the draft room. Scoring starts with the first elimination after the draft began.",
+ "owners": [
+  {
+   "name": "Jamie",
+   "roster": [
+    "Jelly"
+   ]
+  },
+  {
+   "name": "Will",
+   "roster": [
+    "Sharonda"
+   ]
+  },
+  {
+   "name": "Greg",
+   "roster": [
+    "Carter"
+   ]
+  },
+  {
+   "name": "Jimmy",
+   "roster": [
+    "Maggie"
+   ]
+  },
+  {
+   "name": "Mom",
+   "roster": [
+    "Cristian"
+   ]
+  }
+ ]
+}
