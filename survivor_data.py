@@ -204,6 +204,12 @@ def build_season(season_num, first_week_boot, tables, version="US", overrides=No
     # ---- advantages ----
     adv_type = {a["advantage_id"]: a["advantage_type"] for a in T["advantage_details"]}
     adv_where = {a["advantage_id"]: a.get("location_found") for a in T["advantage_details"]}
+    # idols survivoR logs only as "Found (beware)" and never as "Found": the beware
+    # condition was never met, so the idol never had power (whole history, any week)
+    events_by_adv = defaultdict(set)
+    for m in T["advantage_movement"]:
+        events_by_adv[m["advantage_id"]].add(m["event"])
+    never_active = {a for a, evs in events_by_adv.items() if "Found (beware)" in evs and "Found" not in evs}
     for m in sorted(T["advantage_movement"], key=lambda m: (m["advantage_id"], m["sequence_id"])):
         k = sog_week(m.get("sog_id"))
         if k not in weeks:
@@ -220,7 +226,12 @@ def build_season(season_num, first_week_boot, tables, version="US", overrides=No
         if is_idol and ev == "Found" and who and where not in HANDED_OUT:
             weeks[k]["specials"].append({"type": "idol_found", "player": who, "source": "survivoR"})
         elif is_idol and ev == "Voted out with advantage" and who:
-            weeks[k]["specials"].append({"type": "idol_in_pocket", "player": who, "source": "survivoR"})
+            # only an idol that had power counts; a "Beware" idol never activated
+            # (e.g. S41 Brad: all three idols had to be found first) couldn't save anyone
+            if m["advantage_id"] not in never_active:
+                weeks[k]["specials"].append({"type": "idol_in_pocket", "player": who, "source": "survivoR"})
+            else:
+                review.append({**item, "note": "voted out holding an idol that was never activated: no penalty"})
         elif is_idol and ev == "Played" and who:
             council = weeks[k].setdefault("council", {"rounds": []})
             council.setdefault("idol_plays", []).append(
