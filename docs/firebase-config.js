@@ -15,4 +15,4 @@ window.FIREBASE_CONFIG = {
 /* The commissioner's Firebase user ID (a random code, not an email; safe to
    publish). Only this account can use commissioner tools; firestore.rules has
    the same ID. null = not set up yet, so anyone can use them (the old behavior). */
-window.COMMISSIONER_UID = null;
+window.COMMISSIONER_UID = "9iaNj5YudyYR6b4rZcuOzKhpyRo2";

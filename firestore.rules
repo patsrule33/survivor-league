@@ -6,7 +6,7 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     function isCommish() {
-      return request.auth != null && request.auth.uid == 'COMMISSIONER_UID_GOES_HERE';
+      return request.auth != null && request.auth.uid == '9iaNj5YudyYR6b4rZcuOzKhpyRo2';
     }
 
     // ---- Draft room: drafts/s51 etc. (stored as real fields so these checks work) ----
