@@ -2,15 +2,9 @@
  "season": 51,
  "title": "Survivor 51",
  "source": "survivoR (github.com/doehm/survivoR)",
- "first_week_boot": 13,
+ "first_week_boot": 7,
  "survival_offset": 0,
  "contestants": [
-  {
-   "name": "Carter Krull",
-   "short": "Carter",
-   "id": "US0758",
-   "place": null
-  },
   {
    "name": "Cristian Chavez",
    "short": "Cristian",
@@ -36,18 +30,6 @@
    "place": null
   },
   {
-   "name": "Lewis Kelly",
-   "short": "Lewis",
-   "id": "US0765",
-   "place": null
-  },
-  {
-   "name": "Maggie Nestor",
-   "short": "Maggie",
-   "id": "US0767",
-   "place": null
-  },
-  {
    "name": "Mike Pinsky",
    "short": "Mike",
    "id": "US0768",
@@ -64,10 +46,597 @@
    "short": "Thien An",
    "id": "US0754",
    "place": null
+  },
+  {
+   "name": "Linnea Capobianco",
+   "short": "Linnea",
+   "id": "US0766",
+   "place": 15
+  },
+  {
+   "name": "Ori Jean-Charles",
+   "short": "Ori",
+   "id": "US0769",
+   "place": 14
+  },
+  {
+   "name": "Brady Booker",
+   "short": "Brady",
+   "id": "US0757",
+   "place": 13
+  },
+  {
+   "name": "Kristin Flickinger",
+   "short": "Kristin",
+   "id": "US0764",
+   "place": 12
+  },
+  {
+   "name": "Kilby Kilby",
+   "short": "Kilby",
+   "id": "US0760",
+   "place": 11
+  },
+  {
+   "name": "Lewis Kelly",
+   "short": "Lewis",
+   "id": "US0765",
+   "place": 10
+  },
+  {
+   "name": "Maggie Nestor",
+   "short": "Maggie",
+   "id": "US0767",
+   "place": 9
+  },
+  {
+   "name": "Carter Krull",
+   "short": "Carter",
+   "id": "US0758",
+   "place": 8
   }
  ],
  "final_placement": [],
  "forfeit": [],
- "weeks": [],
- "review": []
+ "weeks": [
+  {
+   "week": 1,
+   "episode": 5,
+   "eliminated": "Linnea Capobianco",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cristian Chavez",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Eric Macksoud",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Linnea Capobianco",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Sharonda Cox",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Kilby Kilby",
+       "target": "Linnea Capobianco"
+      },
+      {
+       "voter": "Kilby Kilby",
+       "target": "Linnea Capobianco"
+      },
+      {
+       "voter": "Lewis Kelly",
+       "target": "Linnea Capobianco"
+      },
+      {
+       "voter": "Lewis Kelly",
+       "target": "Linnea Capobianco"
+      }
+     ],
+     [
+      {
+       "voter": "Cristian Chavez",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Eric Macksoud",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Linnea Capobianco",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Sharonda Cox",
+       "target": "Lewis Kelly"
+      },
+      {
+       "voter": "Kilby Kilby",
+       "target": "Linnea Capobianco"
+      },
+      {
+       "voter": "Kilby Kilby",
+       "target": "Linnea Capobianco"
+      },
+      {
+       "voter": "Lewis Kelly",
+       "target": "Linnea Capobianco"
+      },
+      {
+       "voter": "Lewis Kelly",
+       "target": "Linnea Capobianco"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 2,
+   "episode": 6,
+   "eliminated": "Ori Jean-Charles",
+   "challenges": [
+    {
+     "type": "tribal_immunity_1",
+     "players": [
+      "Brady Booker",
+      "Carter Krull",
+      "Kristin Flickinger",
+      "Maggie Nestor",
+      "Mike Pinsky",
+      "Thien An Nguyen"
+     ]
+    },
+    {
+     "type": "tribal_immunity_2",
+     "players": [
+      "Cristian Chavez",
+      "Eric Macksoud",
+      "Kilby Kilby",
+      "Lewis Kelly",
+      "Sharonda Cox"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_found",
+     "player": "Kristin Flickinger",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Devin Way",
+       "target": "Ori Jean-Charles"
+      },
+      {
+       "voter": "Angelica Loblack",
+       "target": "Ori Jean-Charles"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 3,
+   "episode": 7,
+   "eliminated": "Brady Booker",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Pinsky"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Angelica Loblack",
+      "Brady Booker",
+      "Carter Krull",
+      "Devin Way",
+      "Eric Macksoud",
+      "Kilby Kilby",
+      "Lewis Kelly",
+      "Maggie Nestor",
+      "Mike Pinsky",
+      "Thien An Nguyen"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cristian Chavez",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Eric Macksoud",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Sharonda Cox",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Kilby Kilby",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Lewis Kelly",
+       "target": "Eric Macksoud"
+      },
+      {
+       "voter": "Devin Way",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Angelica Loblack",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Kristin Flickinger",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Brady Booker",
+       "target": "Eric Macksoud"
+      },
+      {
+       "voter": "Maggie Nestor",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Mike Pinsky",
+       "target": "Brady Booker"
+      },
+      {
+       "voter": "Thien An Nguyen",
+       "target": "Eric Macksoud"
+      },
+      {
+       "voter": "Carter Krull",
+       "target": "Eric Macksoud"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 4,
+   "episode": 8,
+   "eliminated": "Kristin Flickinger",
+   "challenges": [
+    {
+     "type": "group_immunity",
+     "players": [
+      "Lewis Kelly",
+      "Sharonda Cox"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Eric Macksoud",
+       "target": "Angelica Loblack",
+       "negated": true
+      },
+      {
+       "voter": "Sharonda Cox",
+       "target": "Angelica Loblack",
+       "negated": true
+      },
+      {
+       "voter": "Kilby Kilby",
+       "target": "Angelica Loblack",
+       "negated": true
+      },
+      {
+       "voter": "Lewis Kelly",
+       "target": "Angelica Loblack",
+       "negated": true
+      },
+      {
+       "voter": "Devin Way",
+       "target": "Kristin Flickinger"
+      },
+      {
+       "voter": "Angelica Loblack",
+       "target": "Cristian Chavez",
+       "negated": true
+      },
+      {
+       "voter": "Maggie Nestor",
+       "target": "Angelica Loblack",
+       "negated": true
+      },
+      {
+       "voter": "Mike Pinsky",
+       "target": "Angelica Loblack",
+       "negated": true
+      },
+      {
+       "voter": "Thien An Nguyen",
+       "target": "Angelica Loblack",
+       "negated": true
+      },
+      {
+       "voter": "Carter Krull",
+       "target": "Angelica Loblack",
+       "negated": true
+      }
+     ]
+    ],
+    "idol_plays": [
+     {
+      "player": "Angelica Loblack",
+      "for": "Angelica Loblack",
+      "votes_negated": 8
+     }
+    ]
+   }
+  },
+  {
+   "week": 5,
+   "episode": 8,
+   "eliminated": "Kilby Kilby",
+   "challenges": [],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Eric Macksoud",
+       "target": "Devin Way",
+       "negated": true
+      },
+      {
+       "voter": "Sharonda Cox",
+       "target": "Devin Way",
+       "negated": true
+      },
+      {
+       "voter": "Kilby Kilby",
+       "target": "Devin Way",
+       "negated": true
+      },
+      {
+       "voter": "Lewis Kelly",
+       "target": "Devin Way",
+       "negated": true
+      },
+      {
+       "voter": "Devin Way",
+       "target": "Kilby Kilby"
+      },
+      {
+       "voter": "Angelica Loblack",
+       "target": "Carter Krull",
+       "negated": true
+      },
+      {
+       "voter": "Maggie Nestor",
+       "target": "Devin Way",
+       "negated": true
+      },
+      {
+       "voter": "Mike Pinsky",
+       "target": "Devin Way",
+       "negated": true
+      },
+      {
+       "voter": "Thien An Nguyen",
+       "target": "Devin Way",
+       "negated": true
+      },
+      {
+       "voter": "Carter Krull",
+       "target": "Devin Way",
+       "negated": true
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 6,
+   "episode": 9,
+   "eliminated": "Lewis Kelly",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Carter Krull"
+     ]
+    },
+    {
+     "type": "indiv_reward",
+     "players": [
+      "Devin Way",
+      "Eric Macksoud",
+      "Lewis Kelly",
+      "Mike Pinsky",
+      "Thien An Nguyen"
+     ]
+    }
+   ],
+   "specials": []
+  },
+  {
+   "week": 7,
+   "episode": 10,
+   "eliminated": "Maggie Nestor",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Mike Pinsky"
+     ]
+    }
+   ],
+   "specials": [],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cristian Chavez",
+       "target": "Maggie Nestor"
+      },
+      {
+       "voter": "Eric Macksoud",
+       "target": "Maggie Nestor"
+      },
+      {
+       "voter": "Sharonda Cox",
+       "target": "Maggie Nestor"
+      },
+      {
+       "voter": "Devin Way",
+       "target": "Maggie Nestor"
+      },
+      {
+       "voter": "Angelica Loblack",
+       "target": "Maggie Nestor"
+      },
+      {
+       "voter": "Maggie Nestor",
+       "target": "Angelica Loblack"
+      },
+      {
+       "voter": "Mike Pinsky",
+       "target": "Maggie Nestor"
+      },
+      {
+       "voter": "Thien An Nguyen",
+       "target": "Devin Way"
+      },
+      {
+       "voter": "Carter Krull",
+       "target": "Maggie Nestor"
+      }
+     ]
+    ]
+   }
+  },
+  {
+   "week": 8,
+   "episode": 10,
+   "eliminated": "Carter Krull",
+   "challenges": [
+    {
+     "type": "indiv_immunity",
+     "players": [
+      "Cristian Chavez"
+     ]
+    }
+   ],
+   "specials": [
+    {
+     "type": "idol_in_pocket",
+     "player": "Carter Krull",
+     "source": "survivoR"
+    }
+   ],
+   "council": {
+    "rounds": [
+     [
+      {
+       "voter": "Cristian Chavez",
+       "target": "Thien An Nguyen"
+      },
+      {
+       "voter": "Eric Macksoud",
+       "target": "Carter Krull"
+      },
+      {
+       "voter": "Sharonda Cox",
+       "target": "Carter Krull"
+      },
+      {
+       "voter": "Devin Way",
+       "target": "Carter Krull"
+      },
+      {
+       "voter": "Angelica Loblack",
+       "target": "Carter Krull"
+      },
+      {
+       "voter": "Mike Pinsky",
+       "target": "Carter Krull"
+      },
+      {
+       "voter": "Thien An Nguyen",
+       "target": "Mike Pinsky"
+      },
+      {
+       "voter": "Carter Krull",
+       "target": "Thien An Nguyen"
+      }
+     ]
+    ]
+   }
+  }
+ ],
+ "review": [
+  {
+   "id": "4:Played",
+   "week": 1,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Kilby",
+   "players": [
+    "Kilby"
+   ],
+   "played_for": "Linnea",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Found around camp",
+   "kind": "advantage_played"
+  },
+  {
+   "id": "5:Played",
+   "week": 1,
+   "advantage": "Extra Vote",
+   "event": "Played",
+   "castaway": "Lewis",
+   "players": [
+    "Lewis"
+   ],
+   "played_for": "Linnea",
+   "success": "Yes",
+   "votes_nullified": null,
+   "location": "Journey",
+   "kind": "advantage_played"
+  },
+  {
+   "id": "7:Found",
+   "week": 4,
+   "advantage": "Extra Vote",
+   "event": "Found",
+   "castaway": "Cristian",
+   "players": [
+    "Cristian"
+   ],
+   "played_for": null,
+   "success": null,
+   "votes_nullified": null,
+   "location": "Found around camp",
+   "kind": "info"
+  }
+ ]
 }

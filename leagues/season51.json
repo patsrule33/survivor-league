@@ -1,47 +1,56 @@
 {
  "season": 51,
  "league": "Family League",
- "first_week_boot": 13,
- "source": "draft room",
+ "first_week_boot": 7,
+ "source": "test (manual)",
  "test": true,
- "drafted_at": "2026-11-25T19:59:46.007Z",
  "draft_order": [
-  "Jamie",
-  "Will",
-  "Greg",
+  "Mom",
   "Jimmy",
-  "Mom"
+  "Will",
+  "Jamie",
+  "Greg"
  ],
- "notes": "Written by sync_draft.py from the draft room. Scoring starts with the first elimination after the draft began.",
+ "notes": "Made-up test rosters (random snake draft, 3 each from the final 15), scoring from elimination 7 so the Review screen has real examples. Written by hand, not the draft room, so sync_draft leaves it alone. Delete when done testing.",
  "owners": [
   {
-   "name": "Jamie",
+   "name": "Mom",
    "roster": [
+    "Linnea",
+    "Kilby",
     "Jelly"
-   ]
-  },
-  {
-   "name": "Will",
-   "roster": [
-    "Sharonda"
-   ]
-  },
-  {
-   "name": "Greg",
-   "roster": [
-    "Carter"
    ]
   },
   {
    "name": "Jimmy",
    "roster": [
-    "Maggie"
+    "Carter",
+    "Cristian",
+    "Kristin"
    ]
   },
   {
-   "name": "Mom",
+   "name": "Will",
    "roster": [
-    "Cristian"
+    "Maggie",
+    "Eric",
+    "Sharonda"
+   ]
+  },
+  {
+   "name": "Jamie",
+   "roster": [
+    "Ori",
+    "Brady",
+    "Lewis"
+   ]
+  },
+  {
+   "name": "Greg",
+   "roster": [
+    "Mike",
+    "Thien An",
+    "Devin"
    ]
   }
  ]

@@ -1,21 +1,10 @@
 {
  "season": 51,
  "title": "Survivor 51",
- "boots_so_far": 11,
- "episodes_aired": 8,
- "updated": "2026-11-25T14:21",
+ "boots_so_far": 14,
+ "episodes_aired": 10,
+ "updated": "2026-11-26T15:14",
  "cast": [
-  {
-   "name": "Carter",
-   "full_name": "Carter Krull",
-   "id": "US0758",
-   "in_game": true,
-   "boot": null,
-   "result": null,
-   "tribe": "Tovuto",
-   "tribe_colour": "#0c41a6",
-   "game_status": "In the game"
-  },
   {
    "name": "Cristian",
    "full_name": "Cristian Chavez",
@@ -53,28 +42,6 @@
    "name": "Jelly",
    "full_name": "Angelica Loblack",
    "id": "US0756",
-   "in_game": true,
-   "boot": null,
-   "result": null,
-   "tribe": "Tovuto",
-   "tribe_colour": "#0c41a6",
-   "game_status": "In the game"
-  },
-  {
-   "name": "Lewis",
-   "full_name": "Lewis Kelly",
-   "id": "US0765",
-   "in_game": true,
-   "boot": null,
-   "result": null,
-   "tribe": "Tovuto",
-   "tribe_colour": "#0c41a6",
-   "game_status": "In the game"
-  },
-  {
-   "name": "Maggie",
-   "full_name": "Maggie Nestor",
-   "id": "US0767",
    "in_game": true,
    "boot": null,
    "result": null,
@@ -154,7 +121,18 @@
    "id": "US0757",
    "in_game": false,
    "boot": 9,
-   "result": "8th voted out",
+   "result": "8th voted out; Quit",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Carter",
+   "full_name": "Carter Krull",
+   "id": "US0758",
+   "in_game": false,
+   "boot": 14,
+   "result": "12th voted out",
    "tribe": null,
    "tribe_colour": null,
    "game_status": null
@@ -193,12 +171,34 @@
    "game_status": null
   },
   {
+   "name": "Lewis",
+   "full_name": "Lewis Kelly",
+   "id": "US0765",
+   "in_game": false,
+   "boot": 12,
+   "result": "Lost coin flip",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
    "name": "Linnea",
    "full_name": "Linnea Capobianco",
    "id": "US0766",
    "in_game": false,
    "boot": 7,
    "result": "6th voted out",
+   "tribe": null,
+   "tribe_colour": null,
+   "game_status": null
+  },
+  {
+   "name": "Maggie",
+   "full_name": "Maggie Nestor",
+   "id": "US0767",
+   "in_game": false,
+   "boot": 13,
+   "result": "11th voted out",
    "tribe": null,
    "tribe_colour": null,
    "game_status": null
