@@ -20,22 +20,20 @@ service cloud.firestore {
       allow create, delete: if draftId == 's999';
     }
 
+    // od.snake = the full pick order (owner per pick), written when the
+    // commissioner starts the draft, so turn order needs no arithmetic here.
     function isValidPick(od, nd) {
       let n = od.taken.size();
-      let k = od.owners.size();
-      let rnd = math.floor(n / k);
-      let pos = n % k;
       let name = nd.taken[n];
       let pick = nd.picks[n];
       return nd.diff(od).affectedKeys().hasOnly(['picks', 'taken', 'updated'])
         && nd.taken.size() == n + 1 && nd.picks.size() == n + 1
         && nd.taken[0:n] == od.taken && nd.picks[0:n] == od.picks
-        && n < od.rosterSize * k
+        && n < od.snake.size()
         && (name in od.pool) && !(name in od.taken) && !(name in od.out)
         && pick.keys().hasOnly(['owner', 'name', 'at'])
         && pick.name == name
-        && ((rnd % 2 == 0 && pick.owner == od.owners[pos])
-            || (rnd % 2 == 1 && pick.owner == od.owners[k - 1 - pos]));
+        && pick.owner == od.snake[n];
     }
 
     // ---- Scoring review: reviews/s51 etc. Commissioner only. ----

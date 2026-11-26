@@ -95,11 +95,17 @@
           const isTest = !!main.querySelector("#is-test")?.checked;
           if (store.mode !== "practice" && !confirm(`Start the ${live.title} ${isTest ? "TEST " : ""}draft for everyone now? The order will be randomized.${isTest ? "\n\nTest draft: won't count toward All time." : ""}${outList.length ? `\n\nMarked already out: ${outList.join(", ")}` : ""}`)) return;
           try {
+            const order = shuffle(live.owners);
+            // full pick order, stored so Firestore rules can check whose turn it is
+            const snake = Array.from({ length: size * order.length }, (_, i) => {
+              const r = Math.floor(i / order.length), pos = i % order.length;
+              return order[r % 2 === 0 ? pos : order.length - 1 - pos];
+            });
             await store.mutate(key, (cur) => {
               if (cur) throw new Error("A draft already exists.");
               // eliminations survivoR doesn't know about yet still move the scoring start
               return { season: live.season, createdAt: new Date().toISOString(), startBoot: boots + 1,
-                       owners: shuffle(live.owners), rosterSize: size, pool: inGame, out: outList, picks: [], taken: [],
+                       owners: order, snake, rosterSize: size, pool: inGame, out: outList, picks: [], taken: [],
                        test: isTest };
             });
             preOut.clear();
