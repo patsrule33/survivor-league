@@ -58,6 +58,12 @@ Family fantasy league for the TV show Survivor. Goal: replace a hand-built sprea
   - Finished seasons show read-only. `?practice` works here too.
   - Firestore rules need the `reviews` section from `firestore.rules`; the owner publishes it in the console.
   - `docs/store.js` (SFLStore) is the shared storage for the draft and review pages.
+- DONE: commissioner-only tools (2026-11-26).
+  - The commissioner signs in with Google (footer link; `SFLAuth` in `docs/store.js`). `window.COMMISSIONER_UID` in `docs/firebase-config.js` and the uid in `firestore.rules` must match: `9iaNj5YudyYR6b4rZcuOzKhpyRo2` (a Firebase user ID, not an email).
+  - The commissioner alone can start, mark eliminated, undo or delete a draft and edit the review.
+  - Drafts are stored as native Firestore fields (`picks`, `taken`, `snake` = full pick order written at start) so the rules can let anyone else add exactly one in-turn pick from the pool and nothing more.
+  - Rules use only `get()`/`hasAll()`/`in`/`keys().hasOnly()`: `diff()`, list slicing and `let` made valid picks fail.
+  - `drafts/s999` is a scratch doc anyone may create/delete, for rule tests. Verified 17/17 plus a browser-client pick (accepted) and undo (refused).
 - NOT DONE: waivers; manual eliminations for scoring (the draft room has its own). Wiki scraper is now a fallback only. No rosters yet for the current season (51).
 
 ## League rules (follow the owner's key)
