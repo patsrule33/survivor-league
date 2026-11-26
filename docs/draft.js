@@ -194,7 +194,8 @@
       main.innerHTML = `${banner}${testNote}
         <section class="section">${status}</section>
         <section class="section"><h2>Draft board</h2>${board}
-          <p class="note">Snake order: round 1 left to right, round 2 right to left, and so on. Scoring starts with elimination ${s.startBoot} of the season.</p></section>
+          <p class="note">Snake order: round 1 left to right, round 2 right to left, and so on. Scoring starts with elimination ${s.startBoot} of the season.</p>
+          ${store.mode === "live" ? `<p class="note">Want to try drafting yourself? <a href="${base}?practice#/${live.season}/draft">Open a practice draft</a>: your own private draft from the current cast, on this device only. It doesn't touch this draft.</p>` : ""}</section>
         ${done ? "" : `<section class="section"><h2>Available (${avail.length})</h2>${poolList(avail, mine ? clock.owner : null)}</section>`}
         <details class="section commish"><summary>Commissioner tools</summary>
           <p class="note">Anyone can use these, so check with the family first.</p>
