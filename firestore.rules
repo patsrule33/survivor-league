@@ -22,18 +22,37 @@ service cloud.firestore {
 
     // od.snake = the full pick order (owner per pick), written when the
     // commissioner starts the draft, so turn order needs no arithmetic here.
+    // A pick may change only `picks`, `taken` (and the server timestamp), adding
+    // exactly one new entry to each, for the owner whose turn it is.
     function isValidPick(od, nd) {
-      let n = od.taken.size();
-      let name = nd.taken[n];
-      let pick = nd.picks[n];
-      return nd.diff(od).affectedKeys().hasOnly(['picks', 'taken', 'updated'])
-        && nd.taken.size() == n + 1 && nd.picks.size() == n + 1
-        && nd.taken[0:n] == od.taken && nd.picks[0:n] == od.picks
-        && n < od.snake.size()
-        && (name in od.pool) && !(name in od.taken) && !(name in od.out)
+      return nd.keys().hasOnly(['season', 'createdAt', 'startBoot', 'owners', 'snake', 'rosterSize',
+                                'pool', 'out', 'picks', 'taken', 'test', 'updated'])
+        && sameSetup(od, nd)
+        && nd.taken.size() == od.taken.size() + 1
+        && nd.picks.size() == od.taken.size() + 1
+        && nd.taken.hasAll(od.taken)
+        && nd.picks.hasAll(od.picks)
+        && od.taken.size() < od.snake.size()
+        && isNewPick(od, nd.taken[od.taken.size()], nd.picks[od.taken.size()]);
+    }
+
+    function sameSetup(od, nd) {
+      return nd.get('season', null) == od.get('season', null)
+        && nd.get('createdAt', null) == od.get('createdAt', null)
+        && nd.get('startBoot', null) == od.get('startBoot', null)
+        && nd.get('owners', null) == od.get('owners', null)
+        && nd.get('snake', null) == od.get('snake', null)
+        && nd.get('rosterSize', null) == od.get('rosterSize', null)
+        && nd.get('pool', null) == od.get('pool', null)
+        && nd.get('out', null) == od.get('out', null)
+        && nd.get('test', null) == od.get('test', null);
+    }
+
+    function isNewPick(od, name, pick) {
+      return (name in od.pool) && !(name in od.taken) && !(name in od.out)
         && pick.keys().hasOnly(['owner', 'name', 'at'])
         && pick.name == name
-        && pick.owner == od.snake[n];
+        && pick.owner == od.snake[od.taken.size()];
     }
 
     // ---- Scoring review: reviews/s51 etc. Commissioner only. ----
