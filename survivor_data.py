@@ -73,6 +73,17 @@ HANDED_OUT = {"Found at Summit", "Given to player by Mr Beast", "Sent from Edge 
               "Created when the three amulets were used together"}
 
 
+# Review screen: what "award" means for each kind of review item (the default,
+# with no decision, is no points).
+REVIEW_KINDS = {
+    "advantage_played": ("advantage_used", "+5 advantage used"),
+    "shared_idol_found": ("idol_found", "+10 idol found (each)"),
+    "handed_out_idol": ("idol_found", "+10 idol found"),
+    "idol_never_active": ("idol_in_pocket", "−20 voted out holding it"),
+}
+ADJUST_CATEGORIES = ("challenges", "votes", "survival", "special")
+
+
 def build_season(season_num, first_week_boot, tables, version="US", overrides=None, survival_offset=0):
     vs = f"{version}{season_num}"
     T = {k: [r for r in v if r.get("version_season") == vs] for k, v in tables.items()}
@@ -220,9 +231,20 @@ def build_season(season_num, first_week_boot, tables, version="US", overrides=No
         shared = "," in (m["castaway"] or "")
         who = None if shared else name.get(m["castaway_id"])
         where = adv_where.get(m["advantage_id"])
-        item = {"week": k, "advantage": typ, "event": ev, "castaway": m["castaway"],
+        # id is stable across rebuilds (one advantage, one event type); kind says
+        # what decision the review screen offers (see REVIEW_KINDS)
+        item = {"id": f"{m['advantage_id']}:{ev}", "week": k, "advantage": typ, "event": ev,
+                "castaway": m["castaway"], "players": [p.strip() for p in (m["castaway"] or "").split(",") if p.strip()],
                 "played_for": m.get("played_for"), "success": m.get("success"),
                 "votes_nullified": m.get("votes_nullified"), "location": where}
+        if is_idol and ev == "Found":
+            item["kind"] = "shared_idol_found" if shared else "handed_out_idol"
+        elif is_idol and ev == "Voted out with advantage":
+            item["kind"] = "idol_never_active"
+        elif ev == "Played" and not is_idol:
+            item["kind"] = "advantage_played"
+        else:
+            item["kind"] = "info"  # nothing to score (e.g. found a non-idol advantage)
         if is_idol and ev == "Found" and who and where not in HANDED_OUT:
             weeks[k]["specials"].append({"type": "idol_found", "player": who, "source": "survivoR"})
         elif is_idol and ev == "Voted out with advantage" and who:
@@ -301,6 +323,24 @@ def apply_overrides(season, ov, short, name):
     for s in ov.get("specials", []):
         wk[s["week"]]["specials"].append({"type": s["type"], "player": full(s["player"]),
                                           "source": "override"})
+    # review-screen decisions: {"<item id>": "award" | "none"}
+    items = {r["id"]: r for r in season.get("review", []) if "id" in r}
+    for item_id, choice in (ov.get("decisions") or {}).items():
+        item = items.get(item_id)
+        if not item:
+            continue
+        item["decision"] = choice
+        if choice == "award" and item.get("kind") in REVIEW_KINDS and item["week"] in wk:
+            special = REVIEW_KINDS[item["kind"]][0]
+            for p in item.get("players") or [item["castaway"]]:
+                wk[item["week"]]["specials"].append({"type": special, "player": full(p), "source": "review"})
+    # manual adjustments: [{"week", "player", "category", "points", "reason"}]
+    for a in ov.get("adjust", []):
+        k = int(a["week"])
+        if k in wk and a.get("category") in ADJUST_CATEGORIES:
+            wk[k].setdefault("adjustments", []).append(
+                {"player": full(a["player"]), "category": a["category"], "points": float(a["points"]),
+                 "reason": a.get("reason", "")})
 
 
 if __name__ == "__main__":

@@ -26,6 +26,18 @@ GitHub pauses scheduled workflows after 60 days with no commits to the repo, whi
 
 Until step 4 is done, the Draft tab runs in test mode (picks stay in your browser).
 
+## Scoring review (commissioner)
+
+The **Review** tab lists the calls survivoR can't make on its own and lets you decide each one:
+- Advantage plays: +5 "advantage used" or not.
+- Idols found by several people at once: +10 each or not.
+- Handed-out idols: +10 or not.
+- Voted out holding an idol that never had power: penalty or not.
+
+It also takes manual point adjustments (e.g. alliance credit on a split vote). Decisions are saved in Firebase and take effect at the next score update. Finished seasons are read-only.
+
+One-time setup: Firestore needs the `reviews` rules in `firestore.rules` (Firebase console → Firestore → Rules → paste → Publish).
+
 ## Files
 
 | Path | What |

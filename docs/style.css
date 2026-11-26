@@ -227,6 +227,19 @@ details.commish .btn { margin-right: 8px; }
 .commish-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 10px 0; font-size: 14px; }
 .commish-row label { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; color: var(--ink-2); }
 .linkish { all: unset; cursor: pointer; color: var(--ink-2); text-decoration: underline; font-size: 12px; }
+/* review screen */
+.review-group { margin-bottom: 16px; }
+.review-week { font-size: 13px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }
+.review-item { display: flex; justify-content: space-between; align-items: center; gap: 10px 16px; flex-wrap: wrap;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; }
+.review-item.pending { border-left: 3px solid var(--torch); }
+.review-item .note { margin: 2px 0 0; }
+.review-text { font-weight: 600; }
+.review-item .seg { margin: 0; }
+.adj-form { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end; margin-top: 12px; font-size: 14px; color: var(--ink-2); }
+.adj-form label { display: flex; flex-direction: column; gap: 4px; }
+.adj-form label.grow { flex: 1 1 220px; }
+.adj-form input, .adj-form select { font: inherit; color: var(--ink); background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px; }
 .testbox { display: flex; gap: 8px; align-items: flex-start; margin: 4px 0 14px; font-size: 14px; color: var(--ink-2); }
 .testbox input { margin-top: 3px; }
 .pool-item.marked-out { opacity: .55; }

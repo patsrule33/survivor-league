@@ -1,8 +1,9 @@
 rules_version = '2';
-// Draft room: anyone with the link can read drafts and make picks (family
-// league, no sign-in). Writes are limited to the one shape the page uses.
+// Family league, no sign-in: anyone with the link can read and write the draft
+// room and the scoring review. Writes are limited to the one shape the pages use.
 service cloud.firestore {
   match /databases/{database}/documents {
+    // Draft room: drafts/s51 etc.
     match /drafts/{draftId} {
       allow read: if true;
       allow delete: if true;
@@ -10,6 +11,15 @@ service cloud.firestore {
         && request.resource.data.keys().hasOnly(['state', 'updated'])
         && request.resource.data.state is string
         && request.resource.data.state.size() < 20000;
+    }
+    // Scoring review (commissioner decisions + adjustments): reviews/s51 etc.
+    match /reviews/{reviewId} {
+      allow read: if true;
+      allow delete: if true;
+      allow create, update: if reviewId.matches('s[0-9]+')
+        && request.resource.data.keys().hasOnly(['state', 'updated'])
+        && request.resource.data.state is string
+        && request.resource.data.state.size() < 50000;
     }
     match /{document=**} {
       allow read, write: if false;

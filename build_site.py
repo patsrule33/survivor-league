@@ -19,7 +19,7 @@ GitHub Pages serves docs/.
 import argparse, datetime, glob, json, os, re, urllib.request
 from collections import Counter
 from scoring import score_season
-from survivor_data import build_season, load_tables
+from survivor_data import build_season, load_tables, REVIEW_KINDS
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 P = lambda *a: os.path.join(ROOT, *a)
@@ -66,8 +66,17 @@ def keep_stamp(path, data, stamp, ignore=()):
 
 def site_season(league, tables):
     n = league["season"]
-    overrides = _load(P("overrides", f"season{n}.json"))
-    season = build_season(n, league["first_week_boot"], tables, overrides=overrides,
+    overrides = _load(P("overrides", f"season{n}.json")) or {}
+    try:  # commissioner decisions from the review screen (Firestore, or the saved copy)
+        from sync_draft import fetch_review
+        review = fetch_review(n)
+    except Exception as e:
+        print(f"review: S{n} decisions unavailable ({e})")
+        review = None
+    if review:
+        overrides = {**overrides, "decisions": {**overrides.get("decisions", {}), **review["decisions"]},
+                     "adjust": [*overrides.get("adjust", []), *review["adjust"]]}
+    season = build_season(n, league["first_week_boot"], tables, overrides=overrides or None,
                           survival_offset=league.get("survival_offset", 0))
     json.dump(season, open(P("fixtures", f"survivoR_season{n}.json"), "w", encoding="utf-8"),
               indent=1, ensure_ascii=False)
@@ -131,7 +140,9 @@ def site_season(league, tables):
              "challenges": [{"label": CHALLENGE_LABEL.get(c["type"], c["type"]),
                              "players": [s(p) for p in c["players"]]} for c in w.get("challenges", [])],
              "specials": [{"label": SPECIAL_LABEL.get(x["type"], x["type"]), "player": s(x["player"])}
-                          for x in w.get("specials", [])]}
+                          for x in w.get("specials", [])],
+             "adjustments": [{"player": s(a["player"]), "category": a["category"], "points": a["points"],
+                              "reason": a.get("reason", "")} for a in w.get("adjustments", [])]}
         council = w.get("council")
         if council:
             d["rounds"] = [sorted(Counter(s(b["target"]) for b in r if not b.get("negated")).items(),
@@ -149,7 +160,10 @@ def site_season(league, tables):
         "built": datetime.datetime.now().isoformat(timespec="minutes"),
         "complete": bool(season["final_placement"]),
         "owners": owners, "contestants": contestants, "weeks": week_detail,
-        "review_count": len(season.get("review", [])),
+        # judgment calls for the review screen (info-only items left out)
+        "review": [{k: r.get(k) for k in ("id", "kind", "week", "advantage", "event", "castaway", "players",
+                                         "played_for", "success", "votes_nullified", "location", "decision")}
+                   for r in season.get("review", []) if r.get("kind") in REVIEW_KINDS],
     }
 
 

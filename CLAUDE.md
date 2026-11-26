@@ -51,7 +51,14 @@ Family fantasy league for the TV show Survivor. Goal: replace a hand-built sprea
   - It then POSTs `/pages/builds`, because Actions pushes don't trigger a Pages rebuild.
   - `build_site.py` keeps timestamps unchanged when the data is unchanged (`keep_stamp`), so no-op runs commit nothing.
   - The commit and republish path hasn't run yet; it first will when survivoR next updates.
-- NOT DONE: review screen, waivers, manual eliminations for scoring (draft room has its own). Wiki scraper is now a fallback only. No rosters yet for the current season (51).
+- DONE: scoring review screen (Review tab; `docs/review.js`).
+  - Lists the season's judgment calls from `docs/data/seasonNN.json` → `review`. Each item has a stable `id` (`<advantage_id>:<event>`) and a `kind` (`REVIEW_KINDS` in survivor_data.py: advantage_played, shared_idol_found, handed_out_idol, idol_never_active). Undecided items score nothing.
+  - Manual adjustments: elimination, contestant, category, points, reason.
+  - Saved in Firestore `reviews/sNN` as `{decisions:{id:"award"|"none"}, adjust:[...]}`. `build_site.py` merges it into the overrides via `sync_draft.fetch_review` and saves a copy to `overrides/seasonNN_review.json`, which the daily job commits. The copy is the fallback if Firestore can't be read.
+  - Finished seasons show read-only. `?practice` works here too.
+  - Firestore rules need the `reviews` section from `firestore.rules`; the owner publishes it in the console.
+  - `docs/store.js` (SFLStore) is the shared storage for the draft and review pages.
+- NOT DONE: waivers; manual eliminations for scoring (the draft room has its own). Wiki scraper is now a fallback only. No rosters yet for the current season (51).
 
 ## League rules (follow the owner's key)
 - 5 players, 3 contestants each, snake draft a few episodes into the season. Pool excludes the first three boots.

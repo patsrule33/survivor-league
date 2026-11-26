@@ -79,6 +79,7 @@
     lastPage = `${season}/${view}`;
     seasonSel.value = season;
     if (window.SFLDraft) window.SFLDraft.stop();
+    if (window.SFLReview) window.SFLReview.stop();
     document.body.classList.toggle("career-view", view === "career" || view === "draft");
     if (view === "draft") {
       current = null;
@@ -114,6 +115,7 @@
     $("#subtitle").textContent = `${d.title}${d.test ? " (test)" : ""} · ${d.complete ? "Final standings" : last ? `Through ${U().lower} ${last.label}` : "Rosters set"}`;
     $("#built").textContent = `Scores last built ${new Date(d.built).toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" })}.`;
     document.title = `${d.title} · Survivor Fantasy League`;
+    if (view === "review") { await window.SFLReview.renderReview(main, d, { getJSON, toast }); return; }
     if (!last) { renderPreseason(d); return; }   // drafted, nothing scored yet
     if (view === "results") renderResults(d, arg || last.key);
     else if (view === "contestants") renderContestants(d);
@@ -322,6 +324,8 @@
     (w.idol_plays || []).forEach((p) => facts.push(["Idol played", `${esc(p.player)}${p.votes_negated ? ` (cancelled ${p.votes_negated} vote${p.votes_negated > 1 ? "s" : ""})` : " (no votes cancelled)"}`]));
     w.challenges.forEach((c) => facts.push([c.label, c.players.map(esc).join(", ")]));
     w.specials.forEach((s) => facts.push([s.label, esc(s.player)]));
+    (w.adjustments || []).forEach((a) => facts.push(["Adjustment",
+      `${esc(a.player)} ${a.points > 0 ? "+" : ""}${fmt(a.points)} ${esc(a.category)}${a.reason ? ` <span class="muted">(${esc(a.reason)})</span>` : ""}`]));
     if (w.jury) facts.push(["Jury votes", w.jury.map(([t, n]) => `${esc(t)} ${n}`).join(", ")]);
     return `<ul class="facts">${facts.map(([k, v]) => `<li><span class="k">${esc(k)}</span><span>${v}</span></li>`).join("")}</ul>`;
   }

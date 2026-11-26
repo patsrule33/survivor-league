@@ -12,57 +12,7 @@
   "use strict";
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  // ---------- storage ----------
-  // Practice mode (?practice in the URL): same draft room, but saved only in this
-  // browser, never in Firestore, so nobody else sees it and nothing syncs.
-  const PRACTICE = /[?&]practice\b/.test(location.search);
-
-  function localStore(mode = "test") {
-    const key = (k) => `sfl-${mode === "practice" ? "practice" : "draft"}-${k}`;
-    const read = (k) => { try { return JSON.parse(localStorage.getItem(key(k)) || "null"); } catch (e) { return null; } };
-    const listeners = new Set(); // the "storage" event only fires in *other* tabs
-    return {
-      mode,
-      subscribe(k, cb) {
-        cb(read(k));
-        const on = (e) => { if (!e || e.key === key(k)) cb(read(k)); };
-        addEventListener("storage", on); listeners.add(on);
-        return () => { removeEventListener("storage", on); listeners.delete(on); };
-      },
-      async mutate(k, fn) {
-        const next = fn(read(k));
-        try { if (next === null) localStorage.removeItem(key(k)); else localStorage.setItem(key(k), JSON.stringify(next)); }
-        catch (e) { throw new Error("This browser blocked saving (private window?)."); }
-        listeners.forEach((on) => on(null));
-        return next;
-      },
-    };
-  }
-
-  let fbPromise = null;
-  async function firebaseStore(config) {
-    if (!fbPromise) fbPromise = (async () => {
-      const v = "10.12.2";
-      const app = await import(`https://www.gstatic.com/firebasejs/${v}/firebase-app.js`);
-      const fs = await import(`https://www.gstatic.com/firebasejs/${v}/firebase-firestore.js`);
-      const db = fs.getFirestore(app.initializeApp(config));
-      const ref = (k) => fs.doc(db, "drafts", k);
-      const parse = (snap) => (snap.exists() ? JSON.parse(snap.data().state) : null);
-      return {
-        mode: "live",
-        subscribe(k, cb, onErr) { return fs.onSnapshot(ref(k), (s) => cb(parse(s)), onErr); },
-        async mutate(k, fn) {
-          return fs.runTransaction(db, async (tx) => {
-            const next = fn(parse(await tx.get(ref(k))));
-            if (next === null) tx.delete(ref(k));
-            else tx.set(ref(k), { state: JSON.stringify(next), updated: fs.serverTimestamp() });
-            return next;
-          });
-        },
-      };
-    })();
-    return fbPromise;
-  }
+  // storage: docs/store.js (SFLStore) — Firestore, practice, or test mode
 
   // ---------- draft logic ----------
   function shuffle(a) {
@@ -99,10 +49,7 @@
     const live = await h.getJSON("data/live.json");
     const key = `s${live.season}`;
     let store;
-    try {
-      store = PRACTICE ? localStore("practice")
-        : window.FIREBASE_CONFIG ? await firebaseStore(window.FIREBASE_CONFIG) : localStore("test");
-    }
+    try { store = await window.SFLStore.open("drafts"); }
     catch (e) { main.innerHTML = `<p class="empty">Couldn't reach the shared draft (${esc(e.message)}).</p>`; return; }
     const slot = (o) => (live.owners.indexOf(o) + 1) || 9;
     const sw = (o) => `<span class="swatch" style="background:var(--s${slot(o)})"></span>`;

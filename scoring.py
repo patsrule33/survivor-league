@@ -88,6 +88,10 @@ def score_season(season, rules=RULES):
         for s in w.get("specials", []):
             pts[s["player"]][k]["special"] += rules["special"][s["type"]]
 
+        # ---- commissioner adjustments from the review screen ----
+        for a in w.get("adjustments", []):
+            pts[a["player"]][k][a["category"]] += a["points"]
+
     # ---- survival ladder ----
     # Surviving week k's council earns k points. In the final week the
     # finalists keep climbing the ladder: 3rd gets k, 2nd k+(k+1), 1st k+(k+1)+(k+2).
