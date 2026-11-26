@@ -45,6 +45,8 @@
 
     const draw = (st) => {
       st = st || { decisions: {}, adjust: [] };
+      // read-only for finished seasons, and for anyone but the commissioner
+      const ro = locked || !window.SFLAuth.canCommish(store);
       const decided = (r) => st.decisions[r.id] || r.decision || null;
       const items = d.review || [];
       const waiting = items.filter((r) => !decided(r)).length;
@@ -53,7 +55,7 @@
           ${locked
             ? `<p><b>This season is finished and locked.</b> Its scores never change, so nothing here can be edited.</p>`
             : `<p>Calls survivoR can't make on its own, plus manual adjustments. Decisions are saved for everyone and show on the leaderboard at the next update (daily around 10am Eastern, or run <b>Update scores</b> on GitHub).</p>
-               <p class="note">${items.length ? `${waiting ? `<b>${waiting} waiting</b> for a decision.` : "Everything has a decision."} Undecided items score nothing.` : ""} Anyone with the link can change these, so this page is for the commissioner.</p>`}
+               <p class="note">${items.length ? `${waiting ? `<b>${waiting} waiting</b> for a decision.` : "Everything has a decision."} Undecided items score nothing.` : ""} ${ro ? "<b>Only the commissioner can make changes here.</b> Sign in at the bottom of the page if that's you." : store.mode === "live" && !window.SFLAuth.state().configured ? "Anyone with the link can change these until commissioner sign-in is set up." : ""}</p>`}
         </section>`;
 
       // judgment calls, grouped by elimination
@@ -68,7 +70,7 @@
               <div><div class="review-text">${esc(K.text(r))}</div>
                 <div class="note">${esc(K.help)}${facts ? ` <span class="muted">(${esc(facts)})</span>` : ""}</div></div>
               <div class="seg" role="group" aria-label="Decision">
-                ${["award", "none"].map((c) => `<button type="button" data-id="${esc(r.id)}" data-choice="${c}" aria-pressed="${dec === c}" ${locked ? "disabled" : ""}>${esc(K[c])}</button>`).join("")}
+                ${["award", "none"].map((c) => `<button type="button" data-id="${esc(r.id)}" data-choice="${c}" aria-pressed="${dec === c}" ${ro ? "disabled" : ""}>${esc(K[c])}</button>`).join("")}
               </div></div>`;
           }).join("")}</div>`).join("")
         : `<p class="muted">${weeks.length ? "Nothing needs a decision." : "Nothing to review yet: no eliminations have been scored this season."}</p>`;
@@ -77,9 +79,9 @@
       const adjRows = (st.adjust || []).map((a) => `<tr>
           <td>${esc(elimLabel(a.week))}</td><td style="text-align:left">${esc(a.player)}</td><td style="text-align:left">${esc(a.category)}</td>
           <td class="${a.points < 0 ? "neg" : ""}">${a.points > 0 ? "+" : ""}${esc(a.points)}</td><td style="text-align:left">${esc(a.reason)}</td>
-          <td>${locked ? "" : `<button class="linkish rm-adj" data-id="${esc(a.id)}">remove</button>`}</td></tr>`).join("");
+          <td>${ro ? "" : `<button class="linkish rm-adj" data-id="${esc(a.id)}">remove</button>`}</td></tr>`).join("");
       const players = (d.contestants || []).map((c) => c.name).sort();
-      const form = locked || !weeks.length ? "" : `<div class="adj-form">
+      const form = ro || !weeks.length ? "" : `<div class="adj-form">
           <label>Elimination <select id="adj-week">${weeks.map((w) => `<option value="${w.week}">${esc(elimLabel(w.week))}</option>`).join("")}</select></label>
           <label>Contestant <select id="adj-player">${players.map((p) => `<option>${esc(p)}</option>`).join("")}</select></label>
           <label>Category <select id="adj-cat">${CATS.map((c) => `<option ${c === "votes" ? "selected" : ""}>${c}</option>`).join("")}</select></label>
@@ -121,12 +123,15 @@
 
     if (locked) { draw(null); return; }  // finished seasons: read-only, nothing to load
     main.innerHTML = `<p class="empty">Loading the review…</p>`;
-    unsub = store.subscribe(key, draw, (e) => {
+    let lastSt, loaded = false;
+    const authUnsub = window.SFLAuth.onChange(() => { if (loaded) draw(lastSt); });
+    const dataUnsub = store.subscribe(key, (s) => { lastSt = s; loaded = true; draw(s); }, (e) => {
       const rules = /permission/i.test(e.message || "");
       main.innerHTML = `<p class="empty">${rules
         ? "The review screen can't save yet: the Firebase rules need the new <b>reviews</b> section. Paste <code>firestore.rules</code> into Firebase console → Firestore → Rules and publish."
         : `Couldn't load the review (${esc(e.message)}).`}</p>`;
     });
+    unsub = () => { dataUnsub(); authUnsub(); };
   }
 
   window.SFLReview = { renderReview, stop };

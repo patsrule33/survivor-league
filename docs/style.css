@@ -227,6 +227,8 @@ details.commish .btn { margin-right: 8px; }
 .commish-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 10px 0; font-size: 14px; }
 .commish-row label { display: inline-flex; gap: 8px; align-items: center; flex-wrap: wrap; color: var(--ink-2); }
 .linkish { all: unset; cursor: pointer; color: var(--ink-2); text-decoration: underline; font-size: 12px; }
+.commish-bar { margin-top: 6px; font-size: 13px; }
+.commish-bar code { font-size: 12px; background: var(--surface-2); padding: 1px 4px; border-radius: 4px; }
 /* review screen */
 .review-group { margin-bottom: 16px; }
 .review-week { font-size: 13px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }

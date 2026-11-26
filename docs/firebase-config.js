@@ -11,3 +11,8 @@ window.FIREBASE_CONFIG = {
   messagingSenderId: "694623055376",
   appId: "1:694623055376:web:f91328f43dbd9346f82495",
 };
+
+/* The commissioner's Firebase user ID (a random code, not an email; safe to
+   publish). Only this account can use commissioner tools; firestore.rules has
+   the same ID. null = not set up yet, so anyone can use them (the old behavior). */
+window.COMMISSIONER_UID = null;

@@ -515,6 +515,36 @@
     });
   }
 
+  // ---------- commissioner sign-in (footer) ----------
+  function renderCommishBar(v) {
+    const bar = $("#commish-bar");
+    if (!bar || !window.FIREBASE_CONFIG || window.SFLStore.PRACTICE) return;
+    if (!v.ready) { bar.innerHTML = ""; return; }
+    if (!v.uid) {
+      bar.innerHTML = `<button class="linkish" id="cm-in">Commissioner sign-in</button>`;
+    } else if (v.isCommish) {
+      bar.innerHTML = `Signed in as the commissioner · <button class="linkish" id="cm-out">Sign out</button>`;
+    } else if (!v.configured) {
+      bar.innerHTML = `Signed in. Your commissioner ID: <code>${esc(v.uid)}</code> <button class="linkish" id="cm-copy">copy</button>. Send it to finish setup · <button class="linkish" id="cm-out">Sign out</button>`;
+    } else {
+      bar.innerHTML = `Signed in, but not as the commissioner · <button class="linkish" id="cm-out">Sign out</button>`;
+    }
+    $("#cm-in")?.addEventListener("click", async () => {
+      try { await window.SFLAuth.signIn(); }
+      catch (e) {
+        alert(/operation-not-allowed|configuration-not-found/.test(e.code || "")
+          ? "Google sign-in isn't turned on in Firebase yet (Firebase console → Authentication → Sign-in method → Google)."
+          : /unauthorized-domain/.test(e.code || "")
+          ? "This web address isn't allowed to sign in yet (Firebase console → Authentication → Settings → Authorized domains)."
+          : `Sign-in didn't work (${e.code || e.message}).`);
+      }
+    });
+    $("#cm-out")?.addEventListener("click", () => window.SFLAuth.signOut());
+    $("#cm-copy")?.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(v.uid); toast("Copied your commissioner ID."); } catch (e) { prompt("Copy this ID:", v.uid); }
+    });
+  }
+
   // ---------- boot ----------
   async function boot() {
     try {
@@ -528,6 +558,7 @@
       seasonSel.addEventListener("change", () => { location.hash = link(seasonSel.value, parseHash().view, unit); });
       document.querySelectorAll(".seg button").forEach((b) => b.addEventListener("click", () => onUnitClick(b.dataset.unit)));
       addEventListener("hashchange", route);
+      if (window.SFLAuth) window.SFLAuth.onChange(renderCommishBar);
       await route();
     } catch (e) {
       main.innerHTML = `<p class="empty">Couldn't load the league data (${esc(e.message)}).</p>`;

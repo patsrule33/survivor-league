@@ -1,26 +1,49 @@
 rules_version = '2';
-// Family league, no sign-in: anyone with the link can read and write the draft
-// room and the scoring review. Writes are limited to the one shape the pages use.
+// Family league. Everyone can read. The commissioner (signed in with Google,
+// identified by Firebase user ID, not email) can do anything. Everyone else can
+// only make their own draft pick: exactly one, in turn, from the pool.
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Draft room: drafts/s51 etc.
+
+    function isCommish() {
+      return request.auth != null && request.auth.uid == 'COMMISSIONER_UID_GOES_HERE';
+    }
+
+    // ---- Draft room: drafts/s51 etc. (stored as real fields so these checks work) ----
     match /drafts/{draftId} {
       allow read: if true;
-      allow delete: if true;
-      allow create, update: if draftId.matches('s[0-9]+')
-        && request.resource.data.keys().hasOnly(['state', 'updated'])
-        && request.resource.data.state is string
-        && request.resource.data.state.size() < 20000;
+      // start, mark eliminated, undo, delete: commissioner only
+      allow create, update, delete: if isCommish() && draftId.matches('s[0-9]+');
+      // anyone: add one pick
+      allow update: if draftId.matches('s[0-9]+') && isValidPick(resource.data, request.resource.data);
+      // s999: scratch draft for automated rule tests (holds nothing real)
+      allow create, delete: if draftId == 's999';
     }
-    // Scoring review (commissioner decisions + adjustments): reviews/s51 etc.
+
+    function isValidPick(od, nd) {
+      let n = od.taken.size();
+      let k = od.owners.size();
+      let rnd = math.floor(n / k);
+      let pos = n % k;
+      let name = nd.taken[n];
+      let pick = nd.picks[n];
+      return nd.diff(od).affectedKeys().hasOnly(['picks', 'taken', 'updated'])
+        && nd.taken.size() == n + 1 && nd.picks.size() == n + 1
+        && nd.taken[0:n] == od.taken && nd.picks[0:n] == od.picks
+        && n < od.rosterSize * k
+        && (name in od.pool) && !(name in od.taken) && !(name in od.out)
+        && pick.keys().hasOnly(['owner', 'name', 'at'])
+        && pick.name == name
+        && ((rnd % 2 == 0 && pick.owner == od.owners[pos])
+            || (rnd % 2 == 1 && pick.owner == od.owners[k - 1 - pos]));
+    }
+
+    // ---- Scoring review: reviews/s51 etc. Commissioner only. ----
     match /reviews/{reviewId} {
       allow read: if true;
-      allow delete: if true;
-      allow create, update: if reviewId.matches('s[0-9]+')
-        && request.resource.data.keys().hasOnly(['state', 'updated'])
-        && request.resource.data.state is string
-        && request.resource.data.state.size() < 50000;
+      allow write: if isCommish() && reviewId.matches('s[0-9]+');
     }
+
     match /{document=**} {
       allow read, write: if false;
     }

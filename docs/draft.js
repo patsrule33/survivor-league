@@ -49,11 +49,16 @@
     const live = await h.getJSON("data/live.json");
     const key = `s${live.season}`;
     let store;
-    try { store = await window.SFLStore.open("drafts"); }
+    try { store = await window.SFLStore.open("drafts", { format: "native" }); }
     catch (e) { main.innerHTML = `<p class="empty">Couldn't reach the shared draft (${esc(e.message)}).</p>`; return; }
     const slot = (o) => (live.owners.indexOf(o) + 1) || 9;
     const sw = (o) => `<span class="swatch" style="background:var(--s${slot(o)})"></span>`;
     const castBy = Object.fromEntries(live.cast.map((c) => [c.name, c]));
+    // commissioner-only actions: start, mark eliminated, undo, delete (see SFLAuth)
+    const commish = () => window.SFLAuth.canCommish(store);
+    const commishNote = () => store.mode !== "live" ? ""
+      : window.SFLAuth.state().configured ? "Only the commissioner can use these."
+      : "Anyone can use these until commissioner sign-in is set up.";
     const tribeDot = (c) => c && c.tribe ? `<span class="tribe" style="--tc:${esc(c.tribe_colour || "#888")}">${esc(c.tribe)}</span>` : "";
 
     const draw = (s) => {
@@ -78,13 +83,13 @@
             <h2>No draft yet for ${esc(live.title)}</h2>
             <p>${inGame.length} contestants are still in the game after ${boots} eliminations, so each of the ${live.owners.length} owners would get <b>${size}</b> in a snake draft (order chosen at random).
             Scoring starts with the next elimination.${inGame.length % live.owners.length ? ` ${inGame.length % live.owners.length} contestant(s) will be left unowned.` : ""}</p>
-            ${store.mode === "practice" ? "" : `<label class="testbox"><input type="checkbox" id="is-test"> <span><b>Test draft</b>: made-up rosters for trying things out. Shows on the site labelled "test", never counts toward All time, and deleting it later removes it everywhere.</span></label>`}
-            <button class="btn" id="start" ${size < 1 ? "disabled" : ""}>${store.mode === "practice" ? "Start a practice draft" : "Start the draft"}</button>
+            ${!commish() ? `<p class="note"><b>Waiting for the commissioner to start the draft.</b> This page updates by itself when it begins.</p>` : store.mode === "practice" ? "" : `<label class="testbox"><input type="checkbox" id="is-test"> <span><b>Test draft</b>: made-up rosters for trying things out. Shows on the site labelled "test", never counts toward All time, and deleting it later removes it everywhere.</span></label>`}
+            ${!commish() ? "" : `<button class="btn" id="start" ${size < 1 ? "disabled" : ""}>${store.mode === "practice" ? "Start a practice draft" : "Start the draft"}</button>`}
             ${practiceLink}
           </section>
           <section class="section"><h2>Still in the game</h2>
-            <p class="note" style="margin-top:-4px">survivoR is up to date through episode ${live.episodes_aired}. If someone has been voted out since, mark them <b>Already out</b> before starting.</p>
-            ${poolList(listed, null, preOut)}</section>`;
+            ${commish() ? `<p class="note" style="margin-top:-4px">survivoR is up to date through episode ${live.episodes_aired}. If someone has been voted out since, mark them <b>Already out</b> before starting.</p>` : ""}
+            ${poolList(listed, null, commish() ? preOut : null)}</section>`;
         main.querySelector("#start")?.addEventListener("click", async () => {
           const outList = [...preOut];
           const isTest = !!main.querySelector("#is-test")?.checked;
@@ -94,7 +99,7 @@
               if (cur) throw new Error("A draft already exists.");
               // eliminations survivoR doesn't know about yet still move the scoring start
               return { season: live.season, createdAt: new Date().toISOString(), startBoot: boots + 1,
-                       owners: shuffle(live.owners), rosterSize: size, pool: inGame, out: outList, picks: [],
+                       owners: shuffle(live.owners), rosterSize: size, pool: inGame, out: outList, picks: [], taken: [],
                        test: isTest };
             });
             preOut.clear();
@@ -144,8 +149,8 @@
           <p class="note">Snake order: round 1 left to right, round 2 right to left, and so on. Scoring starts with elimination ${s.startBoot} of the season.</p>
           ${store.mode === "live" ? `<p class="note">Want to try drafting yourself? <a href="${base}?practice#/${live.season}/draft">Open a practice draft</a>: your own private draft from the current cast, on this device only. It doesn't touch this draft.</p>` : ""}</section>
         ${done ? "" : `<section class="section"><h2>Available (${avail.length})</h2>${poolList(avail, mine ? clock.owner : null)}</section>`}
-        <details class="section commish"><summary>Commissioner tools</summary>
-          <p class="note">Anyone can use these, so check with the family first.</p>
+        ${!commish() ? "" : `<details class="section commish"><summary>Commissioner tools</summary>
+          ${commishNote() ? `<p class="note">${commishNote()}</p>` : ""}
           <div class="commish-row">
             <label>Voted out but survivoR hasn't caught up?
               <select id="out-pick"><option value="">choose…</option>${avail.map((n) => `<option>${esc(n)}</option>`).join("")}</select></label>
@@ -157,9 +162,10 @@
             <button class="btn ghost" id="undo" ${s.picks.length ? "" : "disabled"}>Undo last pick${s.picks.length ? ` (${esc(s.picks[s.picks.length - 1].name)})` : ""}</button>
             <button class="btn danger" id="reset">Delete this draft</button>
           </div>
-        </details>`;
-      if (openCommish) main.querySelector("details.commish").open = true;
-      main.querySelector("details.commish").addEventListener("toggle", (e) => { openCommish = e.target.open; });
+        </details>`}`;
+      const details = main.querySelector("details.commish");
+      if (details && openCommish) details.open = true;
+      details?.addEventListener("toggle", (e) => { openCommish = e.target.open; });
 
       main.querySelector("#copy")?.addEventListener("click", async () => {
         try { await navigator.clipboard.writeText(msg); h.toast("Copied. Paste it in the family chat."); }
@@ -175,7 +181,8 @@
             const now = onClock(cur);
             if (now.owner !== me) throw new Error(`It's ${now.owner}'s turn now.`);
             if (!available(cur, live).includes(name)) throw new Error(`${name} isn't available anymore.`);
-            return { ...cur, picks: [...cur.picks, { owner: me, name, at: new Date().toISOString() }] };
+            return { ...cur, picks: [...cur.picks, { owner: me, name, at: new Date().toISOString() }],
+                     taken: [...(cur.taken || cur.picks.map((p) => p.name)), name] };
           });
         } catch (e) { alert(e.message); }
       }));
@@ -202,7 +209,7 @@
         openCommish = true;
         const last = s.picks[s.picks.length - 1];
         if (!confirm(`Undo ${last.owner}'s pick of ${last.name}?`)) return;
-        try { await store.mutate(key, (cur) => ({ ...cur, picks: cur.picks.slice(0, -1) })); } catch (e) { alert(e.message); }
+        try { await store.mutate(key, (cur) => ({ ...cur, picks: cur.picks.slice(0, -1), taken: (cur.taken || cur.picks.map((p) => p.name)).slice(0, -1) })); } catch (e) { alert(e.message); }
       });
       main.querySelector("#reset")?.addEventListener("click", async () => {
         if (store.mode === "practice" ? !confirm("Clear this practice draft and start over?")
@@ -234,10 +241,13 @@
       });
     }
 
-    let lastState;
+    let lastState, loaded = false;
     main.innerHTML = `<p class="empty">Loading the draft…</p>`;
-    unsub = store.subscribe(key, (s) => { lastState = s; draw(s); },
+    const dataUnsub = store.subscribe(key, (s) => { lastState = s; loaded = true; draw(s); },
       (e) => { main.innerHTML = `<p class="empty">Couldn't load the draft (${esc(e.message)}).</p>`; });
+    // redraw when the commissioner signs in or out (shows/hides their tools)
+    const authUnsub = window.SFLAuth.onChange(() => { if (loaded) draw(lastState); });
+    unsub = () => { dataUnsub(); authUnsub(); };
   }
 
   window.SFLDraft = { renderDraft, stop: () => { if (unsub) { unsub(); unsub = null; } } };

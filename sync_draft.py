@@ -48,6 +48,19 @@ def fetch_review(season):
     return None
 
 
+def _decode(v):
+    """Firestore REST typed value -> plain Python."""
+    if "stringValue" in v: return v["stringValue"]
+    if "integerValue" in v: return int(v["integerValue"])
+    if "doubleValue" in v: return v["doubleValue"]
+    if "booleanValue" in v: return v["booleanValue"]
+    if "nullValue" in v: return None
+    if "timestampValue" in v: return v["timestampValue"]
+    if "arrayValue" in v: return [_decode(x) for x in v["arrayValue"].get("values", [])]
+    if "mapValue" in v: return {k: _decode(x) for k, x in v["mapValue"].get("fields", {}).items()}
+    return None
+
+
 def fetch_state(pid, season, collection="drafts"):
     url = f"https://firestore.googleapis.com/v1/projects/{pid}/databases/(default)/documents/{collection}/s{season}"
     try:
@@ -57,7 +70,11 @@ def fetch_state(pid, season, collection="drafts"):
         if e.code == 404:
             return None
         raise
-    return json.loads(doc["fields"]["state"]["stringValue"])
+    fields = doc.get("fields", {})
+    if "state" in fields:  # JSON-string format (reviews, older drafts)
+        return json.loads(fields["state"]["stringValue"])
+    state = {k: _decode(v) for k, v in fields.items() if k != "updated"}  # native fields (drafts)
+    return state
 
 
 def to_league(state):
