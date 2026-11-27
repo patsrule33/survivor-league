@@ -64,7 +64,13 @@ Family fantasy league for the TV show Survivor. Goal: replace a hand-built sprea
   - Drafts are stored as native Firestore fields (`picks`, `taken`, `snake` = full pick order written at start) so the rules can let anyone else add exactly one in-turn pick from the pool and nothing more.
   - Rules use only `get()`/`hasAll()`/`in`/`keys().hasOnly()`: `diff()`, list slicing and `let` made valid picks fail.
   - `drafts/s999` is a scratch doc anyone may create/delete, for rule tests. Verified 17/17 plus a browser-client pick (accepted) and undo (refused).
-- NOT DONE: waivers; manual eliminations for scoring (the draft room has its own). Wiki scraper is now a fallback only. No rosters yet for the current season (51).
+- DONE: Rules tab and Owners tab (`docs/pages.js`).
+  - Rules point values come from `docs/data/rules.json` (written from `scoring.RULES` by `build_site.write_rules`). When a ruling changes, update the plain-language text in `pages.js`.
+  - Owners: `docs/data/owners.json` from `build_site.write_owners`, rebuilt every run from all non-test season files.
+    - Season totals and wins are the career numbers; contestant points are recalculated.
+    - "What works" compares picks by an index: 100 = the season's average owned pick, because season lengths differ (S50 scored 21 eliminations).
+    - Traits come from survivoR `castaways` (age, returning) and `castaway_details` (gender, MBTI I/E, collar). Race, ethnicity and LGBT fields are deliberately not used.
+- Owner said no to: waivers, Wikipedia backup, manual eliminations for scoring, notifications (2026-11-27). Wiki scraper is now a fallback only. No rosters yet for the current season (51).
 
 ## League rules (follow the owner's key)
 - 5 players, 3 contestants each, snake draft a few episodes into the season. Pool excludes the first three boots.

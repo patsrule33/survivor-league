@@ -229,6 +229,36 @@ details.commish .btn { margin-right: 8px; }
 .linkish { all: unset; cursor: pointer; color: var(--ink-2); text-decoration: underline; font-size: 12px; }
 .commish-bar { margin-top: 6px; font-size: 13px; }
 .commish-bar code { font-size: 12px; background: var(--surface-2); padding: 1px 4px; border-radius: 4px; }
+/* rules page */
+.rules-list { margin: 0; padding-left: 18px; display: grid; gap: 8px; }
+.rules-table { width: 100%; }
+.rules-table td { text-align: left; white-space: normal; vertical-align: top; padding: 8px 4px; }
+.rules-table td.pts { text-align: right; white-space: nowrap; font-weight: 700; width: 1%; padding-left: 16px; }
+.rules-table .note { margin: 2px 0 0; }
+.card.rules h2 { margin-bottom: 4px; }
+
+/* owner pages */
+.owner-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.owner-card { display: block; text-decoration: none; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
+.owner-card:hover { background: var(--surface-2); }
+.owner-card-stats { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; font-size: 13px; color: var(--ink-2); }
+.owner-head h2 { display: flex; align-items: center; gap: 10px; font-size: 22px; }
+.owner-head .swatch { width: 16px; height: 16px; }
+.ww { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px 28px; }
+.ww-title { font-size: 13px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }
+.ww-row { display: grid; grid-template-columns: 150px 1fr 110px; align-items: center; gap: 10px; margin-bottom: 6px; font-size: 14px; }
+.ww-label .muted { font-size: 12px; }
+.ww-track { position: relative; height: 14px; }
+.ww-bar { height: 14px; border-radius: 0 4px 4px 0; min-width: 2px; }
+.ww-mark { position: absolute; top: -3px; bottom: -3px; width: 0; }
+.ww-mark.avg100 { border-left: 1px dashed var(--axis); }
+.ww-mark.league { border-left: 2px solid var(--ink); }
+.ww-val { font-variant-numeric: tabular-nums; font-weight: 600; text-align: right; }
+.ww-val .muted { font-weight: 400; font-size: 12px; }
+.ww-val.good { color: var(--good); }
+.ww-val.bad { color: var(--bad); }
+@media (max-width: 480px) { .ww-row { grid-template-columns: 110px 1fr 90px; } }
+
 /* review screen */
 .review-group { margin-bottom: 16px; }
 .review-week { font-size: 13px; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }

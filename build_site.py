@@ -228,6 +228,131 @@ def write_meta(live):
     return meta
 
 
+def write_rules():
+    """docs/data/rules.json: point values straight from the scoring engine, so the
+    Rules page always matches how points are actually scored."""
+    from scoring import RULES
+    json.dump(RULES, open(P("docs", "data", "rules.json"), "w"), indent=1)
+
+
+AGE_GROUPS = [(0, 30, "Under 30"), (30, 40, "30s"), (40, 50, "40s"), (50, 200, "50+")]
+
+
+def write_owners(tables):
+    """docs/data/owners.json: per-owner record, top players and what kinds of
+    players score for them. Uses every non-test season on the site. Season totals
+    and wins are the career numbers (official through S47); contestant points
+    are the recalculated per-contestant scores."""
+    career = _load(P("docs", "data", "career.json")) or {"seasons": []}
+    official = {s["season"]: s for s in career["seasons"]}
+    details = {r["castaway_id"]: r for r in tables.get("castaway_details", [])}
+    by_season_cast = {}
+    first_season = {}
+    for r in tables["castaways"]:
+        if r.get("version") != "US":
+            continue
+        by_season_cast[(r["season"], r["castaway_id"])] = r
+        first_season[r["castaway_id"]] = min(first_season.get(r["castaway_id"], 999), r["season"])
+
+    def traits(cid, season):
+        d = details.get(cid, {})
+        row = by_season_cast.get((season, cid), {})
+        age = row.get("age")
+        mbti = d.get("personality_type") or ""
+        collar = d.get("collar")
+        return {
+            "Gender": {"Male": "Men", "Female": "Women"}.get(d.get("gender")),
+            "Age": next((lbl for lo, hi, lbl in AGE_GROUPS if age is not None and lo <= age < hi), None),
+            "Experience": None if cid not in first_season else ("First-timers" if first_season[cid] == season else "Returning players"),
+            "Personality": {"I": "Introverts", "E": "Extroverts"}.get(mbti[:1]) if mbti else None,
+            "Job": collar if collar in ("White collar", "Blue collar", "No collar") else None,
+        }
+
+    owners = {}
+    for path in sorted(glob.glob(P("docs", "data", "season*.json"))):
+        d = _load(path)
+        if not d or d.get("test"):
+            continue
+        n = d["season"]
+        fx = _load(P("fixtures", f"survivoR_season{n}.json")) or {"contestants": []}
+        ids = {c["short"]: c["id"] for c in fx["contestants"]}
+        cs = {c["name"]: c for c in d["contestants"]}
+        car = official.get(n, {})
+        totals = car.get("totals") or {o["name"]: o["total"] for o in d["owners"]}
+        ranked = sorted(totals, key=lambda o: -totals[o])
+        for o in d["owners"]:
+            rec = owners.setdefault(o["name"], {"name": o["name"], "slot": o["slot"], "seasons": [], "picks": []})
+            rec["seasons"].append({"season": n, "total": totals.get(o["name"], o["total"]),
+                                   "rank": ranked.index(o["name"]) + 1 if o["name"] in ranked else None,
+                                   "of": len(ranked), "won": car.get("winner") == o["name"],
+                                   "source": car.get("source", "calculated"), "complete": d.get("complete", True)})
+            for name in o["roster"]:
+                c = cs.get(name)
+                if not c:
+                    continue
+                cats = {k: sum(w[k] for w in c["weekly"]) for k in ("challenges", "votes", "survival", "special")}
+                rec["picks"].append({"season": n, "name": name, "full_name": c["full_name"], "points": c["total"],
+                                     "cats": cats, "place": c.get("place"), "status": c["status"]["kind"],
+                                     "traits": traits(ids.get(name), n)})
+
+    # Seasons differ a lot in length (S50 scored 21 eliminations), so compare picks
+    # by an index: 100 = the average owned pick that season.
+    season_avg = {}
+    for o in owners.values():
+        for p in o["picks"]:
+            season_avg.setdefault(p["season"], []).append(p["points"])
+    season_avg = {s: sum(v) / len(v) for s, v in season_avg.items()}
+    for o in owners.values():
+        for p in o["picks"]:
+            avg = season_avg.get(p["season"]) or 0
+            p["index"] = round(100 * p["points"] / avg) if avg > 0 else None
+
+    def group_stats(picks):
+        out = {}
+        for dim in ("Gender", "Age", "Experience", "Personality", "Job"):
+            groups = {}
+            for p in picks:
+                g = p["traits"].get(dim)
+                if g and p.get("index") is not None:
+                    groups.setdefault(g, []).append(p["index"])
+            out[dim] = {g: {"n": len(v), "avg": round(sum(v) / len(v), 1)} for g, v in groups.items()}
+        return out
+
+    def mix(picks):
+        tot = {k: sum(p["cats"][k] for p in picks) for k in ("challenges", "votes", "survival", "special")}
+        s = sum(abs(v) for v in tot.values()) or 1
+        return {k: round(100 * v / s, 1) for k, v in tot.items()}
+
+    all_picks = [p for o in owners.values() for p in o["picks"]]
+    out = []
+    for o in sorted(owners.values(), key=lambda o: o["slot"]):
+        picks = o["picks"]
+        seasons = sorted(o["seasons"], key=lambda s: s["season"])
+        done = [s for s in seasons if s["complete"]]
+        out.append({
+            "name": o["name"], "slot": o["slot"], "seasons": seasons,
+            "wins": [s["season"] for s in seasons if s["won"]],
+            "total": sum(s["total"] for s in seasons),
+            "best": max(done, key=lambda s: s["total"], default=None),
+            "worst": min(done, key=lambda s: s["total"], default=None),
+            "picks_count": len(picks),
+            "avg_pick": round(sum(p["points"] for p in picks) / len(picks), 1) if picks else 0,
+            "avg_index": round(sum(p["index"] for p in picks if p.get("index") is not None)
+                               / max(1, sum(1 for p in picks if p.get("index") is not None))),
+            "winners_drafted": [p["season"] for p in picks if p["place"] == 1],
+            "top_players": [{k: p[k] for k in ("season", "name", "full_name", "points", "place", "status", "index")}
+                            for p in sorted(picks, key=lambda p: -p["points"])[:10]],
+            "best_value": [{k: p[k] for k in ("season", "name", "full_name", "points", "place", "status", "index")}
+                           for p in sorted((p for p in picks if p.get("index") is not None), key=lambda p: -p["index"])[:5]],
+            "groups": group_stats(picks), "mix": mix(picks),
+        })
+    league = {"avg_pick": round(sum(p["points"] for p in all_picks) / len(all_picks), 1) if all_picks else 0,
+              "groups": group_stats(all_picks), "mix": mix(all_picks)}
+    json.dump({"owners": out, "league": league}, open(P("docs", "data", "owners.json"), "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("seasons", nargs="*", type=int)
@@ -278,6 +403,10 @@ def main():
     write_career(built)
     live = write_live(tables)
     print(f"live: Survivor {live['season']}, {sum(c['in_game'] for c in live['cast'])} still in the game")
+    write_rules()
+    owners = write_owners(tables)
+    summary = ", ".join("%s %d seasons" % (o["name"], len(o["seasons"])) for o in owners)
+    print("owners: " + summary)
     meta = write_meta(live)
     print(f"meta: survivoR last updated {meta['survivor_updated']} (through S{meta['through_season']} ep {meta['through_episode']})")
 

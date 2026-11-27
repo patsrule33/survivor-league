@@ -56,6 +56,7 @@
     let view = p[1] || "leaderboard", u = null, arg = null;
     if (view === "weeks") { view = "results"; u = "elim"; arg = +p[2] || null; } // old links
     else if (view === "results") { u = p[2] === "ep" ? "ep" : p[2] === "elim" ? "elim" : null; arg = +p[3] || null; }
+    else if (view === "owners") { arg = p[2] ? decodeURIComponent(p[2]) : null; } // #/50/owners/Greg
     return { season, view, unit: u, arg };
   }
   const link = (season, view, u, arg) => `#/${season}/${view}${view === "results" && u ? `/${u}${arg ? "/" + arg : ""}` : ""}`;
@@ -90,6 +91,21 @@
       $("#subtitle").textContent = "Draft room";
       document.title = "Draft · Survivor Fantasy League";
       await window.SFLDraft.renderDraft(main, { getJSON, toast });
+      return;
+    }
+    if (view === "rules" || view === "owners") {  // league-wide pages, no season
+      current = null;
+      document.body.classList.add("career-view");
+      document.querySelectorAll(".tabs a").forEach((a) => {
+        a.href = link(season, a.dataset.view, unit);
+        if (a.dataset.view === view) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+      });
+      $("#subtitle").textContent = view === "rules" ? "How scoring works" : "Owners";
+      document.title = `${view === "rules" ? "Rules" : arg || "Owners"} · Survivor Fantasy League`;
+      const h = { getJSON, ownerLink: (n) => `#/${season}/owners${n ? "/" + encodeURIComponent(n) : ""}`,
+                  seasonLink: (n) => link(n, "leaderboard") };
+      if (view === "rules") await window.SFLPages.renderRules(main, h);
+      else await window.SFLPages.renderOwners(main, h, arg);
       return;
     }
     if (view === "career") {

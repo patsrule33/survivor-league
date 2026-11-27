@@ -1,0 +1,2208 @@
+{
+ "owners": [
+  {
+   "name": "Jamie",
+   "slot": 1,
+   "seasons": [
+    {
+     "season": 28,
+     "total": 76,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 29,
+     "total": 151,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 30,
+     "total": 118,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 31,
+     "total": 82,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 32,
+     "total": 207,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 33,
+     "total": 191,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 34,
+     "total": 130,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 35,
+     "total": 349,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 36,
+     "total": 253,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 37,
+     "total": 155,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 38,
+     "total": 470,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 39,
+     "total": 140,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 40,
+     "total": 577,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 41,
+     "total": 171,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 42,
+     "total": 274,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 43,
+     "total": 91,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 44,
+     "total": 261,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 45,
+     "total": 218,
+     "rank": 1,
+     "of": 5,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 46,
+     "total": 333,
+     "rank": 1,
+     "of": 5,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 47,
+     "total": 363,
+     "rank": 1,
+     "of": 5,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 48,
+     "total": 68.0,
+     "rank": 5,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 49,
+     "total": 138.0,
+     "rank": 4,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 50,
+     "total": 376.0,
+     "rank": 4,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    }
+   ],
+   "wins": [
+    38,
+    45,
+    46,
+    47
+   ],
+   "total": 5192.0,
+   "best": {
+    "season": 40,
+    "total": 577,
+    "rank": 3,
+    "of": 4,
+    "won": false,
+    "source": "official",
+    "complete": true
+   },
+   "worst": {
+    "season": 48,
+    "total": 68.0,
+    "rank": 5,
+    "of": 5,
+    "won": false,
+    "source": "calculated",
+    "complete": true
+   },
+   "picks_count": 84,
+   "avg_pick": 63.0,
+   "avg_index": 93,
+   "winners_drafted": [
+    38,
+    40,
+    45,
+    46,
+    47,
+    50
+   ],
+   "top_players": [
+    {
+     "season": 50,
+     "name": "Aubry",
+     "full_name": "Aubry Bracco",
+     "points": 327.0,
+     "place": 1,
+     "status": "winner",
+     "index": 276
+    },
+    {
+     "season": 40,
+     "name": "Tony",
+     "full_name": "Tony Vlachos",
+     "points": 322.0,
+     "place": 1,
+     "status": "winner",
+     "index": 286
+    },
+    {
+     "season": 38,
+     "name": "Chris",
+     "full_name": "Chris Underwood",
+     "points": 187.0,
+     "place": 1,
+     "status": "winner",
+     "index": 225
+    },
+    {
+     "season": 40,
+     "name": "Denise",
+     "full_name": "Denise Stapley",
+     "points": 182.0,
+     "place": 6,
+     "status": "out",
+     "index": 162
+    },
+    {
+     "season": 47,
+     "name": "Rachel",
+     "full_name": "Rachel LaMont",
+     "points": 181.0,
+     "place": 1,
+     "status": "winner",
+     "index": 323
+    },
+    {
+     "season": 38,
+     "name": "Rick",
+     "full_name": "Rick Devens",
+     "points": 177.0,
+     "place": 4,
+     "status": "out",
+     "index": 213
+    },
+    {
+     "season": 36,
+     "name": "Domenick",
+     "full_name": "Domenick Abbate",
+     "points": 167.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 285
+    },
+    {
+     "season": 46,
+     "name": "Kenzie",
+     "full_name": "Kenzie Petty",
+     "points": 164.0,
+     "place": 1,
+     "status": "winner",
+     "index": 294
+    },
+    {
+     "season": 35,
+     "name": "Chrissy",
+     "full_name": "Chrissy Hofbeck",
+     "points": 156.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 235
+    },
+    {
+     "season": 46,
+     "name": "Charlie",
+     "full_name": "Charlie Davis",
+     "points": 147.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 263
+    }
+   ],
+   "best_value": [
+    {
+     "season": 47,
+     "name": "Rachel",
+     "full_name": "Rachel LaMont",
+     "points": 181.0,
+     "place": 1,
+     "status": "winner",
+     "index": 323
+    },
+    {
+     "season": 46,
+     "name": "Kenzie",
+     "full_name": "Kenzie Petty",
+     "points": 164.0,
+     "place": 1,
+     "status": "winner",
+     "index": 294
+    },
+    {
+     "season": 40,
+     "name": "Tony",
+     "full_name": "Tony Vlachos",
+     "points": 322.0,
+     "place": 1,
+     "status": "winner",
+     "index": 286
+    },
+    {
+     "season": 36,
+     "name": "Domenick",
+     "full_name": "Domenick Abbate",
+     "points": 167.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 285
+    },
+    {
+     "season": 45,
+     "name": "Dee",
+     "full_name": "Dee Valladares",
+     "points": 144.0,
+     "place": 1,
+     "status": "winner",
+     "index": 279
+    }
+   ],
+   "groups": {
+    "Gender": {
+     "Men": {
+      "n": 46,
+      "avg": 94.8
+     },
+     "Women": {
+      "n": 37,
+      "avg": 90.5
+     }
+    },
+    "Age": {
+     "Under 30": {
+      "n": 37,
+      "avg": 94.6
+     },
+     "30s": {
+      "n": 27,
+      "avg": 95.4
+     },
+     "50+": {
+      "n": 6,
+      "avg": 67.0
+     },
+     "40s": {
+      "n": 14,
+      "avg": 94.3
+     }
+    },
+    "Experience": {
+     "First-timers": {
+      "n": 66,
+      "avg": 100.1
+     },
+     "Returning players": {
+      "n": 18,
+      "avg": 66.2
+     }
+    },
+    "Personality": {
+     "Extroverts": {
+      "n": 45,
+      "avg": 115.8
+     },
+     "Introverts": {
+      "n": 35,
+      "avg": 67.3
+     }
+    },
+    "Job": {
+     "White collar": {
+      "n": 49,
+      "avg": 94.7
+     },
+     "No collar": {
+      "n": 19,
+      "avg": 62.6
+     },
+     "Blue collar": {
+      "n": 15,
+      "avg": 126.2
+     }
+    }
+   },
+   "mix": {
+    "challenges": 24.2,
+    "votes": 3.6,
+    "survival": 69.7,
+    "special": 2.5
+   }
+  },
+  {
+   "name": "Mom",
+   "slot": 2,
+   "seasons": [
+    {
+     "season": 28,
+     "total": 51,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 29,
+     "total": 124,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 30,
+     "total": 223,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 31,
+     "total": 287,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 32,
+     "total": 295,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 33,
+     "total": 83,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 34,
+     "total": 170,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 35,
+     "total": 213,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 36,
+     "total": 255,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 37,
+     "total": 252,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 38,
+     "total": 143,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 39,
+     "total": 481,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 40,
+     "total": 686,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 41,
+     "total": 246,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 42,
+     "total": 151,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 43,
+     "total": 268,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 44,
+     "total": 256,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 45,
+     "total": 201,
+     "rank": 2,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 46,
+     "total": 102,
+     "rank": 4,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 47,
+     "total": 212,
+     "rank": 2,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 48,
+     "total": 89.0,
+     "rank": 4,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 49,
+     "total": 206.0,
+     "rank": 2,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 50,
+     "total": 539.0,
+     "rank": 2,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    }
+   ],
+   "wins": [
+    32,
+    36,
+    39,
+    40,
+    43
+   ],
+   "total": 5533.0,
+   "best": {
+    "season": 40,
+    "total": 686,
+    "rank": 1,
+    "of": 4,
+    "won": true,
+    "source": "official",
+    "complete": true
+   },
+   "worst": {
+    "season": 28,
+    "total": 51,
+    "rank": 4,
+    "of": 4,
+    "won": false,
+    "source": "official",
+    "complete": true
+   },
+   "picks_count": 84,
+   "avg_pick": 66.3,
+   "avg_index": 96,
+   "winners_drafted": [
+    32,
+    36,
+    41,
+    43
+   ],
+   "top_players": [
+    {
+     "season": 50,
+     "name": "Joe",
+     "full_name": "Joe Hunter",
+     "points": 288.0,
+     "place": 3,
+     "status": "finalist",
+     "index": 243
+    },
+    {
+     "season": 40,
+     "name": "Michele",
+     "full_name": "Michele Fitzgerald",
+     "points": 229.0,
+     "place": 3,
+     "status": "finalist",
+     "index": 204
+    },
+    {
+     "season": 40,
+     "name": "Sarah",
+     "full_name": "Sarah Lacina",
+     "points": 208.0,
+     "place": 4,
+     "status": "out",
+     "index": 185
+    },
+    {
+     "season": 40,
+     "name": "Ben",
+     "full_name": "Ben Driebergen",
+     "points": 203.0,
+     "place": 5,
+     "status": "out",
+     "index": 181
+    },
+    {
+     "season": 36,
+     "name": "Wendell",
+     "full_name": "Wendell Holland",
+     "points": 190.0,
+     "place": 1,
+     "status": "winner",
+     "index": 324
+    },
+    {
+     "season": 32,
+     "name": "Michele",
+     "full_name": "Michele Fitzgerald",
+     "points": 175.0,
+     "place": 1,
+     "status": "winner",
+     "index": 289
+    },
+    {
+     "season": 41,
+     "name": "Erika",
+     "full_name": "Erika Casupanan",
+     "points": 175.0,
+     "place": 1,
+     "status": "winner",
+     "index": 298
+    },
+    {
+     "season": 39,
+     "name": "Dean",
+     "full_name": "Dean Kowalski",
+     "points": 171.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 245
+    },
+    {
+     "season": 43,
+     "name": "Gabler",
+     "full_name": "Mike Gabler",
+     "points": 152.0,
+     "place": 1,
+     "status": "winner",
+     "index": 224
+    },
+    {
+     "season": 29,
+     "name": "Jaclyn",
+     "full_name": "Jaclyn Schultz",
+     "points": 140.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 242
+    }
+   ],
+   "best_value": [
+    {
+     "season": 36,
+     "name": "Wendell",
+     "full_name": "Wendell Holland",
+     "points": 190.0,
+     "place": 1,
+     "status": "winner",
+     "index": 324
+    },
+    {
+     "season": 41,
+     "name": "Erika",
+     "full_name": "Erika Casupanan",
+     "points": 175.0,
+     "place": 1,
+     "status": "winner",
+     "index": 298
+    },
+    {
+     "season": 32,
+     "name": "Michele",
+     "full_name": "Michele Fitzgerald",
+     "points": 175.0,
+     "place": 1,
+     "status": "winner",
+     "index": 289
+    },
+    {
+     "season": 45,
+     "name": "Austin",
+     "full_name": "Austin Li Coon",
+     "points": 131.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 254
+    },
+    {
+     "season": 39,
+     "name": "Dean",
+     "full_name": "Dean Kowalski",
+     "points": 171.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 245
+    }
+   ],
+   "groups": {
+    "Gender": {
+     "Women": {
+      "n": 46,
+      "avg": 94.3
+     },
+     "Men": {
+      "n": 37,
+      "avg": 97.2
+     }
+    },
+    "Age": {
+     "Under 30": {
+      "n": 36,
+      "avg": 95.7
+     },
+     "30s": {
+      "n": 27,
+      "avg": 92.0
+     },
+     "40s": {
+      "n": 16,
+      "avg": 83.4
+     },
+     "50+": {
+      "n": 5,
+      "avg": 165.8
+     }
+    },
+    "Experience": {
+     "First-timers": {
+      "n": 63,
+      "avg": 97.5
+     },
+     "Returning players": {
+      "n": 21,
+      "avg": 92.9
+     }
+    },
+    "Personality": {
+     "Extroverts": {
+      "n": 55,
+      "avg": 96.6
+     },
+     "Introverts": {
+      "n": 26,
+      "avg": 93.7
+     }
+    },
+    "Job": {
+     "Blue collar": {
+      "n": 17,
+      "avg": 84.1
+     },
+     "No collar": {
+      "n": 22,
+      "avg": 75.9
+     },
+     "White collar": {
+      "n": 44,
+      "avg": 113.3
+     }
+    }
+   },
+   "mix": {
+    "challenges": 22.9,
+    "votes": 4.1,
+    "survival": 70.7,
+    "special": 2.2
+   }
+  },
+  {
+   "name": "Will",
+   "slot": 3,
+   "seasons": [
+    {
+     "season": 45,
+     "total": 108,
+     "rank": 4,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 46,
+     "total": 162,
+     "rank": 3,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 47,
+     "total": 124,
+     "rank": 3,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 48,
+     "total": 127.0,
+     "rank": 3,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 49,
+     "total": 168.0,
+     "rank": 3,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 50,
+     "total": 254.0,
+     "rank": 5,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    }
+   ],
+   "wins": [],
+   "total": 943.0,
+   "best": {
+    "season": 50,
+    "total": 254.0,
+    "rank": 5,
+    "of": 5,
+    "won": false,
+    "source": "calculated",
+    "complete": true
+   },
+   "worst": {
+    "season": 45,
+    "total": 108,
+    "rank": 4,
+    "of": 5,
+    "won": false,
+    "source": "official",
+    "complete": true
+   },
+   "picks_count": 19,
+   "avg_pick": 50.2,
+   "avg_index": 78,
+   "winners_drafted": [],
+   "top_players": [
+    {
+     "season": 50,
+     "name": "Ozzy",
+     "full_name": "Oscar Lusth",
+     "points": 136.0,
+     "place": 8,
+     "status": "out",
+     "index": 115
+    },
+    {
+     "season": 49,
+     "name": "Sophi",
+     "full_name": "Sophi Balerdi",
+     "points": 128.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 213
+    },
+    {
+     "season": 46,
+     "name": "Liz",
+     "full_name": "Liz Wilcox",
+     "points": 108.0,
+     "place": 4,
+     "status": "out",
+     "index": 194
+    },
+    {
+     "season": 45,
+     "name": "Katurah",
+     "full_name": "Katurah Topps",
+     "points": 88.0,
+     "place": 4,
+     "status": "out",
+     "index": 171
+    },
+    {
+     "season": 47,
+     "name": "Genevieve",
+     "full_name": "Genevieve Mushaluk",
+     "points": 73.0,
+     "place": 5,
+     "status": "out",
+     "index": 130
+    },
+    {
+     "season": 50,
+     "name": "Genevieve",
+     "full_name": "Genevieve Mushaluk",
+     "points": 68.0,
+     "place": 16,
+     "status": "out",
+     "index": 57
+    },
+    {
+     "season": 48,
+     "name": "Shauhin",
+     "full_name": "Shauhin Davari",
+     "points": 60.0,
+     "place": 6,
+     "status": "out",
+     "index": 112
+    },
+    {
+     "season": 48,
+     "name": "Mary",
+     "full_name": "Mary Zheng",
+     "points": 51.0,
+     "place": 7,
+     "status": "out",
+     "index": 96
+    },
+    {
+     "season": 50,
+     "name": "Kamilla",
+     "full_name": "Kamilla Karthigesu",
+     "points": 42.0,
+     "place": 17,
+     "status": "out",
+     "index": 35
+    },
+    {
+     "season": 49,
+     "name": "MC",
+     "full_name": "MC Chukwujekwu",
+     "points": 39.0,
+     "place": 10,
+     "status": "out",
+     "index": 65
+    }
+   ],
+   "best_value": [
+    {
+     "season": 49,
+     "name": "Sophi",
+     "full_name": "Sophi Balerdi",
+     "points": 128.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 213
+    },
+    {
+     "season": 46,
+     "name": "Liz",
+     "full_name": "Liz Wilcox",
+     "points": 108.0,
+     "place": 4,
+     "status": "out",
+     "index": 194
+    },
+    {
+     "season": 45,
+     "name": "Katurah",
+     "full_name": "Katurah Topps",
+     "points": 88.0,
+     "place": 4,
+     "status": "out",
+     "index": 171
+    },
+    {
+     "season": 47,
+     "name": "Genevieve",
+     "full_name": "Genevieve Mushaluk",
+     "points": 73.0,
+     "place": 5,
+     "status": "out",
+     "index": 130
+    },
+    {
+     "season": 50,
+     "name": "Ozzy",
+     "full_name": "Oscar Lusth",
+     "points": 136.0,
+     "place": 8,
+     "status": "out",
+     "index": 115
+    }
+   ],
+   "groups": {
+    "Gender": {
+     "Men": {
+      "n": 7,
+      "avg": 51.6
+     },
+     "Women": {
+      "n": 12,
+      "avg": 92.8
+     }
+    },
+    "Age": {
+     "Under 30": {
+      "n": 6,
+      "avg": 70.7
+     },
+     "30s": {
+      "n": 10,
+      "avg": 90.3
+     },
+     "50+": {
+      "n": 2,
+      "avg": 16.0
+     },
+     "40s": {
+      "n": 1,
+      "avg": 115.0
+     }
+    },
+    "Experience": {
+     "First-timers": {
+      "n": 15,
+      "avg": 84.0
+     },
+     "Returning players": {
+      "n": 4,
+      "avg": 53.5
+     }
+    },
+    "Personality": {
+     "Introverts": {
+      "n": 6,
+      "avg": 52.2
+     },
+     "Extroverts": {
+      "n": 10,
+      "avg": 88.1
+     }
+    },
+    "Job": {
+     "White collar": {
+      "n": 12,
+      "avg": 77.8
+     },
+     "No collar": {
+      "n": 4,
+      "avg": 98.2
+     },
+     "Blue collar": {
+      "n": 3,
+      "avg": 49.0
+     }
+    }
+   },
+   "mix": {
+    "challenges": 23.4,
+    "votes": 3.1,
+    "survival": 72.9,
+    "special": -0.5
+   }
+  },
+  {
+   "name": "Greg",
+   "slot": 4,
+   "seasons": [
+    {
+     "season": 28,
+     "total": 178,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 29,
+     "total": 210,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 30,
+     "total": 126,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 31,
+     "total": 252,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 32,
+     "total": 239,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 33,
+     "total": 367,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 34,
+     "total": 305,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 35,
+     "total": 445,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 36,
+     "total": 211,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 37,
+     "total": 461,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 38,
+     "total": 312,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 39,
+     "total": 162,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 40,
+     "total": 678,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 41,
+     "total": 218,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 42,
+     "total": 427,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 43,
+     "total": 246,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 44,
+     "total": 267,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 45,
+     "total": 73,
+     "rank": 5,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 46,
+     "total": 170,
+     "rank": 2,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 47,
+     "total": 105,
+     "rank": 4,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 48,
+     "total": 228.0,
+     "rank": 2,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 49,
+     "total": 270.0,
+     "rank": 1,
+     "of": 5,
+     "won": true,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 50,
+     "total": 430.0,
+     "rank": 3,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    }
+   ],
+   "wins": [
+    29,
+    35,
+    37,
+    42,
+    44,
+    49
+   ],
+   "total": 6380.0,
+   "best": {
+    "season": 40,
+    "total": 678,
+    "rank": 2,
+    "of": 4,
+    "won": false,
+    "source": "official",
+    "complete": true
+   },
+   "worst": {
+    "season": 45,
+    "total": 73,
+    "rank": 5,
+    "of": 5,
+    "won": false,
+    "source": "official",
+    "complete": true
+   },
+   "picks_count": 84,
+   "avg_pick": 77.5,
+   "avg_index": 114,
+   "winners_drafted": [
+    29,
+    33,
+    35,
+    37,
+    42,
+    44,
+    49
+   ],
+   "top_players": [
+    {
+     "season": 40,
+     "name": "Natalie",
+     "full_name": "Natalie Anderson",
+     "points": 239.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 213
+    },
+    {
+     "season": 50,
+     "name": "Tiffany",
+     "full_name": "Tiffany Nicole Ervin",
+     "points": 230.0,
+     "place": 5,
+     "status": "out",
+     "index": 194
+    },
+    {
+     "season": 35,
+     "name": "Ben",
+     "full_name": "Ben Driebergen",
+     "points": 203.0,
+     "place": 1,
+     "status": "winner",
+     "index": 306
+    },
+    {
+     "season": 29,
+     "name": "Natalie",
+     "full_name": "Natalie Anderson",
+     "points": 196.0,
+     "place": 1,
+     "status": "winner",
+     "index": 339
+    },
+    {
+     "season": 33,
+     "name": "Adam",
+     "full_name": "Adam Klein",
+     "points": 191.0,
+     "place": 1,
+     "status": "winner",
+     "index": 293
+    },
+    {
+     "season": 34,
+     "name": "Brad",
+     "full_name": "Brad Culpepper",
+     "points": 190.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 280
+    },
+    {
+     "season": 37,
+     "name": "Nick",
+     "full_name": "Nick Wilson",
+     "points": 188.0,
+     "place": 1,
+     "status": "winner",
+     "index": 291
+    },
+    {
+     "season": 42,
+     "name": "Maryanne",
+     "full_name": "Maryanne Oketch",
+     "points": 187.0,
+     "place": 1,
+     "status": "winner",
+     "index": 304
+    },
+    {
+     "season": 49,
+     "name": "Savannah",
+     "full_name": "Savannah Louie",
+     "points": 165.0,
+     "place": 1,
+     "status": "winner",
+     "index": 274
+    },
+    {
+     "season": 38,
+     "name": "Julie",
+     "full_name": "Julie Rosenberg",
+     "points": 161.0,
+     "place": 3,
+     "status": "finalist",
+     "index": 194
+    }
+   ],
+   "best_value": [
+    {
+     "season": 29,
+     "name": "Natalie",
+     "full_name": "Natalie Anderson",
+     "points": 196.0,
+     "place": 1,
+     "status": "winner",
+     "index": 339
+    },
+    {
+     "season": 35,
+     "name": "Ben",
+     "full_name": "Ben Driebergen",
+     "points": 203.0,
+     "place": 1,
+     "status": "winner",
+     "index": 306
+    },
+    {
+     "season": 42,
+     "name": "Maryanne",
+     "full_name": "Maryanne Oketch",
+     "points": 187.0,
+     "place": 1,
+     "status": "winner",
+     "index": 304
+    },
+    {
+     "season": 33,
+     "name": "Adam",
+     "full_name": "Adam Klein",
+     "points": 191.0,
+     "place": 1,
+     "status": "winner",
+     "index": 293
+    },
+    {
+     "season": 37,
+     "name": "Nick",
+     "full_name": "Nick Wilson",
+     "points": 188.0,
+     "place": 1,
+     "status": "winner",
+     "index": 291
+    }
+   ],
+   "groups": {
+    "Gender": {
+     "Men": {
+      "n": 57,
+      "avg": 111.0
+     },
+     "Women": {
+      "n": 27,
+      "avg": 119.9
+     }
+    },
+    "Age": {
+     "30s": {
+      "n": 30,
+      "avg": 120.5
+     },
+     "Under 30": {
+      "n": 34,
+      "avg": 120.6
+     },
+     "50+": {
+      "n": 6,
+      "avg": 50.7
+     },
+     "40s": {
+      "n": 14,
+      "avg": 110.3
+     }
+    },
+    "Experience": {
+     "First-timers": {
+      "n": 67,
+      "avg": 115.7
+     },
+     "Returning players": {
+      "n": 17,
+      "avg": 106.7
+     }
+    },
+    "Personality": {
+     "Introverts": {
+      "n": 27,
+      "avg": 110.6
+     },
+     "Extroverts": {
+      "n": 54,
+      "avg": 113.5
+     }
+    },
+    "Job": {
+     "Blue collar": {
+      "n": 18,
+      "avg": 141.7
+     },
+     "No collar": {
+      "n": 19,
+      "avg": 121.9
+     },
+     "White collar": {
+      "n": 46,
+      "avg": 102.2
+     }
+    }
+   },
+   "mix": {
+    "challenges": 22.6,
+    "votes": 5.1,
+    "survival": 69.1,
+    "special": 3.2
+   }
+  },
+  {
+   "name": "Jimmy",
+   "slot": 5,
+   "seasons": [
+    {
+     "season": 28,
+     "total": 204,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 29,
+     "total": 144,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 30,
+     "total": 237,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 31,
+     "total": 297,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 32,
+     "total": 233,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 33,
+     "total": 412,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 34,
+     "total": 492,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 35,
+     "total": 54,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 36,
+     "total": 198,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 37,
+     "total": 180,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 38,
+     "total": 273,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 39,
+     "total": 281,
+     "rank": 2,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 40,
+     "total": 315,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 41,
+     "total": 323,
+     "rank": 1,
+     "of": 4,
+     "won": true,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 42,
+     "total": 136,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 43,
+     "total": 179,
+     "rank": 3,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 44,
+     "total": 176,
+     "rank": 4,
+     "of": 4,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 45,
+     "total": 170,
+     "rank": 3,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 46,
+     "total": 55,
+     "rank": 5,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 47,
+     "total": 39,
+     "rank": 5,
+     "of": 5,
+     "won": false,
+     "source": "official",
+     "complete": true
+    },
+    {
+     "season": 48,
+     "total": 288.0,
+     "rank": 1,
+     "of": 5,
+     "won": true,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 49,
+     "total": 121.0,
+     "rank": 5,
+     "of": 5,
+     "won": false,
+     "source": "calculated",
+     "complete": true
+    },
+    {
+     "season": 50,
+     "total": 768.0,
+     "rank": 1,
+     "of": 5,
+     "won": true,
+     "source": "calculated",
+     "complete": true
+    }
+   ],
+   "wins": [
+    28,
+    30,
+    31,
+    33,
+    34,
+    41,
+    48,
+    50
+   ],
+   "total": 5575.0,
+   "best": {
+    "season": 50,
+    "total": 768.0,
+    "rank": 1,
+    "of": 5,
+    "won": true,
+    "source": "calculated",
+    "complete": true
+   },
+   "worst": {
+    "season": 47,
+    "total": 39,
+    "rank": 5,
+    "of": 5,
+    "won": false,
+    "source": "official",
+    "complete": true
+   },
+   "picks_count": 84,
+   "avg_pick": 69.8,
+   "avg_index": 102,
+   "winners_drafted": [
+    28,
+    30,
+    31,
+    34,
+    39,
+    48
+   ],
+   "top_players": [
+    {
+     "season": 50,
+     "name": "Jonathan",
+     "full_name": "Jonathan Young",
+     "points": 301.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 254
+    },
+    {
+     "season": 50,
+     "name": "Rizo",
+     "full_name": "Rizo Velovic",
+     "points": 238.0,
+     "place": 4,
+     "status": "out",
+     "index": 201
+    },
+    {
+     "season": 30,
+     "name": "Mike",
+     "full_name": "Mike Holloway",
+     "points": 217.0,
+     "place": 1,
+     "status": "winner",
+     "index": 386
+    },
+    {
+     "season": 31,
+     "name": "Jeremy",
+     "full_name": "Jeremy Collins",
+     "points": 201.0,
+     "place": 1,
+     "status": "winner",
+     "index": 336
+    },
+    {
+     "season": 39,
+     "name": "Tommy",
+     "full_name": "Tommy Sheehan",
+     "points": 191.0,
+     "place": 1,
+     "status": "winner",
+     "index": 273
+    },
+    {
+     "season": 34,
+     "name": "Sarah",
+     "full_name": "Sarah Lacina",
+     "points": 190.0,
+     "place": 1,
+     "status": "winner",
+     "index": 280
+    },
+    {
+     "season": 38,
+     "name": "Gavin",
+     "full_name": "Gavin Whitson",
+     "points": 189.0,
+     "place": 2,
+     "status": "finalist",
+     "index": 227
+    },
+    {
+     "season": 28,
+     "name": "Tony",
+     "full_name": "Tony Vlachos",
+     "points": 184.0,
+     "place": 1,
+     "status": "winner",
+     "index": 289
+    },
+    {
+     "season": 34,
+     "name": "Tai",
+     "full_name": "Tai Trang",
+     "points": 166.0,
+     "place": 4,
+     "status": "out",
+     "index": 245
+    },
+    {
+     "season": 48,
+     "name": "Kyle",
+     "full_name": "Kyle Fraser",
+     "points": 164.0,
+     "place": 1,
+     "status": "winner",
+     "index": 308
+    }
+   ],
+   "best_value": [
+    {
+     "season": 30,
+     "name": "Mike",
+     "full_name": "Mike Holloway",
+     "points": 217.0,
+     "place": 1,
+     "status": "winner",
+     "index": 386
+    },
+    {
+     "season": 31,
+     "name": "Jeremy",
+     "full_name": "Jeremy Collins",
+     "points": 201.0,
+     "place": 1,
+     "status": "winner",
+     "index": 336
+    },
+    {
+     "season": 48,
+     "name": "Kyle",
+     "full_name": "Kyle Fraser",
+     "points": 164.0,
+     "place": 1,
+     "status": "winner",
+     "index": 308
+    },
+    {
+     "season": 28,
+     "name": "Tony",
+     "full_name": "Tony Vlachos",
+     "points": 184.0,
+     "place": 1,
+     "status": "winner",
+     "index": 289
+    },
+    {
+     "season": 34,
+     "name": "Sarah",
+     "full_name": "Sarah Lacina",
+     "points": 190.0,
+     "place": 1,
+     "status": "winner",
+     "index": 280
+    }
+   ],
+   "groups": {
+    "Gender": {
+     "Men": {
+      "n": 38,
+      "avg": 127.5
+     },
+     "Women": {
+      "n": 46,
+      "avg": 81.0
+     }
+    },
+    "Age": {
+     "Under 30": {
+      "n": 45,
+      "avg": 86.4
+     },
+     "30s": {
+      "n": 27,
+      "avg": 130.4
+     },
+     "40s": {
+      "n": 7,
+      "avg": 62.6
+     },
+     "50+": {
+      "n": 5,
+      "avg": 144.4
+     }
+    },
+    "Experience": {
+     "First-timers": {
+      "n": 67,
+      "avg": 94.8
+     },
+     "Returning players": {
+      "n": 17,
+      "avg": 130.5
+     }
+    },
+    "Personality": {
+     "Introverts": {
+      "n": 35,
+      "avg": 94.8
+     },
+     "Extroverts": {
+      "n": 45,
+      "avg": 107.8
+     }
+    },
+    "Job": {
+     "No collar": {
+      "n": 11,
+      "avg": 118.5
+     },
+     "Blue collar": {
+      "n": 17,
+      "avg": 130.8
+     },
+     "White collar": {
+      "n": 56,
+      "avg": 90.1
+     }
+    }
+   },
+   "mix": {
+    "challenges": 20.6,
+    "votes": 4.9,
+    "survival": 71.2,
+    "special": 3.4
+   }
+  }
+ ],
+ "league": {
+  "avg_pick": 68.1,
+  "groups": {
+   "Gender": {
+    "Men": {
+     "n": 185,
+     "avg": 105.4
+    },
+    "Women": {
+     "n": 168,
+     "avg": 93.8
+    }
+   },
+   "Age": {
+    "Under 30": {
+     "n": 158,
+     "avg": 97.2
+    },
+    "30s": {
+     "n": 121,
+     "avg": 108.3
+    },
+    "50+": {
+     "n": 24,
+     "avg": 95.4
+    },
+    "40s": {
+     "n": 52,
+     "avg": 91.4
+    }
+   },
+   "Experience": {
+    "First-timers": {
+     "n": 278,
+     "avg": 101.1
+    },
+    "Returning players": {
+     "n": 77,
+     "avg": 95.9
+    }
+   },
+   "Personality": {
+    "Extroverts": {
+     "n": 209,
+     "avg": 107.1
+    },
+    "Introverts": {
+     "n": 129,
+     "avg": 88.4
+    }
+   },
+   "Job": {
+    "White collar": {
+     "n": 207,
+     "avg": 98.1
+    },
+    "No collar": {
+     "n": 75,
+     "avg": 91.6
+    },
+    "Blue collar": {
+     "n": 70,
+     "avg": 117.8
+    }
+   }
+  },
+  "mix": {
+   "challenges": 22.6,
+   "votes": 4.4,
+   "survival": 70.3,
+   "special": 2.7
+  }
+ }
+}

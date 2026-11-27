@@ -104,7 +104,18 @@
    "episode": 5,
    "eliminated": "Linnea Capobianco",
    "challenges": [],
-   "specials": [],
+   "specials": [
+    {
+     "type": "advantage_used",
+     "player": "Kilby Kilby",
+     "source": "review"
+    },
+    {
+     "type": "advantage_used",
+     "player": "Lewis Kelly",
+     "source": "review"
+    }
+   ],
    "council": {
     "rounds": [
      [
@@ -606,7 +617,8 @@
    "success": "Yes",
    "votes_nullified": null,
    "location": "Found around camp",
-   "kind": "advantage_played"
+   "kind": "advantage_played",
+   "decision": "award"
   },
   {
    "id": "5:Played",
@@ -621,7 +633,8 @@
    "success": "Yes",
    "votes_nullified": null,
    "location": "Journey",
-   "kind": "advantage_played"
+   "kind": "advantage_played",
+   "decision": "award"
   },
   {
    "id": "7:Found",

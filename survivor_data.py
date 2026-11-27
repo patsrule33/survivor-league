@@ -21,7 +21,7 @@ from collections import Counter, defaultdict
 BASE = "https://raw.githubusercontent.com/doehm/survivoR/master/dev/json/"
 TABLES = ["castaways", "vote_history", "challenge_results", "challenge_description",
           "advantage_movement", "advantage_details", "jury_votes", "boot_mapping", "tribe_colours",
-          "episodes"]
+          "episodes", "castaway_details"]
 CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "survivoR")
 
 

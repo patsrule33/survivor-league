@@ -1,0 +1,23 @@
+{
+ "challenge": {
+  "tribal_reward_1": 2,
+  "tribal_reward_2": 1,
+  "tribal_immunity_1": 4,
+  "tribal_immunity_2": 2,
+  "indiv_reward": 3,
+  "indiv_immunity": 6,
+  "group_immunity": 6
+ },
+ "vote_for_eliminated": 2,
+ "vote_switched_to_eliminated": 1,
+ "vote_received": -1,
+ "revote_eliminated_extra": -1,
+ "jury_vote": 2,
+ "special": {
+  "idol_found": 10,
+  "advantage_used": 5,
+  "idol_played_success": 5,
+  "idol_in_pocket": -20,
+  "medevac_pity": 5
+ }
+}
